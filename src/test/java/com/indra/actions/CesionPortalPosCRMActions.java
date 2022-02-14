@@ -6,10 +6,9 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 
 import java.awt.*;
-import java.awt.event.KeyEvent;
 
-public class CesionPortalCRMActions extends CesionPortalCRMPage {
-    public CesionPortalCRMActions(WebDriver driver) {
+public class CesionPortalPosCRMActions extends CesionPortalCRMPage {
+    public CesionPortalPosCRMActions(WebDriver driver) {
         super(driver);
     }
 
@@ -144,7 +143,7 @@ public class CesionPortalCRMActions extends CesionPortalCRMPage {
 
     public void selectPlan(){
         Select dropDownPlan= new Select(getDriver().findElement(By.xpath("//select[@name='cesionContratoForm:j_id256']")));
-        dropDownPlan.selectByValue("739");
+        dropDownPlan.selectByValue("1208");
     }
 
     public void btnChangeContractClick(){

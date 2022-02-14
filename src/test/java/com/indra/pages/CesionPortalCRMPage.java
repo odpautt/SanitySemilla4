@@ -28,7 +28,7 @@ public class CesionPortalCRMPage extends PageObject {
     WebElementFacade phoneNumber;
 
     @FindBy(id ="cesionContratoForm:newIdField:newSubId" )
-        WebElementFacade newSudId ;
+    WebElementFacade newSudId ;
 
     @FindBy(id ="cesionContratoForm:newIdField:consultar" )
     WebElementFacade btnConsultar;
@@ -74,6 +74,7 @@ public class CesionPortalCRMPage extends PageObject {
 
     @FindBy(xpath = "//*[@id='cesionContratoForm:bntPlanChange']")
     WebElementFacade btnCambiarContrato;
+
     @FindBy(xpath = "//form[@id='cesionContratoForm']//table/tbody[1]/tr[1]/td[1]/span[1]/ul[1]/li[6]")
     WebElementFacade mensajes;
 

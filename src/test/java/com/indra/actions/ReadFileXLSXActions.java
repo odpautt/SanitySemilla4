@@ -1,5 +1,7 @@
 package com.indra.actions;
 
+import com.indra.models.DataExcelModels;
+import com.indra.models.WindexModels;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
@@ -15,6 +17,7 @@ public class ReadFileXLSXActions {
 
     public void readFileExcel(){
         try {
+
             FileInputStream f = new FileInputStream("src/test/resources/config_data/data.xlsx");
 
             XSSFWorkbook libro = new XSSFWorkbook(f);
@@ -32,7 +35,13 @@ public class ReadFileXLSXActions {
 
                     switch (celda.getCellType()) {
                         case STRING:
-                            temporaryData.add(celda.getStringCellValue());
+
+                            if(celda.getStringCellValue().getBytes().equals(" ")){
+
+                            }
+                            else{
+                                temporaryData.add(celda.getStringCellValue());
+                            }
                             //System.out.print(celda.getStringCellValue()+"  |  ");
                             break;
                         case NUMERIC:

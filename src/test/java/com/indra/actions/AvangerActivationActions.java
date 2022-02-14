@@ -1,8 +1,6 @@
 package com.indra.actions;
 
 import com.indra.pages.ControlActivationPage;
-import com.indra.pages.PrepaidActivationPage;
-import net.serenitybdd.core.pages.WebElementFacade;
 import org.hamcrest.MatcherAssert;
 import org.hamcrest.Matchers;
 import org.openqa.selenium.By;
@@ -10,9 +8,9 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-public class ControlActivationActions extends ControlActivationPage {
+public class AvangerActivationActions extends ControlActivationPage {
 
-    public ControlActivationActions(WebDriver driver) {
+    public AvangerActivationActions(WebDriver driver) {
         super(driver);
     }
 
@@ -50,7 +48,7 @@ public class ControlActivationActions extends ControlActivationPage {
         getJustSim().click();
         getPlan().waitUntilClickable();
         getPlan().click();
-        getPlan740().click();
+        getPlan1208().click();
         getDriver().switchTo().defaultContent();
         JavascriptExecutor js = (JavascriptExecutor) getDriver();
         js.executeScript("window.scrollBy(0,420)"); //Scroll vertically down by 1000 pixels
@@ -104,7 +102,7 @@ public class ControlActivationActions extends ControlActivationPage {
         WebElement plan = getDriver().findElement(By.id("j_id135:j_id157"));
 
         MatcherAssert.assertThat("el plan es pospago",
-                plan.getText(),Matchers.containsString("Pospago 5.") );
+                plan.getText(),Matchers.containsString("Pospago ") );
     }
 
 }

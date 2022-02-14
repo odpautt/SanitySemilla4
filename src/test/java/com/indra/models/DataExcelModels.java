@@ -2,7 +2,10 @@ package com.indra.models;
 
 import com.indra.actions.ReadFileXLSXActions;
 
-public class DataExcelModels {
+public class DataExcelModels{
+
+    ReadFileXLSXActions fileXLSX = new ReadFileXLSXActions();
+
     String urlEpos;
     String urlCRM;
     String urlComfirmador;
@@ -39,57 +42,66 @@ public class DataExcelModels {
     String msisdnPostpago;
     String msiPostpago;
 
+    String msisdnAvanger;
+    String msiAvanger;
+    String CedulaClienteAvanger;
+
+    String Winwap;
+    String user;
+    String password;
+
+
     public String getVendedorPrepago() {
         fileXLSX.readFileExcel();
-        vendedorPrepago = fileXLSX.excelArray.get(10).get(0);
+        vendedorPrepago = fileXLSX.excelArray.get(8).get(0);
         return vendedorPrepago;
     }
 
     public String getCedulaClientePrepago() {
         fileXLSX.readFileExcel();
-        cedulaClientePrepago = fileXLSX.excelArray.get(10).get(1);
+        cedulaClientePrepago = fileXLSX.excelArray.get(8).get(1);
         return cedulaClientePrepago;
     }
 
     public String getMsisdnPrepago() {
         fileXLSX.readFileExcel();
-        msisdnPrepago = fileXLSX.excelArray.get(10).get(2);
+        msisdnPrepago = fileXLSX.excelArray.get(8).get(2);
         return msisdnPrepago;
     }
 
     public String getMsiPrepago() {
         fileXLSX.readFileExcel();
-        msiPrepago = fileXLSX.excelArray.get(10).get(3);
+        msiPrepago = fileXLSX.excelArray.get(8).get(3);
         return msiPrepago;
     }
 
     public String getVendedorPostpago() {
         fileXLSX.readFileExcel();
-        VendedorPostpago = fileXLSX.excelArray.get(11).get(0);
+        VendedorPostpago = fileXLSX.excelArray.get(9).get(0);
         return VendedorPostpago;
     }
 
     public String getCedulaClientePostpago() {
         fileXLSX.readFileExcel();
-        CedulaClientePostpago = fileXLSX.excelArray.get(11).get(1);
+        CedulaClientePostpago = fileXLSX.excelArray.get(9).get(1);
         return CedulaClientePostpago;
     }
 
     public String getMsisdnPostpago() {
         fileXLSX.readFileExcel();
-        msisdnPostpago = fileXLSX.excelArray.get(11).get(2);
+        msisdnPostpago = fileXLSX.excelArray.get(9).get(2);
         return msisdnPostpago;
     }
 
     public String getMsiPostpago() {
         fileXLSX.readFileExcel();
-        msiPostpago = fileXLSX.excelArray.get(11).get(3);
+        msiPostpago = fileXLSX.excelArray.get(9).get(3);
         return msiPostpago;
     }
 
-    ReadFileXLSXActions fileXLSX = new ReadFileXLSXActions();
-
     public String getUrlEpos() {
+        fileXLSX.readFileExcel();
+        urlEpos = fileXLSX.excelArray.get(1).get(0);
         return urlEpos;
     }
 
@@ -100,6 +112,8 @@ public class DataExcelModels {
     }
 
     public String getUrlComfirmador() {
+        fileXLSX.readFileExcel();
+        urlComfirmador = fileXLSX.excelArray.get(1).get(2);
         return urlComfirmador;
     }
 
@@ -127,10 +141,6 @@ public class DataExcelModels {
 
     public String getSerial() {
         return Serial;
-    }
-
-    public ReadFileXLSXActions getFileXLSX() {
-        return fileXLSX;
     }
 
     public String getUrlDBA() {
@@ -232,5 +242,42 @@ public class DataExcelModels {
     public String getPort() {
         port = "1521";
         return port;
+    }
+
+
+    public String getWinwap() {
+        fileXLSX.readFileExcel();
+        Winwap = fileXLSX.excelArray.get(1).get(7);
+        return Winwap;
+    }
+
+    public String getUser() {
+        fileXLSX.readFileExcel();
+        user = fileXLSX.excelArray.get(1).get(5);
+        return user;
+    }
+
+    public String getPassword() {
+        fileXLSX.readFileExcel();
+        password = fileXLSX.excelArray.get(1).get(6);
+        return password;
+    }
+
+    public String getMsisdnAvanger() {
+        fileXLSX.readFileExcel();
+        msisdnAvanger = fileXLSX.excelArray.get(12).get(2);
+        return msisdnAvanger;
+    }
+
+    public String getMsiAvanger() {
+        fileXLSX.readFileExcel();
+        msiAvanger = fileXLSX.excelArray.get(12).get(3);
+        return msiAvanger;
+    }
+
+    public String getCedulaClienteAvanger() {
+        fileXLSX.readFileExcel();
+        CedulaClienteAvanger = fileXLSX.excelArray.get(12).get(1);
+        return CedulaClienteAvanger;
     }
 }

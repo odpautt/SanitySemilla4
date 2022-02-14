@@ -74,6 +74,9 @@ public class ControlActivationPage extends PageObject{
     @FindBy(xpath = "//div[contains(@id,'ActivacionesForm:tipoPlanItem321')]")
     WebElementFacade plan740;
 
+    @FindBy(xpath = "//div[contains(@id,'ActivacionesForm:tipoPlanItem346')]")
+    WebElementFacade plan1208;
+
     @FindBy(xpath = "//input[contains(@id,'ActivacionesForm:btnContinuarActivacionVenta')]")
     WebElementFacade continuee;
 
@@ -131,8 +134,8 @@ public class ControlActivationPage extends PageObject{
     @FindBy(xpath = "//input[contains(@id,'ActivacionesForm:btnContinuarActivacionClausulas')]")
     WebElementFacade continueSale;
 
-    @FindBy(xpath = "//input[@id='popupConfirmacionDatos:confirmarDatos]")
-    WebElementFacade continueSalePopUp;
+    @FindBy(xpath = "//input[contains(@id,'popupConfirmacionDatos:confirmarDatos')]")
+    WebElementFacade confirm;
 
     @FindBy(xpath = "//a[@class='TabIcon DefaultPageIcon'][contains(.,'Consultas')]")
     WebElementFacade consult;
@@ -154,6 +157,10 @@ public class ControlActivationPage extends PageObject{
 
     @FindBy (id = "j_id135:j_id138")
     WebElementFacade generalCustomerInformation;
+
+
+    @FindBy (className = "rf-cp-lbl-exp")
+    WebElementFacade ActivationDetails;
 
     public WebElementFacade getSale() {
         return sale;
@@ -307,8 +314,8 @@ public class ControlActivationPage extends PageObject{
         return continueSale;
     }
 
-    public WebElementFacade getContinueSalePopUp() {
-        return continueSalePopUp;
+    public WebElementFacade getConfirm() {
+        return confirm;
     }
 
     public WebElementFacade getConsult() {
@@ -341,5 +348,13 @@ public class ControlActivationPage extends PageObject{
 
     public  WebElementFacade getAcceptRenew1(){
         return acceptRenew1;
+    }
+
+    public  WebElementFacade getActivationDetails(){
+        return ActivationDetails;
+    }
+
+    public WebElementFacade getPlan1208() {
+        return plan1208;
     }
 }
