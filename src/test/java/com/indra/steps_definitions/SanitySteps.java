@@ -144,7 +144,7 @@ public class SanitySteps{
     @When("^Se hace la cesion de contrato de una linea pos a pre$")
     public void seHaceLaCesionDeContratoDeUnaLineaPosAPre() throws InterruptedException, AWTException {
         cesionActions1.initialRute();
-        cesionActions1.executeContractAssignment(dataExcelModels.getMsisdnPostpago(),dataExcelModels.getCedulaClientePostpago());
+        cesionActions1.executeContractAssignment(dataExcelModels.getMsisdnPostpago(),dataExcelModels.getCedulaClientePostpago(),"540");
     }
 
     @Then("^Se deberia ver en pantalla unica la linea cedida pos$")

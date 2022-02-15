@@ -19,7 +19,7 @@ public class CesionPortalPosCRMActions extends CesionPortalCRMPage {
         ContractAssignmentClick();
     }
 
-    public void executeContractAssignment(String phonenumber, String idClient) throws InterruptedException, AWTException {
+    public void executeContractAssignment(String phonenumber, String idClient,String planNumber) throws InterruptedException, AWTException {
         switchToIframe();
         writePhoneNumber(phonenumber);
         getVendedor().waitUntilPresent();
@@ -39,7 +39,7 @@ public class CesionPortalPosCRMActions extends CesionPortalCRMPage {
         writeWithAddress();
         bntAceptClick();
         writeEmail();
-        selectPlan();
+        selectPlan(planNumber);
         btnChangeContractClick();
         alertAcept();
 
@@ -141,9 +141,9 @@ public class CesionPortalPosCRMActions extends CesionPortalCRMPage {
         enter("pruebaAutomatizadaQA@gmail.com").into(getEmail());
     }
 
-    public void selectPlan(){
+    public void selectPlan(String planNumber){
         Select dropDownPlan= new Select(getDriver().findElement(By.xpath("//select[@name='cesionContratoForm:j_id256']")));
-        dropDownPlan.selectByValue("1208");
+        dropDownPlan.selectByValue(planNumber);
     }
 
     public void btnChangeContractClick(){
