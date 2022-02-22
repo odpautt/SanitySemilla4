@@ -23,31 +23,31 @@ Feature: Sanity limpieza y aprovisionamiento de recursos
     Then se deberia poder ver mensaje de confimacion exitosa
 
   @portalPrepaid
-  Scenario: se requiere realizar una activacion de una linea en prepago
+  Scenario: se requiere realizar una activacion prepago
     Given Se ingresa al portal CRM para activacion
     When Se hace activacion de una linea en prepago
     Then Se deberia ver en pantalla unica la linea activa en prepago
 
   @portalNintendo
-  Scenario: se requiere realizar una activacion de una linea en control
+  Scenario: se requiere realizar una activacion nintendo
     Given Se ingresa al portal CRM para activacion
     When Se hace activacion de una linea nintendo
     Then Se deberia ver en pantalla unica la linea activa nintendo
 
   @portalCesionPreAPos
-  Scenario: se requiere realizar una activacion de una linea en prepago
+  Scenario: se requiere realizar una cesion de contrato de pre a pos
     Given Se ingresa al portal CRM para activacion
     When Se hace la cesion de contrato de una linea pre a pos
     Then Se deberia ver en pantalla unica la linea cedida pre
 
   @portalCesionPosAPre
-  Scenario: se requiere realizar una activacion de una linea en prepago
+  Scenario: se requiere realizar una cesion de contrato de pos a pre
     Given Se ingresa al portal CRM para activacion
     When Se hace la cesion de contrato de una linea pos a pre
     Then Se deberia ver en pantalla unica la linea cedida pos
 
   @portalAvanger
-  Scenario: se requiere realizar una activacion de una linea en control
+  Scenario: se requiere realizar una activacion avanger
     Given Se ingresa al portal CRM para activacion
     When Se hace activacion de una linea avanger
     Then Se deberia ver en pantalla unica la linea activa avanger
