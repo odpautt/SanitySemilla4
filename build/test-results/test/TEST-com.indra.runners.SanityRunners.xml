@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuite name="com.indra.runners.SanityRunners" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="22LAP5CG0525FBR" time="0.0">
   <properties/>
-  <system-out><![CDATA[11:26:09.775 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\SanitySemilla4\serenity.properties 
-11:26:09.887 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\SanitySemilla4\serenity.properties 
-11:26:09.887 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\SanitySemilla4\serenity.properties 
-11:26:09.902 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.driver=firefox
-11:26:09.902 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.console.colors=true
-11:26:09.902 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.gecko.driver=src/test/resources/drivers/geckodriver.exe
-11:26:09.902 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.base.url=http://10.69.60.77:8180/tigo-pos-web/index.jsp
-11:26:09.902 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.project.name=Automatización Sanity Ambiente - Activacion Prepago
-11:26:09.902 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.wait.for.timeout=10000
-11:26:09.902 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.use.unique.browser=true
-11:26:09.902 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.timeouts.implicitlywait=25000
-11:26:09.902 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.take.screenshots=FOR_EACH_ACTION
-11:26:09.902 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.browser.maximized=true
-11:26:09.902 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - firefox.capability.marionette=true
-11:26:10.304 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\SanitySemilla4\serenity.properties 
-11:26:10.387 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\SanitySemilla4\serenity.properties 
-11:26:10.387 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\SanitySemilla4\serenity.properties 
-11:26:10.387 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.driver=firefox
-11:26:10.387 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.console.colors=true
-11:26:10.387 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.gecko.driver=src/test/resources/drivers/geckodriver.exe
-11:26:10.387 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.base.url=http://10.69.60.77:8180/tigo-pos-web/index.jsp
-11:26:10.387 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.project.name=Automatización Sanity Ambiente - Activacion Prepago
-11:26:10.387 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.wait.for.timeout=10000
-11:26:10.387 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.use.unique.browser=true
-11:26:10.387 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.timeouts.implicitlywait=25000
-11:26:10.387 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.take.screenshots=FOR_EACH_ACTION
-11:26:10.387 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.browser.maximized=true
-11:26:10.387 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - firefox.capability.marionette=true
-11:26:10.387 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - ?[96m
+  <system-out><![CDATA[09:21:25.055 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\SanitySemilla4\serenity.properties 
+09:21:25.260 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\SanitySemilla4\serenity.properties 
+09:21:25.262 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\SanitySemilla4\serenity.properties 
+09:21:25.283 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.driver=firefox
+09:21:25.283 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.console.colors=true
+09:21:25.283 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.gecko.driver=src/test/resources/drivers/geckodriver.exe
+09:21:25.283 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.base.url=http://10.69.60.77:8180/tigo-pos-web/index.jsp
+09:21:25.283 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.project.name=Automatización Sanity Ambiente - Activacion Prepago
+09:21:25.283 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.wait.for.timeout=10000
+09:21:25.283 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.use.unique.browser=true
+09:21:25.283 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.timeouts.implicitlywait=25000
+09:21:25.283 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.take.screenshots=FOR_EACH_ACTION
+09:21:25.283 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.browser.maximized=true
+09:21:25.289 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - firefox.capability.marionette=true
+09:21:25.814 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\SanitySemilla4\serenity.properties 
+09:21:25.930 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\SanitySemilla4\serenity.properties 
+09:21:25.946 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\SanitySemilla4\serenity.properties 
+09:21:25.946 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.driver=firefox
+09:21:25.946 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.console.colors=true
+09:21:25.946 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.gecko.driver=src/test/resources/drivers/geckodriver.exe
+09:21:25.946 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.base.url=http://10.69.60.77:8180/tigo-pos-web/index.jsp
+09:21:25.946 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.project.name=Automatización Sanity Ambiente - Activacion Prepago
+09:21:25.946 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.wait.for.timeout=10000
+09:21:25.946 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.use.unique.browser=true
+09:21:25.946 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.timeouts.implicitlywait=25000
+09:21:25.946 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.take.screenshots=FOR_EACH_ACTION
+09:21:25.946 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.browser.maximized=true
+09:21:25.946 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - firefox.capability.marionette=true
+09:21:25.946 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - ?[96m
 
 -------------------------------------------------------------------------------------
      _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
@@ -46,9 +46,9 @@
  Learn Serenity BDD online at http://serenity-dojo.com                               
 -------------------------------------------------------------------------------------
 ?[0m
-11:26:10.405 [Test worker] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@6fe68030
-11:26:10.405 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - Test Suite Started: Sanity limpieza y aprovisionamiento de recursos
-11:26:10.452 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+09:21:25.962 [Test worker] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@6fe68030
+09:21:25.962 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - Test Suite Started: Sanity limpieza y aprovisionamiento de recursos
+09:21:26.074 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
  _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
 |_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
   | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
@@ -58,9 +58,9 @@
 
 TEST STARTED: se quiere ingresar a la plataforma epos
 -------------------------------------------------------------------(sanity-limpieza-y-aprovisionamiento-de-recursos;se-quiere-ingresar-a-la-plataforma-epos)
-11:26:10.520 [Test worker] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Found no Cucumber 4.2.6 class cucumber.runtime.model.FeatureLoader try Cucumber 4.2.0 
-11:26:10.520 [Test worker] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Found no Cucumber 4.2.0 class cucumber.runtime.model.FeatureLoader try Cucumber 2.x.x 
-11:27:18.902 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+09:21:26.163 [Test worker] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Found no Cucumber 4.2.6 class cucumber.runtime.model.FeatureLoader try Cucumber 4.2.0 
+09:21:26.163 [Test worker] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Found no Cucumber 4.2.0 class cucumber.runtime.model.FeatureLoader try Cucumber 2.x.x 
+09:22:53.587 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
  _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
 |_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
   | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
@@ -70,7 +70,7 @@ TEST STARTED: se quiere ingresar a la plataforma epos
 
 TEST STARTED: realizar el cargue de inventario
 -------------------------------------------------------------------(sanity-limpieza-y-aprovisionamiento-de-recursos;realizar-el-cargue-de-inventario)
-11:28:01.837 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+09:23:41.222 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
  _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
 |_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
   | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
@@ -80,7 +80,7 @@ TEST STARTED: realizar el cargue de inventario
 
 TEST STARTED: realizar la confirmacion de inventario
 -------------------------------------------------------------------(sanity-limpieza-y-aprovisionamiento-de-recursos;realizar-la-confirmacion-de-inventario)
-11:28:22.985 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+09:24:02.822 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
  _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
 |_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
   | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
@@ -90,7 +90,7 @@ TEST STARTED: realizar la confirmacion de inventario
 
 TEST STARTED: se requiere realizar una activacion prepago
 -------------------------------------------------------------------(sanity-limpieza-y-aprovisionamiento-de-recursos;se-requiere-realizar-una-activacion-prepago)
-11:30:14.431 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+09:25:49.427 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
  _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
 |_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
   | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
@@ -100,7 +100,7 @@ TEST STARTED: se requiere realizar una activacion prepago
 
 TEST STARTED: se requiere realizar una activacion nintendo
 -------------------------------------------------------------------(sanity-limpieza-y-aprovisionamiento-de-recursos;se-requiere-realizar-una-activacion-nintendo)
-11:31:58.055 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+09:27:28.142 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
  _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
 |_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
   | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
@@ -110,7 +110,7 @@ TEST STARTED: se requiere realizar una activacion nintendo
 
 TEST STARTED: se requiere realizar una cesion de contrato de pre a pos
 -------------------------------------------------------------------(sanity-limpieza-y-aprovisionamiento-de-recursos;se-requiere-realizar-una-cesion-de-contrato-de-pre-a-pos)
-11:33:05.611 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+09:28:19.177 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
  _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
 |_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
   | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
@@ -120,7 +120,7 @@ TEST STARTED: se requiere realizar una cesion de contrato de pre a pos
 
 TEST STARTED: se requiere realizar una cesion de contrato de pos a pre
 -------------------------------------------------------------------(sanity-limpieza-y-aprovisionamiento-de-recursos;se-requiere-realizar-una-cesion-de-contrato-de-pos-a-pre)
-11:34:01.937 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+09:29:10.051 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
  _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
 |_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
   | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
@@ -130,174 +130,249 @@ TEST STARTED: se requiere realizar una cesion de contrato de pos a pre
 
 TEST STARTED: se requiere realizar una activacion avanger
 -------------------------------------------------------------------(sanity-limpieza-y-aprovisionamiento-de-recursos;se-requiere-realizar-una-activacion-avanger)
-11:35:46.584 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reporting formats: [JSON, HTML]
-11:35:46.684 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reporting formats: [JSON, HTML]
-11:35:46.714 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Generating reports for 8 test outcomes using: net.thucydides.core.reports.json.JSONTestOutcomeReporter@5c10de03
-11:35:46.714 [pool-1-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Sanity limpieza y aprovisionamiento de recursos:se quiere ingresar a la plataforma epos
-11:35:46.714 [pool-1-thread-1] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@5c10de03: Generating report for test outcome: Sanity limpieza y aprovisionamiento de recursos:se quiere ingresar a la plataforma epos
-11:35:46.714 [pool-1-thread-2] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Sanity limpieza y aprovisionamiento de recursos:realizar el cargue de inventario
-11:35:46.714 [pool-1-thread-2] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@5c10de03: Generating report for test outcome: Sanity limpieza y aprovisionamiento de recursos:realizar el cargue de inventario
-11:35:46.714 [pool-1-thread-3] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Sanity limpieza y aprovisionamiento de recursos:realizar la confirmacion de inventario
-11:35:46.714 [pool-1-thread-3] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@5c10de03: Generating report for test outcome: Sanity limpieza y aprovisionamiento de recursos:realizar la confirmacion de inventario
-11:35:46.714 [pool-1-thread-4] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Sanity limpieza y aprovisionamiento de recursos:se requiere realizar una activacion prepago
-11:35:46.714 [pool-1-thread-4] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@5c10de03: Generating report for test outcome: Sanity limpieza y aprovisionamiento de recursos:se requiere realizar una activacion prepago
-11:35:46.724 [pool-1-thread-5] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Sanity limpieza y aprovisionamiento de recursos:se requiere realizar una activacion nintendo
-11:35:46.724 [pool-1-thread-5] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@5c10de03: Generating report for test outcome: Sanity limpieza y aprovisionamiento de recursos:se requiere realizar una activacion nintendo
-11:35:46.724 [pool-1-thread-6] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Sanity limpieza y aprovisionamiento de recursos:se requiere realizar una cesion de contrato de pre a pos
-11:35:46.725 [pool-1-thread-6] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@5c10de03: Generating report for test outcome: Sanity limpieza y aprovisionamiento de recursos:se requiere realizar una cesion de contrato de pre a pos
-11:35:46.726 [pool-1-thread-7] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Sanity limpieza y aprovisionamiento de recursos:se requiere realizar una cesion de contrato de pos a pre
-11:35:46.726 [pool-1-thread-7] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@5c10de03: Generating report for test outcome: Sanity limpieza y aprovisionamiento de recursos:se requiere realizar una cesion de contrato de pos a pre
-11:35:46.727 [pool-1-thread-8] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Sanity limpieza y aprovisionamiento de recursos:se requiere realizar una activacion avanger
-11:35:46.727 [pool-1-thread-8] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@5c10de03: Generating report for test outcome: Sanity limpieza y aprovisionamiento de recursos:se requiere realizar una activacion avanger
-11:35:46.734 [pool-1-thread-6] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for se requiere realizar una cesion de contrato de pre a pos to file C:\SanitySemilla4\target\site\serenity\31ccbeec2916ed6fa4018692b8b3e8de34751485754879cbec68e6392c8c9470.json (using temp file C:\SanitySemilla4\target\site\serenity\31ccbeec2916ed6fa4018692b8b3e8de34751485754879cbec68e6392c8c9470.json69f6dd01-d306-4a47-87e2-ec3ea13631e4)
-11:35:46.734 [pool-1-thread-7] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for se requiere realizar una cesion de contrato de pos a pre to file C:\SanitySemilla4\target\site\serenity\df612caf7f8ec976d11dd075e9927bf546582be42ca1e162dc260602209098f6.json (using temp file C:\SanitySemilla4\target\site\serenity\df612caf7f8ec976d11dd075e9927bf546582be42ca1e162dc260602209098f6.json44b79586-8669-433a-aa89-a388035443c6)
-11:35:46.734 [pool-1-thread-2] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for realizar el cargue de inventario to file C:\SanitySemilla4\target\site\serenity\c2816aaf72665fe39c1c583ab7f5162d39901ba6984fcbfd421cfd8e526280ac.json (using temp file C:\SanitySemilla4\target\site\serenity\c2816aaf72665fe39c1c583ab7f5162d39901ba6984fcbfd421cfd8e526280ac.jsone05feec3-11dd-4707-aa05-cc737c21e4bf)
-11:35:46.734 [pool-1-thread-3] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for realizar la confirmacion de inventario to file C:\SanitySemilla4\target\site\serenity\8a91845db0a22eb470d492c234c97b8c9dde222ac0d23603d3947e29bb7d10a1.json (using temp file C:\SanitySemilla4\target\site\serenity\8a91845db0a22eb470d492c234c97b8c9dde222ac0d23603d3947e29bb7d10a1.json579cbc87-7bce-47b5-900a-dbc63791b10f)
-11:35:46.735 [pool-1-thread-4] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for se requiere realizar una activacion prepago to file C:\SanitySemilla4\target\site\serenity\5774ce2c96e08dc44ef4f5ac4c34b3b85ed1b59769c6a25ebcc3ea1529395b52.json (using temp file C:\SanitySemilla4\target\site\serenity\5774ce2c96e08dc44ef4f5ac4c34b3b85ed1b59769c6a25ebcc3ea1529395b52.jsonb7f68af8-cbf4-4eff-8494-d8b2e2081588)
-11:35:46.735 [pool-1-thread-8] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for se requiere realizar una activacion avanger to file C:\SanitySemilla4\target\site\serenity\94db2a8791a71ffe4803efc70cbd54071a3ec2c53234fbb2d3d29558f0bdc85b.json (using temp file C:\SanitySemilla4\target\site\serenity\94db2a8791a71ffe4803efc70cbd54071a3ec2c53234fbb2d3d29558f0bdc85b.json6281b6b7-0b18-4da1-9750-206fe3cd1bdf)
-11:35:46.736 [pool-1-thread-5] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for se requiere realizar una activacion nintendo to file C:\SanitySemilla4\target\site\serenity\3defac3a77ff02c5bcbcebbc4fd56bdf76661b230359a2551b687cb6168601cf.json (using temp file C:\SanitySemilla4\target\site\serenity\3defac3a77ff02c5bcbcebbc4fd56bdf76661b230359a2551b687cb6168601cf.json57632875-572a-4696-af33-e116b366e825)
-11:35:46.736 [pool-1-thread-1] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for se quiere ingresar a la plataforma epos to file C:\SanitySemilla4\target\site\serenity\dd8d8ded9644b52fbc86dae313c60166d8b4c2b2da549354520470c10795b41b.json (using temp file C:\SanitySemilla4\target\site\serenity\dd8d8ded9644b52fbc86dae313c60166d8b4c2b2da549354520470c10795b41b.json431129c3-fdaa-439f-8d28-de8b71574b89)
-11:35:46.839 [pool-1-thread-3] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Sanity limpieza y aprovisionamiento de recursos:realizar la confirmacion de inventario done
-11:35:46.841 [pool-1-thread-6] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Sanity limpieza y aprovisionamiento de recursos:se requiere realizar una cesion de contrato de pre a pos done
-11:35:46.842 [pool-1-thread-2] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Sanity limpieza y aprovisionamiento de recursos:realizar el cargue de inventario done
-11:35:46.844 [pool-1-thread-8] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Sanity limpieza y aprovisionamiento de recursos:se requiere realizar una activacion avanger done
-11:35:46.844 [pool-1-thread-4] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Sanity limpieza y aprovisionamiento de recursos:se requiere realizar una activacion prepago done
-11:35:46.845 [pool-1-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Sanity limpieza y aprovisionamiento de recursos:se quiere ingresar a la plataforma epos done
-11:35:46.846 [pool-1-thread-5] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Sanity limpieza y aprovisionamiento de recursos:se requiere realizar una activacion nintendo done
-11:35:46.846 [pool-1-thread-7] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Sanity limpieza y aprovisionamiento de recursos:se requiere realizar una cesion de contrato de pos a pre done
-11:35:46.847 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Shutting down executor service
-11:35:46.847 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reports generated in: 133 ms
-11:35:46.847 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Generating reports for 8 test outcomes using: net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@55bfb99f
-11:35:46.849 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Sanity limpieza y aprovisionamiento de recursos:se quiere ingresar a la plataforma epos
-11:35:46.849 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@55bfb99f: Generating report for test outcome: Sanity limpieza y aprovisionamiento de recursos:se quiere ingresar a la plataforma epos
-11:35:46.851 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATE TEST OUTCOME REPORT FOR se quiere ingresar a la plataforma epos in dd8d8ded9644b52fbc86dae313c60166d8b4c2b2da549354520470c10795b41b
-11:35:46.851 [pool-2-thread-2] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Sanity limpieza y aprovisionamiento de recursos:realizar el cargue de inventario
-11:35:46.852 [pool-2-thread-2] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@55bfb99f: Generating report for test outcome: Sanity limpieza y aprovisionamiento de recursos:realizar el cargue de inventario
-11:35:46.852 [pool-2-thread-2] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATE TEST OUTCOME REPORT FOR realizar el cargue de inventario in c2816aaf72665fe39c1c583ab7f5162d39901ba6984fcbfd421cfd8e526280ac
-11:35:46.854 [pool-2-thread-3] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Sanity limpieza y aprovisionamiento de recursos:realizar la confirmacion de inventario
-11:35:46.854 [pool-2-thread-3] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@55bfb99f: Generating report for test outcome: Sanity limpieza y aprovisionamiento de recursos:realizar la confirmacion de inventario
-11:35:46.854 [pool-2-thread-3] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATE TEST OUTCOME REPORT FOR realizar la confirmacion de inventario in 8a91845db0a22eb470d492c234c97b8c9dde222ac0d23603d3947e29bb7d10a1
-11:35:46.857 [pool-2-thread-4] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Sanity limpieza y aprovisionamiento de recursos:se requiere realizar una activacion prepago
-11:35:46.857 [pool-2-thread-4] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@55bfb99f: Generating report for test outcome: Sanity limpieza y aprovisionamiento de recursos:se requiere realizar una activacion prepago
-11:35:46.860 [pool-2-thread-6] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Sanity limpieza y aprovisionamiento de recursos:se requiere realizar una cesion de contrato de pre a pos
-11:35:46.860 [pool-2-thread-4] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATE TEST OUTCOME REPORT FOR se requiere realizar una activacion prepago in 5774ce2c96e08dc44ef4f5ac4c34b3b85ed1b59769c6a25ebcc3ea1529395b52
-11:35:46.861 [pool-2-thread-6] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@55bfb99f: Generating report for test outcome: Sanity limpieza y aprovisionamiento de recursos:se requiere realizar una cesion de contrato de pre a pos
-11:35:46.858 [pool-2-thread-5] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Sanity limpieza y aprovisionamiento de recursos:se requiere realizar una activacion nintendo
-11:35:46.861 [pool-2-thread-5] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@55bfb99f: Generating report for test outcome: Sanity limpieza y aprovisionamiento de recursos:se requiere realizar una activacion nintendo
-11:35:46.862 [pool-2-thread-5] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATE TEST OUTCOME REPORT FOR se requiere realizar una activacion nintendo in 3defac3a77ff02c5bcbcebbc4fd56bdf76661b230359a2551b687cb6168601cf
-11:35:46.862 [pool-2-thread-6] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATE TEST OUTCOME REPORT FOR se requiere realizar una cesion de contrato de pre a pos in 31ccbeec2916ed6fa4018692b8b3e8de34751485754879cbec68e6392c8c9470
-11:35:46.860 [pool-2-thread-7] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Sanity limpieza y aprovisionamiento de recursos:se requiere realizar una cesion de contrato de pos a pre
-11:35:46.864 [pool-2-thread-7] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@55bfb99f: Generating report for test outcome: Sanity limpieza y aprovisionamiento de recursos:se requiere realizar una cesion de contrato de pos a pre
-11:35:46.865 [pool-2-thread-7] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATE TEST OUTCOME REPORT FOR se requiere realizar una cesion de contrato de pos a pre in df612caf7f8ec976d11dd075e9927bf546582be42ca1e162dc260602209098f6
-11:35:46.869 [pool-2-thread-8] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Sanity limpieza y aprovisionamiento de recursos:se requiere realizar una activacion avanger
-11:35:46.869 [pool-2-thread-8] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@55bfb99f: Generating report for test outcome: Sanity limpieza y aprovisionamiento de recursos:se requiere realizar una activacion avanger
-11:35:46.869 [pool-2-thread-8] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATE TEST OUTCOME REPORT FOR se requiere realizar una activacion avanger in 94db2a8791a71ffe4803efc70cbd54071a3ec2c53234fbb2d3d29558f0bdc85b
-11:35:46.915 [pool-2-thread-3] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Found no Cucumber 4.2.6 class cucumber.runtime.model.FeatureLoader try Cucumber 4.2.0 
-11:35:46.916 [pool-2-thread-6] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Found no Cucumber 4.2.6 class cucumber.runtime.model.FeatureLoader try Cucumber 4.2.0 
-11:35:46.917 [pool-2-thread-8] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Found no Cucumber 4.2.6 class cucumber.runtime.model.FeatureLoader try Cucumber 4.2.0 
-11:35:46.917 [pool-2-thread-6] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Found no Cucumber 4.2.0 class cucumber.runtime.model.FeatureLoader try Cucumber 2.x.x 
-11:35:46.919 [pool-2-thread-5] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Found no Cucumber 4.2.6 class cucumber.runtime.model.FeatureLoader try Cucumber 4.2.0 
-11:35:46.920 [pool-2-thread-7] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Found no Cucumber 4.2.6 class cucumber.runtime.model.FeatureLoader try Cucumber 4.2.0 
-11:35:46.921 [pool-2-thread-7] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Found no Cucumber 4.2.0 class cucumber.runtime.model.FeatureLoader try Cucumber 2.x.x 
-11:35:46.921 [pool-2-thread-3] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Found no Cucumber 4.2.0 class cucumber.runtime.model.FeatureLoader try Cucumber 2.x.x 
-11:35:46.922 [pool-2-thread-4] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Found no Cucumber 4.2.6 class cucumber.runtime.model.FeatureLoader try Cucumber 4.2.0 
-11:35:46.922 [pool-2-thread-5] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Found no Cucumber 4.2.0 class cucumber.runtime.model.FeatureLoader try Cucumber 2.x.x 
-11:35:46.924 [pool-2-thread-8] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Found no Cucumber 4.2.0 class cucumber.runtime.model.FeatureLoader try Cucumber 2.x.x 
-11:35:46.925 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Found no Cucumber 4.2.6 class cucumber.runtime.model.FeatureLoader try Cucumber 4.2.0 
-11:35:46.926 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Found no Cucumber 4.2.0 class cucumber.runtime.model.FeatureLoader try Cucumber 2.x.x 
-11:35:46.927 [pool-2-thread-4] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Found no Cucumber 4.2.0 class cucumber.runtime.model.FeatureLoader try Cucumber 2.x.x 
-11:35:46.929 [pool-2-thread-5] DEBUG net.thucydides.core.requirements.RequirementsTagProvider -  found:[Requirement{name='Sanity limpieza y aprovisionamiento de recursos', type='feature' parent = 'null', cardNumber='null'}]
-11:35:46.929 [pool-2-thread-3] DEBUG net.thucydides.core.requirements.RequirementsTagProvider -  found:[Requirement{name='Sanity limpieza y aprovisionamiento de recursos', type='feature' parent = 'null', cardNumber='null'}]
-11:35:46.930 [pool-2-thread-7] DEBUG net.thucydides.core.requirements.RequirementsTagProvider -  found:[Requirement{name='Sanity limpieza y aprovisionamiento de recursos', type='feature' parent = 'null', cardNumber='null'}]
-11:35:46.933 [pool-2-thread-6] DEBUG net.thucydides.core.requirements.RequirementsTagProvider -  found:[Requirement{name='Sanity limpieza y aprovisionamiento de recursos', type='feature' parent = 'null', cardNumber='null'}]
-11:35:46.934 [pool-2-thread-2] DEBUG net.thucydides.core.requirements.RequirementsTagProvider -  found:[Requirement{name='Sanity limpieza y aprovisionamiento de recursos', type='feature' parent = 'null', cardNumber='null'}]
-11:35:46.937 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.RequirementsTagProvider -  found:[Requirement{name='Sanity limpieza y aprovisionamiento de recursos', type='feature' parent = 'null', cardNumber='null'}]
-11:35:46.937 [pool-2-thread-8] DEBUG net.thucydides.core.requirements.RequirementsTagProvider -  found:[Requirement{name='Sanity limpieza y aprovisionamiento de recursos', type='feature' parent = 'null', cardNumber='null'}]
-11:35:46.944 [pool-2-thread-5] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome se requiere realizar una activacion nintendo-[]: Optional[Requirement{name='Sanity limpieza y aprovisionamiento de recursos', type='feature' parent = 'null', cardNumber='null'}]
-11:35:46.944 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome se quiere ingresar a la plataforma epos-[]: Optional[Requirement{name='Sanity limpieza y aprovisionamiento de recursos', type='feature' parent = 'null', cardNumber='null'}]
-11:35:46.944 [pool-2-thread-3] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome realizar la confirmacion de inventario-[]: Optional[Requirement{name='Sanity limpieza y aprovisionamiento de recursos', type='feature' parent = 'null', cardNumber='null'}]
-11:35:46.949 [pool-2-thread-2] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome realizar el cargue de inventario-[]: Optional[Requirement{name='Sanity limpieza y aprovisionamiento de recursos', type='feature' parent = 'null', cardNumber='null'}]
-11:35:46.949 [pool-2-thread-8] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome se requiere realizar una activacion avanger-[]: Optional[Requirement{name='Sanity limpieza y aprovisionamiento de recursos', type='feature' parent = 'null', cardNumber='null'}]
-11:35:46.949 [pool-2-thread-7] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome se requiere realizar una cesion de contrato de pos a pre-[]: Optional[Requirement{name='Sanity limpieza y aprovisionamiento de recursos', type='feature' parent = 'null', cardNumber='null'}]
-11:35:46.949 [pool-2-thread-6] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome se requiere realizar una cesion de contrato de pre a pos-[]: Optional[Requirement{name='Sanity limpieza y aprovisionamiento de recursos', type='feature' parent = 'null', cardNumber='null'}]
-11:35:46.959 [pool-2-thread-4] DEBUG net.thucydides.core.requirements.RequirementsTagProvider -  found:[Requirement{name='Sanity limpieza y aprovisionamiento de recursos', type='feature' parent = 'null', cardNumber='null'}]
-11:35:46.960 [pool-2-thread-5] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome se requiere realizar una activacion nintendo-[]: Optional[Requirement{name='Sanity limpieza y aprovisionamiento de recursos', type='feature' parent = 'null', cardNumber='null'}]
-11:35:46.960 [pool-2-thread-6] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome se requiere realizar una cesion de contrato de pre a pos-[]: Optional[Requirement{name='Sanity limpieza y aprovisionamiento de recursos', type='feature' parent = 'null', cardNumber='null'}]
-11:35:46.960 [pool-2-thread-8] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome se requiere realizar una activacion avanger-[]: Optional[Requirement{name='Sanity limpieza y aprovisionamiento de recursos', type='feature' parent = 'null', cardNumber='null'}]
-11:35:46.960 [pool-2-thread-4] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome se requiere realizar una activacion prepago-[]: Optional[Requirement{name='Sanity limpieza y aprovisionamiento de recursos', type='feature' parent = 'null', cardNumber='null'}]
-11:35:46.961 [pool-2-thread-3] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome realizar la confirmacion de inventario-[]: Optional[Requirement{name='Sanity limpieza y aprovisionamiento de recursos', type='feature' parent = 'null', cardNumber='null'}]
-11:35:46.961 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome se quiere ingresar a la plataforma epos-[]: Optional[Requirement{name='Sanity limpieza y aprovisionamiento de recursos', type='feature' parent = 'null', cardNumber='null'}]
-11:35:46.961 [pool-2-thread-2] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome realizar el cargue de inventario-[]: Optional[Requirement{name='Sanity limpieza y aprovisionamiento de recursos', type='feature' parent = 'null', cardNumber='null'}]
-11:35:46.961 [pool-2-thread-4] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome se requiere realizar una activacion prepago-[]: Optional[Requirement{name='Sanity limpieza y aprovisionamiento de recursos', type='feature' parent = 'null', cardNumber='null'}]
-11:35:46.964 [pool-2-thread-7] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome se requiere realizar una cesion de contrato de pos a pre-[]: Optional[Requirement{name='Sanity limpieza y aprovisionamiento de recursos', type='feature' parent = 'null', cardNumber='null'}]
-11:35:47.055 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome se quiere ingresar a la plataforma epos-[]: Optional[Requirement{name='Sanity limpieza y aprovisionamiento de recursos', type='feature' parent = 'null', cardNumber='null'}]
-11:35:47.056 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome se quiere ingresar a la plataforma epos-[]: Optional[Requirement{name='Sanity limpieza y aprovisionamiento de recursos', type='feature' parent = 'null', cardNumber='null'}]
-11:35:47.058 [pool-2-thread-2] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome realizar el cargue de inventario-[]: Optional[Requirement{name='Sanity limpieza y aprovisionamiento de recursos', type='feature' parent = 'null', cardNumber='null'}]
-11:35:47.059 [pool-2-thread-2] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome realizar el cargue de inventario-[]: Optional[Requirement{name='Sanity limpieza y aprovisionamiento de recursos', type='feature' parent = 'null', cardNumber='null'}]
-11:35:47.064 [pool-2-thread-7] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome se requiere realizar una cesion de contrato de pos a pre-[]: Optional[Requirement{name='Sanity limpieza y aprovisionamiento de recursos', type='feature' parent = 'null', cardNumber='null'}]
-11:35:47.065 [pool-2-thread-7] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome se requiere realizar una cesion de contrato de pos a pre-[]: Optional[Requirement{name='Sanity limpieza y aprovisionamiento de recursos', type='feature' parent = 'null', cardNumber='null'}]
-11:35:47.066 [pool-2-thread-6] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome se requiere realizar una cesion de contrato de pre a pos-[]: Optional[Requirement{name='Sanity limpieza y aprovisionamiento de recursos', type='feature' parent = 'null', cardNumber='null'}]
-11:35:47.066 [pool-2-thread-6] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome se requiere realizar una cesion de contrato de pre a pos-[]: Optional[Requirement{name='Sanity limpieza y aprovisionamiento de recursos', type='feature' parent = 'null', cardNumber='null'}]
-11:35:47.105 [pool-2-thread-4] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome se requiere realizar una activacion prepago-[]: Optional[Requirement{name='Sanity limpieza y aprovisionamiento de recursos', type='feature' parent = 'null', cardNumber='null'}]
-11:35:47.105 [pool-2-thread-8] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome se requiere realizar una activacion avanger-[]: Optional[Requirement{name='Sanity limpieza y aprovisionamiento de recursos', type='feature' parent = 'null', cardNumber='null'}]
-11:35:47.105 [pool-2-thread-4] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome se requiere realizar una activacion prepago-[]: Optional[Requirement{name='Sanity limpieza y aprovisionamiento de recursos', type='feature' parent = 'null', cardNumber='null'}]
-11:35:47.105 [pool-2-thread-5] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome se requiere realizar una activacion nintendo-[]: Optional[Requirement{name='Sanity limpieza y aprovisionamiento de recursos', type='feature' parent = 'null', cardNumber='null'}]
-11:35:47.105 [pool-2-thread-5] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome se requiere realizar una activacion nintendo-[]: Optional[Requirement{name='Sanity limpieza y aprovisionamiento de recursos', type='feature' parent = 'null', cardNumber='null'}]
-11:35:47.105 [pool-2-thread-8] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome se requiere realizar una activacion avanger-[]: Optional[Requirement{name='Sanity limpieza y aprovisionamiento de recursos', type='feature' parent = 'null', cardNumber='null'}]
-11:35:47.184 [pool-2-thread-2] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generating report in c2816aaf72665fe39c1c583ab7f5162d39901ba6984fcbfd421cfd8e526280ac_screenshots.html
-11:35:47.184 [pool-2-thread-4] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generating report in 5774ce2c96e08dc44ef4f5ac4c34b3b85ed1b59769c6a25ebcc3ea1529395b52_screenshots.html
-11:35:47.184 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generating report in dd8d8ded9644b52fbc86dae313c60166d8b4c2b2da549354520470c10795b41b_screenshots.html
-11:35:47.184 [pool-2-thread-6] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generating report in 31ccbeec2916ed6fa4018692b8b3e8de34751485754879cbec68e6392c8c9470_screenshots.html
-11:35:47.184 [pool-2-thread-5] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generating report in 3defac3a77ff02c5bcbcebbc4fd56bdf76661b230359a2551b687cb6168601cf_screenshots.html
-11:35:47.184 [pool-2-thread-8] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generating report in 94db2a8791a71ffe4803efc70cbd54071a3ec2c53234fbb2d3d29558f0bdc85b_screenshots.html
-11:35:47.184 [pool-2-thread-7] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generating report in df612caf7f8ec976d11dd075e9927bf546582be42ca1e162dc260602209098f6_screenshots.html
-11:35:47.184 [pool-2-thread-3] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Sanity limpieza y aprovisionamiento de recursos:realizar la confirmacion de inventario in 8a91845db0a22eb470d492c234c97b8c9dde222ac0d23603d3947e29bb7d10a1.html in directory C:\SanitySemilla4\target\site\serenity  
-11:35:48.065 [pool-2-thread-4] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generated report 5774ce2c96e08dc44ef4f5ac4c34b3b85ed1b59769c6a25ebcc3ea1529395b52_screenshots.html in 881 ms
-11:35:48.069 [pool-2-thread-4] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Sanity limpieza y aprovisionamiento de recursos:se requiere realizar una activacion prepago in 5774ce2c96e08dc44ef4f5ac4c34b3b85ed1b59769c6a25ebcc3ea1529395b52.html in directory C:\SanitySemilla4\target\site\serenity  
-11:35:48.072 [pool-2-thread-2] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generated report c2816aaf72665fe39c1c583ab7f5162d39901ba6984fcbfd421cfd8e526280ac_screenshots.html in 888 ms
-11:35:48.072 [pool-2-thread-7] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generated report df612caf7f8ec976d11dd075e9927bf546582be42ca1e162dc260602209098f6_screenshots.html in 888 ms
-11:35:48.073 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generated report dd8d8ded9644b52fbc86dae313c60166d8b4c2b2da549354520470c10795b41b_screenshots.html in 889 ms
-11:35:48.075 [pool-2-thread-2] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Sanity limpieza y aprovisionamiento de recursos:realizar el cargue de inventario in c2816aaf72665fe39c1c583ab7f5162d39901ba6984fcbfd421cfd8e526280ac.html in directory C:\SanitySemilla4\target\site\serenity  
-11:35:48.075 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Sanity limpieza y aprovisionamiento de recursos:se quiere ingresar a la plataforma epos in dd8d8ded9644b52fbc86dae313c60166d8b4c2b2da549354520470c10795b41b.html in directory C:\SanitySemilla4\target\site\serenity  
-11:35:48.076 [pool-2-thread-7] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Sanity limpieza y aprovisionamiento de recursos:se requiere realizar una cesion de contrato de pos a pre in df612caf7f8ec976d11dd075e9927bf546582be42ca1e162dc260602209098f6.html in directory C:\SanitySemilla4\target\site\serenity  
-11:35:48.077 [pool-2-thread-5] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generated report 3defac3a77ff02c5bcbcebbc4fd56bdf76661b230359a2551b687cb6168601cf_screenshots.html in 893 ms
-11:35:48.079 [pool-2-thread-5] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Sanity limpieza y aprovisionamiento de recursos:se requiere realizar una activacion nintendo in 3defac3a77ff02c5bcbcebbc4fd56bdf76661b230359a2551b687cb6168601cf.html in directory C:\SanitySemilla4\target\site\serenity  
-11:35:48.080 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generating report in dd8d8ded9644b52fbc86dae313c60166d8b4c2b2da549354520470c10795b41b.html
-11:35:48.080 [pool-2-thread-2] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generating report in c2816aaf72665fe39c1c583ab7f5162d39901ba6984fcbfd421cfd8e526280ac.html
-11:35:48.081 [pool-2-thread-5] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generating report in 3defac3a77ff02c5bcbcebbc4fd56bdf76661b230359a2551b687cb6168601cf.html
-11:35:48.083 [pool-2-thread-7] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generating report in df612caf7f8ec976d11dd075e9927bf546582be42ca1e162dc260602209098f6.html
-11:35:48.084 [pool-2-thread-4] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generating report in 5774ce2c96e08dc44ef4f5ac4c34b3b85ed1b59769c6a25ebcc3ea1529395b52.html
-11:35:48.087 [pool-2-thread-8] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generated report 94db2a8791a71ffe4803efc70cbd54071a3ec2c53234fbb2d3d29558f0bdc85b_screenshots.html in 903 ms
-11:35:48.089 [pool-2-thread-8] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Sanity limpieza y aprovisionamiento de recursos:se requiere realizar una activacion avanger in 94db2a8791a71ffe4803efc70cbd54071a3ec2c53234fbb2d3d29558f0bdc85b.html in directory C:\SanitySemilla4\target\site\serenity  
-11:35:48.094 [pool-2-thread-8] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generating report in 94db2a8791a71ffe4803efc70cbd54071a3ec2c53234fbb2d3d29558f0bdc85b.html
-11:35:48.120 [pool-2-thread-6] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generated report 31ccbeec2916ed6fa4018692b8b3e8de34751485754879cbec68e6392c8c9470_screenshots.html in 936 ms
-11:35:48.120 [pool-2-thread-6] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Sanity limpieza y aprovisionamiento de recursos:se requiere realizar una cesion de contrato de pre a pos in 31ccbeec2916ed6fa4018692b8b3e8de34751485754879cbec68e6392c8c9470.html in directory C:\SanitySemilla4\target\site\serenity  
-11:35:48.124 [pool-2-thread-6] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generating report in 31ccbeec2916ed6fa4018692b8b3e8de34751485754879cbec68e6392c8c9470.html
-11:35:48.446 [pool-2-thread-2] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generated report c2816aaf72665fe39c1c583ab7f5162d39901ba6984fcbfd421cfd8e526280ac.html in 366 ms
-11:35:48.446 [pool-2-thread-2] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Sanity limpieza y aprovisionamiento de recursos:realizar el cargue de inventario done
-11:35:48.453 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generated report dd8d8ded9644b52fbc86dae313c60166d8b4c2b2da549354520470c10795b41b.html in 373 ms
-11:35:48.453 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Sanity limpieza y aprovisionamiento de recursos:se quiere ingresar a la plataforma epos done
-11:35:48.558 [pool-2-thread-4] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generated report 5774ce2c96e08dc44ef4f5ac4c34b3b85ed1b59769c6a25ebcc3ea1529395b52.html in 474 ms
-11:35:48.559 [pool-2-thread-4] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Sanity limpieza y aprovisionamiento de recursos:se requiere realizar una activacion prepago done
-11:35:48.619 [pool-2-thread-8] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generated report 94db2a8791a71ffe4803efc70cbd54071a3ec2c53234fbb2d3d29558f0bdc85b.html in 525 ms
-11:35:48.619 [pool-2-thread-8] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Sanity limpieza y aprovisionamiento de recursos:se requiere realizar una activacion avanger done
-11:35:48.683 [pool-2-thread-5] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generated report 3defac3a77ff02c5bcbcebbc4fd56bdf76661b230359a2551b687cb6168601cf.html in 602 ms
-11:35:48.683 [pool-2-thread-5] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Sanity limpieza y aprovisionamiento de recursos:se requiere realizar una activacion nintendo done
-11:35:49.033 [pool-2-thread-6] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generated report 31ccbeec2916ed6fa4018692b8b3e8de34751485754879cbec68e6392c8c9470.html in 909 ms
-11:35:49.033 [pool-2-thread-6] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Sanity limpieza y aprovisionamiento de recursos:se requiere realizar una cesion de contrato de pre a pos done
-11:35:49.033 [pool-2-thread-7] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generated report df612caf7f8ec976d11dd075e9927bf546582be42ca1e162dc260602209098f6.html in 950 ms
-11:35:49.033 [pool-2-thread-7] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Sanity limpieza y aprovisionamiento de recursos:se requiere realizar una cesion de contrato de pos a pre done
-11:35:49.583 [pool-2-thread-3] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generating report in 8a91845db0a22eb470d492c234c97b8c9dde222ac0d23603d3947e29bb7d10a1.html
-11:35:49.608 [pool-2-thread-3] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generated report 8a91845db0a22eb470d492c234c97b8c9dde222ac0d23603d3947e29bb7d10a1.html in 25 ms
-11:35:49.608 [pool-2-thread-3] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Sanity limpieza y aprovisionamiento de recursos:realizar la confirmacion de inventario done
-11:35:49.608 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Shutting down executor service
-11:35:49.609 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reports generated in: 2762 ms
-11:35:49.767 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Closing darkroom
-11:35:49.767 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Darkroom processing line shutting down
+09:30:48.400 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
 
-8 Scenarios (?[32m8 passed?[0m)
-24 Steps (?[32m24 passed?[0m)
-9m36,410s
+TEST STARTED: se requiere realizar un cambio de plan pos a pre
+-------------------------------------------------------------------(sanity-limpieza-y-aprovisionamiento-de-recursos;se-requiere-realizar-un-cambio-de-plan-pos-a-pre)
+09:31:28.547 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reporting formats: [JSON, HTML]
+09:31:28.647 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reporting formats: [JSON, HTML]
+09:31:28.664 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Generating reports for 9 test outcomes using: net.thucydides.core.reports.json.JSONTestOutcomeReporter@7daf34b5
+09:31:28.679 [pool-1-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Sanity limpieza y aprovisionamiento de recursos:se quiere ingresar a la plataforma epos
+09:31:28.679 [pool-1-thread-1] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@7daf34b5: Generating report for test outcome: Sanity limpieza y aprovisionamiento de recursos:se quiere ingresar a la plataforma epos
+09:31:28.679 [pool-1-thread-2] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Sanity limpieza y aprovisionamiento de recursos:realizar el cargue de inventario
+09:31:28.679 [pool-1-thread-2] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@7daf34b5: Generating report for test outcome: Sanity limpieza y aprovisionamiento de recursos:realizar el cargue de inventario
+09:31:28.679 [pool-1-thread-3] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Sanity limpieza y aprovisionamiento de recursos:realizar la confirmacion de inventario
+09:31:28.679 [pool-1-thread-3] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@7daf34b5: Generating report for test outcome: Sanity limpieza y aprovisionamiento de recursos:realizar la confirmacion de inventario
+09:31:28.682 [pool-1-thread-4] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Sanity limpieza y aprovisionamiento de recursos:se requiere realizar una activacion prepago
+09:31:28.682 [pool-1-thread-5] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Sanity limpieza y aprovisionamiento de recursos:se requiere realizar una activacion nintendo
+09:31:28.682 [pool-1-thread-5] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@7daf34b5: Generating report for test outcome: Sanity limpieza y aprovisionamiento de recursos:se requiere realizar una activacion nintendo
+09:31:28.682 [pool-1-thread-4] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@7daf34b5: Generating report for test outcome: Sanity limpieza y aprovisionamiento de recursos:se requiere realizar una activacion prepago
+09:31:28.682 [pool-1-thread-6] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Sanity limpieza y aprovisionamiento de recursos:se requiere realizar una cesion de contrato de pre a pos
+09:31:28.682 [pool-1-thread-7] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Sanity limpieza y aprovisionamiento de recursos:se requiere realizar una cesion de contrato de pos a pre
+09:31:28.690 [pool-1-thread-6] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@7daf34b5: Generating report for test outcome: Sanity limpieza y aprovisionamiento de recursos:se requiere realizar una cesion de contrato de pre a pos
+09:31:28.690 [pool-1-thread-7] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@7daf34b5: Generating report for test outcome: Sanity limpieza y aprovisionamiento de recursos:se requiere realizar una cesion de contrato de pos a pre
+09:31:28.691 [pool-1-thread-8] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Sanity limpieza y aprovisionamiento de recursos:se requiere realizar una activacion avanger
+09:31:28.692 [pool-1-thread-4] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for se requiere realizar una activacion prepago to file C:\SanitySemilla4\target\site\serenity\5774ce2c96e08dc44ef4f5ac4c34b3b85ed1b59769c6a25ebcc3ea1529395b52.json (using temp file C:\SanitySemilla4\target\site\serenity\5774ce2c96e08dc44ef4f5ac4c34b3b85ed1b59769c6a25ebcc3ea1529395b52.json2db54289-0601-4c90-afb6-0677d296a90e)
+09:31:28.692 [pool-1-thread-5] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for se requiere realizar una activacion nintendo to file C:\SanitySemilla4\target\site\serenity\3defac3a77ff02c5bcbcebbc4fd56bdf76661b230359a2551b687cb6168601cf.json (using temp file C:\SanitySemilla4\target\site\serenity\3defac3a77ff02c5bcbcebbc4fd56bdf76661b230359a2551b687cb6168601cf.jsonfd2e35dc-1400-4525-b6c9-562aaf766591)
+09:31:28.692 [pool-1-thread-3] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for realizar la confirmacion de inventario to file C:\SanitySemilla4\target\site\serenity\8a91845db0a22eb470d492c234c97b8c9dde222ac0d23603d3947e29bb7d10a1.json (using temp file C:\SanitySemilla4\target\site\serenity\8a91845db0a22eb470d492c234c97b8c9dde222ac0d23603d3947e29bb7d10a1.jsona801d68d-ab32-4885-afab-97964b0fdcf7)
+09:31:28.692 [pool-1-thread-2] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for realizar el cargue de inventario to file C:\SanitySemilla4\target\site\serenity\c2816aaf72665fe39c1c583ab7f5162d39901ba6984fcbfd421cfd8e526280ac.json (using temp file C:\SanitySemilla4\target\site\serenity\c2816aaf72665fe39c1c583ab7f5162d39901ba6984fcbfd421cfd8e526280ac.jsoncb78d3ff-c4bb-4871-ab17-da166c17db70)
+09:31:28.692 [pool-1-thread-8] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@7daf34b5: Generating report for test outcome: Sanity limpieza y aprovisionamiento de recursos:se requiere realizar una activacion avanger
+09:31:28.692 [pool-1-thread-1] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for se quiere ingresar a la plataforma epos to file C:\SanitySemilla4\target\site\serenity\dd8d8ded9644b52fbc86dae313c60166d8b4c2b2da549354520470c10795b41b.json (using temp file C:\SanitySemilla4\target\site\serenity\dd8d8ded9644b52fbc86dae313c60166d8b4c2b2da549354520470c10795b41b.json2cbb9d09-143c-4946-9b7c-4576252d7b54)
+09:31:28.693 [pool-1-thread-7] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for se requiere realizar una cesion de contrato de pos a pre to file C:\SanitySemilla4\target\site\serenity\df612caf7f8ec976d11dd075e9927bf546582be42ca1e162dc260602209098f6.json (using temp file C:\SanitySemilla4\target\site\serenity\df612caf7f8ec976d11dd075e9927bf546582be42ca1e162dc260602209098f6.json840b679b-4121-4c65-be98-3b5a628996f6)
+09:31:28.695 [pool-1-thread-8] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for se requiere realizar una activacion avanger to file C:\SanitySemilla4\target\site\serenity\94db2a8791a71ffe4803efc70cbd54071a3ec2c53234fbb2d3d29558f0bdc85b.json (using temp file C:\SanitySemilla4\target\site\serenity\94db2a8791a71ffe4803efc70cbd54071a3ec2c53234fbb2d3d29558f0bdc85b.json520b9f39-b608-4c4e-af75-02df2b41cf4a)
+09:31:28.695 [pool-1-thread-6] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for se requiere realizar una cesion de contrato de pre a pos to file C:\SanitySemilla4\target\site\serenity\31ccbeec2916ed6fa4018692b8b3e8de34751485754879cbec68e6392c8c9470.json (using temp file C:\SanitySemilla4\target\site\serenity\31ccbeec2916ed6fa4018692b8b3e8de34751485754879cbec68e6392c8c9470.jsond63ee6a5-60c5-489a-a952-8c7bb17fe255)
+09:31:28.786 [pool-1-thread-4] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Sanity limpieza y aprovisionamiento de recursos:se requiere realizar una activacion prepago done
+09:31:28.786 [pool-1-thread-4] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Sanity limpieza y aprovisionamiento de recursos:se requiere realizar un cambio de plan pos a pre
+09:31:28.786 [pool-1-thread-4] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@7daf34b5: Generating report for test outcome: Sanity limpieza y aprovisionamiento de recursos:se requiere realizar un cambio de plan pos a pre
+09:31:28.789 [pool-1-thread-6] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Sanity limpieza y aprovisionamiento de recursos:se requiere realizar una cesion de contrato de pre a pos done
+09:31:28.789 [pool-1-thread-3] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Sanity limpieza y aprovisionamiento de recursos:realizar la confirmacion de inventario done
+09:31:28.794 [pool-1-thread-4] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for se requiere realizar un cambio de plan pos a pre to file C:\SanitySemilla4\target\site\serenity\75d23638e36d2517281c24cbda9c61c0b3899ce81f2f92227e60db5385471dca.json (using temp file C:\SanitySemilla4\target\site\serenity\75d23638e36d2517281c24cbda9c61c0b3899ce81f2f92227e60db5385471dca.json72c86dea-c190-438c-9a91-9c05dd6a1cea)
+09:31:28.799 [pool-1-thread-2] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Sanity limpieza y aprovisionamiento de recursos:realizar el cargue de inventario done
+09:31:28.801 [pool-1-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Sanity limpieza y aprovisionamiento de recursos:se quiere ingresar a la plataforma epos done
+09:31:28.801 [pool-1-thread-5] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Sanity limpieza y aprovisionamiento de recursos:se requiere realizar una activacion nintendo done
+09:31:28.807 [pool-1-thread-7] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Sanity limpieza y aprovisionamiento de recursos:se requiere realizar una cesion de contrato de pos a pre done
+09:31:28.807 [pool-1-thread-8] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Sanity limpieza y aprovisionamiento de recursos:se requiere realizar una activacion avanger done
+09:31:28.827 [pool-1-thread-4] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Sanity limpieza y aprovisionamiento de recursos:se requiere realizar un cambio de plan pos a pre done
+09:31:28.828 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Shutting down executor service
+09:31:28.828 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reports generated in: 164 ms
+09:31:28.828 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Generating reports for 9 test outcomes using: net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@2576ba8b
+09:31:28.832 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Sanity limpieza y aprovisionamiento de recursos:se quiere ingresar a la plataforma epos
+09:31:28.835 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@2576ba8b: Generating report for test outcome: Sanity limpieza y aprovisionamiento de recursos:se quiere ingresar a la plataforma epos
+09:31:28.833 [pool-2-thread-2] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Sanity limpieza y aprovisionamiento de recursos:realizar el cargue de inventario
+09:31:28.836 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATE TEST OUTCOME REPORT FOR se quiere ingresar a la plataforma epos in dd8d8ded9644b52fbc86dae313c60166d8b4c2b2da549354520470c10795b41b
+09:31:28.840 [pool-2-thread-2] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@2576ba8b: Generating report for test outcome: Sanity limpieza y aprovisionamiento de recursos:realizar el cargue de inventario
+09:31:28.834 [pool-2-thread-3] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Sanity limpieza y aprovisionamiento de recursos:realizar la confirmacion de inventario
+09:31:28.840 [pool-2-thread-2] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATE TEST OUTCOME REPORT FOR realizar el cargue de inventario in c2816aaf72665fe39c1c583ab7f5162d39901ba6984fcbfd421cfd8e526280ac
+09:31:28.840 [pool-2-thread-3] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@2576ba8b: Generating report for test outcome: Sanity limpieza y aprovisionamiento de recursos:realizar la confirmacion de inventario
+09:31:28.840 [pool-2-thread-3] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATE TEST OUTCOME REPORT FOR realizar la confirmacion de inventario in 8a91845db0a22eb470d492c234c97b8c9dde222ac0d23603d3947e29bb7d10a1
+09:31:28.842 [pool-2-thread-6] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Sanity limpieza y aprovisionamiento de recursos:se requiere realizar una cesion de contrato de pre a pos
+09:31:28.842 [pool-2-thread-6] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@2576ba8b: Generating report for test outcome: Sanity limpieza y aprovisionamiento de recursos:se requiere realizar una cesion de contrato de pre a pos
+09:31:28.842 [pool-2-thread-6] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATE TEST OUTCOME REPORT FOR se requiere realizar una cesion de contrato de pre a pos in 31ccbeec2916ed6fa4018692b8b3e8de34751485754879cbec68e6392c8c9470
+09:31:28.845 [pool-2-thread-7] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Sanity limpieza y aprovisionamiento de recursos:se requiere realizar una cesion de contrato de pos a pre
+09:31:28.845 [pool-2-thread-7] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@2576ba8b: Generating report for test outcome: Sanity limpieza y aprovisionamiento de recursos:se requiere realizar una cesion de contrato de pos a pre
+09:31:28.846 [pool-2-thread-7] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATE TEST OUTCOME REPORT FOR se requiere realizar una cesion de contrato de pos a pre in df612caf7f8ec976d11dd075e9927bf546582be42ca1e162dc260602209098f6
+09:31:28.847 [pool-2-thread-5] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Sanity limpieza y aprovisionamiento de recursos:se requiere realizar una activacion nintendo
+09:31:28.847 [pool-2-thread-5] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@2576ba8b: Generating report for test outcome: Sanity limpieza y aprovisionamiento de recursos:se requiere realizar una activacion nintendo
+09:31:28.847 [pool-2-thread-5] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATE TEST OUTCOME REPORT FOR se requiere realizar una activacion nintendo in 3defac3a77ff02c5bcbcebbc4fd56bdf76661b230359a2551b687cb6168601cf
+09:31:28.849 [pool-2-thread-4] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Sanity limpieza y aprovisionamiento de recursos:se requiere realizar una activacion prepago
+09:31:28.849 [pool-2-thread-4] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@2576ba8b: Generating report for test outcome: Sanity limpieza y aprovisionamiento de recursos:se requiere realizar una activacion prepago
+09:31:28.849 [pool-2-thread-4] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATE TEST OUTCOME REPORT FOR se requiere realizar una activacion prepago in 5774ce2c96e08dc44ef4f5ac4c34b3b85ed1b59769c6a25ebcc3ea1529395b52
+09:31:28.853 [pool-2-thread-8] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Sanity limpieza y aprovisionamiento de recursos:se requiere realizar una activacion avanger
+09:31:28.854 [pool-2-thread-8] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@2576ba8b: Generating report for test outcome: Sanity limpieza y aprovisionamiento de recursos:se requiere realizar una activacion avanger
+09:31:28.855 [pool-2-thread-8] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATE TEST OUTCOME REPORT FOR se requiere realizar una activacion avanger in 94db2a8791a71ffe4803efc70cbd54071a3ec2c53234fbb2d3d29558f0bdc85b
+09:31:28.953 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Found no Cucumber 4.2.6 class cucumber.runtime.model.FeatureLoader try Cucumber 4.2.0 
+09:31:28.953 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Found no Cucumber 4.2.0 class cucumber.runtime.model.FeatureLoader try Cucumber 2.x.x 
+09:31:28.953 [pool-2-thread-7] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Found no Cucumber 4.2.6 class cucumber.runtime.model.FeatureLoader try Cucumber 4.2.0 
+09:31:28.953 [pool-2-thread-5] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Found no Cucumber 4.2.6 class cucumber.runtime.model.FeatureLoader try Cucumber 4.2.0 
+09:31:28.959 [pool-2-thread-5] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Found no Cucumber 4.2.0 class cucumber.runtime.model.FeatureLoader try Cucumber 2.x.x 
+09:31:28.959 [pool-2-thread-7] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Found no Cucumber 4.2.0 class cucumber.runtime.model.FeatureLoader try Cucumber 2.x.x 
+09:31:28.961 [pool-2-thread-3] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Found no Cucumber 4.2.6 class cucumber.runtime.model.FeatureLoader try Cucumber 4.2.0 
+09:31:28.962 [pool-2-thread-3] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Found no Cucumber 4.2.0 class cucumber.runtime.model.FeatureLoader try Cucumber 2.x.x 
+09:31:28.963 [pool-2-thread-2] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Found no Cucumber 4.2.6 class cucumber.runtime.model.FeatureLoader try Cucumber 4.2.0 
+09:31:28.964 [pool-2-thread-2] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Found no Cucumber 4.2.0 class cucumber.runtime.model.FeatureLoader try Cucumber 2.x.x 
+09:31:28.964 [pool-2-thread-4] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Found no Cucumber 4.2.6 class cucumber.runtime.model.FeatureLoader try Cucumber 4.2.0 
+09:31:28.964 [pool-2-thread-4] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Found no Cucumber 4.2.0 class cucumber.runtime.model.FeatureLoader try Cucumber 2.x.x 
+09:31:28.969 [pool-2-thread-5] DEBUG net.thucydides.core.requirements.RequirementsTagProvider -  found:[Requirement{name='Sanity limpieza y aprovisionamiento de recursos', type='feature' parent = 'null', cardNumber='null'}]
+09:31:28.970 [pool-2-thread-7] DEBUG net.thucydides.core.requirements.RequirementsTagProvider -  found:[Requirement{name='Sanity limpieza y aprovisionamiento de recursos', type='feature' parent = 'null', cardNumber='null'}]
+09:31:28.971 [pool-2-thread-6] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Found no Cucumber 4.2.6 class cucumber.runtime.model.FeatureLoader try Cucumber 4.2.0 
+09:31:28.971 [pool-2-thread-6] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Found no Cucumber 4.2.0 class cucumber.runtime.model.FeatureLoader try Cucumber 2.x.x 
+09:31:28.971 [pool-2-thread-4] DEBUG net.thucydides.core.requirements.RequirementsTagProvider -  found:[Requirement{name='Sanity limpieza y aprovisionamiento de recursos', type='feature' parent = 'null', cardNumber='null'}]
+09:31:28.971 [pool-2-thread-2] DEBUG net.thucydides.core.requirements.RequirementsTagProvider -  found:[Requirement{name='Sanity limpieza y aprovisionamiento de recursos', type='feature' parent = 'null', cardNumber='null'}]
+09:31:28.975 [pool-2-thread-8] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Found no Cucumber 4.2.6 class cucumber.runtime.model.FeatureLoader try Cucumber 4.2.0 
+09:31:28.975 [pool-2-thread-6] DEBUG net.thucydides.core.requirements.RequirementsTagProvider -  found:[Requirement{name='Sanity limpieza y aprovisionamiento de recursos', type='feature' parent = 'null', cardNumber='null'}]
+09:31:28.978 [pool-2-thread-8] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Found no Cucumber 4.2.0 class cucumber.runtime.model.FeatureLoader try Cucumber 2.x.x 
+09:31:28.980 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.RequirementsTagProvider -  found:[Requirement{name='Sanity limpieza y aprovisionamiento de recursos', type='feature' parent = 'null', cardNumber='null'}]
+09:31:28.982 [pool-2-thread-3] DEBUG net.thucydides.core.requirements.RequirementsTagProvider -  found:[Requirement{name='Sanity limpieza y aprovisionamiento de recursos', type='feature' parent = 'null', cardNumber='null'}]
+09:31:28.985 [pool-2-thread-8] DEBUG net.thucydides.core.requirements.RequirementsTagProvider -  found:[Requirement{name='Sanity limpieza y aprovisionamiento de recursos', type='feature' parent = 'null', cardNumber='null'}]
+09:31:28.993 [pool-2-thread-4] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome se requiere realizar una activacion prepago-[]: Optional[Requirement{name='Sanity limpieza y aprovisionamiento de recursos', type='feature' parent = 'null', cardNumber='null'}]
+09:31:28.993 [pool-2-thread-6] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome se requiere realizar una cesion de contrato de pre a pos-[]: Optional[Requirement{name='Sanity limpieza y aprovisionamiento de recursos', type='feature' parent = 'null', cardNumber='null'}]
+09:31:28.993 [pool-2-thread-5] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome se requiere realizar una activacion nintendo-[]: Optional[Requirement{name='Sanity limpieza y aprovisionamiento de recursos', type='feature' parent = 'null', cardNumber='null'}]
+09:31:28.993 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome se quiere ingresar a la plataforma epos-[]: Optional[Requirement{name='Sanity limpieza y aprovisionamiento de recursos', type='feature' parent = 'null', cardNumber='null'}]
+09:31:28.994 [pool-2-thread-8] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome se requiere realizar una activacion avanger-[]: Optional[Requirement{name='Sanity limpieza y aprovisionamiento de recursos', type='feature' parent = 'null', cardNumber='null'}]
+09:31:28.994 [pool-2-thread-3] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome realizar la confirmacion de inventario-[]: Optional[Requirement{name='Sanity limpieza y aprovisionamiento de recursos', type='feature' parent = 'null', cardNumber='null'}]
+09:31:28.994 [pool-2-thread-2] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome realizar el cargue de inventario-[]: Optional[Requirement{name='Sanity limpieza y aprovisionamiento de recursos', type='feature' parent = 'null', cardNumber='null'}]
+09:31:28.994 [pool-2-thread-7] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome se requiere realizar una cesion de contrato de pos a pre-[]: Optional[Requirement{name='Sanity limpieza y aprovisionamiento de recursos', type='feature' parent = 'null', cardNumber='null'}]
+09:31:28.998 [pool-2-thread-7] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome se requiere realizar una cesion de contrato de pos a pre-[]: Optional[Requirement{name='Sanity limpieza y aprovisionamiento de recursos', type='feature' parent = 'null', cardNumber='null'}]
+09:31:28.998 [pool-2-thread-8] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome se requiere realizar una activacion avanger-[]: Optional[Requirement{name='Sanity limpieza y aprovisionamiento de recursos', type='feature' parent = 'null', cardNumber='null'}]
+09:31:28.998 [pool-2-thread-6] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome se requiere realizar una cesion de contrato de pre a pos-[]: Optional[Requirement{name='Sanity limpieza y aprovisionamiento de recursos', type='feature' parent = 'null', cardNumber='null'}]
+09:31:28.998 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome se quiere ingresar a la plataforma epos-[]: Optional[Requirement{name='Sanity limpieza y aprovisionamiento de recursos', type='feature' parent = 'null', cardNumber='null'}]
+09:31:28.998 [pool-2-thread-3] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome realizar la confirmacion de inventario-[]: Optional[Requirement{name='Sanity limpieza y aprovisionamiento de recursos', type='feature' parent = 'null', cardNumber='null'}]
+09:31:28.998 [pool-2-thread-5] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome se requiere realizar una activacion nintendo-[]: Optional[Requirement{name='Sanity limpieza y aprovisionamiento de recursos', type='feature' parent = 'null', cardNumber='null'}]
+09:31:29.000 [pool-2-thread-4] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome se requiere realizar una activacion prepago-[]: Optional[Requirement{name='Sanity limpieza y aprovisionamiento de recursos', type='feature' parent = 'null', cardNumber='null'}]
+09:31:29.001 [pool-2-thread-2] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome realizar el cargue de inventario-[]: Optional[Requirement{name='Sanity limpieza y aprovisionamiento de recursos', type='feature' parent = 'null', cardNumber='null'}]
+09:31:29.100 [pool-2-thread-7] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome se requiere realizar una cesion de contrato de pos a pre-[]: Optional[Requirement{name='Sanity limpieza y aprovisionamiento de recursos', type='feature' parent = 'null', cardNumber='null'}]
+09:31:29.102 [pool-2-thread-7] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome se requiere realizar una cesion de contrato de pos a pre-[]: Optional[Requirement{name='Sanity limpieza y aprovisionamiento de recursos', type='feature' parent = 'null', cardNumber='null'}]
+09:31:29.102 [pool-2-thread-2] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome realizar el cargue de inventario-[]: Optional[Requirement{name='Sanity limpieza y aprovisionamiento de recursos', type='feature' parent = 'null', cardNumber='null'}]
+09:31:29.103 [pool-2-thread-2] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome realizar el cargue de inventario-[]: Optional[Requirement{name='Sanity limpieza y aprovisionamiento de recursos', type='feature' parent = 'null', cardNumber='null'}]
+09:31:29.115 [pool-2-thread-6] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome se requiere realizar una cesion de contrato de pre a pos-[]: Optional[Requirement{name='Sanity limpieza y aprovisionamiento de recursos', type='feature' parent = 'null', cardNumber='null'}]
+09:31:29.115 [pool-2-thread-6] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome se requiere realizar una cesion de contrato de pre a pos-[]: Optional[Requirement{name='Sanity limpieza y aprovisionamiento de recursos', type='feature' parent = 'null', cardNumber='null'}]
+09:31:29.127 [pool-2-thread-5] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome se requiere realizar una activacion nintendo-[]: Optional[Requirement{name='Sanity limpieza y aprovisionamiento de recursos', type='feature' parent = 'null', cardNumber='null'}]
+09:31:29.127 [pool-2-thread-5] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome se requiere realizar una activacion nintendo-[]: Optional[Requirement{name='Sanity limpieza y aprovisionamiento de recursos', type='feature' parent = 'null', cardNumber='null'}]
+09:31:29.132 [pool-2-thread-8] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome se requiere realizar una activacion avanger-[]: Optional[Requirement{name='Sanity limpieza y aprovisionamiento de recursos', type='feature' parent = 'null', cardNumber='null'}]
+09:31:29.134 [pool-2-thread-8] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome se requiere realizar una activacion avanger-[]: Optional[Requirement{name='Sanity limpieza y aprovisionamiento de recursos', type='feature' parent = 'null', cardNumber='null'}]
+09:31:29.134 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome se quiere ingresar a la plataforma epos-[]: Optional[Requirement{name='Sanity limpieza y aprovisionamiento de recursos', type='feature' parent = 'null', cardNumber='null'}]
+09:31:29.134 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome se quiere ingresar a la plataforma epos-[]: Optional[Requirement{name='Sanity limpieza y aprovisionamiento de recursos', type='feature' parent = 'null', cardNumber='null'}]
+09:31:29.142 [pool-2-thread-4] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome se requiere realizar una activacion prepago-[]: Optional[Requirement{name='Sanity limpieza y aprovisionamiento de recursos', type='feature' parent = 'null', cardNumber='null'}]
+09:31:29.144 [pool-2-thread-4] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome se requiere realizar una activacion prepago-[]: Optional[Requirement{name='Sanity limpieza y aprovisionamiento de recursos', type='feature' parent = 'null', cardNumber='null'}]
+09:31:29.237 [pool-2-thread-8] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generating report in 94db2a8791a71ffe4803efc70cbd54071a3ec2c53234fbb2d3d29558f0bdc85b_screenshots.html
+09:31:29.237 [pool-2-thread-4] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generating report in 5774ce2c96e08dc44ef4f5ac4c34b3b85ed1b59769c6a25ebcc3ea1529395b52_screenshots.html
+09:31:29.237 [pool-2-thread-6] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generating report in 31ccbeec2916ed6fa4018692b8b3e8de34751485754879cbec68e6392c8c9470_screenshots.html
+09:31:29.237 [pool-2-thread-2] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generating report in c2816aaf72665fe39c1c583ab7f5162d39901ba6984fcbfd421cfd8e526280ac_screenshots.html
+09:31:29.237 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generating report in dd8d8ded9644b52fbc86dae313c60166d8b4c2b2da549354520470c10795b41b_screenshots.html
+09:31:29.237 [pool-2-thread-7] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generating report in df612caf7f8ec976d11dd075e9927bf546582be42ca1e162dc260602209098f6_screenshots.html
+09:31:29.237 [pool-2-thread-3] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Sanity limpieza y aprovisionamiento de recursos:realizar la confirmacion de inventario in 8a91845db0a22eb470d492c234c97b8c9dde222ac0d23603d3947e29bb7d10a1.html in directory C:\SanitySemilla4\target\site\serenity  
+09:31:29.237 [pool-2-thread-5] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generating report in 3defac3a77ff02c5bcbcebbc4fd56bdf76661b230359a2551b687cb6168601cf_screenshots.html
+09:31:29.246 [pool-2-thread-3] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generating report in 8a91845db0a22eb470d492c234c97b8c9dde222ac0d23603d3947e29bb7d10a1.html
+09:31:29.754 [pool-2-thread-3] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generated report 8a91845db0a22eb470d492c234c97b8c9dde222ac0d23603d3947e29bb7d10a1.html in 508 ms
+09:31:29.754 [pool-2-thread-3] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Sanity limpieza y aprovisionamiento de recursos:realizar la confirmacion de inventario done
+09:31:29.754 [pool-2-thread-3] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Sanity limpieza y aprovisionamiento de recursos:se requiere realizar un cambio de plan pos a pre
+09:31:29.754 [pool-2-thread-3] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@2576ba8b: Generating report for test outcome: Sanity limpieza y aprovisionamiento de recursos:se requiere realizar un cambio de plan pos a pre
+09:31:29.754 [pool-2-thread-3] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATE TEST OUTCOME REPORT FOR se requiere realizar un cambio de plan pos a pre in 75d23638e36d2517281c24cbda9c61c0b3899ce81f2f92227e60db5385471dca
+09:31:29.760 [pool-2-thread-3] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome se requiere realizar un cambio de plan pos a pre-[]: Optional[Requirement{name='Sanity limpieza y aprovisionamiento de recursos', type='feature' parent = 'null', cardNumber='null'}]
+09:31:29.760 [pool-2-thread-3] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome se requiere realizar un cambio de plan pos a pre-[]: Optional[Requirement{name='Sanity limpieza y aprovisionamiento de recursos', type='feature' parent = 'null', cardNumber='null'}]
+09:31:29.765 [pool-2-thread-5] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generated report 3defac3a77ff02c5bcbcebbc4fd56bdf76661b230359a2551b687cb6168601cf_screenshots.html in 528 ms
+09:31:29.766 [pool-2-thread-6] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generated report 31ccbeec2916ed6fa4018692b8b3e8de34751485754879cbec68e6392c8c9470_screenshots.html in 529 ms
+09:31:29.767 [pool-2-thread-5] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Sanity limpieza y aprovisionamiento de recursos:se requiere realizar una activacion nintendo in 3defac3a77ff02c5bcbcebbc4fd56bdf76661b230359a2551b687cb6168601cf.html in directory C:\SanitySemilla4\target\site\serenity  
+09:31:29.767 [pool-2-thread-6] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Sanity limpieza y aprovisionamiento de recursos:se requiere realizar una cesion de contrato de pre a pos in 31ccbeec2916ed6fa4018692b8b3e8de34751485754879cbec68e6392c8c9470.html in directory C:\SanitySemilla4\target\site\serenity  
+09:31:29.769 [pool-2-thread-6] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generating report in 31ccbeec2916ed6fa4018692b8b3e8de34751485754879cbec68e6392c8c9470.html
+09:31:29.770 [pool-2-thread-5] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generating report in 3defac3a77ff02c5bcbcebbc4fd56bdf76661b230359a2551b687cb6168601cf.html
+09:31:29.770 [pool-2-thread-7] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generated report df612caf7f8ec976d11dd075e9927bf546582be42ca1e162dc260602209098f6_screenshots.html in 533 ms
+09:31:29.772 [pool-2-thread-7] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Sanity limpieza y aprovisionamiento de recursos:se requiere realizar una cesion de contrato de pos a pre in df612caf7f8ec976d11dd075e9927bf546582be42ca1e162dc260602209098f6.html in directory C:\SanitySemilla4\target\site\serenity  
+09:31:29.773 [pool-2-thread-7] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generating report in df612caf7f8ec976d11dd075e9927bf546582be42ca1e162dc260602209098f6.html
+09:31:29.786 [pool-2-thread-8] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generated report 94db2a8791a71ffe4803efc70cbd54071a3ec2c53234fbb2d3d29558f0bdc85b_screenshots.html in 549 ms
+09:31:29.786 [pool-2-thread-2] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generated report c2816aaf72665fe39c1c583ab7f5162d39901ba6984fcbfd421cfd8e526280ac_screenshots.html in 548 ms
+09:31:29.787 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generated report dd8d8ded9644b52fbc86dae313c60166d8b4c2b2da549354520470c10795b41b_screenshots.html in 550 ms
+09:31:29.787 [pool-2-thread-2] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Sanity limpieza y aprovisionamiento de recursos:realizar el cargue de inventario in c2816aaf72665fe39c1c583ab7f5162d39901ba6984fcbfd421cfd8e526280ac.html in directory C:\SanitySemilla4\target\site\serenity  
+09:31:29.787 [pool-2-thread-8] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Sanity limpieza y aprovisionamiento de recursos:se requiere realizar una activacion avanger in 94db2a8791a71ffe4803efc70cbd54071a3ec2c53234fbb2d3d29558f0bdc85b.html in directory C:\SanitySemilla4\target\site\serenity  
+09:31:29.788 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Sanity limpieza y aprovisionamiento de recursos:se quiere ingresar a la plataforma epos in dd8d8ded9644b52fbc86dae313c60166d8b4c2b2da549354520470c10795b41b.html in directory C:\SanitySemilla4\target\site\serenity  
+09:31:29.789 [pool-2-thread-8] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generating report in 94db2a8791a71ffe4803efc70cbd54071a3ec2c53234fbb2d3d29558f0bdc85b.html
+09:31:29.789 [pool-2-thread-2] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generating report in c2816aaf72665fe39c1c583ab7f5162d39901ba6984fcbfd421cfd8e526280ac.html
+09:31:29.791 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generating report in dd8d8ded9644b52fbc86dae313c60166d8b4c2b2da549354520470c10795b41b.html
+09:31:29.803 [pool-2-thread-4] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generated report 5774ce2c96e08dc44ef4f5ac4c34b3b85ed1b59769c6a25ebcc3ea1529395b52_screenshots.html in 566 ms
+09:31:29.808 [pool-2-thread-4] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Sanity limpieza y aprovisionamiento de recursos:se requiere realizar una activacion prepago in 5774ce2c96e08dc44ef4f5ac4c34b3b85ed1b59769c6a25ebcc3ea1529395b52.html in directory C:\SanitySemilla4\target\site\serenity  
+09:31:29.811 [pool-2-thread-3] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome se requiere realizar un cambio de plan pos a pre-[]: Optional[Requirement{name='Sanity limpieza y aprovisionamiento de recursos', type='feature' parent = 'null', cardNumber='null'}]
+09:31:29.812 [pool-2-thread-3] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome se requiere realizar un cambio de plan pos a pre-[]: Optional[Requirement{name='Sanity limpieza y aprovisionamiento de recursos', type='feature' parent = 'null', cardNumber='null'}]
+09:31:29.814 [pool-2-thread-3] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generating report in 75d23638e36d2517281c24cbda9c61c0b3899ce81f2f92227e60db5385471dca_screenshots.html
+09:31:29.814 [pool-2-thread-4] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generating report in 5774ce2c96e08dc44ef4f5ac4c34b3b85ed1b59769c6a25ebcc3ea1529395b52.html
+09:31:29.840 [pool-2-thread-3] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generated report 75d23638e36d2517281c24cbda9c61c0b3899ce81f2f92227e60db5385471dca_screenshots.html in 26 ms
+09:31:29.842 [pool-2-thread-3] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Sanity limpieza y aprovisionamiento de recursos:se requiere realizar un cambio de plan pos a pre in 75d23638e36d2517281c24cbda9c61c0b3899ce81f2f92227e60db5385471dca.html in directory C:\SanitySemilla4\target\site\serenity  
+09:31:29.843 [pool-2-thread-3] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generating report in 75d23638e36d2517281c24cbda9c61c0b3899ce81f2f92227e60db5385471dca.html
+09:31:30.013 [pool-2-thread-2] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generated report c2816aaf72665fe39c1c583ab7f5162d39901ba6984fcbfd421cfd8e526280ac.html in 224 ms
+09:31:30.014 [pool-2-thread-2] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Sanity limpieza y aprovisionamiento de recursos:realizar el cargue de inventario done
+09:31:30.022 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generated report dd8d8ded9644b52fbc86dae313c60166d8b4c2b2da549354520470c10795b41b.html in 231 ms
+09:31:30.022 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Sanity limpieza y aprovisionamiento de recursos:se quiere ingresar a la plataforma epos done
+09:31:30.096 [pool-2-thread-3] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generated report 75d23638e36d2517281c24cbda9c61c0b3899ce81f2f92227e60db5385471dca.html in 253 ms
+09:31:30.096 [pool-2-thread-3] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Sanity limpieza y aprovisionamiento de recursos:se requiere realizar un cambio de plan pos a pre done
+09:31:30.145 [pool-2-thread-4] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generated report 5774ce2c96e08dc44ef4f5ac4c34b3b85ed1b59769c6a25ebcc3ea1529395b52.html in 331 ms
+09:31:30.145 [pool-2-thread-4] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Sanity limpieza y aprovisionamiento de recursos:se requiere realizar una activacion prepago done
+09:31:30.178 [pool-2-thread-5] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generated report 3defac3a77ff02c5bcbcebbc4fd56bdf76661b230359a2551b687cb6168601cf.html in 408 ms
+09:31:30.178 [pool-2-thread-5] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Sanity limpieza y aprovisionamiento de recursos:se requiere realizar una activacion nintendo done
+09:31:30.181 [pool-2-thread-8] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generated report 94db2a8791a71ffe4803efc70cbd54071a3ec2c53234fbb2d3d29558f0bdc85b.html in 392 ms
+09:31:30.181 [pool-2-thread-8] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Sanity limpieza y aprovisionamiento de recursos:se requiere realizar una activacion avanger done
+09:31:30.525 [pool-2-thread-6] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generated report 31ccbeec2916ed6fa4018692b8b3e8de34751485754879cbec68e6392c8c9470.html in 756 ms
+09:31:30.525 [pool-2-thread-6] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Sanity limpieza y aprovisionamiento de recursos:se requiere realizar una cesion de contrato de pre a pos done
+09:31:30.525 [pool-2-thread-7] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generated report df612caf7f8ec976d11dd075e9927bf546582be42ca1e162dc260602209098f6.html in 752 ms
+09:31:30.525 [pool-2-thread-7] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Sanity limpieza y aprovisionamiento de recursos:se requiere realizar una cesion de contrato de pos a pre done
+09:31:30.525 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Shutting down executor service
+09:31:30.525 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reports generated in: 1697 ms
+09:31:30.665 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Closing darkroom
+09:31:30.665 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Darkroom processing line shutting down
+
+?[31mFailed scenarios:?[0m
+?[31msrc/test/resources/features/execute.feature:38 ?[0m# se requiere realizar una cesion de contrato de pre a pos
+?[31msrc/test/resources/features/execute.feature:56 ?[0m# se requiere realizar un cambio de plan pos a pre
+
+9 Scenarios (?[31m2 failed?[0m, ?[32m7 passed?[0m)
+27 Steps (?[31m2 failed?[0m, ?[32m25 passed?[0m)
+10m2,893s
+
+org.openqa.selenium.StaleElementReferenceException: The element reference of <div id="j_id135:j_id138" class="icePnlGrp"> is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: '22LAP5CG0525FBR', ip: '10.183.117.119', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200117190643, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 13448, moz:profile: C:\Users\nriosa\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 42d9038f-34aa-40cf-9396-ce65c6b7e4d2
+	at sun.reflect.GeneratedConstructorAccessor91.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:326)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.elementIsPresent(WebElementFacadeImpl.java:969)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.isPresent(WebElementFacadeImpl.java:985)
+	at net.serenitybdd.core.pages.WebElementExpectations$2.apply(WebElementExpectations.java:43)
+	at net.serenitybdd.core.pages.WebElementExpectations$2.apply(WebElementExpectations.java:35)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilPresent(WebElementFacadeImpl.java:1031)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.thucydides.core.annotations.locators.AbstractSingleItemHandler.invoke(AbstractSingleItemHandler.java:45)
+	at com.sun.proxy.$Proxy27.waitUntilPresent(Unknown Source)
+	at com.indra.actions.PrepaidActivationActions.consultSingleScreen2(PrepaidActivationActions.java:103)
+	at com.indra.steps_definitions.SanitySteps.seDeberiaVerEnPantallaUnicaLaLineaCedidaPre(SanitySteps.java:139)
+	at ?.Se deberia ver en pantalla unica la linea cedida pre(src/test/resources/features/execute.feature:41)
+
+java.lang.AssertionError: el plan es prepago
+Expected: a string containing "Plan Tigo Prepago"
+     but: was "Pospago 5.2"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at com.indra.actions.PrepaidActivationActions.consultSingleScreen(PrepaidActivationActions.java:89)
+	at com.indra.steps_definitions.SanitySteps.seDeberiaVerEnPantallaUnicaLaLineaEnPlanPos(SanitySteps.java:181)
+	at ?.Se deberia ver en pantalla unica la linea en plan pos(src/test/resources/features/execute.feature:59)
 
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
