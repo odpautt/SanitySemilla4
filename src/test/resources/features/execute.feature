@@ -69,3 +69,9 @@ Feature: Sanity limpieza y aprovisionamiento de recursos
     Given Se ingresa al portal CRM para activacion
     When Se hace el cambio plan de pre a pos
     Then Se deberia ver en pantalla unica la linea en plan pre
+
+  @Reconexion
+  Scenario: se requiere realizar la reconexion de una linea
+    Given Se ingresa al portal CRM para activacion
+    When Se ejecuta la reconexion de la linea
+    Then Se deberia ver en pantalla unica la linea en estado reconectada

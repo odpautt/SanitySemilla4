@@ -1,15 +1,14 @@
 package com.indra.actions;
 
-import com.ibm.icu.impl.UResource;
-import com.indra.pages.CambioPosPrePage;
+import com.indra.models.ReconnectionPage;
 import com.indra.pages.SuspentionPage;
 import org.hamcrest.MatcherAssert;
 import org.hamcrest.Matchers;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.Select;
 
-public class SuspentionActions extends SuspentionPage {
-        public SuspentionActions(WebDriver driver) {
+public class ReconnectionActions extends ReconnectionPage {
+        public ReconnectionActions(WebDriver driver) {
         super(driver);
     }
 
@@ -29,15 +28,15 @@ public class SuspentionActions extends SuspentionPage {
        writeJustification();
        getJustification().sendKeys(Keys.TAB,Keys.ENTER);
        //btnexecuteChangeClick();
-       waitABit(3000);
+       //waitABit(3000);
 
        Alert alert = getDriver().switchTo().alert();
-        System.out.println(alert.getText());
         alert.accept();
-       //waitABit(3000);
         getDriver().switchTo().defaultContent();
-       switchToIframe();
+        switchToIframe();
+
        getMessageOfResults().waitUntilPresent();
+       waitABit(3000);
        MatcherAssert.assertThat("se presenta el mensaje",getMessageOfResults().isPresent(), Matchers.is(true));
 
     }
@@ -70,7 +69,7 @@ public class SuspentionActions extends SuspentionPage {
 
     public void selectSuspentionService(){
         Select dropDown = new Select(getDriver().findElement(By.className("selectOneListbox")));
-        dropDown.selectByValue("SUSTP");
+        dropDown.selectByValue("AREST");
     }
 
     public void writeJustification(){
@@ -110,7 +109,7 @@ public class SuspentionActions extends SuspentionPage {
             String smstx = sms.getText();
             String datatx = data.getText();
             String telefoniatx = telefonia.getText();
-            if(smstx.equals("Activo") && datatx.equals("Activo") && telefoniatx.equals("Activo")){
+            if(smstx.equals("Suspendido Total") && datatx.equals("Suspendido Total") && telefoniatx.equals("Suspendido Total")){
                 cont=1;
             }
         }
@@ -146,12 +145,13 @@ public class SuspentionActions extends SuspentionPage {
             String smstx = sms.getText();
             String datatx = data.getText();
             String telefoniatx = telefonia.getText();
-            if(smstx.equals("Suspendido Total") && datatx.equals("Suspendido Total") && telefoniatx.equals("Suspendido Total")){
+
+            if(smstx.equals("Activo") && datatx.equals("Activo") && telefoniatx.equals("Activo")){
                 cont=1;
             }
         }
 
-        MatcherAssert.assertThat("la linea esta suspendida",
+        MatcherAssert.assertThat("la linea esta Suspendida",
                 cont,Matchers.is(1) );
         getClosePopUp().click();
         getBtnClean().click();

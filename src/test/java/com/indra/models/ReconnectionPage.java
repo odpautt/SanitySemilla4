@@ -1,12 +1,12 @@
-package com.indra.pages;
+package com.indra.models;
 
 import net.serenitybdd.core.annotations.findby.FindBy;
 import net.serenitybdd.core.pages.PageObject;
 import net.serenitybdd.core.pages.WebElementFacade;
 import org.openqa.selenium.WebDriver;
 
-public class SuspentionPage extends PageObject {
-    public SuspentionPage(WebDriver driver) {
+public class ReconnectionPage extends PageObject {
+    public ReconnectionPage(WebDriver driver) {
         super(driver);
     }
     //j_id135:j_id184 --> link detalles
@@ -56,9 +56,8 @@ public class SuspentionPage extends PageObject {
     @FindBy(xpath = "//div[@class='actionButtons']//table/tbody[1]/tr[1]/td[1]/input[1]")
     WebElementFacade btnExecuteChange;
 
-    @FindBy (xpath = "//form[@id='ServicesForm']//table/tbody[1]/tr[1]/td[1]/div[1]/div[1]/ul[1]/li[2]")
+    @FindBy (xpath= "//form[@id='ServicesForm']//table/tbody[1]/tr[1]/td[1]/div[1]/div[1]/ul[1]/li[4]")
     WebElementFacade messageOfResults;
-
 
 
     @FindBy(xpath = "//a[@class='TabIcon DefaultPageIcon'][contains(.,'Consultas')]")

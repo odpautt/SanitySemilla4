@@ -39,6 +39,7 @@ public class SanitySteps{
     CambioPosPreActions cambioPosPreActions = new CambioPosPreActions(driver);
     AvangerActivationActions avangerActions = new AvangerActivationActions(driver);
     SuspentionActions suspentionActions = new SuspentionActions(driver);
+    ReconnectionActions reconnectionActions = new ReconnectionActions(driver);
 
 //-----------<Primer escenario>----------------
     @Given("^Se ejecutan procedimientos en bd y soapUi$")
@@ -199,6 +200,20 @@ public class SanitySteps{
         suspentionActions.consultSingleScreen2(dataExcelModels.getMSISDN());
     }
 
+    //--------------<Excenario Once>---------------------
+
+    @When("^Se ejecuta la reconexion de la linea$")
+    public void seEjecutaLaReconexionDeLaLinea() {
+        reconnectionActions.consultSingleScreen(dataExcelModels.getMSISDN());
+        reconnectionActions.initialRute();
+        reconnectionActions.executeSuspentionOfLine(dataExcelModels.getMSISDN());//(dataExcelModels.getMsisdnPrepago());
+    }
+
+
+    @Then("^Se deberia ver en pantalla unica la linea en estado reconectada$")
+    public void seDeberiaVerEnPantallaUnicaLaLineaEnEstadoReconectada() {
+        reconnectionActions.consultSingleScreen2(dataExcelModels.getMSISDN());
+    }
 
 }
 
