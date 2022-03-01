@@ -38,7 +38,6 @@ public class CambioPosPreActions extends CambioPosPrePage {
         getDriver().findElement(By.id("PlansChangePreForm:bntPlanChange")).click();
         waitABit(2000);
         alertAcept();
-        switchToIframe();
 
         getMensajes().waitUntilPresent();
 

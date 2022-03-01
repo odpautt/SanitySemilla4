@@ -24,48 +24,55 @@ public class CambioPrePosPage extends PageObject {
     WebElementFacade contractAssignment;
 
 //----------------------------
-    @FindBy(id ="PlansChangePreForm:msisdnField:msisdn" )
+    @FindBy(xpath ="//*[@id='PlanschangeForm:msisdnField:msisdn']" )
     WebElementFacade phoneNumber;
 
-    @FindBy(id ="PlansChangePreForm:reasonField:reason" )
+    @FindBy(xpath ="//*[@id='PlanschangeForm:reasonField:reason']" )
     WebElementFacade reasonChange ;
 
-    @FindBy(id ="PlansChangePreForm:userField:user" )
+    @FindBy(xpath ="//*[@id='PlanschangeForm:userField:user']" )
     WebElementFacade vendedor ;
 
-    @FindBy(id ="PlansChangePreForm:combo1:selectOneListbox01" )
-    WebElementFacade motivo;
+    @FindBy(xpath ="//*[@id='PlanschangeForm:InfoTelefono:clientInfoTelefono']" )
+    WebElementFacade msisdn;
 
-    @FindBy(xpath ="/html/body/form/table/tbody/tr/td[2]/div[1]/div[2]/div[4]/div/span[1]/select/option[7]" )
-    WebElementFacade motivo1;
+    @FindBy(xpath ="//*[@id='PlanschangeForm:clientInfoMail:clientInfoMail']" )
+    WebElementFacade mail ;
 
-    @FindBy(id ="PlansChangePreForm:combo2:selectOneListbox02" )
-    WebElementFacade reasonCause ;
+    @FindBy(xpath ="//*[@id='PlanschangeForm:InfoDireccion:clientInfoDireccion']" )
+    WebElementFacade direccion;
 
-    @FindBy(xpath ="/html/body/form/table/tbody/tr/td[2]/div[1]/div[2]/div[5]/div/span[1]/select/option[2]" )
-    WebElementFacade reasonCause1;
+    @FindBy(xpath ="/html/body/div[1]/form/table/tbody/tr[1]/td[1]/div[1]/div[2]/table[5]/tbody/tr/td[1]/div/div/span[1]/select")
+    WebElementFacade deparment;
 
-    @FindBy(id ="PlansChangePreForm:combo3:selectOneListbox03" )
-    WebElementFacade detail;
+    @FindBy(xpath="/html/body/div[1]/form/table/tbody/tr[1]/td[1]/div[1]/div[2]/table[5]/tbody/tr/td[1]/div/div/span[1]/select/option[10]")
+    WebElementFacade deparment1;
 
-    @FindBy(xpath ="/html/body/form/table/tbody/tr/td[2]/div[1]/div[2]/span[1]/div/div/span[1]/select/option[3]" )
-    WebElementFacade detail1;
+    @FindBy(xpath="/html/body/div[1]/form/table/tbody/tr[1]/td[1]/div[1]/div[2]/table[5]/tbody/tr/td[2]/div/div/span[1]/select")
+    WebElementFacade city;
 
-    @FindBy(id ="PlansChangePreForm:panelPrincipal_body" )
-    WebElementFacade preForm;
+    @FindBy(xpath="/html/body/div[1]/form/table/tbody/tr[1]/td[1]/div[1]/div[2]/table[5]/tbody/tr/td[2]/div/div/span[1]/select/option[9]")
+    WebElementFacade city1;
 
-    @FindBy(id="PlansChangePreForm:planField:planField")
-    WebElementFacade plan;
+    @FindBy(xpath="//*[@id='PlanschangeForm:InfoTipoFactura:billType:0']" )
+    WebElementFacade factura;
 
-    @FindBy(xpath ="/html/body/form/table/tbody/tr/td[1]/div[1]/div[2]/div[1]/div/span[1]/select/option[2]" )
-    WebElementFacade planPre;
+    @FindBy(xpath="//*[@id='PlanschangeForm:InfoContenidoFactura:billContent:0']")
+    WebElementFacade facturaReducida;
 
-    @FindBy (id ="PlansChangePreForm:bntPlanChange")
+
+    @FindBy(xpath="//*[@id='PlanschangeForm:bntPlanChange']")
     WebElementFacade btnChangePlan;
 
-
-    @FindBy(xpath = "/html/body/form/table/tbody/tr/td[1]/span[1]/ul")
+    @FindBy(xpath = "/html/body/div[1]/form/table/tbody/tr[2]/td/span[1]/ul")
     WebElementFacade mensajes;
+
+    @FindBy(xpath ="/html/body/div[1]/form/table/tbody/tr[1]/td[2]/table/tbody/tr[2]/td/table/tbody/tr/td")
+    WebElementFacade clic;
+
+    public WebElementFacade getClic() {
+        return clic;
+    }
 
     public WebElementFacade getMensajes() {
         return mensajes;
@@ -100,40 +107,40 @@ public class CambioPrePosPage extends PageObject {
         return vendedor;
     }
 
-    public WebElementFacade getMotivo() {
-        return motivo;
+    public WebElementFacade getMsisdn() {
+        return msisdn;
     }
 
-    public WebElementFacade getMotivo1() {
-        return motivo1;
+    public WebElementFacade getMail() {
+        return mail;
     }
 
-    public WebElementFacade getReasonCause() {
-        return reasonCause;
+    public WebElementFacade getDireccion() {
+        return direccion;
     }
 
-    public WebElementFacade getReasonCause1() {
-        return reasonCause1;
+    public WebElementFacade getDeparment() {
+        return deparment;
     }
 
-    public WebElementFacade getDetail() {
-        return detail;
+    public WebElementFacade getDeparment1() {
+        return deparment1;
     }
 
-    public WebElementFacade getDetail1() {
-        return detail1;
+    public WebElementFacade getCity() {
+        return city;
     }
 
-    public WebElementFacade getPreForm() {
-        return preForm;
+    public WebElementFacade getCity1() {
+        return city1;
     }
 
-    public WebElementFacade getPlan() {
-        return plan;
+    public WebElementFacade getFactura() {
+        return factura;
     }
 
-    public WebElementFacade getPlanPre() {
-        return planPre;
+    public WebElementFacade getFacturaReducida() {
+        return facturaReducida;
     }
 
     public WebElementFacade getBtnChangePlan() {

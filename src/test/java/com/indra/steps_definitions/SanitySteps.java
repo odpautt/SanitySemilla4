@@ -38,6 +38,7 @@ public class SanitySteps{
     ControlActivationActions controlActivationActions = new ControlActivationActions(driver);
     CambioPosPreActions cambioPosPreActions = new CambioPosPreActions(driver);
     AvangerActivationActions avangerActions = new AvangerActivationActions(driver);
+    CambioPrePosActions cambioPrePosActions = new CambioPrePosActions(driver);
     SuspentionActions suspentionActions = new SuspentionActions(driver);
     ReconnectionActions reconnectionActions = new ReconnectionActions(driver);
 
@@ -176,15 +177,28 @@ public class SanitySteps{
     @When("^Se hace el cambio plan de pos a pre$")
     public void seHaceElCambioPlanDePosAPre() throws InterruptedException, AWTException {
         cambioPosPreActions.initialRute();
-        cambioPosPreActions.executeContractAssignment(dataExcelModels.getMsisdnPostpago(),dataExcelModels.getCedulaClientePostpago());
+        cambioPosPreActions.executeContractAssignment(dataExcelModels.getMsisdnAvanger(),dataExcelModels.getCedulaClienteAvanger());
     }
 
     @Then("^Se deberia ver en pantalla unica la linea en plan pos$")
     public void seDeberiaVerEnPantallaUnicaLaLineaEnPlanPos() {
-        prepaidActivationActions.consultSingleScreen(dataExcelModels.getMsisdnPostpago());
+        prepaidActivationActions.consultSingleScreen(dataExcelModels.getMsisdnAvanger());
     }
 
     //-----------<Decimo escenario>----------------
+
+    @When("^Se hace el cambio plan de pre a pos$")
+    public void seHaceElCambioPlanDePreAPos() throws InterruptedException, AWTException {
+        cambioPrePosActions.initialRute();
+        cambioPrePosActions.executeContractAssignment(dataExcelModels.getMsisdnAvanger(),dataExcelModels.getCedulaClienteAvanger());
+    }
+
+    @Then("^Se deberia ver en pantalla unica la linea en plan pre$")
+    public void seDeberiaVerEnPantallaUnicaLaLineaEnPlanPre() {
+        prepaidActivationActions.consultSingleScreen2(dataExcelModels.getMsisdnAvanger());
+    }
+
+    //-----------<Once escenario>----------------
 
     @When("^Se ejecuta la suspension de la linea$")
     public void seEjecutaLaSuspensionDeLaLinea() {
