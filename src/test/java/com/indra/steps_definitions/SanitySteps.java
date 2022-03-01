@@ -9,6 +9,7 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import net.thucydides.core.annotations.Managed;
+import org.hamcrest.MatcherAssert;
 import org.hamcrest.Matchers;
 import org.openqa.selenium.WebDriver;
 
@@ -37,7 +38,7 @@ public class SanitySteps{
     ControlActivationActions controlActivationActions = new ControlActivationActions(driver);
     CambioPosPreActions cambioPosPreActions = new CambioPosPreActions(driver);
     AvangerActivationActions avangerActions = new AvangerActivationActions(driver);
-    CambioPrePosActions cambioPrePosActions = new CambioPrePosActions(driver);
+    SuspentionActions suspentionActions = new SuspentionActions(driver);
 
 //-----------<Primer escenario>----------------
     @Given("^Se ejecutan procedimientos en bd y soapUi$")
@@ -132,7 +133,7 @@ public class SanitySteps{
     @When("^Se hace la cesion de contrato de una linea pre a pos$")
     public void seHaceLaCesionDeContratoDeUnaLineaPreAPos() throws InterruptedException, AWTException {
         cesionActions.initialRute();
-        cesionActions.executeContractAssignment(dataExcelModels.getMsisdnPrepago(),dataExcelModels.getCedulaClientePrepago());
+        cesionActions.executeContractAssignment(dataExcelModels.getMsisdnPrepago(),dataExcelModels.getCedulaClientePostpago());
     }
 
     @Then("^Se deberia ver en pantalla unica la linea cedida pre$")
@@ -145,7 +146,7 @@ public class SanitySteps{
     @When("^Se hace la cesion de contrato de una linea pos a pre$")
     public void seHaceLaCesionDeContratoDeUnaLineaPosAPre() throws InterruptedException, AWTException {
         cesionActions1.initialRute();
-        cesionActions1.executeContractAssignment(dataExcelModels.getMsisdnPostpago(),dataExcelModels.getCedulaClientePostpago(),"540");
+        cesionActions1.executeContractAssignment(dataExcelModels.getMsisdnPostpago(),dataExcelModels.getCedulaClientePrepago(),"1210");
     }
 
     @Then("^Se deberia ver en pantalla unica la linea cedida pos$")
@@ -184,16 +185,20 @@ public class SanitySteps{
 
     //-----------<Decimo escenario>----------------
 
-    @When("^Se hace el cambio plan de pre a pos$")
-    public void seHaceElCambioPlanDePreAPos() throws InterruptedException, AWTException {
-        cambioPrePosActions.initialRute();
-        cambioPrePosActions.executeContractAssignment(dataExcelModels.getMsisdnPostpago(),dataExcelModels.getCedulaClientePostpago());
+    @When("^Se ejecuta la suspension de la linea$")
+    public void seEjecutaLaSuspensionDeLaLinea() {
+
+        suspentionActions.consultSingleScreen(dataExcelModels.getMSISDN());
+        suspentionActions.initialRute();
+        suspentionActions.executeSuspentionOfLine(dataExcelModels.getMSISDN());//(dataExcelModels.getMsisdnPrepago());
     }
 
-    @Then("^Se deberia ver en pantalla unica la linea en plan pre$")
-    public void seDeberiaVerEnPantallaUnicaLaLineaEnPlanPre() {
-        prepaidActivationActions.consultSingleScreen(dataExcelModels.getMsisdnPostpago());
+
+    @Then("^Se deberia ver en pantalla unica la linea en estado suspendida$")
+    public void seDeberiaVerEnPantallaUnicaLaLineaEnEstadoSuspendida() {
+        suspentionActions.consultSingleScreen2(dataExcelModels.getMSISDN());
     }
+
 
 }
 

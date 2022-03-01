@@ -58,6 +58,12 @@ Feature: Sanity limpieza y aprovisionamiento de recursos
     When Se hace el cambio plan de pos a pre
     Then Se deberia ver en pantalla unica la linea en plan pos
 
+  @Suspension
+  Scenario: se requiere realizar la suspension de una linea
+    Given Se ingresa al portal CRM para activacion
+    When Se ejecuta la suspension de la linea
+    Then Se deberia ver en pantalla unica la linea en estado suspendida
+
   @cambioPreAPos
   Scenario: se requiere realizar un cambio de plan pre a pos
     Given Se ingresa al portal CRM para activacion

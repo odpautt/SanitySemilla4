@@ -25,6 +25,7 @@ public class CambioPosPreActions extends CambioPosPrePage {
         writePhoneNumber(phonenumber);
         writeReasonForChange();
         writeVendorNumber();
+        waitABit(2000);
         getMotivo().click();
         getMotivo1().click();
         getReasonCause().click();
@@ -37,7 +38,8 @@ public class CambioPosPreActions extends CambioPosPrePage {
         getDriver().findElement(By.id("PlansChangePreForm:bntPlanChange")).click();
         waitABit(2000);
         alertAcept();
-        waitABit(2000);
+        switchToIframe();
+
         getMensajes().waitUntilPresent();
 
         System.out.println(getMensajes().getText());
