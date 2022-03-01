@@ -57,3 +57,9 @@ Feature: Sanity limpieza y aprovisionamiento de recursos
     Given Se ingresa al portal CRM para activacion
     When Se hace el cambio plan de pos a pre
     Then Se deberia ver en pantalla unica la linea en plan pos
+
+  @cambioPreAPos
+  Scenario: se requiere realizar un cambio de plan pre a pos
+    Given Se ingresa al portal CRM para activacion
+    When Se hace el cambio plan de pre a pos
+    Then Se deberia ver en pantalla unica la linea en plan pre

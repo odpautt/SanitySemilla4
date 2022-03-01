@@ -5,8 +5,8 @@ import net.serenitybdd.core.pages.PageObject;
 import net.serenitybdd.core.pages.WebElementFacade;
 import org.openqa.selenium.WebDriver;
 
-public class CambioPosPrePage extends PageObject {
-    public CambioPosPrePage(WebDriver driver) {
+public class CambioPrePosPage extends PageObject {
+    public CambioPrePosPage(WebDriver driver) {
         super(driver);
     }
 
@@ -20,10 +20,10 @@ public class CambioPosPrePage extends PageObject {
     @FindBy(xpath = "//img[@id='pbGf5a1f4f3_2d5ecc_2d4e4a_2d8654_2d6459a01c3953:_viewRoot:j_id4:j_id10:j_id11:0:1::j_id14:handle:img:collapsed']" )
     WebElementFacade lineModification;
 
-    @FindBy(id="pbGf5a1f4f3_2d5ecc_2d4e4a_2d8654_2d6459a01c3953:_viewRoot:j_id4:j_id10:j_id11:0:1:18::j_id17")
+    @FindBy(id = "pbGf5a1f4f3_2d5ecc_2d4e4a_2d8654_2d6459a01c3953:_viewRoot:j_id4:j_id10:j_id11:0:1:4::j_id17")
     WebElementFacade contractAssignment;
 
-    //----------------------------
+//----------------------------
     @FindBy(id ="PlansChangePreForm:msisdnField:msisdn" )
     WebElementFacade phoneNumber;
 
@@ -140,5 +140,3 @@ public class CambioPosPrePage extends PageObject {
         return btnChangePlan;
     }
 }
-
-

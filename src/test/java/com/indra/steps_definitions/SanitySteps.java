@@ -37,6 +37,7 @@ public class SanitySteps{
     ControlActivationActions controlActivationActions = new ControlActivationActions(driver);
     CambioPosPreActions cambioPosPreActions = new CambioPosPreActions(driver);
     AvangerActivationActions avangerActions = new AvangerActivationActions(driver);
+    CambioPrePosActions cambioPrePosActions = new CambioPrePosActions(driver);
 
 //-----------<Primer escenario>----------------
     @Given("^Se ejecutan procedimientos en bd y soapUi$")
@@ -180,6 +181,20 @@ public class SanitySteps{
     public void seDeberiaVerEnPantallaUnicaLaLineaEnPlanPos() {
         prepaidActivationActions.consultSingleScreen(dataExcelModels.getMsisdnPostpago());
     }
+
+    //-----------<Decimo escenario>----------------
+
+    @When("^Se hace el cambio plan de pre a pos$")
+    public void seHaceElCambioPlanDePreAPos() throws InterruptedException, AWTException {
+        cambioPrePosActions.initialRute();
+        cambioPrePosActions.executeContractAssignment(dataExcelModels.getMsisdnPostpago(),dataExcelModels.getCedulaClientePostpago());
+    }
+
+    @Then("^Se deberia ver en pantalla unica la linea en plan pre$")
+    public void seDeberiaVerEnPantallaUnicaLaLineaEnPlanPre() {
+        prepaidActivationActions.consultSingleScreen(dataExcelModels.getMsisdnPostpago());
+    }
+
 }
 
 

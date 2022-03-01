@@ -1,15 +1,13 @@
 package com.indra.actions;
 
 import com.indra.pages.CambioPosPrePage;
-import com.indra.pages.CesionPortalCRMPage;
+import com.indra.pages.CambioPrePosPage;
 import org.openqa.selenium.*;
-import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.ui.Select;
 
 import java.awt.*;
 
-public class CambioPosPreActions extends CambioPosPrePage {
-    public CambioPosPreActions(WebDriver driver) {
+public class CambioPrePosActions extends CambioPrePosPage {
+    public CambioPrePosActions(WebDriver driver) {
         super(driver);
     }
 
@@ -37,7 +35,7 @@ public class CambioPosPreActions extends CambioPosPrePage {
         getDriver().findElement(By.id("PlansChangePreForm:bntPlanChange")).click();
         waitABit(2000);
         alertAcept();
-        waitABit(2000);
+
         getMensajes().waitUntilPresent();
 
         System.out.println(getMensajes().getText());
