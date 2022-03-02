@@ -96,7 +96,6 @@ public class PrepaidActivationPage extends PageObject{
     WebElementFacade ActivationDetails;
 
 
-
     @FindBy(xpath = "//a[@class='TabIcon DefaultPageIcon'][contains(.,'Consultas')]")
     WebElementFacade consult;
 
@@ -254,4 +253,5 @@ public class PrepaidActivationPage extends PageObject{
     public WebElementFacade getSearchButton() {
         return searchButton;
     }
+
 }

@@ -78,6 +78,8 @@ public class CambioPrePosPage extends PageObject {
 
 
 
+    @FindBy(xpath = "//a[@class='TabIcon DefaultPageIcon'][contains(.,'Consultas')]")
+    WebElementFacade consultas;
 
     @FindBy(xpath = "//*[@id='pbGc323725e_2d6efe_2d4037_2d9f93_2d1bc06edfa941:_viewRoot:j_id4:j_id10:j_id11:50::j_id12:handle:img:expanded']")
     WebElementFacade consult;
@@ -198,6 +200,10 @@ public class CambioPrePosPage extends PageObject {
 
     public WebElementFacade getSearchButton() {
         return searchButton;
+    }
+
+    public WebElementFacade getConsultas(){
+        return consultas;
     }
 
 }

@@ -50,7 +50,6 @@ public class CambioPrePosActions extends CambioPrePosPage {
         waitABit(10000);
         getMensajes().waitUntilPresent();
         System.out.println(getMensajes().getText());
-        consultCaja(vendor);
     }
 
     public void postSaleClick(){
@@ -110,8 +109,6 @@ public class CambioPrePosActions extends CambioPrePosPage {
         Alert alert = getDriver().switchTo().alert();
         alert.accept();
     }
-
-
 
     public void selectPlan(){
         Select dropDownPlan= new Select(getDriver().findElement(By.xpath("//*[@id='PlanschangeForm:planField:planField']")));
