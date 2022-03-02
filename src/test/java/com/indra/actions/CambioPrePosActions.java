@@ -4,6 +4,8 @@ import com.indra.pages.CambioPosPrePage;
 import com.indra.pages.CambioPrePosPage;
 import net.serenitybdd.core.annotations.findby.FindBy;
 import net.serenitybdd.core.pages.WebElementFacade;
+import org.hamcrest.MatcherAssert;
+import org.hamcrest.Matchers;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.Select;
 
@@ -21,33 +23,34 @@ public class CambioPrePosActions extends CambioPrePosPage {
         ContractAssignmentClick();
     }
 
-    public void executeContractAssignment(String phonenumber, String idClient) throws InterruptedException, AWTException {
+    public void executeContractAssignment(String phonenumber, String vendor) throws InterruptedException, AWTException {
         switchToIframe();
-        writeReasonForChange();
-        writeVendorNumber();
-        getClic().click();
         writePhoneNumber(phonenumber);
         waitABit(40000);
         System.out.println("ya pasaron 5 sg");
+        writeReasonForChange();
+        writeVendorNumber();
+        getClic().click();
         writeNumber();
         writeMail();
         writeDirection();
         directionClick();
-        getCity().click();
-        getCity1().click();
         getFactura().click();
         getFacturaReducida().click();
         JavascriptExecutor js = (JavascriptExecutor) getDriver();
         js.executeScript("window.scrollBy(0,820)");
         selectPlan();
+        waitABit(3000);
         js.executeScript("window.scrollBy(0,320)");
         renovar();
-        getBtnChangePlan().click();
+        waitABit(2000);
+        getDriver().findElement(By.xpath("//*[@id='PlanschangeForm:bntPlanChange']")).click();
+        waitABit(2000);
         alertAcept();
-
+        waitABit(10000);
         getMensajes().waitUntilPresent();
-
         System.out.println(getMensajes().getText());
+        consultCaja(vendor);
     }
 
     public void postSaleClick(){
@@ -99,6 +102,9 @@ public class CambioPrePosActions extends CambioPrePosPage {
     public void directionClick(){
         getDeparment().click();
         getDeparment1().click();
+        waitABit(5000);
+        getCity().click();
+        getCity1().click();
     }
     public void alertAcept(){
         Alert alert = getDriver().switchTo().alert();
@@ -113,7 +119,18 @@ public class CambioPrePosActions extends CambioPrePosPage {
     }
 
     public void renovar(){
-        Select dropDownRenovar= new Select(getDriver().findElement(By.xpath("//*[@id='PlanschangeForm:InfoAnnualRenewal:decisionField']")));
-        dropDownRenovar.selectByValue("1");
+        getRenovar().click();
+        getRenovar1().click();
+    }
+
+    public void consultCaja(String vendorCC){
+        getDriver().switchTo().defaultContent();
+        getConsult().click();
+        getCaja().click();
+        getPago().click();
+        WebElement iframe = getDriver().findElement(By.id("iframe"));
+        getDriver().switchTo().frame(iframe);
+        enter(vendorCC).into(getCcVendor());
+        getSearchButton().click();
     }
 }

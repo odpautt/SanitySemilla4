@@ -38,7 +38,7 @@ public class CambioPosPreActions extends CambioPosPrePage {
         getDriver().findElement(By.id("PlansChangePreForm:bntPlanChange")).click();
         waitABit(2000);
         alertAcept();
-
+        waitABit(10000);
         getMensajes().waitUntilPresent();
 
         System.out.println(getMensajes().getText());
