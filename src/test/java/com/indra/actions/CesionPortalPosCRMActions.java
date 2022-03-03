@@ -42,11 +42,9 @@ public class CesionPortalPosCRMActions extends CesionPortalCRMPage {
         selectPlan(planNumber);
         btnChangeContractClick();
         alertAcept();
-
+        waitABit(1000);
         getMensajes().waitUntilPresent();
-
         System.out.println(getMensajes().getText());
-
     }
 
     public void postSaleClick(){

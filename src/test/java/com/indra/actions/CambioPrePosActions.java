@@ -26,10 +26,11 @@ public class CambioPrePosActions extends CambioPrePosPage {
     public void executeContractAssignment(String phonenumber, String vendor) throws InterruptedException, AWTException {
         switchToIframe();
         writePhoneNumber(phonenumber);
-        waitABit(40000);
+        waitABit(45000);
         System.out.println("ya pasaron 5 sg");
         writeReasonForChange();
         writeVendorNumber();
+        waitABit(2000);
         getClic().click();
         writeNumber();
         writeMail();

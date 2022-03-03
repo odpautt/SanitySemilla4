@@ -83,6 +83,7 @@ public class PrepaidActivationActions extends PrepaidActivationPage {
         //enter("3016875893").into(getMsisdn2());
         enter(msisdn).into(getMsisdn2());
         getSearchButton().click();
+        waitABit(1000);
         getGeneralCustomerInformation().waitUntilPresent();
         WebElement plan = getDriver().findElement(By.id("j_id135:j_id157"));
 

@@ -190,12 +190,12 @@ public class SanitySteps{
     @When("^Se hace el cambio plan de pre a pos$")
     public void seHaceElCambioPlanDePreAPos() throws InterruptedException, AWTException {
         cambioPrePosActions.initialRute();
-        cambioPrePosActions.executeContractAssignment(dataExcelModels.getMsisdnAvanger(),dataExcelModels.getVendedorPostpago());
+        cambioPrePosActions.executeContractAssignment(dataExcelModels.getMsisdnPostpago(),dataExcelModels.getVendedorPostpago());
     }
 
     @Then("^Se deberia ver en pantalla unica la linea en plan pre$")
     public void seDeberiaVerEnPantallaUnicaLaLineaEnPlanPre() {
-        prepaidActivationActions.consultSingleScreen2(dataExcelModels.getMsisdnAvanger());
+        prepaidActivationActions.consultSingleScreen2(dataExcelModels.getMsisdnPostpago());
     }
 
     //-----------<Once escenario>----------------
