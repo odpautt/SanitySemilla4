@@ -50,6 +50,11 @@ public class DataExcelModels{
     String user;
     String password;
 
+    String msisdnPort;
+    String nip;
+    String msiPort;
+    String clientPort;
+    String portId;
 
     public String getVendedorPrepago() {
         fileXLSX.readFileExcel();
@@ -279,5 +284,35 @@ public class DataExcelModels{
         fileXLSX.readFileExcel();
         CedulaClienteAvanger = fileXLSX.excelArray.get(12).get(1);
         return CedulaClienteAvanger;
+    }
+
+    public String getMsisdnPort() {
+        fileXLSX.readFileExcel();
+        msisdnPort = fileXLSX.excelArray.get(8).get(4);
+        return msisdnPort;
+    }
+
+    public String getNip() {
+        fileXLSX.readFileExcel();
+        nip = fileXLSX.excelArray.get(8).get(6);
+        return nip;
+    }
+
+    public String getMsiPort() {
+        fileXLSX.readFileExcel();
+        msiPort = fileXLSX.excelArray.get(8).get(5);
+        return msiPort;
+    }
+
+    public String getClientPort() {
+        fileXLSX.readFileExcel();
+        clientPort = fileXLSX.excelArray.get(8).get(7);
+        return clientPort;
+    }
+
+    public String getPortId() {
+        fileXLSX.readFileExcel();
+        portId = fileXLSX.excelArray.get(8).get(8);
+        return portId;
     }
 }

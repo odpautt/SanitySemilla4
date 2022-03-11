@@ -58,11 +58,11 @@ Feature: Sanity limpieza y aprovisionamiento de recursos
     When Se hace el cambio plan de pos a pre
     Then Se deberia ver en pantalla unica la linea en plan pos
 
-#  @Suspension
-#  Scenario: se requiere realizar la suspension de una linea
-#    Given Se ingresa al portal CRM para activacion
-#    When Se ejecuta la suspension de la linea
-#    Then Se deberia ver en pantalla unica la linea en estado suspendida
+  @Suspension
+  Scenario: se requiere realizar la suspension de una linea
+    Given Se ingresa al portal CRM para activacion
+    When Se ejecuta la suspension de la linea
+    Then Se deberia ver en pantalla unica la linea en estado suspendida
 
   @cambioPreAPos
   Scenario: se requiere realizar un cambio de plan pre a pos
@@ -70,8 +70,21 @@ Feature: Sanity limpieza y aprovisionamiento de recursos
     When Se hace el cambio plan de pre a pos
     Then Se deberia ver en pantalla unica la linea en plan pre
 
-#  @Reconexion
-#  Scenario: se requiere realizar la reconexion de una linea
-#    Given Se ingresa al portal CRM para activacion
-#    When Se ejecuta la reconexion de la linea
-#    Then Se deberia ver en pantalla unica la linea en estado reconectada
+  @Reconexion
+  Scenario: se requiere realizar la reconexion de una linea
+    Given Se ingresa al portal CRM para activacion
+    When Se ejecuta la reconexion de la linea
+    Then Se deberia ver en pantalla unica la linea en estado reconectada
+
+  @portalPortPort
+  Scenario: se requiere realizar una portabilidad pospago
+    Given Se ingresa al portal CRM para activacion
+    When Se valida la linea a portar y transacciones
+
+
+#    And Se ingresa a windex a la confirmacion de inventario
+#    Then se realiza la activacion prepago
+#    And Se realiza la activacion avengers
+#    And se realiza la activacion nintendo
+#    And la cesion de contrato pre a pos
+#    And la cesion de contrato

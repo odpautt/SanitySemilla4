@@ -214,7 +214,7 @@ public class SanitySteps{
         suspentionActions.consultSingleScreen2(dataExcelModels.getMSISDN());
     }
 
-    //--------------<Excenario Once>---------------------
+    //--------------<Doce escenario>---------------------
 
     @When("^Se ejecuta la reconexion de la linea$")
     public void seEjecutaLaReconexionDeLaLinea() {
@@ -228,6 +228,12 @@ public class SanitySteps{
     public void seDeberiaVerEnPantallaUnicaLaLineaEnEstadoReconectada() {
         reconnectionActions.consultSingleScreen2(dataExcelModels.getMSISDN());
     }
+
+    //--------------<Trece escenario>---------------------
+    @When("^Se valida la linea a portar y transacciones$")
+    public void seValidaLaLineaAPortarYTransacciones() {
+    }
+
 
 }
 
