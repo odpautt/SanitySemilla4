@@ -230,8 +230,32 @@ public class SanitySteps{
     }
 
     //--------------<Trece escenario>---------------------
-    @When("^Se valida la linea a portar y transacciones$")
-    public void seValidaLaLineaAPortarYTransacciones() {
+    @When("^se hace la solicitud de portabilidad$")
+    public void seHaceLaSolicitudDePortabilidad() {
+    }
+
+    @When("^se realiza la activacion de la linea a portar$")
+    public void seRealizaLaActivacionDeLaLineaAPortar() {
+    }
+
+    @When("^se crea la ventana de portacion en SoapUi$")
+    public void seCreaLaVentanaDePortacionEnSoapUi() {
+    }
+
+    @When("^Se deberia ver en pantalla unica la linea en estado activado$")
+    public void seDeberiaVerEnPantallaUnicaLaLineaEnEstadoActivado() {
+        // Write code here that turns the phrase above into concrete actions
+        throw new PendingException();
+    }
+
+    @When("^se realiza la ejecucion de la shell de portacion$")
+    public void seRealizaLaEjecucionDeLaShellDePortacion() {
+    }
+
+    @Then("^Se deberia ver en pantalla unica la linea en estado activado$")
+    public void seDeberiaVerEnPantallaUnicaLaLineaEnEstadoActivado() {
+        // Write code here that turns the phrase above into concrete actions
+        throw new PendingException();
     }
 
 

@@ -29,9 +29,10 @@ public class PortabilityPostActivationActions extends PortabilityPostActivationP
         enter(msisdnPort).into(getInputMsisdn());
         getBtnSolicitar().click();
         WebElement soliNip = getDriver().findElement(By.id("frmSlctdPin:j_id42"));
-        MatcherAssert.assertThat("el plan es Postpago",
-                soliNip.getText(),Matchers.containsString("Pospago 5.") );
+        MatcherAssert.assertThat("solicitud nip exitosa",
+                soliNip.getText(),Matchers.containsString("Las solicitudes se procesaron") );
     }
+
     public void validateLinesBd() throws SQLException {
         databasePortInActions.cleanLinesMsisdn(dataExcelModels.getMsisdnPort());
         databasePortInActions.cleanLinesMsi(dataExcelModels.getMsiPort());
@@ -71,6 +72,7 @@ public class PortabilityPostActivationActions extends PortabilityPostActivationP
 
     public void initialRute(String msisdnPort) throws SQLException {
         validateLinesBd();
+        consultSingleScreen(msisdnPort);
         validateTransctionBd();
         solicitudNip(msisdnPort);
         validateTransctionBd();

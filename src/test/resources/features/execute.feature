@@ -82,9 +82,12 @@ Feature: Sanity limpieza y aprovisionamiento de recursos
     When Se valida la linea a portar y transacciones
 
 
-#    And Se ingresa a windex a la confirmacion de inventario
-#    Then se realiza la activacion prepago
-#    And Se realiza la activacion avengers
-#    And se realiza la activacion nintendo
-#    And la cesion de contrato pre a pos
-#    And la cesion de contrato
+  @PrepayPortability
+  Scenario: se requiere realizar una portabilidad pospago
+    Given Se ingresa al portal CRM para activacion
+    When se hace la solicitud de portabilidad
+    And se realiza la activacion de la linea a portar
+    And se crea la ventana de portacion en SoapUi
+    And Se deberia ver en pantalla unica la linea en estado activado
+    And se realiza la ejecucion de la shell de portacion
+    Then Se deberia ver en pantalla unica la linea en estado activado
