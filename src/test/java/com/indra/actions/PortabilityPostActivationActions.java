@@ -43,7 +43,7 @@ public class PortabilityPostActivationActions extends PortabilityPostActivationP
     }
 
     public void aceptNitBd() throws SQLException {
-        databasePortInActions.executePortabilityNip(dataExcelModels.getMsiPort());
+        databasePortInActions.executePortabilityNip(dataExcelModels.getMsisdnPort());
     }
 
     public void consultNipBd() throws SQLException {

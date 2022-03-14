@@ -147,7 +147,7 @@ public class UninstallCBSServicesActions {
         return contadorPalabras;
 
     }
-    public String portabilidad(String nip,String operadorTransactionId,String msisdn,String portId,String donorId, String URL){
+    public String portabilidad(String operadorTransactionId,String portId,String donorId,String msisdn,String nip, String URL){
         String response = given()
                 .headers("Content-type","text/xml;charset=UTF-8")
                 .body("<soapenv:Envelope xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:npc=\"http://NPCRMWS.hp.com/\">\n" +

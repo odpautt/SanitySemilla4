@@ -41,6 +41,7 @@ public class SanitySteps{
     CambioPrePosActions cambioPrePosActions = new CambioPrePosActions(driver);
     SuspentionActions suspentionActions = new SuspentionActions(driver);
     ReconnectionActions reconnectionActions = new ReconnectionActions(driver);
+    PortabilityPrepaidActions portabilityPrepaidActions = new PortabilityPrepaidActions(driver);
 
 //-----------<Primer escenario>----------------
     @Given("^Se ejecutan procedimientos en bd y soapUi$")
@@ -229,33 +230,64 @@ public class SanitySteps{
         reconnectionActions.consultSingleScreen2(dataExcelModels.getMSISDN());
     }
 
-    //--------------<Trece escenario>---------------------
-    @When("^se hace la solicitud de portabilidad$")
-    public void seHaceLaSolicitudDePortabilidad() {
+//    //--------------<Trece escenario>---------------------
+//    @When("^se hace la solicitud de portabilidad$")
+//    public void seHaceLaSolicitudDePortabilidad() {
+//        System.out.println();
+//    }
+//
+//    @When("^se realiza la activacion de la linea a portar$")
+//    public void seRealizaLaActivacionDeLaLineaAPortar() {
+//    }
+//
+//    @When("^se crea la ventana de portacion en SoapUi$")
+//    public void seCreaLaVentanaDePortacionEnSoapUi() {
+//    }
+//
+//    @When("^Se deberia ver en pantalla unica la linea en estado activado$")
+//    public void seDeberiaVerEnPantallaUnicaLaLineaEnEstadoActivado() {
+//
+//    }
+//
+//    @When("^se realiza la ejecucion de la shell de portacion$")
+//    public void seRealizaLaEjecucionDeLaShellDePortacion() {
+//    }
+
+
+
+    //--------------<Excenario catorce>---------------------
+
+
+    @When("^se hace la solicitud de portabilidad prepago$")
+    public void seHaceLaSolicitudDePortabilidadPrepago() throws SQLException {
+        portabilityPrepaidActions.makePortabilityRequestAndDB("3017262149");
+
     }
 
-    @When("^se realiza la activacion de la linea a portar$")
-    public void seRealizaLaActivacionDeLaLineaAPortar() {
-    }
 
-    @When("^se crea la ventana de portacion en SoapUi$")
-    public void seCreaLaVentanaDePortacionEnSoapUi() {
-    }
+    @When("^se realiza la activacion de la linea portada$")
+    public void seRealizaLaActivacionDeLaLineaPortada() throws SQLException {
+        portabilityPrepaidActions.initialRute();
+        portabilityPrepaidActions.customerInformation(dataExcelModels.getVendedorPostpago()
+                , dataExcelModels.getCedulaClienteAvanger());
+        portabilityPrepaidActions.activationInformation("3045984642","3043209868","732111193278813");
+        portabilityPrepaidActions.selectNextBusinessDayFromCalendar();
 
-    @When("^Se deberia ver en pantalla unica la linea en estado activado$")
-    public void seDeberiaVerEnPantallaUnicaLaLineaEnEstadoActivado() {
-        // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
-    }
+        // ejecucion del servicio de soapUI para la portabilidad
+        //portabilityPrepaidActions.portabilityRequestSoapUI();
 
-    @When("^se realiza la ejecucion de la shell de portacion$")
-    public void seRealizaLaEjecucionDeLaShellDePortacion() {
+
     }
 
     @Then("^Se deberia ver en pantalla unica la linea en estado activado$")
     public void seDeberiaVerEnPantallaUnicaLaLineaEnEstadoActivado() {
-        // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
+
+    }
+
+
+    @Then("^se deberia ver en CBS la linea activada$")
+    public void seDeberiaVerEnCBSLaLineaActivada() {
+
     }
 
 

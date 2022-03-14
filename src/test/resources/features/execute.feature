@@ -82,7 +82,7 @@ Feature: Sanity limpieza y aprovisionamiento de recursos
     When Se valida la linea a portar y transacciones
 
 
-  @PrepayPortability
+  @PosPayPortability
   Scenario: se requiere realizar una portabilidad pospago
     Given Se ingresa al portal CRM para activacion
     When se hace la solicitud de portabilidad
@@ -91,3 +91,12 @@ Feature: Sanity limpieza y aprovisionamiento de recursos
     And Se deberia ver en pantalla unica la linea en estado activado
     And se realiza la ejecucion de la shell de portacion
     Then Se deberia ver en pantalla unica la linea en estado activado
+
+
+  @PrepayPortability
+  Scenario: se requiere realizar la reconexion de una linea
+    Given Se ingresa al portal CRM para activacion
+    When se hace la solicitud de portabilidad prepago
+    And se realiza la activacion de la linea portada
+    Then Se deberia ver en pantalla unica la linea en estado activado
+    And se deberia ver en CBS la linea activada

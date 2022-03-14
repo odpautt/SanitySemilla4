@@ -4,6 +4,8 @@ import com.indra.models.DataExcelModels;
 import oracle.jdbc.datasource.impl.OracleDataSource;
 
 import java.sql.*;
+import java.util.ArrayList;
+import java.util.List;
 
 public class DatabasePortInActions extends DataExcelModels {
 
@@ -17,9 +19,9 @@ public class DatabasePortInActions extends DataExcelModels {
                 , msi);
     }
 
-    public void executePortabilityTransactionStatus(String msisdn) throws SQLException {
+    public String executePortabilityTransactionStatus(String msisdn) throws SQLException {
         //msisdn= getMSISDN();-- se tomaria desde el excel datamodel se debe crear
-        portabilityTransactionStatus(getUrlDBA(),getPort(),getServiceA(),getUserA(),getPasswordA()
+        return portabilityTransactionStatus(getUrlDBA(),getPort(),getServiceA(),getUserA(),getPasswordA()
                 ,msisdn);
     }
 
@@ -28,9 +30,10 @@ public class DatabasePortInActions extends DataExcelModels {
                 ,msisdn);
     }
 
-    public void executeSelectNip(String nip) throws SQLException {
-        selectNip(getUrlDBA(),getPort(),getServiceA(),getUserA(),getPasswordA()
+    public String executeSelectNip(String nip) throws SQLException {
+        String data= selectNip(getUrlDBA(),getPort(),getServiceA(),getUserA(),getPasswordA()
                 ,nip);
+        return data;
     }
 
     public void executePortabilityRecept(String msisdn) throws SQLException {
@@ -48,8 +51,8 @@ public class DatabasePortInActions extends DataExcelModels {
                 ,portId);
     }
 
-    public void executePortabilityTransaction(String portId) throws SQLException {
-        portabilityTransaction(getUrlDBA(),getPort(),getServiceA(),getUserA(),getPasswordA()
+    public List<String> executePortabilityTransaction(String portId) throws SQLException {
+        return portabilityTransaction(getUrlDBA(),getPort(),getServiceA(),getUserA(),getPasswordA()
                 ,portId);
     }
 
@@ -73,11 +76,10 @@ public class DatabasePortInActions extends DataExcelModels {
         conn = ods.getConnection();
         Statement stmt=conn.createStatement();
         try {
-            String query = "delete from siebel.CX_DEVICE_MSISDN where device='"+msisdn+"'; COMMIT;";
-            resultSet = stmt.executeQuery(query);// realiza la ejecución de query
-            while (resultSet.next()) {
-                System.out.println(resultSet.getString(3));
-            }
+            String query = "delete from siebel.CX_DEVICE_MSISDN where device='"+msisdn+"'";
+            stmt.executeUpdate(query);// realiza la ejecución de query
+            stmt.execute("COMMIT");
+            System.out.println("Delete siebel.CX_DEVICE_MSISDN - Exitoso");
         }
         //Close the result set, statement, and the connection
         finally{
@@ -98,11 +100,10 @@ public class DatabasePortInActions extends DataExcelModels {
         conn = ods.getConnection();
         Statement stmt=conn.createStatement();
         try {
-            String query = "delete from SIEBEL.cx_device_chip where IMSI='"+msi+"'; COMMIT;";
-            resultSet = stmt.executeQuery(query);// realiza la ejecución de query
-            while (resultSet.next()) {
-                System.out.println(resultSet.getString(3));
-            }
+            String query = "delete from SIEBEL.cx_device_chip where IMSI='"+msi+"'";
+            stmt.executeUpdate(query);// realiza la ejecución de query
+            stmt.execute("COMMIT");
+            System.out.println("Delete SIEBEL.cx_device_chip - Exitoso");
         }
         //Close the result set, statement, and the connection
         finally{
@@ -111,8 +112,9 @@ public class DatabasePortInActions extends DataExcelModels {
     }
 //---------------------------------PortIn-------------------------------------
 
-    public void portabilityTransactionStatus(String url, String port, String service, String user, String password,
-                                             String msisdn) throws SQLException {
+    public String portabilityTransactionStatus(String url, String port, String service, String user, String password,
+                                               String msisdn) throws SQLException {
+        String response="";
         OracleDataSource ods = null;
         Connection conn= null;
         ResultSet resultSet = null;
@@ -132,19 +134,16 @@ public class DatabasePortInActions extends DataExcelModels {
                     "ORDER BY ps.create_date ASC";
             resultSet = stmt.executeQuery(query);// realiza la ejecución de query
             while (resultSet.next()) {
-           /* System.out.println(resultSet.getString(1)+"----"+resultSet.getString(2)
-                    +"----"+resultSet.getString(3)+"----"+resultSet.getString(4)
-                    +"----"+resultSet.getString(5)+"----"+resultSet.getString(6)
-                    +"----"+resultSet.getString(7)+"----"+resultSet.getString(8)
-                    +"----"+resultSet.getString(9)+"----"+resultSet.getString(10)
-                    +"----"+resultSet.getString(11)+"----"+resultSet.getString(12));*/
-                System.out.println(resultSet.getString(3));
+                response=resultSet.getString(3);
+
+                //System.out.println(resultSet.getString(3));
             }
         }
         //Close the result set, statement, and the connection
         finally{
             if(conn!=null) conn.close();
         }
+        return response;
     }
 
     public void portabilityNip(String url, String port, String service, String user, String password,
@@ -160,11 +159,12 @@ public class DatabasePortInActions extends DataExcelModels {
         conn = ods.getConnection();
         Statement stmt=conn.createStatement();
         try {
-            String query = "update activator.portability_transactions set STATUS = 'PIN_REQUEST_ACEPTADO', NIP=null where msisdn in ('"+msisdn+"','','');COMMIT;";
-            resultSet = stmt.executeQuery(query);// realiza la ejecución de query
-            while (resultSet.next()) {
-                System.out.println(resultSet.getString(3));
-            }
+            String query = "update activator.portability_transactions set STATUS = 'PIN_REQUEST_ACEPTADO', NIP=null where msisdn in ('"+msisdn+"','','')";
+            //System.out.println(query);
+            stmt.execute(query);
+            stmt.execute("COMMIT");
+            System.out.println("Update PIN_REQUEST_ACEPTADO - Exitoso");
+
         }
         //Close the result set, statement, and the connection
         finally{
@@ -172,8 +172,9 @@ public class DatabasePortInActions extends DataExcelModels {
         }
     }
 
-    public void selectNip(String url, String port, String service, String user, String password,
-                               String nip) throws SQLException {
+    public String selectNip(String url, String port, String service, String user, String password,
+                            String nip) throws SQLException {
+        String data="";
         OracleDataSource ods = null;
         Connection conn= null;
         ResultSet resultSet = null;
@@ -188,13 +189,17 @@ public class DatabasePortInActions extends DataExcelModels {
             String query = "select * from activator.portability_transactions where NIP IN ('"+nip+"')";
             resultSet = stmt.executeQuery(query);// realiza la ejecución de query
             while (resultSet.next()) {
-                System.out.println(resultSet.getString(3));
+                data=resultSet.getString(3);
+                //System.out.println(resultSet.getString(3));
             }
+
         }
         //Close the result set, statement, and the connection
         finally{
             if(conn!=null) conn.close();
         }
+
+        return data;
     }
 
     public void portabilityRecept(String url, String port, String service, String user, String password,
@@ -210,11 +215,10 @@ public class DatabasePortInActions extends DataExcelModels {
         conn = ods.getConnection();
         Statement stmt=conn.createStatement();
         try {
-            String query = "update activator.portability_transactions set STATUS = 'PORT_IN_ACK_RECIBIDO' where msisdn in ('"+msisdn+"','','');COMMIT;";
-            resultSet = stmt.executeQuery(query);// realiza la ejecución de query
-            while (resultSet.next()) {
-                System.out.println(resultSet.getString(3));
-            }
+            String query = "update activator.portability_transactions set STATUS = 'PORT_IN_ACK_RECIBIDO' where msisdn in ('"+msisdn+"','','')";
+            stmt.execute(query);// realiza la ejecución de query
+            stmt.execute("COMMIT");
+            System.out.println("Update PORT_IN_ACK_RECIBIDO - Exitoso");
         }
         //Close the result set, statement, and the connection
         finally{
@@ -260,11 +264,10 @@ public class DatabasePortInActions extends DataExcelModels {
         conn = ods.getConnection();
         Statement stmt=conn.createStatement();
         try {
-            String query = "update activator.portability_transactions set PORT_ID ='"+portId+"' where msisdn ='"+msisdn+"'; COMMIT;";
-            resultSet = stmt.executeQuery(query);// realiza la ejecución de query
-            while (resultSet.next()) {
-                System.out.println(resultSet.getString(3));
-            }
+            String query = "update activator.portability_transactions set PORT_ID ='"+portId+"' where msisdn ='"+msisdn+"'";
+            stmt.execute(query);// realiza la ejecución de query
+            stmt.execute("COMMIT");
+            System.out.println("Update PORT_ID - Exitoso");
         }
         //Close the result set, statement, and the connection
         finally{
@@ -297,8 +300,10 @@ public class DatabasePortInActions extends DataExcelModels {
         }
     }
 
-    public void portabilityTransaction(String url, String port, String service, String user, String password,
-                                  String msisdn) throws SQLException {
+    public List<String> portabilityTransaction(String url, String port, String service, String user, String password,
+                                               String msisdn) throws SQLException {
+        List<String> response = new ArrayList<>();
+
         OracleDataSource ods = null;
         Connection conn= null;
         ResultSet resultSet = null;
@@ -310,15 +315,21 @@ public class DatabasePortInActions extends DataExcelModels {
         conn = ods.getConnection();
         Statement stmt=conn.createStatement();
         try {
-            String query = "select * from  activator.portability_transactions where msisdn ='"+msisdn+"';";
+            String query = "select * from  activator.portability_transactions where msisdn ='"+msisdn+"'";
             resultSet = stmt.executeQuery(query);// realiza la ejecución de query
             while (resultSet.next()) {
-                System.out.println(resultSet.getString(3));
+                //System.out.println(resultSet.getString(2)+resultSet.getString(4)+resultSet.getString(5)+resultSet.getString(9)+resultSet.getString(10));
+                response.add(resultSet.getString(2));
+                response.add(resultSet.getString(4));
+                response.add(resultSet.getString(5));
+                response.add(resultSet.getString(9));
+                response.add(resultSet.getString(10));
             }
         }
         //Close the result set, statement, and the connection
         finally{
             if(conn!=null) conn.close();
         }
+        return response;
     }
 }
