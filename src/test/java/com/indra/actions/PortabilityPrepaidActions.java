@@ -44,7 +44,6 @@ public class PortabilityPrepaidActions extends PortabilityPrepaidPage {
     }
 
 
-
     public void initialRute(){
         switchToDefaultContent();
         clickSale();
@@ -312,7 +311,6 @@ public class PortabilityPrepaidActions extends PortabilityPrepaidPage {
         MatcherAssert.assertThat("la respuesta del servicio es O",
                 servicesActions.extractResponseInformation(response,"return"),Matchers.equalTo("0"));
        }
-
 
 }
 

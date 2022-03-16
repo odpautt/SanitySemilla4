@@ -2,8 +2,6 @@ package com.indra.actions;
 
 import com.indra.models.DataExcelModels;
 import com.indra.pages.PortabilityPostActivationPage;
-import net.serenitybdd.core.annotations.findby.FindBy;
-import net.serenitybdd.core.pages.WebElementFacade;
 import org.hamcrest.MatcherAssert;
 import org.hamcrest.Matchers;
 import org.openqa.selenium.By;
@@ -17,20 +15,11 @@ import java.util.List;
 public class PortabilityPostActivationActions extends PortabilityPostActivationPage {
     DataExcelModels dataExcelModels = new DataExcelModels();
     DatabasePortInActions databasePortInActions = new DatabasePortInActions();
+    UninstallCBSServicesActions servicesActions = new UninstallCBSServicesActions();
+
+
     public PortabilityPostActivationActions(WebDriver driver) {
         super(driver);
-    }
-
-    public void solicitudNip(String msisdnPort) throws SQLException {
-        getPreventa().click();
-        getPortabilidadNumerica().click();
-        getSolicitudes().click();
-        getSolicitudNip().click();
-        enter(msisdnPort).into(getInputMsisdn());
-        getBtnSolicitar().click();
-        WebElement soliNip = getDriver().findElement(By.id("frmSlctdPin:j_id42"));
-        MatcherAssert.assertThat("solicitud nip exitosa",
-                soliNip.getText(),Matchers.containsString("Las solicitudes se procesaron") );
     }
 
     public void validateLinesBd() throws SQLException {
@@ -38,8 +27,8 @@ public class PortabilityPostActivationActions extends PortabilityPostActivationP
         databasePortInActions.cleanLinesMsi(dataExcelModels.getMsiPort());
     }
 
-    public void validateTransctionBd() throws SQLException {
-        databasePortInActions.executePortabilityTransactionStatus(dataExcelModels.getMsiPort());
+    public String validateTransctionBd() throws SQLException {
+        return databasePortInActions.executePortabilityTransactionStatus(dataExcelModels.getMsisdnPort());
     }
 
     public void aceptNitBd() throws SQLException {
@@ -55,30 +44,67 @@ public class PortabilityPostActivationActions extends PortabilityPostActivationP
     }
 
     public void executeUpdatePortIdBd() throws SQLException {
-        databasePortInActions.executeUpdatePortId(dataExcelModels.getMsiPort(), dataExcelModels.getMsisdnPort());
+        databasePortInActions.executeUpdatePortId(portId(), dataExcelModels.getMsisdnPort());
     }
 
     public void executePortIdBd() throws SQLException {
-        databasePortInActions.executePortId(dataExcelModels.getPortId());
+        databasePortInActions.executePortId(portId());
     }
 
-    public void executePortabilityTransactionBd() throws SQLException {
-        databasePortInActions.executePortabilityTransaction(dataExcelModels.getPortId());
+    public List<String> executePortabilityTransactionBd() throws SQLException {
+        return databasePortInActions.executePortabilityTransaction(dataExcelModels.getMsisdnPort());
     }
 
     public void executeWindowPortabilityBd() throws SQLException {
         databasePortInActions.executeWindowPortability(dataExcelModels.getMsisdnPort());
     }
 
+    public void solicitudNip(String msisdnPort) throws SQLException {
+        getPreventa().click();
+        getPortabilidadNumerica().click();
+        getSolicitudes().click();
+        getSolicitudNip().click();
+        enter(msisdnPort).into(getInputMsisdn());
+        getBtnSolicitar().click();
+        WebElement soliNip = getDriver().findElement(By.id("frmSlctdPin:j_id42"));
+        MatcherAssert.assertThat("solicitud nip exitosa",
+                soliNip.getText(),Matchers.containsString("Las solicitudes se procesaron") );
+    }
+
+    public String portId(){
+        String nip = dataExcelModels.getMsisdnPort().substring(5,10);
+        // logica si esta sumar 1 al nip
+        // nip = String.valueOf(Integer.valueOf(nip) + 1);
+        // repertir consulta
+        String portId= "000022011082401"+nip;
+        return portId;
+    }
+
+    public void preWindow() throws SQLException {
+        executePortabilityReceptBd();
+        validateLinesBd();
+        executePortIdBd();
+        executeUpdatePortIdBd();
+        executePortIdBd();
+    }
+
     public void initialRute(String msisdnPort) throws SQLException {
         validateLinesBd();
         consultSingleScreen(msisdnPort);
         validateTransctionBd();
+        switchToDefaultContent();
         solicitudNip(msisdnPort);
         validateTransctionBd();
         aceptNitBd();
         validateTransctionBd();
+        MatcherAssert.assertThat("el status es PIN_REQUEST_ACEPTADO",
+                validateTransctionBd(),Matchers.equalTo("PIN_REQUEST_ACEPTADO"));
         consultNipBd();
+        System.out.println();
+    }
+
+    public void switchToDefaultContent(){
+        getDriver().switchTo().defaultContent();
     }
 
     public void initialPortability(){
@@ -103,7 +129,14 @@ public class PortabilityPostActivationActions extends PortabilityPostActivationP
         getBtnContinue().click();
     }
 
-    public void activationPortability(String nip,String msisdnPort, String msisdn, String msi){
+    public void activationPortability(String msisdnPort, String msisdn, String msi) throws SQLException {
+        String nip = msisdnPort.substring(5,10);
+        consultNipBd();
+        // logica si esta sumar 1 al nip
+        // nip = String.valueOf(Integer.valueOf(nip) + 1);
+        // repertir consulta
+        String portId= "000022011082401"+nip;
+        //System.out.println(nip +" *****"+ portId);
         getTypeTel().click();
         getPospago().click();
         enter(nip).into(getNip());
@@ -121,7 +154,7 @@ public class PortabilityPostActivationActions extends PortabilityPostActivationP
         js.executeScript("window.scrollBy(0,420)"); //Scroll vertically down by 1000 pixels
         WebElement iframe = getDriver().findElement(By.id("iframe"));
         getDriver().switchTo().frame(iframe);
-        waitABit(500);
+        waitABit(5000);
         WebElement continuar = getDriver().findElement(By.name("ActivacionesForm:btnContinuarActivacionVenta"));
         continuar.click();
     }
@@ -149,8 +182,8 @@ public class PortabilityPostActivationActions extends PortabilityPostActivationP
         getContinueDemo().click();
         //getContinueSale().click();
         waitABit(2000);
-        //getConfirm().click();
-        //getActivationDetails().waitUntilPresent();
+        getConfirm().click();
+        getActivationDetails().waitUntilPresent();
         WebElement title = getDriver().findElement(By.className("tituloPagina"));
         MatcherAssert.assertThat("La activacion fue exitosa",title.getText(), Matchers.equalTo("ACTIVACION EXITOSA"));
     }
@@ -218,6 +251,17 @@ public class PortabilityPostActivationActions extends PortabilityPostActivationP
                 plan.getText(),Matchers.containsString("Operation is successful") );
     }
 
+    public void validateLineTemporal(String msisdn) throws SQLException {
+        consultSingleScreen1(msisdn);
+        validateTransctionBd();
+    }
+
+    public void validateLineTemporal1(String msisdn) throws SQLException {
+        consultSingleScreen2(msisdn);
+        validateTransctionBd();
+    }
+
+
     public void consultSingleScreen2(String msisdn){
         getDriver().switchTo().defaultContent();
         getConsult().click();
@@ -233,13 +277,32 @@ public class PortabilityPostActivationActions extends PortabilityPostActivationP
         getGeneralCustomerInformation().waitUntilPresent();
         WebElement plan = getDriver().findElement(By.id("j_id135:j_id157"));
 
-        MatcherAssert.assertThat("el plan es prepago",
-                plan.getText(),Matchers.containsString("Plan Tigo Prepago") );
+        MatcherAssert.assertThat("el plan es pospago",
+                plan.getText(),Matchers.containsString("Pospago 5.") );
+
         JavascriptExecutor js = (JavascriptExecutor) getDriver();
         js.executeScript("window.scrollBy(0,420)"); //Scroll vertically down by 1000 pixels
         getHlr().click();
         WebElement hrl = getDriver().findElement(By.id("j_id473:j_id477"));
         MatcherAssert.assertThat("el hrl es ",
                 plan.getText(),Matchers.containsString("Operation is successful") );
+    }
+
+    public void portabilityRequestSoapUI() throws SQLException {
+        String response = servicesActions.portabilidad(executePortabilityTransactionBd().get(0),
+                executePortabilityTransactionBd().get(1),
+                executePortabilityTransactionBd().get(2),
+                executePortabilityTransactionBd().get(3),
+                executePortabilityTransactionBd().get(5),
+                "http://10.69.60.105:8080/PortabilidadServiceEAR-HPNPCommunicationsDelegateEJB/NPCRMWSImpl?wsdl");
+
+        MatcherAssert.assertThat("la respuesta del servicio es O",
+                servicesActions.extractResponseInformation(response,"return"),Matchers.equalTo("0"));
+    }
+
+    public void window() throws SQLException {
+        executeWindowPortabilityBd();
+        portabilityRequestSoapUI();
+        executeWindowPortabilityBd();
     }
 }

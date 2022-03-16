@@ -51,9 +51,9 @@ public class DatabasePortInActions extends DataExcelModels {
                 ,portId);
     }
 
-    public List<String> executePortabilityTransaction(String portId) throws SQLException {
+    public List<String> executePortabilityTransaction(String msisdn) throws SQLException {
         return portabilityTransaction(getUrlDBA(),getPort(),getServiceA(),getUserA(),getPasswordA()
-                ,portId);
+                ,msisdn);
     }
 
     public void executeWindowPortability(String msisdn) throws SQLException {

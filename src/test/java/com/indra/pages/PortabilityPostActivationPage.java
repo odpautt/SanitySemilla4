@@ -197,9 +197,19 @@ public class PortabilityPostActivationPage extends PageObject{
     @FindBy(xpath = "//input[contains(@id,'ActivacionesForm:btnContinuarActivacionDemografica')]")
     WebElementFacade continueDemo;
 
-    @FindBy(id = "popupConfirmacionDatos:confirmarDatos")
-    WebElementFacade continuee;
+    @FindBy(xpath = "//input[contains(@id,'popupConfirmacionDatos:confirmarDatos')]")
+    WebElementFacade confirm;
 
+    @FindBy (className = "rf-cp-lbl-exp")
+    WebElementFacade ActivationDetails;
+
+    public WebElementFacade getConfirm() {
+        return confirm;
+    }
+
+    public WebElementFacade getActivationDetails() {
+        return ActivationDetails;
+    }
 
     public WebElementFacade getConsult() {
         return consult;
@@ -437,7 +447,4 @@ public class PortabilityPostActivationPage extends PageObject{
         return continueDemo;
     }
 
-    public WebElementFacade getContinuee() {
-        return continuee;
-    }
 }

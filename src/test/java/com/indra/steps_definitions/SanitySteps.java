@@ -42,6 +42,7 @@ public class SanitySteps{
     SuspentionActions suspentionActions = new SuspentionActions(driver);
     ReconnectionActions reconnectionActions = new ReconnectionActions(driver);
     PortabilityPrepaidActions portabilityPrepaidActions = new PortabilityPrepaidActions(driver);
+    PortabilityPostActivationActions portabilityPostActivationActions = new PortabilityPostActivationActions(driver);
 
 //-----------<Primer escenario>----------------
     @Given("^Se ejecutan procedimientos en bd y soapUi$")
@@ -230,31 +231,46 @@ public class SanitySteps{
         reconnectionActions.consultSingleScreen2(dataExcelModels.getMSISDN());
     }
 
-//    //--------------<Trece escenario>---------------------
-//    @When("^se hace la solicitud de portabilidad$")
-//    public void seHaceLaSolicitudDePortabilidad() {
-//        System.out.println();
-//    }
-//
-//    @When("^se realiza la activacion de la linea a portar$")
-//    public void seRealizaLaActivacionDeLaLineaAPortar() {
-//    }
-//
-//    @When("^se crea la ventana de portacion en SoapUi$")
-//    public void seCreaLaVentanaDePortacionEnSoapUi() {
-//    }
-//
-//    @When("^Se deberia ver en pantalla unica la linea en estado activado$")
-//    public void seDeberiaVerEnPantallaUnicaLaLineaEnEstadoActivado() {
-//
-//    }
-//
-//    @When("^se realiza la ejecucion de la shell de portacion$")
-//    public void seRealizaLaEjecucionDeLaShellDePortacion() {
-//    }
+    //--------------<Trece escenario>---------------------
+    @When("^se hace la solicitud de portabilidad$")
+    public void seHaceLaSolicitudDePortabilidad() throws SQLException {
+        portabilityPostActivationActions.initialRute(dataExcelModels.getMsisdnPort());
+    }
 
+    @When("^se realiza la activacion de la linea a portar$")
+    public void seRealizaLaActivacionDeLaLineaAPortar() throws SQLException {
+        portabilityPostActivationActions.initialPortability();
+        portabilityPostActivationActions.customerInformation(dataExcelModels.getVendedorPostpago()
+                , dataExcelModels.getClientPort());
+        portabilityPostActivationActions.activationPortability(dataExcelModels.getMsisdnPort(),dataExcelModels.getMsisdnPostpago(), dataExcelModels.getMsiPort());
+        portabilityPostActivationActions.selectNextBusinessDayFromCalendar();
+        portabilityPostActivationActions.demographicInformation();
 
+    }
 
+    @Then("^Se deberia ver en pantalla unica la linea en estado activado$")
+    public void seDeberiaVerEnPantallaUnicaLaLineaEnEstadoActivado() throws SQLException {
+        portabilityPostActivationActions.validateLineTemporal(dataExcelModels.getMsisdnPostpago());
+    }
+
+    @When("^se ejecutan los procedimientos preventana$")
+    public void seEjecutanLosProcedimientosPreventana() throws SQLException {
+        portabilityPostActivationActions.preWindow();
+    }
+
+    @When("^se crea la ventana de portacion en SoapUi$")
+    public void seCreaLaVentanaDePortacionEnSoapUi() throws SQLException {
+        portabilityPostActivationActions.window();
+    }
+
+    @When("^se realiza la ejecucion de la shell de portacion$")
+    public void seRealizaLaEjecucionDeLaShellDePortacion() {
+    }
+
+    @Then("^Se deberia ver en pantalla unica la linea en estado activado la linea portada$")
+    public void seDeberiaVerEnPantallaUnicaLaLineaEnEstadoActivadoLaLineaPortada() throws SQLException {
+        portabilityPostActivationActions.validateLineTemporal1(dataExcelModels.getMsisdnPort());
+    }
     //--------------<Excenario catorce>---------------------
 
 
@@ -279,10 +295,10 @@ public class SanitySteps{
 
     }
 
-    @Then("^Se deberia ver en pantalla unica la linea en estado activado$")
-    public void seDeberiaVerEnPantallaUnicaLaLineaEnEstadoActivado() {
-
-    }
+//    @Then("^Se deberia ver en pantalla unica la linea en estado activado$")
+//    public void seDeberiaVerEnPantallaUnicaLaLineaEnEstadoActivado() {
+//
+//    }
 
 
     @Then("^se deberia ver en CBS la linea activada$")

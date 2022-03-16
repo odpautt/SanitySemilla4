@@ -76,21 +76,16 @@ Feature: Sanity limpieza y aprovisionamiento de recursos
     When Se ejecuta la reconexion de la linea
     Then Se deberia ver en pantalla unica la linea en estado reconectada
 
-  @portalPortPort
-  Scenario: se requiere realizar una portabilidad pospago
-    Given Se ingresa al portal CRM para activacion
-    When Se valida la linea a portar y transacciones
-
-
   @PosPayPortability
   Scenario: se requiere realizar una portabilidad pospago
     Given Se ingresa al portal CRM para activacion
     When se hace la solicitud de portabilidad
     And se realiza la activacion de la linea a portar
-    And se crea la ventana de portacion en SoapUi
     And Se deberia ver en pantalla unica la linea en estado activado
+    And se ejecutan los procedimientos preventana
+    And se crea la ventana de portacion en SoapUi
     And se realiza la ejecucion de la shell de portacion
-    Then Se deberia ver en pantalla unica la linea en estado activado
+    Then Se deberia ver en pantalla unica la linea en estado activado la linea portada
 
 
   @PrepayPortability
