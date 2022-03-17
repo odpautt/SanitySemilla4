@@ -314,7 +314,7 @@ public class PortabilityPostActivationActions extends PortabilityPostActivationP
                 executePortabilityTransactionBd().get(2),
                 executePortabilityTransactionBd().get(3),
                 executePortabilityTransactionBd().get(4),
-                "http://10.69.60.76:8080/PortabilidadServiceEAR-HPNPCommunicationsDelegateEJB/NPCRMWSImpl?wsdl");
+                "http://10.69.60.76:8080/PortabilidadServiceEAR-HPNPCommunicationsDelegateEJB/NPCRMWSImpl");
 
         MatcherAssert.assertThat("la respuesta del servicio es O",
                 servicesActions.extractResponseInformation(response,"return"),Matchers.equalTo("0"));

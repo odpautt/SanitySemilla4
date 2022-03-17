@@ -253,7 +253,7 @@ public class SanitySteps{
 
     @When("^se ejecutan los procedimientos preventana$")
     public void seEjecutanLosProcedimientosPreventana() throws SQLException {
-        portabilityPostActivationActions.preWindow();
+        //portabilityPostActivationActions.preWindow();
     }
 
     @When("^se crea la ventana de portacion en SoapUi$")
