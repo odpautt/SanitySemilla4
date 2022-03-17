@@ -239,7 +239,7 @@ public class DatabasePortInActions extends DataExcelModels {
         conn = ods.getConnection();
         Statement stmt=conn.createStatement();
         try {
-            String query = "select * from  activator.portability_transactions where PORT_ID ='"+portId+"';";
+            String query = "select * from  activator.portability_transactions where PORT_ID ='"+portId+"'";
             resultSet = stmt.executeQuery(query);// realiza la ejecución de query
             while (resultSet.next()) {
                 System.out.println(resultSet.getString(3));
@@ -288,7 +288,7 @@ public class DatabasePortInActions extends DataExcelModels {
         conn = ods.getConnection();
         Statement stmt=conn.createStatement();
         try {
-            String query = "select * from ACTIVATOR.PORTABILITY_WINDOW_PROCESS where MSISDN in ('"+msisdn+"');";
+            String query = "select * from ACTIVATOR.PORTABILITY_WINDOW_PROCESS where MSISDN in ('"+msisdn+"')";
             resultSet = stmt.executeQuery(query);// realiza la ejecución de query
             while (resultSet.next()) {
                 System.out.println(resultSet.getString(3));

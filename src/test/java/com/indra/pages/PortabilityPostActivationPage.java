@@ -35,10 +35,10 @@ public class PortabilityPostActivationPage extends PageObject{
     @FindBy (id = "j_id15:j_id29")
     WebElementFacade generalCustomerInformation;
 
-    @FindBy (id = "//span[text()='IMPRESO HLR']")
+    @FindBy (id = "j_id373:menu:j_id374:j_id422:j_id425:out")
     WebElementFacade hlr;
 
-    @FindBy (id = "j_id473:j_id477")
+    @FindBy (xpath = "/html/body/div/div/div[4]/div/form/div[2]/div[11]/a/span")
     WebElementFacade hlrImpre;
 
     //------------------solicitud nip-----------------
@@ -49,7 +49,7 @@ public class PortabilityPostActivationPage extends PageObject{
     @FindBy (xpath = "//*[@id='pbGac4fa497_2d8304_2d4e12_2d8e75_2d0ee02636d5e8:_viewRoot:j_id4:j_id10:j_id11:106::j_id12:handle:img:collapsed']")
     WebElementFacade portabilidadNumerica;
 
-    @FindBy (xpath = "//*[@id='pbGac4fa497_2d8304_2d4e12_2d8e75_2d0ee02636d5e8:_viewRoot:j_id4:j_id10:j_id11:106:107::j_id14:handle:img:expanded']")
+    @FindBy (xpath = "//*[@id='pbGac4fa497_2d8304_2d4e12_2d8e75_2d0ee02636d5e8:_viewRoot:j_id4:j_id10:j_id11:106:107::j_id14:handle:img:collapsed']")
     WebElementFacade solicitudes;
 
     @FindBy (id = "pbGac4fa497_2d8304_2d4e12_2d8e75_2d0ee02636d5e8:_viewRoot:j_id4:j_id10:j_id11:106:107:108::j_id17")
@@ -81,7 +81,7 @@ public class PortabilityPostActivationPage extends PageObject{
     @FindBy(xpath = "/html/body/form/div/div[2]/table/tbody/tr/td[2]/div/div/div[1]/span/span/span")
     WebElementFacade dropdownActivator;
 
-    @FindBy(xpath = "//div[contains(@id,'idt13Item3')][@class='rf-sel-opt rf-sel-sel'][contains(.,'Prepago')]")
+    @FindBy(xpath = "//div[@id='formIndex:j_idt13Item3']")
     WebElementFacade portabilityPospaid;
 
     @FindBy(id = "ActivacionesForm:idVendedor")
@@ -96,7 +96,7 @@ public class PortabilityPostActivationPage extends PageObject{
     @FindBy(xpath = "//input[contains(@id,'ActivacionesForm:cedulaCliente')]")
     WebElementFacade documentCC;
 
-    @FindBy(id = "ActivacionesForm:idFechaExp")
+    @FindBy(id = "ActivacionesForm:idExpedicion")
     WebElementFacade documentExpedicion;
 
     @FindBy(id = "ActivacionesForm:btnContinuar")
@@ -122,20 +122,23 @@ public class PortabilityPostActivationPage extends PageObject{
     @FindBy(xpath = "//*[@id='ActivacionesForm:portationMsisdn']")
     WebElementFacade msisdnPort;
 
-    @FindBy(xpath = "//*[@id='ActivacionesForm:idEsFechaCalendarizada']")
-    WebElementFacade calendarizada;
+    @FindBy(xpath = "//input[@id='ActivacionesForm:idEsFechaCalendarizada']")
+    WebElementFacade  checkFechaCalendarizada;
 
-    @FindBy(xpath = "//*[@id='ActivacionesForm:fechaActivacionPortabilidadPopupButton']")
-    WebElementFacade calendar;
+    @FindBy(xpath = "//img[@id='ActivacionesForm:fechaActivacionPortabilidadPopupButton']")
+    WebElementFacade inputcalendario;
 
     @FindBy(id = "ActivacionesForm:idImsi")
     WebElementFacade msi;
 
-    @FindBy(id = "AActivacionesForm:idMsisdn")
+    @FindBy(id = "ActivacionesForm:idMsisdn")
     WebElementFacade msisdn;
 
-    @FindBy(id = "ActivacionesForm:tipoVentaItem0")
+    @FindBy(id = "ActivacionesForm:tipoVentaButton")
     WebElementFacade simSola;
+
+    @FindBy(id = "ActivacionesForm:tipoVentaItem0")
+    WebElementFacade simSola1;
 
     @FindBy(id = "ActivacionesForm:tipoPlanButton")
     WebElementFacade plan;
@@ -146,16 +149,18 @@ public class PortabilityPostActivationPage extends PageObject{
     @FindBy(id = "ActivacionesForm:btnContinuarActivacionVenta")
     WebElementFacade btnContinuar;
 
+
+
     @FindBy(xpath = "//input[contains(@id,'ActivacionesForm:idBarrio')]")
     WebElementFacade district;
 
-    @FindBy(xpath = "(//span[contains(@class,'rf-sel-btn-arrow')])[4]")
+    @FindBy(id = "ActivacionesForm:idDepartamentoButton")
     WebElementFacade dropdownDeparment;
 
     @FindBy(xpath = "//div[contains(@id,'ActivacionesForm:idDepartamentoItem26')]")
     WebElementFacade deparment;
 
-    @FindBy(xpath = "(//span[contains(@class,'rf-sel-btn-arrow')])[5]")
+    @FindBy(id = "ActivacionesForm:idCiudadButton")
     WebElementFacade dropdownCity;
 
     @FindBy(xpath = "//div[contains(@id,'ActivacionesForm:idCiudadItem10')]")
@@ -197,11 +202,22 @@ public class PortabilityPostActivationPage extends PageObject{
     @FindBy(xpath = "//input[contains(@id,'ActivacionesForm:btnContinuarActivacionDemografica')]")
     WebElementFacade continueDemo;
 
-    @FindBy(xpath = "//input[contains(@id,'popupConfirmacionDatos:confirmarDatos')]")
+    @FindBy(xpath = "//input[contains(@id,'ActivacionesForm:btnContinuarActivacionClausulas')]")
+    WebElementFacade continueSale;
+
+    @FindBy(xpath = "//*[@id='popupConfirmacionDatos:confirmarDatos']")
     WebElementFacade confirm;
 
     @FindBy (className = "rf-cp-lbl-exp")
     WebElementFacade ActivationDetails;
+
+    public WebElementFacade getContinueSale() {
+        return continueSale;
+    }
+
+    public WebElementFacade getSimSola1() {
+        return simSola1;
+    }
 
     public WebElementFacade getConfirm() {
         return confirm;
@@ -335,12 +351,12 @@ public class PortabilityPostActivationPage extends PageObject{
         return msisdnPort;
     }
 
-    public WebElementFacade getCalendarizada() {
-        return calendarizada;
+    public WebElementFacade getCheckFechaCalendarizada() {
+        return checkFechaCalendarizada;
     }
 
-    public WebElementFacade getCalendar() {
-        return calendar;
+    public WebElementFacade getInputcalendario() {
+        return inputcalendario;
     }
 
     public WebElementFacade getMsi() {

@@ -169,7 +169,6 @@ public class PortabilityPrepaidActions extends PortabilityPrepaidPage {
 
     public void clickInputCalendar(){
         getInputcalendario().click();
-
     }
 
     public void selectNextBusinessDayFromCalendar(){
