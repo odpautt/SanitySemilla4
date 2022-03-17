@@ -120,6 +120,44 @@ public class PortabilityPrepaidPage extends PageObject {
     WebElementFacade  btnSolicitar;
 
 
+    @FindBy (id = "j_id373:menu:j_id374:j_id422:j_id425:out")
+    WebElementFacade hlr;
+
+    @FindBy (xpath = "/html/body/div/div/div[4]/div/form/div[2]/div[11]/a/span")
+    WebElementFacade hlrImpre;
+
+    @FindBy(id = "ActivacionesForm:btnContinuarTarifas")
+    WebElementFacade continueTarife;
+
+    @FindBy(xpath = "(//span[@class='rf-sel-btn-arrow'])[5]")
+    WebElementFacade paymentDepar;
+
+    @FindBy(xpath = "//div[@id='ActivacionesForm:idDepartamentoItem5']")
+    WebElementFacade deparment;
+
+    @FindBy(xpath = "(//span[@class='rf-sel-btn-arrow'])[6]")
+    WebElementFacade paymentCity;
+
+    @FindBy(xpath = "//div[@id='ActivacionesForm:idCiudadItem1']")
+    WebElementFacade city;
+
+    @FindBy(xpath = "//input[contains(@id,'ActivacionesForm:btnValidarDireccion')]")
+    WebElementFacade validate;
+
+    @FindBy(xpath = "//input[@id='ActivacionesForm:idTelefono']")
+    WebElementFacade phone;
+
+    @FindBy(xpath = "//input[@id='ActivacionesForm:btnContinuarActivacionDemografica']")
+    WebElementFacade continueActivationDemo;
+
+    @FindBy(xpath = "//input[contains(@id,'popupConfirmacionDatos:confirmarDatos')]")
+    WebElementFacade confirm;
+
+    @FindBy (className = "rf-cp-lbl-exp")
+    WebElementFacade ActivationDetails;
+
+
+
     public WebElementFacade getPreventa() {
         return preventa;
     }
@@ -263,5 +301,55 @@ public class PortabilityPrepaidPage extends PageObject {
 
     public WebElementFacade getGeneralCustomerInformation() {
         return generalCustomerInformation;
+    }
+
+
+    public WebElementFacade getHlr() {
+        return hlr;
+    }
+
+    public WebElementFacade getHlrImpre() {
+        return hlrImpre;
+    }
+
+    public WebElementFacade getContinueTarife() {
+        return continueTarife;
+    }
+
+
+    public WebElementFacade getPaymentDepar() {
+        return paymentDepar;
+    }
+
+    public WebElementFacade getDeparment() {
+        return deparment;
+    }
+
+    public WebElementFacade getPaymentCity() {
+        return paymentCity;
+    }
+
+    public WebElementFacade getCity() {
+        return city;
+    }
+
+    public WebElementFacade getValidate() {
+        return validate;
+    }
+
+    public WebElementFacade getPhone() {
+        return phone;
+    }
+
+    public WebElementFacade getContinueActivationDemo() {
+        return continueActivationDemo;
+    }
+
+    public WebElementFacade getConfirm() {
+        return confirm;
+    }
+
+    public WebElementFacade getActivationDetails() {
+        return ActivationDetails;
     }
 }

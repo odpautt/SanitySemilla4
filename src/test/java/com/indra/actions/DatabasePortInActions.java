@@ -26,6 +26,7 @@ public class DatabasePortInActions extends DataExcelModels {
     }
 
     public void executePortabilityNip(String msisdn) throws SQLException {
+
         portabilityNip(getUrlDBA(),getPort(),getServiceA(),getUserA(),getPasswordA()
                 ,msisdn);
     }
@@ -148,6 +149,7 @@ public class DatabasePortInActions extends DataExcelModels {
 
     public void portabilityNip(String url, String port, String service, String user, String password,
                                              String msisdn) throws SQLException {
+        System.out.println(msisdn);
         OracleDataSource ods = null;
         Connection conn= null;
         ResultSet resultSet = null;
@@ -204,6 +206,7 @@ public class DatabasePortInActions extends DataExcelModels {
 
     public void portabilityRecept(String url, String port, String service, String user, String password,
                                String msisdn) throws SQLException {
+        System.out.println("aca esta el msisdn *****"+msisdn);
         OracleDataSource ods = null;
         Connection conn= null;
         ResultSet resultSet = null;
@@ -330,6 +333,7 @@ public class DatabasePortInActions extends DataExcelModels {
         finally{
             if(conn!=null) conn.close();
         }
+        //System.out.println(response);
         return response;
     }
 }

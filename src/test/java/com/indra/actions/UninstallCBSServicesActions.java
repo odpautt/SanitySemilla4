@@ -167,7 +167,7 @@ public class UninstallCBSServicesActions {
                         "<urn:TNList>\n" +
                         "<urn:NumberFrom>"+msisdn+"</urn:NumberFrom>\n" +
                         "<urn:NumberTo>"+msisdn+"</urn:NumberTo>\n" +
-                        "<urn:PortID>"+portId+
+                        "<urn:PortID>"+portId+"</urn:PortID>\n"+
                         "</urn:TNList>\n" +
                         "<urn:DonorID>"+donorId+"</urn:DonorID>\n" +
                         "<urn:RecipientID>102</urn:RecipientID>\n" +

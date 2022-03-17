@@ -234,26 +234,28 @@ public class SanitySteps{
     //--------------<Trece escenario>---------------------
     @When("^se hace la solicitud de portabilidad$")
     public void seHaceLaSolicitudDePortabilidad() throws SQLException {
-        //portabilityPostActivationActions.initialRute(dataExcelModels.getMsisdnPort());
+        portabilityPostActivationActions.initialRute(dataExcelModels.getMsisdnPort());
     }
 
     @When("^se realiza la activacion de la linea a portar$")
     public void seRealizaLaActivacionDeLaLineaAPortar() throws SQLException {
-//        portabilityPostActivationActions.initialPortability();
-//        portabilityPostActivationActions.customerInformation(dataExcelModels.getVendedorPostpago()
-//                , dataExcelModels.getClientPort());
-//        portabilityPostActivationActions.activationPortability(dataExcelModels.getMsisdnPort(),dataExcelModels.getMsisdnPostpago(), dataExcelModels.getMsiPostpago());
-//        portabilityPostActivationActions.demographicInformation();
+        portabilityPostActivationActions.initialPortability();
+        portabilityPostActivationActions.customerInformation(dataExcelModels.getVendedorPostpago()
+                , dataExcelModels.getClientPort());
+        portabilityPostActivationActions.activationPortability(dataExcelModels.getMsisdnPort(),dataExcelModels.getMsisdnPostpago(), dataExcelModels.getMsiPort());
+        portabilityPostActivationActions.selectNextBusinessDayFromCalendar();
+        portabilityPostActivationActions.demographicInformation();
+
     }
 
     @Then("^Se deberia ver en pantalla unica la linea en estado activado$")
     public void seDeberiaVerEnPantallaUnicaLaLineaEnEstadoActivado() throws SQLException {
-        //portabilityPostActivationActions.validateLineTemporal(dataExcelModels.getMsisdnPostpago());
+        portabilityPostActivationActions.validateLineTemporal(dataExcelModels.getMsisdnPostpago());
     }
 
     @When("^se ejecutan los procedimientos preventana$")
     public void seEjecutanLosProcedimientosPreventana() throws SQLException {
-        //portabilityPostActivationActions.preWindow();
+        portabilityPostActivationActions.preWindow();
     }
 
     @When("^se crea la ventana de portacion en SoapUi$")
@@ -267,41 +269,46 @@ public class SanitySteps{
 
     @Then("^Se deberia ver en pantalla unica la linea en estado activado la linea portada$")
     public void seDeberiaVerEnPantallaUnicaLaLineaEnEstadoActivadoLaLineaPortada() throws SQLException {
-        //portabilityPostActivationActions.validateLineTemporal1(dataExcelModels.getMsisdnPort());
+        portabilityPostActivationActions.validateLineTemporal1(dataExcelModels.getMsisdnPort());
     }
-
-    //--------------<Escenario catorce>---------------------
+    //--------------<Excenario catorce>---------------------
 
 
     @When("^se hace la solicitud de portabilidad prepago$")
     public void seHaceLaSolicitudDePortabilidadPrepago() throws SQLException {
-        portabilityPrepaidActions.makePortabilityRequestAndDB("3017262149");
+        //portabilityPrepaidActions.makePortabilityRequestAndDB(dataExcelModels.getMsisdnPort());
     }
 
 
     @When("^se realiza la activacion de la linea portada$")
     public void seRealizaLaActivacionDeLaLineaPortada() throws SQLException {
-        portabilityPrepaidActions.initialRute();
-        portabilityPrepaidActions.customerInformation(dataExcelModels.getVendedorPostpago()
-                , dataExcelModels.getCedulaClienteAvanger());
-        portabilityPrepaidActions.activationInformation("3045984642","3043209868","732111193278813");
-        portabilityPrepaidActions.selectNextBusinessDayFromCalendar();
-
-        // ejecucion del servicio de soapUI para la portabilidad
-        //portabilityPrepaidActions.portabilityRequestSoapUI();
-
+//        portabilityPrepaidActions.initialRute();
+//        portabilityPrepaidActions.customerInformation(dataExcelModels.getVendedorPostpago()
+//                , dataExcelModels.getCedulaClienteAvanger());
+//        portabilityPrepaidActions.activationInformation("3045981684","3043208091","732111324707274");
+//        portabilityPrepaidActions.selectNextBusinessDayFromCalendar();
+//        portabilityPrepaidActions.demographicInformation();
 
     }
 
-//    @Then("^Se deberia ver en pantalla unica la linea en estado activado$")
-//    public void seDeberiaVerEnPantallaUnicaLaLineaEnEstadoActivado() {
-//
-//    }
+    @Then("^Se deberia ver en pantalla unica la linea prepago en estado activado$")
+    public void seDeberiaVerEnPantallaUnicaLaLineaPrepagoEnEstadoActivado() throws SQLException {
+        //portabilityPrepaidActions.validateLineTemporal("3043208091");
+    }
 
+    @Then("^se ejecutan los procedimientos preventana prepago$")
+    public void seEjecutanLosProcedimientosPreventanaPrepago() throws SQLException {
+        //portabilityPrepaidActions.preWindow();
+    }
 
-    @Then("^se deberia ver en CBS la linea activada$")
-    public void seDeberiaVerEnCBSLaLineaActivada() {
+    @Then("^se crea la ventana de portacion en SoapUi prepago$")
+    public void seCreaLaVentanaDePortacionEnSoapUiPrepago() throws SQLException {
+        portabilityPrepaidActions.window();
+    }
 
+    @Then("^Se deberia ver en pantalla unica la linea en estado activado la linea prepago portada$")
+    public void seDeberiaVerEnPantallaUnicaLaLineaEnEstadoActivadoLaLineaPrepagoPortada() throws SQLException {
+        //portabilityPrepaidActions.validateLineTemporal1("1234567890");
     }
 
 

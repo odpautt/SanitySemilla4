@@ -93,5 +93,8 @@ Feature: Sanity limpieza y aprovisionamiento de recursos
     Given Se ingresa al portal CRM para activacion
     When se hace la solicitud de portabilidad prepago
     And se realiza la activacion de la linea portada
-    Then Se deberia ver en pantalla unica la linea en estado activado
-    And se deberia ver en CBS la linea activada
+    Then Se deberia ver en pantalla unica la linea prepago en estado activado
+    And se ejecutan los procedimientos preventana prepago
+    And se crea la ventana de portacion en SoapUi prepago
+    And se realiza la ejecucion de la shell de portacion
+    Then Se deberia ver en pantalla unica la linea en estado activado la linea prepago portada

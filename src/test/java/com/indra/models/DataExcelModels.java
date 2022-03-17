@@ -47,6 +47,7 @@ public class DataExcelModels{
     String CedulaClienteAvanger;
 
     String Winwap;
+    String PortabilitySoapUI;
     String user;
     String password;
 
@@ -55,6 +56,11 @@ public class DataExcelModels{
     String msiPort;
     String clientPort;
     String portId;
+
+    String msisdnPortPrepay;
+    String msiPortPrepay;
+
+
 
     public String getVendedorPrepago() {
         fileXLSX.readFileExcel();
@@ -256,6 +262,13 @@ public class DataExcelModels{
         return Winwap;
     }
 
+    public String getPortabilitySoapUI() {
+        fileXLSX.readFileExcel();
+        PortabilitySoapUI = fileXLSX.excelArray.get(1).get(8);
+        return PortabilitySoapUI;
+    }
+
+
     public String getUser() {
         fileXLSX.readFileExcel();
         user = fileXLSX.excelArray.get(1).get(5);
@@ -288,31 +301,43 @@ public class DataExcelModels{
 
     public String getMsisdnPort() {
         fileXLSX.readFileExcel();
-        msisdnPort = fileXLSX.excelArray.get(9).get(4);
+        msisdnPort = fileXLSX.excelArray.get(8).get(4) ;
         return msisdnPort;
     }
 
     public String getNip() {
         fileXLSX.readFileExcel();
-        nip = fileXLSX.excelArray.get(9).get(6);
+        nip = fileXLSX.excelArray.get(8).get(6);
         return nip;
     }
 
     public String getMsiPort() {
         fileXLSX.readFileExcel();
-        msiPort = fileXLSX.excelArray.get(9).get(5);
+        msiPort = fileXLSX.excelArray.get(8).get(5);
         return msiPort;
     }
 
     public String getClientPort() {
         fileXLSX.readFileExcel();
-        clientPort = fileXLSX.excelArray.get(9).get(7);
+        clientPort = fileXLSX.excelArray.get(8).get(7);
         return clientPort;
     }
 
     public String getPortId() {
         fileXLSX.readFileExcel();
-        portId = fileXLSX.excelArray.get(9).get(8);
+        portId = fileXLSX.excelArray.get(8).get(8);
         return portId;
+    }
+
+    public String getMsisdnPortPrepay() {
+        fileXLSX.readFileExcel();
+        msisdnPortPrepay = fileXLSX.excelArray.get(9).get(4);
+        return msisdnPortPrepay;
+    }
+
+    public String getMsiPortPrepay() {
+        fileXLSX.readFileExcel();
+        msisdnPortPrepay = fileXLSX.excelArray.get(9).get(5);
+        return msiPortPrepay;
     }
 }
