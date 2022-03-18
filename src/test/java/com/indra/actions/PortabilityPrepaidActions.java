@@ -36,7 +36,7 @@ public class PortabilityPrepaidActions extends PortabilityPrepaidPage {
 
         MatcherAssert.assertThat("el status es PIN_REQUEST_ACEPTADO",
                 validateTransctionBd(),Matchers.equalTo("PIN_REQUEST_ACEPTADO"));
-        consultNipBd();
+       // consultNipBd();
     }
 
 
@@ -64,18 +64,11 @@ public class PortabilityPrepaidActions extends PortabilityPrepaidPage {
     public void activationInformation(String msisdnPorting,String msisdn, String imsi) throws SQLException {
 
         String nip = msisdnPorting.substring(5,10);
-        consultNipBd();
-        // logica si esta sumar 1 al nip
-        // nip = String.valueOf(Integer.valueOf(nip) + 1);
-        // repertir consulta
-        String portId= "000022011082401"+nip;
-
-        //System.out.println(nip +" *****"+ portId);
-
-        clickCurrentTelephony();
+        //consultNipBd();
+         clickCurrentTelephony();
         clicktypeTelephony();
         // generacion aleatorio
-        writeNIP(nip);
+        writeNIP(nip(nip));
         writeMsisdnToPorting(msisdnPorting);
         clickCheckScheduledDate();
         clickInputCalendar();
@@ -86,6 +79,19 @@ public class PortabilityPrepaidActions extends PortabilityPrepaidPage {
         clickTypeOfSaleOnlySim();
         windowsScrolldown();
         clickBtnContinue();
+
+        //cambiar diad el calendario
+        WebElement faildDayCalendar = getDriver().findElement(By.id("ActivacionesForm:idFechaActivacionPortabilidadMessage"));
+        if(faildDayCalendar.isDisplayed()){
+            clickInputCalendar();
+            selectNextBusinessDayFromCalendarHoliday();
+            windowsScrolldown();
+            clickBtnContinue();
+            getContinueTarife().waitUntilVisible();
+            getContinueTarife().click();
+            waitABit(2000);
+        }
+
         getContinueTarife().waitUntilVisible();
         getContinueTarife().click();
         waitABit(2000);
@@ -195,6 +201,7 @@ public class PortabilityPrepaidActions extends PortabilityPrepaidPage {
         // ciclo para recorrer la lista de dias del calendario
         for(WebElement dia :dias){
             //si el contador currentDay es igual 1 y es el dia seguiente le hace click (solo selecciona los dias habiles)
+            //rf-cal-c-cnt-overflow rf-cal-c rf-cal-sel
             if(currentDay==1 && dia.getAttribute("class").equals("rf-cal-c-cnt-overflow rf-cal-c rf-cal-btn") && click == 0)
             {
                 //System.out.println("selecciono este día "+ dia.getText());
@@ -207,6 +214,29 @@ public class PortabilityPrepaidActions extends PortabilityPrepaidPage {
             }
         }
     }
+
+    public void selectNextBusinessDayFromCalendarHoliday(){
+        int currentDay=0;// se usa para indicar cuando llego al dia actual del calendario
+
+        List<WebElement> dias = getDriver().findElements(By.xpath("//td[@onmouseover]")); // almacena todos los dias presentes del calendario
+        // ciclo para recorrer la lista de dias del calendario
+        for(WebElement dia :dias){
+            //si el contador currentDay es igual 1 y es el dia seguiente le hace click (solo selecciona los dias habiles)
+            //rf-cal-c-cnt-overflow rf-cal-c rf-cal-sel
+            if(currentDay==1 && dia.getAttribute("class").equals("rf-cal-c-cnt-overflow rf-cal-c rf-cal-btn"))
+            {
+                //System.out.println("selecciono este día "+ dia.getText());
+                dia.click();
+                break;
+            }
+            // si el dia del calendario es igual al dia presente hace el contador currentDay igual a 1.
+            if(dia.getAttribute("class").equals("rf-cal-c-cnt-overflow rf-cal-c rf-cal-sel")){
+                currentDay=1;
+            }
+        }
+    }
+
+
 
     public void clickBtnContinue(){
         WebElement continuar = getDriver().findElement(By.name("ActivacionesForm:btnContinuarActivacionVenta"));
@@ -232,10 +262,11 @@ public class PortabilityPrepaidActions extends PortabilityPrepaidPage {
         databasePortInActions.executePortabilityNip(msisdnPorting);
     }
 
-    public String consultNipBd() throws SQLException {
-        return databasePortInActions.executeSelectNip(dataExcelModels.getNip());
+    public int consultNipBd(String nip) throws SQLException {
+        String resultNip = databasePortInActions.executeSelectNip(nip);
+        //System.out.println(databasePortInActions.executeSelectNip(nip).length());
+        return resultNip.length();
     }
-
     public void executePortabilityReceptBd() throws SQLException {
         databasePortInActions.executePortabilityRecept(dataExcelModels.getMsisdnPort());
     }
@@ -417,6 +448,15 @@ public class PortabilityPrepaidActions extends PortabilityPrepaidPage {
         executeWindowPortabilityBd();
         portabilityRequestSoapUI();
         executeWindowPortabilityBd();
+    }
+
+    public String nip(String nip) throws SQLException {
+
+        while(consultNipBd(nip) > 0){
+            nip = String.valueOf(Integer.valueOf(nip) + 1);
+            consultNipBd(nip);
+        }
+        return nip;
     }
 
 }

@@ -274,29 +274,29 @@ public class SanitySteps{
 
     @When("^se hace la solicitud de portabilidad prepago$")
     public void seHaceLaSolicitudDePortabilidadPrepago() throws SQLException {
-        //portabilityPrepaidActions.makePortabilityRequestAndDB(dataExcelModels.getMsisdnPort());
+        portabilityPrepaidActions.makePortabilityRequestAndDB(dataExcelModels.getMsisdnPort());
     }
 
 
     @When("^se realiza la activacion de la linea portada$")
     public void seRealizaLaActivacionDeLaLineaPortada() throws SQLException {
-//        portabilityPrepaidActions.initialRute();
-//        portabilityPrepaidActions.customerInformation(dataExcelModels.getVendedorPostpago()
-//                , dataExcelModels.getCedulaClienteAvanger());
-//        portabilityPrepaidActions.activationInformation("3045981684","3043208091","732111324707274");
-//        portabilityPrepaidActions.selectNextBusinessDayFromCalendar();
-//        portabilityPrepaidActions.demographicInformation();
+        portabilityPrepaidActions.initialRute();
+        portabilityPrepaidActions.customerInformation(dataExcelModels.getVendedorPostpago()
+                , dataExcelModels.getCedulaClienteAvanger());
+        portabilityPrepaidActions.activationInformation("3045981684","3043208091","732111324707274");
+        portabilityPrepaidActions.selectNextBusinessDayFromCalendar();
+        portabilityPrepaidActions.demographicInformation();
 
     }
 
     @Then("^Se deberia ver en pantalla unica la linea prepago en estado activado$")
     public void seDeberiaVerEnPantallaUnicaLaLineaPrepagoEnEstadoActivado() throws SQLException {
-        //portabilityPrepaidActions.validateLineTemporal("3043208091");
+        portabilityPrepaidActions.validateLineTemporal("3043208091");
     }
 
     @Then("^se ejecutan los procedimientos preventana prepago$")
     public void seEjecutanLosProcedimientosPreventanaPrepago() throws SQLException {
-        //portabilityPrepaidActions.preWindow();
+        portabilityPrepaidActions.preWindow();
     }
 
     @Then("^se crea la ventana de portacion en SoapUi prepago$")
@@ -306,7 +306,7 @@ public class SanitySteps{
 
     @Then("^Se deberia ver en pantalla unica la linea en estado activado la linea prepago portada$")
     public void seDeberiaVerEnPantallaUnicaLaLineaEnEstadoActivadoLaLineaPrepagoPortada() throws SQLException {
-        //portabilityPrepaidActions.validateLineTemporal1("1234567890");
+        portabilityPrepaidActions.validateLineTemporal1("1234567890");
     }
 
 

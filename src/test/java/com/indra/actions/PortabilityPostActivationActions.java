@@ -170,6 +170,17 @@ public class PortabilityPostActivationActions extends PortabilityPostActivationP
         WebElement continuar = getDriver().findElement(By.name("ActivacionesForm:btnContinuarActivacionVenta"));
         continuar.click();
         waitABit(5000);
+
+        WebElement faildDayCalendar = getDriver().findElement(By.id("ActivacionesForm:idFechaActivacionPortabilidadMessage"));
+        if(faildDayCalendar.isDisplayed()){
+            clickInputCalendar();
+            selectNextBusinessDayFromCalendarHoliday();
+            windowsScrolldown();
+            waitABit(2000);
+            continuar.click();
+            waitABit(5000);
+        }
+
     }
 
     public  void demographicInformation(){
@@ -238,6 +249,26 @@ public class PortabilityPostActivationActions extends PortabilityPostActivationP
         }
     }
 
+    public void selectNextBusinessDayFromCalendarHoliday(){
+        int currentDay=0;// se usa para indicar cuando llego al dia actual del calendario
+
+        List<WebElement> dias = getDriver().findElements(By.xpath("//td[@onmouseover]")); // almacena todos los dias presentes del calendario
+        // ciclo para recorrer la lista de dias del calendario
+        for(WebElement dia :dias){
+            //si el contador currentDay es igual 1 y es el dia seguiente le hace click (solo selecciona los dias habiles)
+            //rf-cal-c-cnt-overflow rf-cal-c rf-cal-sel
+            if(currentDay==1 && dia.getAttribute("class").equals("rf-cal-c-cnt-overflow rf-cal-c rf-cal-btn"))
+            {
+                //System.out.println("selecciono este día "+ dia.getText());
+                dia.click();
+                break;
+            }
+            // si el dia del calendario es igual al dia presente hace el contador currentDay igual a 1.
+            if(dia.getAttribute("class").equals("rf-cal-c-cnt-overflow rf-cal-c rf-cal-sel")){
+                currentDay=1;
+            }
+        }
+    }
 
     public void consultSingleScreen(String msisdn){
         getDriver().switchTo().defaultContent();
