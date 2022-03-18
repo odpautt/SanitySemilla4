@@ -234,33 +234,31 @@ public class SanitySteps{
     //--------------<Trece escenario>---------------------
     @When("^se hace la solicitud de portabilidad$")
     public void seHaceLaSolicitudDePortabilidad() throws SQLException {
-        portabilityPostActivationActions.initialRute(dataExcelModels.getMsisdnPort());
+         //portabilityPostActivationActions.initialRute(dataExcelModels.getMsisdnPort());
     }
 
     @When("^se realiza la activacion de la linea a portar$")
     public void seRealizaLaActivacionDeLaLineaAPortar() throws SQLException {
-        portabilityPostActivationActions.initialPortability();
-        portabilityPostActivationActions.customerInformation(dataExcelModels.getVendedorPostpago()
-                , dataExcelModels.getClientPort());
-        portabilityPostActivationActions.activationPortability(dataExcelModels.getMsisdnPort(),dataExcelModels.getMsisdnPostpago(), dataExcelModels.getMsiPort());
-        portabilityPostActivationActions.selectNextBusinessDayFromCalendar();
-        portabilityPostActivationActions.demographicInformation();
-
+//          portabilityPostActivationActions.initialPortability();
+//          portabilityPostActivationActions.customerInformation(dataExcelModels.getVendedorPostpago()
+//              , dataExcelModels.getClientPort());
+//          portabilityPostActivationActions.activationPortability(dataExcelModels.getMsisdnPort(),dataExcelModels.getMsisdnPrepago(), dataExcelModels.getMsiPrepago());
+//          portabilityPostActivationActions.demographicInformation();
     }
 
     @Then("^Se deberia ver en pantalla unica la linea en estado activado$")
     public void seDeberiaVerEnPantallaUnicaLaLineaEnEstadoActivado() throws SQLException {
-        portabilityPostActivationActions.validateLineTemporal(dataExcelModels.getMsisdnPostpago());
+        //portabilityPostActivationActions.validateLineTemporal(dataExcelModels.getMsisdnPrepago());
     }
 
     @When("^se ejecutan los procedimientos preventana$")
     public void seEjecutanLosProcedimientosPreventana() throws SQLException {
-        portabilityPostActivationActions.preWindow();
+        //portabilityPostActivationActions.preWindow();
     }
 
     @When("^se crea la ventana de portacion en SoapUi$")
     public void seCreaLaVentanaDePortacionEnSoapUi() throws SQLException {
-        portabilityPostActivationActions.window();
+        //portabilityPostActivationActions.window();
     }
 
     @When("^se realiza la ejecucion de la shell de portacion$")

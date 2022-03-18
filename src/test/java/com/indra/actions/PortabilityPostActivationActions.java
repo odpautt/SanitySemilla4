@@ -36,8 +36,10 @@ public class PortabilityPostActivationActions extends PortabilityPostActivationP
         databasePortInActions.executePortabilityNip(dataExcelModels.getMsisdnPort());
     }
 
-    public void consultNipBd() throws SQLException {
-        databasePortInActions.executeSelectNip(dataExcelModels.getNip());
+    public int consultNipBd(String nip) throws SQLException {
+        String resultNip = databasePortInActions.executeSelectNip(nip);
+        //System.out.println(databasePortInActions.executeSelectNip(nip).length());
+        return resultNip.length();
     }
 
     public void executePortabilityReceptBd() throws SQLException {
@@ -83,6 +85,15 @@ public class PortabilityPostActivationActions extends PortabilityPostActivationP
         return portId;
     }
 
+    public String nip(String nip) throws SQLException {
+
+        while(consultNipBd(nip) > 0){
+            nip = String.valueOf(Integer.valueOf(nip) + 1);
+            consultNipBd(nip);
+        }
+        return nip;
+    }
+
     public void preWindow() throws SQLException {
         executePortabilityReceptBd();
         validateTransctionBd();
@@ -102,7 +113,6 @@ public class PortabilityPostActivationActions extends PortabilityPostActivationP
         validateTransctionBd();
         MatcherAssert.assertThat("el status es PIN_REQUEST_ACEPTADO",
                 validateTransctionBd(),Matchers.equalTo("PIN_REQUEST_ACEPTADO"));
-        consultNipBd();
         System.out.println();
     }
 
@@ -134,11 +144,12 @@ public class PortabilityPostActivationActions extends PortabilityPostActivationP
     }
 
     public void activationPortability(String msisdnPort, String msisdn, String msi) throws SQLException {
-        String nip = msisdnPort.substring(5,10);
-        consultNipBd();
+        String nip = dataExcelModels.getMsisdnPort().substring(5,10);
+        //System.out.println(consultNipBd(nip));
+        //System.out.println(nip(nip));
         getTypeTel().click();
         getPospago().click();
-        enter(nip).into(getNip());
+        enter(nip(nip)).into(getNip());
         getTypeSol().click();
         getTypeSol1().click();
         enter(msisdnPort).into(getMsisdnPort());
@@ -185,7 +196,7 @@ public class PortabilityPostActivationActions extends PortabilityPostActivationP
         //getContinueSale().click();
         waitABit(10000);
         //getConfirm().click();
-        WebElement confirmar = getDriver().findElement(By.id("//*[@id='popupConfirmacionDatos:confirmarDatos']"));
+        WebElement confirmar = getDriver().findElement(By.xpath("//*[@id='popupConfirmacionDatos:confirmarDatos']"));
         confirmar.click();
         getActivationDetails().waitUntilPresent();
         WebElement title = getDriver().findElement(By.className("tituloPagina"));
@@ -253,19 +264,22 @@ public class PortabilityPostActivationActions extends PortabilityPostActivationP
         getCosultaPantallaUnica().click();
         WebElement iframe = getDriver().findElement(By.id("iframe"));
         getDriver().switchTo().frame(iframe);
-        //enter("3016875893").into(getMsisdn2());
         enter(msisdn).into(getMsisdn2());
         getSearchButton().click();
         waitABit(1000);
         getGeneralCustomerInformation().waitUntilPresent();
-        WebElement plan = getDriver().findElement(By.id("j_id135:j_id157"));
 
+        WebElement plan = getDriver().findElement(By.id("j_id135:j_id157"));
         MatcherAssert.assertThat("el plan es prepago",
                 plan.getText(),Matchers.containsString("Plan Tigo Prepago") );
+
         JavascriptExecutor js = (JavascriptExecutor) getDriver();
-        js.executeScript("window.scrollBy(0,820)"); //Scroll vertically down by 1000 pixels
+        js.executeScript("window.scrollBy(0,520)");
+
         getHlrImpre().click();
+        waitABit(2000);
         getHlr().click();
+
         WebElement hrl = getDriver().findElement(By.xpath("//*[@id='j_id461:j_id465']"));
         MatcherAssert.assertThat("el hrl es ",
                 hrl.getText(),Matchers.containsString("Operation is successful") );
@@ -290,7 +304,6 @@ public class PortabilityPostActivationActions extends PortabilityPostActivationP
         getCosultaPantallaUnica().click();
         WebElement iframe = getDriver().findElement(By.id("iframe"));
         getDriver().switchTo().frame(iframe);
-        //enter("3016875893").into(getMsisdn2());
         enter(msisdn).into(getMsisdn2());
         getSearchButton().click();
         waitABit(1000);
@@ -314,8 +327,8 @@ public class PortabilityPostActivationActions extends PortabilityPostActivationP
                 executePortabilityTransactionBd().get(2),
                 executePortabilityTransactionBd().get(3),
                 executePortabilityTransactionBd().get(4),
-                "http://10.69.60.76:8080/PortabilidadServiceEAR-HPNPCommunicationsDelegateEJB/NPCRMWSImpl");
-
+                dataExcelModels.getPortabilitySoapUI());
+        //System.out.println("Response--->"+response);
         MatcherAssert.assertThat("la respuesta del servicio es O",
                 servicesActions.extractResponseInformation(response,"return"),Matchers.equalTo("0"));
     }

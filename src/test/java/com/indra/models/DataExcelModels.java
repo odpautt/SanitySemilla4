@@ -54,6 +54,8 @@ public class DataExcelModels{
     String msisdnPort;
     String nip;
     String msiPort;
+    String msisdnPort1;
+    String msiPort1;
     String clientPort;
     String portId;
 
@@ -301,8 +303,20 @@ public class DataExcelModels{
 
     public String getMsisdnPort() {
         fileXLSX.readFileExcel();
-        msisdnPort = fileXLSX.excelArray.get(8).get(4) ;
+        msisdnPort = fileXLSX.excelArray.get(9).get(4) ;
         return msisdnPort;
+    }
+
+    public String getMsisdnPort1() {
+        fileXLSX.readFileExcel();
+        msisdnPort1 = fileXLSX.excelArray.get(8).get(4) ;
+        return msisdnPort1;
+    }
+
+    public String getMsiPort1() {
+        fileXLSX.readFileExcel();
+        msiPort1 = fileXLSX.excelArray.get(8).get(5);
+        return msiPort1;
     }
 
     public String getNip() {
@@ -313,7 +327,7 @@ public class DataExcelModels{
 
     public String getMsiPort() {
         fileXLSX.readFileExcel();
-        msiPort = fileXLSX.excelArray.get(8).get(5);
+        msiPort = fileXLSX.excelArray.get(9).get(5);
         return msiPort;
     }
 
