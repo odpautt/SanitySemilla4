@@ -2,6 +2,7 @@ package com.indra.actions;
 
 import com.indra.models.DataExcelModels;
 import com.indra.pages.PortabilityPostActivationPage;
+import com.jcraft.jsch.JSchException;
 import net.serenitybdd.core.annotations.findby.FindBy;
 import org.hamcrest.MatcherAssert;
 import org.hamcrest.Matchers;
@@ -10,6 +11,7 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
+import java.io.IOException;
 import java.sql.SQLException;
 import java.util.List;
 
@@ -17,7 +19,7 @@ public class PortabilityPostActivationActions extends PortabilityPostActivationP
     DataExcelModels dataExcelModels = new DataExcelModels();
     DatabasePortInActions databasePortInActions = new DatabasePortInActions();
     UninstallCBSServicesActions servicesActions = new UninstallCBSServicesActions();
-
+    ShellConnections shellConnections = new ShellConnections();
 
     public PortabilityPostActivationActions(WebDriver driver) {
         super(driver);
@@ -368,5 +370,12 @@ public class PortabilityPostActivationActions extends PortabilityPostActivationP
         executeWindowPortabilityBd();
         portabilityRequestSoapUI();
         executeWindowPortabilityBd();
+    }
+
+    public void adviserKeyGeneration() throws IOException, IllegalAccessException, JSchException {
+        shellConnections.connectionSSH(dataExcelModels.getHostSSH(),dataExcelModels.getUserSSh(),dataExcelModels.getPasswordSSH());
+        String result = shellConnections.executeCommand("sh ./PortabilidadStandAloneProcess.sh PORTINPROCESS");
+        shellConnections.disconnect();
+        System.out.println(result);
     }
 }

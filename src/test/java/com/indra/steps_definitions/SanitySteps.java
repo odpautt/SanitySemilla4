@@ -5,6 +5,7 @@ import com.indra.models.DataExcelModels;
 import com.indra.models.LoginEposModels;
 import com.indra.models.LoginPortalCRMModels;
 import com.indra.models.WindexModels;
+import com.jcraft.jsch.JSchException;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
@@ -248,26 +249,27 @@ public class SanitySteps{
 
     @Then("^Se deberia ver en pantalla unica la linea en estado activado$")
     public void seDeberiaVerEnPantallaUnicaLaLineaEnEstadoActivado() throws SQLException {
-        //portabilityPostActivationActions.validateLineTemporal(dataExcelModels.getMsisdnPrepago());
+          //portabilityPostActivationActions.validateLineTemporal(dataExcelModels.getMsisdnPrepago());
     }
 
     @When("^se ejecutan los procedimientos preventana$")
     public void seEjecutanLosProcedimientosPreventana() throws SQLException {
-        //portabilityPostActivationActions.preWindow();
+         //portabilityPostActivationActions.preWindow();
     }
 
     @When("^se crea la ventana de portacion en SoapUi$")
     public void seCreaLaVentanaDePortacionEnSoapUi() throws SQLException {
-        //portabilityPostActivationActions.window();
+         //portabilityPostActivationActions.window();
     }
 
     @When("^se realiza la ejecucion de la shell de portacion$")
-    public void seRealizaLaEjecucionDeLaShellDePortacion() {
+    public void seRealizaLaEjecucionDeLaShellDePortacion() throws JSchException, IOException, IllegalAccessException {
+        portabilityPostActivationActions.adviserKeyGeneration();
     }
 
     @Then("^Se deberia ver en pantalla unica la linea en estado activado la linea portada$")
     public void seDeberiaVerEnPantallaUnicaLaLineaEnEstadoActivadoLaLineaPortada() throws SQLException {
-        portabilityPostActivationActions.validateLineTemporal1(dataExcelModels.getMsisdnPort());
+        //portabilityPostActivationActions.validateLineTemporal1(dataExcelModels.getMsisdnPort());
     }
     //--------------<Excenario catorce>---------------------
 

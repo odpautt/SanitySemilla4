@@ -62,7 +62,9 @@ public class DataExcelModels{
     String msisdnPortPrepay;
     String msiPortPrepay;
 
-
+    String hostSSH;
+    String userSSh;
+    String passwordSSH;
 
     public String getVendedorPrepago() {
         fileXLSX.readFileExcel();
@@ -353,5 +355,23 @@ public class DataExcelModels{
         fileXLSX.readFileExcel();
         msisdnPortPrepay = fileXLSX.excelArray.get(9).get(5);
         return msiPortPrepay;
+    }
+
+    public String getHostSSH() {
+        fileXLSX.readFileExcel();
+        hostSSH = fileXLSX.excelArray.get(4).get(4);
+        return hostSSH;
+    }
+
+    public String getUserSSh() {
+        fileXLSX.readFileExcel();
+        userSSh= fileXLSX.excelArray.get(4).get(5);
+        return userSSh;
+    }
+
+    public String getPasswordSSH() {
+        fileXLSX.readFileExcel();
+        passwordSSH= fileXLSX.excelArray.get(4).get(6);
+        return passwordSSH;
     }
 }
