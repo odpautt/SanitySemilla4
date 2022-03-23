@@ -3,6 +3,7 @@ package com.indra.actions;
 import com.indra.models.DataExcelModels;
 import com.indra.pages.PortabilityPostActivationPage;
 import com.jcraft.jsch.JSchException;
+import com.jcraft.jsch.SftpException;
 import net.serenitybdd.core.annotations.findby.FindBy;
 import org.hamcrest.MatcherAssert;
 import org.hamcrest.Matchers;
@@ -372,10 +373,9 @@ public class PortabilityPostActivationActions extends PortabilityPostActivationP
         executeWindowPortabilityBd();
     }
 
-    public void adviserKeyGeneration() throws IOException, IllegalAccessException, JSchException {
+    public void adviserKeyGeneration() throws IOException, IllegalAccessException, JSchException{
         shellConnections.connectionSSH(dataExcelModels.getHostSSH(),dataExcelModels.getUserSSh(),dataExcelModels.getPasswordSSH());
-        String result = shellConnections.executeCommand("sh ./PortabilidadStandAloneProcess.sh PORTINPROCESS");
+        shellConnections.executeCommand("cd && cd  /home/app/Stand_Alone_Process/PortabilidadStandAloneProcess/bin && sh ./PortabilidadStandAloneProcess.sh PORTINPROCESS");
         shellConnections.disconnect();
-        System.out.println(result);
     }
 }

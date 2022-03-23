@@ -263,13 +263,13 @@ public class SanitySteps{
     }
 
     @When("^se realiza la ejecucion de la shell de portacion$")
-    public void seRealizaLaEjecucionDeLaShellDePortacion() throws JSchException, IOException, IllegalAccessException {
-        portabilityPostActivationActions.adviserKeyGeneration();
+    public void seRealizaLaEjecucionDeLaShellDePortacion() throws Exception {
+        //portabilityPostActivationActions.adviserKeyGeneration();
     }
 
     @Then("^Se deberia ver en pantalla unica la linea en estado activado la linea portada$")
     public void seDeberiaVerEnPantallaUnicaLaLineaEnEstadoActivadoLaLineaPortada() throws SQLException {
-        //portabilityPostActivationActions.validateLineTemporal1(dataExcelModels.getMsisdnPort());
+        portabilityPostActivationActions.validateLineTemporal1(dataExcelModels.getMsisdnPort());
     }
     //--------------<Excenario catorce>---------------------
 
