@@ -285,7 +285,7 @@ public class SanitySteps{
         portabilityPrepaidActions.initialRute();
         portabilityPrepaidActions.customerInformation(dataExcelModels.getVendedorPostpago()
                 , dataExcelModels.getCedulaClienteAvanger());
-        portabilityPrepaidActions.activationInformation("3045981684","3043208091","732111324707274");
+        portabilityPrepaidActions.activationInformation(dataExcelModels.getMsisdnPort1(),dataExcelModels.getMsisdnForPorting(),dataExcelModels.getMsiForPorting());
         portabilityPrepaidActions.selectNextBusinessDayFromCalendar();
         portabilityPrepaidActions.demographicInformation();
 
@@ -293,7 +293,7 @@ public class SanitySteps{
 
     @Then("^Se deberia ver en pantalla unica la linea prepago en estado activado$")
     public void seDeberiaVerEnPantallaUnicaLaLineaPrepagoEnEstadoActivado() throws SQLException {
-        portabilityPrepaidActions.validateLineTemporal("3043208091");
+        portabilityPrepaidActions.validateLineTemporal(dataExcelModels.getMsisdnForPorting());
     }
 
     @Then("^se ejecutan los procedimientos preventana prepago$")
@@ -308,7 +308,7 @@ public class SanitySteps{
 
     @Then("^Se deberia ver en pantalla unica la linea en estado activado la linea prepago portada$")
     public void seDeberiaVerEnPantallaUnicaLaLineaEnEstadoActivadoLaLineaPrepagoPortada() throws SQLException {
-        portabilityPrepaidActions.validateLineTemporal1("1234567890");
+        portabilityPrepaidActions.validateLineTemporal1(dataExcelModels.getMsisdnPort1());
     }
 
 

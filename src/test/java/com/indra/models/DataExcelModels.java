@@ -66,6 +66,39 @@ public class DataExcelModels{
     String userSSh;
     String passwordSSH;
 
+    String msisdnForPorting;
+    String msiForPorting;
+
+    String msisdnForPorting2;
+    String msiForPorting2;
+
+    public String getMsisdnForPorting() {
+        fileXLSX.readFileExcel();
+        msisdnForPorting=fileXLSX.excelArray.get(11).get(2);
+        return msisdnForPorting;
+    }
+
+    public String getMsiForPorting() {
+        fileXLSX.readFileExcel();
+        msiForPorting=fileXLSX.excelArray.get(11).get(3);
+        return msiForPorting;
+    }
+
+
+    public String getMsisdnForPorting2() {
+        fileXLSX.readFileExcel();
+        msisdnForPorting2=fileXLSX.excelArray.get(13).get(2);
+        return msisdnForPorting2;
+    }
+
+    public String getMsiForPorting2() {
+        fileXLSX.readFileExcel();
+        msiForPorting2=fileXLSX.excelArray.get(13).get(3);
+        return msiForPorting2;
+    }
+
+
+
     public String getVendedorPrepago() {
         fileXLSX.readFileExcel();
         vendedorPrepago = fileXLSX.excelArray.get(8).get(0);
