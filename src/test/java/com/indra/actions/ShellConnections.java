@@ -15,7 +15,8 @@ public class ShellConnections {
         if (this.session == null || !this.session.isConnected()) {
             JSch jsch = new JSch();
 
-            this.session = jsch.getSession(user, host);
+            String sftpPort = "22";
+            this.session = jsch.getSession(user, host, Integer.parseInt(sftpPort));
             this.session.setPassword(password);
 
             // Parametro para no validar key de conexion.
@@ -39,7 +40,7 @@ public class ShellConnections {
 
             InputStream in = channelExec.getInputStream();
 
-            // Ejecutamos el comando.
+            //Ejecutamos el comando.
             channelExec.setCommand(command);
             channelExec.connect();
             System.out.println("comando ejecutado");
@@ -52,7 +53,8 @@ public class ShellConnections {
 
             while ((linea = reader.readLine()) != null) {
                 builder.append(linea);
-                System.out.println("comando no ejecutado");
+                //System.out.println("comando no ejecutado");
+                System.out.println(linea);
             }
 
             // Cerramos el canal SSH.
