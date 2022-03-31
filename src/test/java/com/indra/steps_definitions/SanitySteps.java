@@ -235,36 +235,36 @@ public class SanitySteps{
     //--------------<Trece escenario>---------------------
     @When("^se hace la solicitud de portabilidad$")
     public void seHaceLaSolicitudDePortabilidad() throws SQLException {
-         //portabilityPostActivationActions.initialRute(dataExcelModels.getMsisdnPort());
+         portabilityPostActivationActions.initialRute(dataExcelModels.getMsisdnPort(),dataExcelModels.getMsiPort());
     }
 
     @When("^se realiza la activacion de la linea a portar$")
     public void seRealizaLaActivacionDeLaLineaAPortar() throws SQLException {
-//          portabilityPostActivationActions.initialPortability();
-//          portabilityPostActivationActions.customerInformation(dataExcelModels.getVendedorPostpago()
-//              , dataExcelModels.getClientPort());
-//          portabilityPostActivationActions.activationPortability(dataExcelModels.getMsisdnPort(),dataExcelModels.getMsisdnPrepago(), dataExcelModels.getMsiPrepago());
-//          portabilityPostActivationActions.demographicInformation();
+          portabilityPostActivationActions.initialPortability();
+          portabilityPostActivationActions.customerInformation(dataExcelModels.getVendedorPostpago()
+              , dataExcelModels.getClientPort());
+          portabilityPostActivationActions.activationPortability(dataExcelModels.getMsisdnPort(),dataExcelModels.getMsisdnForPorting2(), dataExcelModels.getMsiForPorting2());
+          portabilityPostActivationActions.demographicInformation();
     }
 
     @Then("^Se deberia ver en pantalla unica la linea en estado activado$")
     public void seDeberiaVerEnPantallaUnicaLaLineaEnEstadoActivado() throws SQLException {
-          //portabilityPostActivationActions.validateLineTemporal(dataExcelModels.getMsisdnPrepago());
+          portabilityPostActivationActions.validateLineTemporal(dataExcelModels.getMsisdnForPorting2());
     }
 
     @When("^se ejecutan los procedimientos preventana$")
     public void seEjecutanLosProcedimientosPreventana() throws SQLException {
-         //portabilityPostActivationActions.preWindow();
+         portabilityPostActivationActions.preWindow(dataExcelModels.getMsisdnPort());
     }
 
     @When("^se crea la ventana de portacion en SoapUi$")
     public void seCreaLaVentanaDePortacionEnSoapUi() throws SQLException {
-         //portabilityPostActivationActions.window();
+         portabilityPostActivationActions.window(dataExcelModels.getMsisdnPort());
     }
 
     @When("^se realiza la ejecucion de la shell de portacion$")
     public void seRealizaLaEjecucionDeLaShellDePortacion() throws Exception {
-        //portabilityPostActivationActions.adviserKeyGeneration();
+        portabilityPostActivationActions.adviserKeyGeneration();
     }
 
     @Then("^Se deberia ver en pantalla unica la linea en estado activado la linea portada$")
@@ -276,7 +276,7 @@ public class SanitySteps{
 
     @When("^se hace la solicitud de portabilidad prepago$")
     public void seHaceLaSolicitudDePortabilidadPrepago() throws SQLException {
-        portabilityPrepaidActions.makePortabilityRequestAndDB(dataExcelModels.getMsisdnPort());
+        portabilityPrepaidActions.makePortabilityRequestAndDB(dataExcelModels.getMsisdnPort1(),dataExcelModels.getMsiPort1());
     }
 
 
@@ -298,12 +298,12 @@ public class SanitySteps{
 
     @Then("^se ejecutan los procedimientos preventana prepago$")
     public void seEjecutanLosProcedimientosPreventanaPrepago() throws SQLException {
-        portabilityPrepaidActions.preWindow();
+        portabilityPrepaidActions.preWindow(dataExcelModels.getMsisdnPort1());
     }
 
     @Then("^se crea la ventana de portacion en SoapUi prepago$")
     public void seCreaLaVentanaDePortacionEnSoapUiPrepago() throws SQLException {
-        portabilityPrepaidActions.window();
+        portabilityPrepaidActions.window(dataExcelModels.getMsisdnPort1());
     }
 
     @Then("^Se deberia ver en pantalla unica la linea en estado activado la linea prepago portada$")
