@@ -2,6 +2,7 @@ package com.indra.actions;
 
 import com.indra.models.DataExcelModels;
 import com.indra.pages.PrepaidActivationPage;
+import net.serenitybdd.core.Serenity;
 import org.hamcrest.MatcherAssert;
 import org.hamcrest.Matchers;
 import org.openqa.selenium.By;
@@ -85,8 +86,8 @@ public class PrepaidActivationActions extends PrepaidActivationPage {
         getSearchButton().click();
         waitABit(1000);
         getGeneralCustomerInformation().waitUntilPresent();
-        WebElement plan = getDriver().findElement(By.id("j_id135:j_id157"));
-
+        WebElement plan = getDriver().findElement(By.id("j_id135:j_id161"));
+        plan.click();
 
         MatcherAssert.assertThat("el plan es prepago",
                 plan.getText(),Matchers.containsString("Plan Tigo Prepago") );

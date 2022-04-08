@@ -20,6 +20,8 @@ public class InventoryAllocationActions extends InventoryAllocationPage {
 
         Actions actions = new Actions(getDriver());
 
+        getDriver().navigate().refresh();
+
         WebElement inventory = getDriver().findElement(By.id("formMenu:j_id19_span"));
         actions.moveToElement(inventory).build().perform();
         WebElement inventoryAllocation = getDriver().findElement(By.id("formMenu:j_id21"));
