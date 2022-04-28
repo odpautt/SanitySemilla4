@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+<card id="gen" title="Yleiset asetukset">
+<p align="center">
+   <img src="..\..\images\wwhelp.wbmp" alt="WinWAP"/>
+</p>
+<p>
+  <big>Yleiset asetukset:</big><br/><br/>
+
+<i>* Yhteyden tila<br/></i>
+  <small>
+  &#x22;Yhteyden tila&#x22; laatikosta voit valita miss&#xE4; tilassa k&#xE4;yt&#xE4;t selainta. Valittavissa on HTTP Tila &#x28;Hypertext
+  Transfer Protocol&#x29; tai &#x28;Yhdysk&#xE4;yt&#xE4;v&#xE4; Tila&#x29; jota k&#xE4;ytet&#xE4;&#xE4;n WAP yhdysk&#xE4;yt&#xE4;vien kanssa.
+  Jos olet verkkoyhteydess&#xE4; matkapuhelimen (GSM/GPRS) kautta ja haluat k&#xE4;ytt&#xE4;&#xE4; puhelinoperaattorin
+  palveluita niin sinun pit&#xE4;&#xE4; yleens&#xE4; asettaa puhelinoperaattorin antamat Yhdysk&#xE4;yt&#xE4;v&#xE4;asetukset
+  ohjelman <a href="gw.wml">Yhdysk&#xE4;yt&#xE4;v&#xE4;</a> sivulle. Jos k&#xE4;yt&#xE4;t HTTP tilaa tavallisen Internet
+  liittym&#xE4;n kanssa on mahdollista ett&#xE4; sinun on annettava HTTP Proxy palvelimen
+  asetuksia <a href="http.wml">HTTP</a> sivulle.
+  </small>
+<br/><br/>
+
+<i>* Taustakuva<br/></i>
+  <small>
+  Voit muuttaa kuvan k&#xE4;ytt&#xE4;ytymist&#xE4; WAP sivujen taustalla t&#xE4;ll&#xE4; vaihtoehdolla. Valitse ensin
+  kuva &#x22;Selaa&#x22; painikkeella ja ruksaa &#x22;N&#xE4;yt&#xE4; taustakuva tekstin takana&#x22; kohta. Sen
+  j&#xE4;lkeen voit vaikuttaa kuvan k&#xE4;ytt&#xE4;ytymiseen &#x22;Taustakuva&#x22; asetuksilla.
+  </small>
+<br/><br/>
+
+<i>* Puhelinverkko yhteys<br/></i>
+  <small>
+  Haluatko valita verkkoyhteyden ohjelman k&#xE4;ynnistyess&#xE4;? Poistamalla t&#xE4;m&#xE4;n vaihtoehdon ruksin ohjelma ei
+  en&#xE4;&#xE4; pyyd&#xE4; avaamaan verkkoyhteytt&#xE4; ja olettaa ett&#xE4; olet jo internetiss&#xE4; tai muussa yhteydess&#xE4; kiinni.
+  </small>
+<br/><br/>
+
+<i>* Isot ty&#xF6;kalupainikkeet<br/></i>
+  <small>
+  T&#xE4;m&#xE4; vaihtoehto lis&#xE4;&#xE4;/poistaa ty&#xF6;kalupainikkeiden tekstin jolloin ty&#xF6;kalupainikkeiden koko vastaavasti
+  suurenee tai pienenee.
+  </small>
+<br/><br/>
+
+<i>* L&#xE4;pin&#xE4;kyv&#xE4;t kuvat<br/></i>
+  <small>
+  Valittuna sivujen wbmp kuvat ovat l&#xE4;pin&#xE4;kyvi&#xE4; jolloin taustakuva n&#xE4;kyy kuvien takana.
+  </small>
+<br/><br/>
+
+<i>* N&#xE4;yt&#xE4; kuvat<br/></i>
+  <small>
+  Valittuna WinWAP lataa kuvat sivuille. Mik&#xE4;li t&#xE4;m&#xE4; vaihtoehto
+  otetaan pois, nopeuttaa se sivujen latautumista huomattavasti
+  silloin kun sivut k&#xE4;ytt&#xE4;v&#xE4;t kuvia
+  </small>
+<br/><br/>
+<br/>
+
+<i>* Yhdistetty wml tiedostoihin<br/></i>
+  <small>
+  Valittuna WinWAP rekister&#xF6;ityy oletusohjelmaksi .wml tiedostoille, jolloin aina avattaessa .wml tiedostoa
+  tietokoneeltasi se avautuu WinWAP selaimessa.
+  </small>
+<br/><br/>
+
+<i>* Muista ikkunan sijainti<br/></i>
+  <small>
+  Valittuna WinWAP muistaa miss&#xE4; kohtaa n&#xE4;ytt&#xF6;&#xE4; se oli viime k&#xE4;yt&#xF6;n yhteydess&#xE4; ja avautuu samaan kohtaan
+  saman kokoisena kun ajat ohjelman.
+  </small>
+<br/><br/>
+
+<i>* N&#xE4;yt&#xE4; osoite tulostaessa<br/></i>
+  <small>
+  Lis&#xE4;&#xE4; osoitteen tulostettuihin sivuihin.
+  </small>
+  <do label="Takaisin"> <prev/> </do>
+</p>
+</card>
+</wml>

@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+<card id="otps" title="WinWAP Options">
+<p align="center">
+   <img src="..\images\wwhelp.wbmp" alt="WinWAP"/>
+</p>
+<p>
+  <br/>
+  <big>Options in WinWAP</big>
+  <br/>
+  <br/>
+  There are many visual and technical options that you can change in WinWAP that
+  effect the way the browser looks and behaves.
+  <br/>
+  To access these options you select &#x22;Options&#x22; from the &#x22;Edit&#x22; menu.
+  <br/>
+</p>
+<p align="center">
+  Option Groups :<br/>
+  &#x5F;&#x5F;&#x5F;&#x5F;&#x5F;&#x5F;&#x5F;&#x5F;&#x5F;&#x5F;&#x5F;&#x5F;&#x5F;&#x5F;&#x5F;<br/><br/>
+  <a href="opts/gen.wml">General</a><br/>
+  <a href="opts/http.wml">HTTP</a><br/>
+  <a href="opts/gw.wml">WAP Gateway</a><br/>
+  <a href="opts/oth.wml">Other</a><br/>
+  <a href="opts/snd.wml">Sounds</a><br/>
+  <a href="opts/int.wml">Interface</a><br/>
+  &#x5F;&#x5F;&#x5F;&#x5F;&#x5F;&#x5F;&#x5F;&#x5F;&#x5F;&#x5F;&#x5F;&#x5F;&#x5F;&#x5F;&#x5F;<br/>
+  <do label="Back"> <prev/> </do>
+</p>
+</card>
+</wml>

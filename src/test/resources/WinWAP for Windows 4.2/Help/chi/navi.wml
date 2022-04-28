@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+
+<card id="navi" title="WinWAP 导航">
+<p align="center">
+   <img src="..\images\wwbyst.wbmp" alt="WinWAP"/>
+</p>
+<p>
+  <br/>
+  <big>WinWAP 导航信息：</big>
+  <br/>
+  <br/>
+  <a href="navi/1.wml">手工输入地址</a>
+  <br/>
+  <a href="navi/2.wml">单击链接</a>
+  <br/>
+  <a href="navi/3.wml">单击按纽</a>
+  <br/>
+  <a href="navi/4.wml">自动前进</a>
+  <br/>
+  <a href="navi/5.wml">后退和前进</a>
+  <br/>
+  <br/>
+  <br/>
+  在程序画面的左下角显示有文本，用于显示浏览器在各个时刻的工作状况。如果显示为 1，则说明浏览器已经下载了此
+  页面和所有与此页面相关的连接。
+  <br/>
+  <do label="后退"> <prev/> </do>
+</p>
+</card>
+</wml>

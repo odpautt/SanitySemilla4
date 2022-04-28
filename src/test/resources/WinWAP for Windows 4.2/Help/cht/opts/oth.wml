@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+<card id="oth" title="其他選項">
+<p align="center">
+   <img src="..\..\images\wwhelp.wbmp" alt="WinWAP"/>
+</p>
+<p>
+  <big>其他選項:</big><br/><br/>
+<i>* 使用工具列影像<br/></i>
+  <small>
+  允許你變更工具列按鈕的影像背景。
+選擇正確的影像，按一下 &#x22;瀏覽&#x22; 按鈕。要使用
+ WinWAP 而沒有在按鈕後的影像，你需要在此選擇移除此核取。
+  </small>
+<br/><br/>
+
+<i>* 字型和色彩<br/></i>
+  <small>
+  在這些設定你可以選擇，使用在 WAP 頁面上的字型和色彩。以及文字的的色彩和背景。
+  你亦可以影像文字的大小，在 &#x22;文字大小&#x22; 選擇方塊中。
+  注意你使用的背景影像背景色彩並不受影響。
+  </small>
+<br/><br/>
+
+<do label="Back"> <prev/> </do>
+</p>
+</card>
+</wml>

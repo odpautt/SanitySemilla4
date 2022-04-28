@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+<card id="int" title="Anvendelses Indstillinger">
+<p align="center">
+   <img src="..\..\images\wwhelp.wbmp" alt="WinWAP"/>
+</p>
+<p>
+  <big>Anvendelses Indstillinger:</big><br/><br/>
+<i>* Foreslå fra historik<br/></i>
+  <small>
+  Hvis markeret vil WinWAP foreslå adresser som du tidligere har besøgt, mens du indtaster adressen
+  i adresse feltet. Hvis en tidligere indtastet adresse findes vil WinWAP foreslå denne ved at vise
+  hele adressen, men med resten markeret så du kan fortsætte med at skrive den nye adresse. Hvis den
+  foreslåede adresse er korrekt, behøves kun et tryk på [Enter] tasten.
+  <br/>
+  Fjern markeringen for at fjerne denne funktion.
+  </small>
+<br/><br/>
+
+<i>* Max antal adresser i historik<br/></i>
+  <small>
+  Du kan begrænse antallet af adresser som WinWAP husker internt for Tilbage og Frem funktionerne med
+  denne indstilling.
+  </small>
+<br/><br/>
+
+<i>* Vis header før wml kode<br/></i>
+  <small>
+  Hvis markeret vil WinWAP vise HTTP headeren øverst før wml koden når der vælges &#x22;Vis Kilde&#x22;
+  fra &#x22;Vis&#x22; menuen.
+  </small>
+<br/><br/>
+
+<i>* Tillad WMLScripts<br/></i>
+  <small>
+  Hvis markeret vil WinWAP læse og udføre de WMLScripts som en wml side måtte indeholde. WMLScript er
+  et script sprog som Java der bruges i forbindelse med HTML sider og som kan udføre beregninger og
+  funktioner som er nødvendig for at en WAP service fungerer optimalt.
+  <br/>
+  Fjern markeringen for at fjerne denne funktion.
+  </small>
+<br/><br/>
+
+<i>* Bestem numerisk adresse<br/></i>
+  <small>
+  WinWAP er designet til at arbejde med numeriske adresser.
+  Hvis der kun indtastes en numerisk værdi i adresse feltet efterfulgt at tryk på [Enter] tasten
+  vil WinWAP anmode en service om at løse værdien til en tekst adresse og WinWAP vil vise indholdet
+  af denne.
+  <br/>
+  Standard værdien for denne service er bango.net. Adressen er &#x22;http://winwap.bango.net/&#x22;
+  </small>
+<br/><br/>
+
+<do label="Tilbage"> <prev/> </do>
+</p>
+</card>
+</wml>

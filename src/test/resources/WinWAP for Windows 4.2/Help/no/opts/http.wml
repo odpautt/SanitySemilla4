@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+<card id="http" title="HTTP-alternativer">
+<p align="center">
+   <img src="..\..\images\wwhelp.wbmp" alt="WinWAP"/>
+</p>
+<p>
+  <big>HTTP-alternativer:</big><br/><br/>
+<i>  * Benytte HTTP-proxy<br/></i>
+  <small>
+  Når avkrysset, benytter WinWAP proxy-adressen vist i feltet under boksen. Du må også angi
+  den riktige porten i valget &#x22;Port&#x22; &#x28;vanligvis port 80&#x29;
+  </small>
+<br/><br/>
+<i>* Proxy-autentisering<br/></i>
+  <small>
+  Når avkrysset autentiserer WinWAP brukeren mot proxy-serveren. Benytt dette alternativet kun
+  dersom du ikke kan åpne sider uten dette valget. Din nettverksoperatør har gitt deg ditt
+  brukernavn og passord. Ta eventuelt kontakt med denne dersom det oppstår problemer med
+  brukernavn og&#x2F;eller passord.
+  </small>
+<br/><br/>
+
+<i>* Tillate HTTP-informasjonskapsler &#x28;Cookies&#x29;<br/></i>
+  <small>
+  Når avkrysset vil WinWAP akseptere og bruke informasjonskapsler &#x28;cookies&#x29; sendt av web-servere
+  i HTTP-modus.
+  </small>
+<br/><br/>
+
+<i>* Startside<br/></i>
+  <small>
+  Internettadressen (URL'en) oppgitt i dette feltet vil åpnes automatisk hver gang du starter WinWAP. Dersom du
+  ikke vil at nettleseren skal åpne en hjemmeside automatisk, fjern all tekst i dette feltet.
+  </small>
+<br/><br/>
+<do label="Tilbake"> <prev/> </do>
+</p>
+</card>
+</wml>

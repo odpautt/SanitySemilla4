@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+<card id="navi" title="Back and Forward">
+<p align="center">
+   <img src="..\images\../wwbyst.wbmp" alt="WinWAP"/>
+</p>
+<p>
+  <big>Navegar adelante y atrás</big>
+  <br/>
+  Con WinWap se puede navegar Adelante y atrás a páginas ya visitadas. Para visitar la página anterior seleccione "Atras" desde el menu "Ejecutar" o en el botón Atrás de la barra de herramientas.
+  Para regresar a la última página visitada seleccione "Adelante" desde el menu "Ejecutar" o seleccionando "Adelante" desde la barra de Herramientas.
+  <br/>
+  <do type="Aceptart" label="Atrás"> <prev/> </do>
+</p>
+</card>
+</wml>

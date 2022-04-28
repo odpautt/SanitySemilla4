@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+
+<card id="navi" title="Navigere med WinWAP">
+<p align="center">
+   <img src="..\images\wwbyst.wbmp" alt="WinWAP"/>
+</p>
+<p>
+  <br/>
+  <big>Informasjon om navigasjon med WinWAP:</big>
+  <br/>
+  <br/>
+  <a href="navi/1.wml">Skrive inn adressen manuelt</a>
+  <br/>
+  <a href="navi/2.wml">Klikke på en link</a>
+  <br/>
+  <a href="navi/3.wml">Trykke på en knapp</a>
+  <br/>
+  <a href="navi/4.wml">Automatisk videresending</a>
+  <br/>
+  <a href="navi/5.wml">Tilbake og fremover</a>
+  <br/>
+  <br/>
+  <br/>
+  I nedre venstre hjørne i programmet vises tekst som fortelle hva nettleseren
+  arbeider med til enhver tid. Dersom teksten viser 'utført', betyr det at den
+  har lastet ned en side og alt innholdet i denne.
+  <br/>
+  <do label="Tilbake"> <prev/> </do>
+</p>
+</card>
+</wml>

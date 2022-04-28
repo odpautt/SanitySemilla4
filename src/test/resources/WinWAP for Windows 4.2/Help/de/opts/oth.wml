@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+<card id="oth" title="Other Options">
+<p align="center">
+   <img src="..\images\wwhelp.wbmp" alt="WinWAP"/>
+</p>
+<p>
+  <big>Erweiterte Optionen:</big><br/><br/>
+<i>* Symbolleisten-Hintergrund<br/></i>
+  <small>
+  Mittels dieser Option können Sie den Hintergrund hinter den Schaltflächen der Symbolleiste verändern. Wählen
+  Sie ein zulässiges Hintergrundbild durch Klick auf "Suchen". Falls Sie keinen Hintergrund hinter den Schaltflächen
+  möchten, sollten Sie diese Option deaktivieren.
+  </small>
+<br/><br/>
+
+<i>* Schriftarten und Farben<br/></i>
+  <small>
+  Hier können Sie die Schriftart wählen, in der die Texte der WAP-Seiten angezeigt werden, sowie die Farben
+  von Schrift und Hintergrund. Sie können außerdem im Auswahlfeld "Schriftgröße" die Größe der Buchstaben festlegen
+  Bei der Verwendung eines Hintergrundbilds ist die Hintergrundfarbe nicht sichtbar.
+  </small>
+<br/><br/>
+
+<do label="Zurück"> <prev/> </do>
+</p>
+</card>
+</wml>

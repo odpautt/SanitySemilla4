@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+<card id="navi" title="Inserire l&#x27;indirizzo manualmente">
+<p align="center">
+   <img src="..\images\../wwbyst.wbmp" alt="WinWAP"/>
+</p>
+<p>
+  <big>Inserire l'indirizzo manualmente</big>
+  <br/>
+  Aprendosi, il browser andrà automaticamente alla homepage che può essere impostata nelle proprietà. Dopo l'installazione la homepage è una pagina winwap Winwap Technologies, in cui è possibile trovare informazioni relative al browser.
+  <br/>
+  <br/>
+  Quando si vuole leggere (richiamare) la pagina da un altro indirizzo digitare l'URL della pagina nel box indirizzo (vedere sotto).
+  <br/>
+  <br/>
+  Dopo aver immesso l'URL premere invio sulla tastiera, e il browser troverà la pagina. Non è necessario digitare nell'indirizzo http://, winwap lo aggiungerà automaticamente se non è stato immesso. Se si vuole accedere a un file da un drive si può iniziare l'URL sia con file:// e quindi digitare il percorso fino al file che si intende caricare (es. : file://D:\WML\index.wml), oppure selezionando "Apri indirizzo" dal menu "File", e digitare il percorso (o scorrere fino al file) nella finestra che si apre.
+  <br/>
+  <do label="Back"> <prev/> </do>
+</p>
+</card>
+</wml>

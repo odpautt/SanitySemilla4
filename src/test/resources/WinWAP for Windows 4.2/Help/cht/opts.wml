@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+<card id="otps" title="WinWAP Options">
+<p align="center">
+   <img src="..\images\wwhelp.wbmp" alt="WinWAP"/>
+</p>
+<p>
+  <br/>
+  <big>WinWAP 選項</big>
+  <br/>
+  <br/>
+你可以在 WinWAP 當中，變更許多視覺化和技術選項，
+並影響瀏覽器的外觀和行為。
+  <br/>
+存取這些選項，你可以從 &#x22;編輯&#x22; 功能表中，選擇 &#x22;選項&#x22; 。
+  <br/>
+</p>
+<p align="center">
+  選項群組 :<br/>
+  &#x5F;&#x5F;&#x5F;&#x5F;&#x5F;&#x5F;&#x5F;&#x5F;&#x5F;&#x5F;&#x5F;&#x5F;&#x5F;&#x5F;&#x5F;<br/><br/>
+  <a href="opts/gen.wml">一般</a><br/>
+  <a href="opts/http.wml">HTTP</a><br/>
+  <a href="opts/gw.wml">WAP 閘道器</a><br/>
+  <a href="opts/oth.wml">其他</a><br/>
+  <a href="opts/snd.wml">聲音</a><br/>
+  <a href="opts/int.wml">介面</a><br/>
+  &#x5F;&#x5F;&#x5F;&#x5F;&#x5F;&#x5F;&#x5F;&#x5F;&#x5F;&#x5F;&#x5F;&#x5F;&#x5F;&#x5F;&#x5F;<br/>
+  <do label="Back"> <prev/> </do>
+</p>
+</card>
+</wml>

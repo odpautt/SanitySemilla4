@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+
+<card id="navi" title="Navigere med WinWAP">
+<p align="center">
+   <img src="..\images\../wwbyst.wbmp" alt="WinWAP"/>
+</p>
+<p>
+  <big>Trykke på en knapp</big>
+  <br/>
+  Avhengig av hva slags link siden inneholder, vil denne enten vises som understreket
+  tekst eller som en knapp. Knapper oppfører seg på samme måte som en understreket link. De går begge til den angitte adressen.
+  <br/>
+  <br/>
+  Teknisk: <b>do</b>-tags vises som knapper under teksten
+  <br/>
+  <do label="Tilbake"> <prev/> </do>
+</p>
+</card>
+</wml>

@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+<card id="gen" title="Generelle alternativer">
+<p align="center">
+   <img src="..\..\images\wwhelp.wbmp" alt="WinWAP"/>
+</p>
+<p>
+  <big>Generelle alternativer:</big><br/><br/>
+
+<i>* Forbindelsesmodus<br/></i>
+  <small>
+  I valgboksene for <b>&#x22;Forbindelsesmodus&#x22;</b> velger du ønsket forbindelsesmåte. Du kan
+  enten benytte HTTP &#x28;Hypertext Transfer Protocol&#x29; eller Gateway &#x28;brukt med WAP-gateway'er&#x29;.
+  Dersom du kobler deg til med en mobiltelefon til din operatør sine WAP-tjenester, kreves det vanligvis at
+  du benytter gateway-modus og oppgir den riktige gateway-informasjonen på siden <a href="gw.wml">Gateway-alternativer</a>.
+  Dersom du benytter HTTP-modus over en standard oppringt forbindelse eller over et LAN (lokalnettverk), kan
+  det hende at du må oppgi proxy-informasjon på <a href="http.wml">HTTP-siden</a> for å kunne åpne sider.
+  </small>
+<br/><br/>
+
+<i>* Bakgrunnsbilde<br/></i>
+  <small>
+  Du kan med dette alternativet velge bakgrunnsbilde som vises bak WAP-siden på skjermen.
+  Velg et gyldig bilde ved å klikke på knappen &#x22;Bla gjennom&#x22; og kryss av i boksen &#x22;Vis
+  bakgrunnsbilde bak tekst&#x22; for å vise bildet. Du kan velge visningsmodus med alternativene
+  i menyvalget &#x22;Bakgrunnsbilde&#x22;.
+  </small>
+<br/><br/>
+
+<i>* Ekstern forbindelse<br/></i>
+  <small>
+  Avkrysningsboksen &#x22;Ikke spør om ekstern forbindelse&#x22; deaktiverer menyen som lar deg koble
+  til med en ekstern forbindelse når du åpner WinWAP. Fjern krysset dersom du ønsker å bli spurt om å
+  koble deg til når du starter WinWAP.
+  </small>
+<br/><br/>
+
+<i>* Store verktøyknapper<br/></i>
+  <small>
+  Dersom krysset er fjernet vil teksten på verktøylinje-knappene bli skjult og størrelsen på knappene redusert.
+  </small>
+<br/><br/>
+
+<i>* Transparente (gjennomsiktige) bilder<br/></i>
+  <small>
+  Når avkrysset, vil ikke bildebakgrunnen vises og bakgrunnsfargen/-bildet er synlig bak bildet.
+  </small>
+<br/><br/>
+
+<i>* Vis bilder<br/></i>
+  <small>
+  Når avkrysset vil WinWAP laste WAP-bilder og vise disse på skjermen. Dersom du ønsker en hurtigere
+  nedlasting, kan du fjerne denne avkryssingen, men bilder vil da ikke vises.
+  </small>
+<br/><br/>
+
+
+<i>* Standard WML-program<br/></i>
+  <small>
+  Når avkrysset vil WinWAP bli registrert som standardleser for .WML-filer. Dersom du da dobbeltklikker
+  på en .WML-fil i Windows Utforsker, vil denne vises i WinWAP.
+  </small>
+<br/><br/>
+
+<i>* Husk vinduets posisjon<br/></i>
+  <small>
+  Når avkrysset vil WinWAP huske størrelsen og plasseringen for vinduet når programmet avsluttes. Vinduet
+  vil bli åpnet i samme størrelse og posisjon neste gang du starter WinWAP.
+  </small>
+<br/><br/>
+
+<i>* Vis adressen på utskriften<br/></i>
+  <small>
+  Når avkrysset vil WinWAP legge til sidens plassering/adresse på utskriften.
+  </small>
+  <do label="Tilbake"> <prev/> </do>
+</p>
+</card>
+</wml>

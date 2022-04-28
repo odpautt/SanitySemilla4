@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+<card id="faq" title="WAP Gateway">
+<p align="center">
+   <img src="..\images\../wwbyst.wbmp" alt="WinWAP"/>
+</p>
+<p>
+  <br/>
+  <big>Anv&#xE4;nding av en WAP Gateway</big>
+  <br/>
+  <br/>
+  <b>Fr&#xE5;ga : </b>Hur kan jag koppla upp mig till en WAP Gateway &#x28;s&#xE5;som min mobila telefon&#x29;&#x3F;
+  <br/>
+  <br/>
+  <b>Svar : </b>Du m&#xE5;ste ange en WAP gateway adress och f&#xF6;rbindelse metod fr&#xE5;n inst&#xE4;llningarna, och v&#xE4;lja
+  att anv&#xE4;nda en Gateway f&#xF6;rbindelse. Inst&#xE4;llningarna hittas fr&#xE5;n Gateway sidan i inst&#xE4;llningarna. Kontrollera
+  vilka metoder som fungerar med den Gateway ni valt att anv&#xE4;nda.
+  <do label="Tillbaka"> <prev/> </do>
+  <do label="Online FAQ"> <go href="http://www.winwap.com/help/faq/index.wml"/> </do>
+</p>
+</card>
+</wml>

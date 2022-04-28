@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+
+<card id="faq" title="WinWAP FAQ">
+<p align="center">
+  <img src="..\images\../wwhelp.wbmp" alt="WinWAP"/></p>
+<p>
+  <br/>
+  <big>FAQ 主題 :</big>
+  <br/>
+  <br/>
+  <a href="404.wml">我得到 error 404 (沒有找到) ，但是確定網址正確</a> <br/>
+  <a href="wsp.wml">我如何連線到 WAP 閘道？</a> <br/>
+  <br/>
+  <do label="Back"> <prev/> </do>
+  <do label="Online FAQ"> <go href="http://wap.winwap.com/help/faq/index.wml"/> </do>
+</p>
+</card>
+</wml>

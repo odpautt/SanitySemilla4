@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+
+<card id="navi" title="Navigate with WinWAP">
+<p align="center">
+   <img src="..\images\../wwbyst.wbmp" alt="WinWAP"/>
+</p>
+<p>
+  <big>Automatisches Weiterleiten</big>
+  <br/>
+  Das wml-Format beinhaltet Elemente, welche das automatische Weiterleiten des Browsers ermöglichen,
+  d.h. eine göffnete wml-Seite bleibt möglicherweise nur kurz sichtbar, bevor die nächste Seite
+  automatisch geöffnet wird. Diese Funktion ist typisch für Eingangsseiten, die z.B. nur eine
+  Abbildung und einen kurzen Begrüßungstext zeigen, bevor die eigentliche Website geöffnet wird.
+  <br/>
+  <br/>
+  Außerdem verfügt das wml-Format über Elemente, welche das Weiterleiten von einer Seite nur dann ermöglichen, wenn
+  diese auf dem normalen Weg oder durch Anklicken eines Links geöffnet wird; beim Zurückgehen auf den Link erfolgt
+  dann keine automatische Weiterleitung. Ebenso kann es sein, dass Sie beim Zurückgehen auf eine Seite (mittels "Zurück"-
+  Schaltfläche oder über einen vorherigen Link) anstelle dieser auf eine andere Seite geleitet werden.
+  <br/>
+  <br/>
+  Technischer Hinweis: Dies trifft für <b>ontimer</b>-, <b>card onenterforward</b>- und <b>card onenterbackward</b>-Tags zu.
+  <br/>
+  <do label="Zurück"> <prev/> </do>
+</p>
+</card>
+</wml>

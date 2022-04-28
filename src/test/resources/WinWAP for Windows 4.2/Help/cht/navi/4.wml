@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+
+<card id="navi" title="Navigate with WinWAP">
+<p align="center">
+   <img src="..\images\../wwbyst.wbmp" alt="WinWAP"/>
+</p>
+<p>
+  <big>自動轉送</big>
+  <br/>
+wml 格式包含讓使用瀏覽器時自動轉送的元件。
+當開啟某個 wml 頁面時，他們將只能短暫的看到，
+然後就會自動開啟另外一個網頁，而不需要再按任何連結或按鈕。通常
+用在「歡迎」頁面，包含特定的歡迎文字或影像以及確認的材料可能包含
+在某個地方。
+  <br/>
+  <br/>
+wml 格式也包含瀏覽器只到其他地方的元件。
+如果你回到上一頁的連線，將不會自動轉送到其他地方。
+這可套用在進入其他頁面
+ ( 利用 back 按鈕移動，或上一步 )
+因此你可以回到上一頁。它將自動轉送到任何地方。
+  <br/>
+  <br/>
+  技術 : <b>ontimer</b> 和 <b>card onenterforward</b> 和 <b>card onenterbackward</b>
+標籤自動套用如上。
+  <br/>
+  <do label="Back"> <prev/> </do>
+</p>
+</card>
+</wml>

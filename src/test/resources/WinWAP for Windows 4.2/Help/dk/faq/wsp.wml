@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+
+<card id="faq" title="Error 404">
+<p align="center">
+   <img src="..\images\../wwbyst.wbmp" alt="WinWAP"/>
+</p>
+<p>
+  <br/>
+  <big>Forbindelse til en WAP Gateway</big>
+  <br/>
+  <br/>
+  <b>Spørgsmål : </b>Hvordan opretter jeg forbindelse til en WAP Gateway?
+  <br/>
+  <br/>
+  <b>Svar : </b>Du kan forbinde til en WAP gateway ved at indtaste gateway adressen,
+  og forbindelses metode fra Gateway fanebladet i "Indstillinger" menuen.
+  Du kan få indstillingerne hos din mobil udbyder til default gateway. Tilføj denne til
+  gateway til "Valg af Gateway" ved at klikke på knappen "Gateway".
+  <do label="Tilbage"> <prev/> </do>
+  <do label="Online FAQ"> <go href="http://www.winwap.com/help/dk/faq/index.wml"/> </do>
+</p>
+</card>
+</wml>

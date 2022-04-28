@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+<card id="faq" title="WinWAP fr&#xE5;gor">
+<p align="center">
+  <img src="..\images\../wwhelp.wbmp" alt="WinWAP"/></p>
+<p>
+  <br/>
+  <big>Frekventa fr&#xE5;gor :</big>
+  <br/>
+  <br/>
+  <a href="404.wml">Jag f&#xE5;r ett 404 felmeddelande och jag vet att adressen &#xE4;r r&#xE4;tt</a> <br/>
+  <a href="wsp.wml">Hur anv&#xE4;nder jag en WAP Gateway?</a> <br/>
+  <br/>
+  <do label="Tillbaka"> <prev/> </do>
+  <do label="Online FAQ"> <go href="http://wap.winwap.com/help/faq/index.wml"/> </do>
+</p>
+</card>
+</wml>

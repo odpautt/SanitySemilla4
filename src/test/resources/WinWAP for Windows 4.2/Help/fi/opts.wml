@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+<card id="opts" title="WinWAP Asetukset">
+<p align="center">
+   <img src="..\images\wwhelp.wbmp" alt="WinWAP"/>
+</p>
+<p>
+  <br/>
+  <big>Asetukset</big>
+  <br/>
+  <br/>
+  Ohjelmassa on monia asetuksia joita muuttamalla voi vaikuttaa ohjelman ulkonäköön
+  ja käyttöliittymään.
+  <br/>
+  Näitä asetuksia muutetaan valitsemalla &#x22;Asetukset&#x22; ohjelman &#x22;Muokkaa&#x22; valikosta.
+  <br/>
+</p>
+<p align="center">
+  Asetus ryhmät :<br/>
+  &#x5F;&#x5F;&#x5F;&#x5F;&#x5F;&#x5F;&#x5F;&#x5F;&#x5F;&#x5F;&#x5F;&#x5F;&#x5F;&#x5F;&#x5F;<br/><br/>
+  <a href="opts/gen.wml">Yleiset</a><br/>
+  <a href="opts/http.wml">HTTP</a><br/>
+  <a href="opts/gw.wml">WAP Yhdyskäytävä</a><br/>
+  <a href="opts/oth.wml">Muut</a><br/>
+  <a href="opts/snd.wml">Äänet</a><br/>
+  <a href="opts/int.wml">Käyttöliittymä</a><br/>
+  &#x5F;&#x5F;&#x5F;&#x5F;&#x5F;&#x5F;&#x5F;&#x5F;&#x5F;&#x5F;&#x5F;&#x5F;&#x5F;&#x5F;&#x5F;<br/>
+  <do label="Takaisin"> <prev/> </do>
+</p>
+</card>
+</wml>

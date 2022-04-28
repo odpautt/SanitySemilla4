@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+<card id="http" title="HTTP Options">
+<p align="center">
+   <img src="..\images\wwhelp.wbmp" alt="WinWAP"/>
+</p>
+<p>
+  <big>HTTP-Optionen:</big><br/><br/>
+<i>  * HTTP-Proxyserver verwenden<br/></i>
+  <small>
+  Ist diese Option aktiviert, so verwendet WinWAP den Proxyserver, dessen Adresse im Feld unter dem Kontrollkästchen
+  angegeben ist. Sie sollten außerdem den zu verwendenden Port (normalerweise 80) im Port-Auswahlfeld eingeben.
+  </small>
+<br/><br/>
+<i>* Proxy-Authentifizierung<br/></i>
+  <small>
+  Ist dieses Kästchen markiert, so vermittelt WinWAP Ihre Benutzerauthentifizierung an den Proxyserver. Verwenden Sie diese Option nur,
+  falls Sie Seiten sonst nicht öffnen können. Ihren Benutzernamen und das dazugehörige Passwort erhalten Sie von Ihrem Netzwerkbetreiber.
+  </small>
+<br/><br/>
+
+<i>* HTTP-Cookies zulassen<br/></i>
+  <small>
+  Ist dieses Kästchen markiert, so akzeptiert und verwendet WinWAP Cookies, die von den Web-Servern im HTTP-Modus gesandt werden.
+  </small>
+<br/><br/>
+
+<i>* Startseite<br/></i>
+  <small>
+  Die in diesem Feld eingegebene URL wird bei jedem Start von WinWAP automatisch geöffnetch WinWAP. Falls
+  Sie keine automatische Startseite möchten, lassen Sie dieses Feld leer.
+  </small>
+<br/><br/>
+<do label="Zurück"> <prev/> </do>
+</p>
+</card>
+</wml>

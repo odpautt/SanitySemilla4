@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+<card id="img" title="Images (wbmp, gif and jpg)">
+<p align="center">
+   <img src="..\images\wwbyst.wbmp" alt="WinWAP"/>
+</p>
+<p>
+  <br/>
+  wml 標準有其指定的影像格式，稱為 wbmp。這些影像
+  可在 wml 網頁上用 WAP 裝置顯示。 WinWAP 顯示這些影像，無論使用
+  透明背景或白色背景。格式只能使用兩種顏色，黑或白。
+白色做紙而黑色做為圖畫顯示。
+  <br/>
+  <br/>
+你可以設定檢視的背景影像的內容，
+如果需要圖片透明時亦可選擇。或是
+希望紙面可見。
+  <br/>
+  <br/>
+  WinWAP 也支援色彩影像。支援的格式包括 GIF，動畫 GIF 和 JPG。
+  <br/>
+  <br/>
+你可以直接使用 WinWAP 檢視影像，輸入影像的位址替代網頁位址。
+  <br/>
+  <do label="Back"> <prev/> </do>
+</p>
+</card>
+</wml>

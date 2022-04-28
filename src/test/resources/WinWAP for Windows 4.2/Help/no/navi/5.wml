@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+
+<card id="navi" title="Tilbake og fremover">
+<p align="center">
+   <img src="..\images\../wwbyst.wbmp" alt="WinWAP"/>
+</p>
+<p>
+  <big>Tilbake og fremover</big>
+  <br/>
+  Med WinWAP kan du navigere frem- og bakover på sider du allerede har besøkt. For å gå tilbake til
+  den foregående siden velger du "Tilbake" i menyen "Gå" eller trykker på knappen "Tilbake" på verktøylinjen.
+  For å gå fremover til siden du har gått tilbake fra, velger du "Neste" fra menyen "Gå" eller trykker
+  på knappen "Neste" på verktøylinjen.
+  <br/>
+  <do label="Tilbake"> <prev/> </do>
+</p>
+</card>
+</wml>

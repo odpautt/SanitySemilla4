@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+
+<card id="navi" title="Navigate with WinWAP">
+<p align="center">
+   <img src="..\images\wwbyst.wbmp" alt="WinWAP"/>
+</p>
+<p>
+  <br/>
+  <big>Informations afférentes à la navigation avec WinWAP :</big>
+  <br/>
+  <br/>
+  <a href="navi/1.wml">Saisie manuelle de l'adresse</a>
+  <br/>
+  <a href="navi/2.wml">Cliquer sur un lien</a>
+  <br/>
+  <a href="navi/3.wml">Cliquer sur un bouton</a>
+  <br/>
+  <a href="navi/4.wml">Transfert automatique</a>
+  <br/>
+  <a href="navi/5.wml">Précédente et Suivante</a>
+  <br/>
+  <br/>
+  <br/>
+  Un texte est affiché en bas à gauche de l'application. Il indique à tout moment ce que le navigateur est en   train de faire et s'il indique 'terminé' cela signifie qu'il a téléchargé la page et tout son contenu.
+  <br/>
+  <do label="Back"> <prev/> </do>
+</p>
+</card>
+</wml>

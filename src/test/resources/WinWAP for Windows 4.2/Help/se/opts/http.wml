@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+<card id="http" title="HTTP Inst&#xE4;llningar">
+<p align="center">
+   <img src="..\..\images\wwhelp.wbmp" alt="WinWAP"/>
+</p>
+<p>
+  <big>HTTP Inst&#xE4;llningar:</big><br/><br/>
+<i>  * Anv&#xE4;nd en Proxy server<br/></i>
+  <small>
+  Kruxa denna l&#xE5;da ifall en Proxy skall anv&#xE4;ndas med HTTP metoden. I f&#xE4;ltet skall det anges
+  en korrekt adress till Proxy servern, och bredvid skall det anges vilken Port som skall anv&#xE4;ndas
+  &#x28;Vanligtvis anv&#xE4;nds port 80 eller 8080&#x29;.
+  </small>
+
+<br/><br/>
+<i>* Proxy anv&#xE4;ndarr&#xE4;ttighets kontroll<br/></i>
+  <small>
+  Ifall Proxy servern kr&#xE4;ver identifiering av anv&#xE4;ndaren skall anv&#xE4;ndarnamn och l&#xF6;senord
+  anges i dessa f&#xE4;lt.
+  </small>
+<br/><br/>
+
+<i>* Koppla p&#xE5; HTTP kex<br/></i>
+  <small>
+  M&#xE5;nga WAP tj&#xE4;nster kr&#xE4;ver att bl&#xE4;ddraren godk&#xE4;nner HTTP kex &#x28;Cookies&#x29;. Med denna
+  inst&#xE4;llning kan kexen kopplas till eller fr&#xE5;n.
+  </small>
+<br/><br/>
+
+<i>* Hem sida<br/></i>
+  <small>
+  Denna sida &#xF6;ppnas automatiskt d&#xE5; WinWAP k&#xF6;rs och d&#xE5; man v&#xE4;ljer &#x22;Hemsida&#x22; funktionen
+  fr&#xE5;n verktygsl&#xE5;dan. Genom att inte specifiera en hemsida &#xF6;ppnas ingen hemsida n&#xE4;r man k&#xF6;r
+  programmet.
+  </small>
+<br/><br/>
+<do label="Tillbaka"> <prev/> </do>
+</p>
+</card>
+</wml>

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+
+<card id="navi" title="Back and Forward">
+<p align="center">
+   <img src="..\images\../wwbyst.wbmp" alt="WinWAP"/>
+</p>
+<p>
+  <big>上一頁和下一頁</big>
+  <br/>
+使用 WinWAP ，可在頁面中往上一頁或下一頁已瀏覽過的頁面。
+要回到上一頁，可從「前往」功能表選擇「上一頁」
+或在工具列按一下「上一頁」按鈕。
+要回到下一頁，可從「前往」功能表選擇「下一頁」
+或在工具列按一下「下一頁」按鈕。
+  <br/>
+  <do label="Back"> <prev/> </do>
+</p>
+</card>
+</wml>

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+<card id="snd" title="Ljud Inst&#xE4;llningar">
+<p align="center">
+   <img src="..\..\images\wwhelp.wbmp" alt="WinWAP"/>
+</p>
+<p>
+  <big>Ljud:</big><br/><br/>
+<i>* Koppla p&#xE5; ljudeffekter<br/></i>
+  <small>
+  WinWAP kan spela upp olika ljud fr&#xE5;n &#x22;.wav filer&#x22; vid olika tillf&#xE4;llen n&#xE4;r
+  man &#xE4;nv&#xE4;der bl&#xE4;ddraren. F&#xF6;r varje typs ljud kan man koppla p&#xE5; eller av och v&#xE4;lja
+  vilket ljud som skall anv&#xE4;ndas genom att s&#xF6;ka med &#x22;mapp knappen&#x22;. F&#xF6;r att
+  lyssna p&#xE5; det valda ljudet kan man klicka p&#xE5; pilen till h&#xF6;ger om ljudet.
+  <br/><br/>
+  WinWAP kommer med f&#xE4;rdiga ljudeffekter vid installation.
+  </small>
+<br/><br/>
+
+<do label="Tillbaka"> <prev/> </do>
+</p>
+</card>
+</wml>

@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+<card id="navi" title="Navigering med WinWAP">
+<p align="center">
+   <img src="..\images\../wwbyst.wbmp" alt="WinWAP"/>
+</p>
+<p>
+  <big>Tillbaka och Fram&#xE5;t</big>
+  <br/>
+  Med WinWAP kan man navigera tillbaka och fram&#xE5;t bland sidor man redan bes&#xF6;kt.
+  F&#xF6;r att g&#xE5; bak&#xE5;t till f&#xF6;reg&#xE5;ende sida klickar man p&#xE5; &#x22;Tillbaka&#x22; bland verktygsknapparna.
+  F&#xF6;r att g&#xE5; tillbaka &#x22;Fram&#xE5;t&#x22; till sidan man g&#xE5;tt tillbaka ifr&#xE5;n klickar man p&#xE5; &#x22;Fram&#xE5;t&#x22;.
+  <br/>
+  <do label="Tillbaka"> <prev/> </do>
+</p>
+</card>
+</wml>

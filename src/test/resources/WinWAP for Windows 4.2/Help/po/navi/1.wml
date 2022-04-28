@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+
+<card id="navi" title="Navigate with WinWAP">
+<p align="center">
+   <img src="..\images\../wwbyst.wbmp" alt="WinWAP"/>
+</p>
+<p>
+  <big>Rêczne wpisywanie adresu</big>
+  <br/>
+Po otwarciu programu, WinWAP automatycznie skontaktuje siê ze stron¹ ustawion¹ we w³aœciwoœciach.  Domyœlnie jest to strona WinWAP gdzie uzyskasz dodatkowe informacje o programie.
+  <br/>
+  <br/>
+Jeœli chcesz otworzyæ inn¹ stronê WAP, wpisz jej adres URL w pole Adres.
+  <br/>
+  <br/>
+Po wpisaniu adresu wciœnij Enter a program wyœwietli stronê.  Nie jest konieczne wpisywanie przedrostka http://, WinWAP doda go automatycznie.  Jeœli chcesz otworzyæ stronê z dysku lokalnego wpisz file:// 
+a nastêpnie lokalizacjê ¿¹danego pliku, ewentualnie wybierz "Otwórz" z menu "Plik" i wybierz stronê któr¹ chcesz obejrzeæ.
+  <br/>
+  <do label="Wstecz"> <prev/> </do>
+</p>
+</card>
+</wml>

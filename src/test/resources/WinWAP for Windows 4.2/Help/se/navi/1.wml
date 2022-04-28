@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+<card id="navi" title="Navigering med WinWAP">
+<p align="center">
+   <img src="..\images\../wwbyst.wbmp" alt="WinWAP"/>
+</p>
+<p>
+  <big>Skriva addressen manuellt</big>
+  <br/>
+  N&#xE4;r bl&#xE4;ddraren &#xF6;ppnas s&#xF6;ker den automatiskt hemsidan som &#xE4;r vald i inst&#xE4;llningarna. Efter
+  installation av WinWAP s&#xE5; anv&#xE4;nder den sin egen hemsida var ni f&#xE5;r information om bl&#xE4;ddraren
+  och nyheter om nya versioner.
+  <br/>
+  <br/>
+  N&#xE4;r en adress till en WAP tj&#xE4;nst skall &#xF6;ppnas skriver man in addressen i adressf&#xE4;ltet och
+  trycker p&#xE5; Radbytes knappen &#x28;Return&#x29; f&#xF6;r att ladda ner sidan.
+  <br/>
+  <br/>
+  Addressens http:// del beh&#xF6;ver inte skrivas ut eftersom WinWAP automatiskt l&#xE4;gger till den
+  delen vid behov. Ifall en .wml fil fr&#xE5;n egen dator skall &#xF6;ppnas anges addressen s&#xE5; att
+  den b&#xF6;rjar med file:// och sedan skrivs den lokala stigen till filen ( ex : file://D:\WML\index.wml ).
+  Man kan &#xE4;ven anv&#xE4;nda &#x22;&#xF6;ppna address&#x22; menyvalet och utnyttj&#xE4; s&#xF6;k funktionen f&#xF6;r att bl&#xE4;ddra till filen.
+  <br/>
+  <do label="Tillbaka"> <prev/> </do>
+</p>
+</card>
+</wml>

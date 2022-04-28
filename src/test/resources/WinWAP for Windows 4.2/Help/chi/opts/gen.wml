@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+<card id="gen" title="常规选项">
+<p align="center">
+   <img src="..\..\images\wwhelp.wbmp" alt="WinWAP"/>
+</p>
+<p>
+  <big>常规选项：</big><br/><br/>
+
+<i>* 连接模式<br/></i>
+  <small>
+  在<b>&#x22;连接模式&#x22;</b> 选项框中，您可以选择连接模式。也可以使用 HTTP &#x28;超级传输协议&#x29; 或者网关
+  &#x28;和 WAP 网关使用&#x29;。如果使用移动电话和提供商的 WAP 服务连接，通常建议您使用网关模式并在<a href="gw.wml">网
+  关选项</a>页面中输入正确的网关信息。如果您通过标准拨号连接或 LAN 连接使用 HTTP 模式，您需要在 <a href="http.wml">HTTP
+  页</a> 中输入代理信息以便能够打开页面。
+  </small>
+<br/><br/>
+
+<i>* 背景图像<br/></i>
+  <small>
+  您可以通过此选项来设置屏幕上开始 WAP 页时显示的图像。通过单击 &#x22;浏览&#x22; 按纽来选择一个合适的图像，然后单击 &#x22;在
+  文本后显示背景图像&#x22; 复选框来显示图像。您可以在 &#x22;背景图像&#x22; 选择框中的选项中选择图像显示模式。
+  </small>
+<br/><br/>
+
+<i>* 拨号连接<br/></i>
+  <small>
+  &#x22;不要请求拨号连接&#x22; 复选框在您启动 WinWAP 时禁止您通过拨号连接来连接。
+  如果在您运行 WinWAP 时需要连接，则去掉此选项。
+  </small>
+<br/><br/>
+
+<i>* 大图标按纽<br/></i>
+  <small>
+  如果此选项被去掉，则工具条按纽会被隐藏，按纽的尺寸会缩小。
+  </small>
+<br/><br/>
+
+<i>* 透明图像<br/></i>
+  <small>
+  当选中此项时，看不到图像背景，可以看到图像后面的背景颜色/背景图像。
+  </small>
+<br/><br/>
+
+<i>* 显示图像<br/></i>
+  <small>
+  当选中此项时，WinWAP 加载 WAP 图像并在屏幕上显示出来。如果您想加速加载速度，可以去掉此选项，但是这样图像将不再显示。
+  </small>
+<br/><br/>
+<br/>
+
+<i>* 默认 wml 应用<br/></i>
+  <small>
+  当选中此项时，WinWAP 注册为 .wml 文件的默认阅读器。所以您在 Windows 中选中 .wml 文件并打开它时，此文件会用 winwap 显示。
+  </small>
+<br/><br/>
+
+<i>* 记住窗口位置<br/></i>
+  <small>
+  当选中此项时，WinWAP 会在关闭时记住窗口的尺寸和位置，并在下一次启动时在同一位置打开。
+  </small>
+<br/><br/>
+
+<i>* 显示打印输出位置<br/></i>
+  <small>
+  当选中此项时，WinWAP 会将页面的相应位置的内容送到打印输出中。
+  </small>
+  <do label="后退"> <prev/> </do>
+</p>
+</card>
+</wml>

@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+<card id="gen" title="Opciones Generales">
+<p align="center">
+   <img src="..\..\images\wwhelp.wbmp" alt="WinWAP"/>
+</p>
+<p>
+  <big>Opciones Generales:</big><br/><br/>
+
+<i>* Modo de conexión<br/></i>
+  <small>
+  En la casilla <b>&#x22;Modo de Conección&#x22;</b> se escoge el método que WinWap debe emplear para abrir las páginas. Se puede seleccionar el método HTTP &#x28;Hypertext Transfer Protocol&#x29; o el método por Nodo-Gateway &#x28;Usado con WAP Gateways&#x29;.
+  Si establece la conexión usando un teléfono móvil al servicio WAP de su operador, normalmente se requiere el método Nodo-Gateway. Deberá introducir la información correspondiente en <a href="gw.wml">Opciones Gateway</a>
+
+  Si utiliza el método HTTP sobre una conexión estándar a Internet mediante LAN o llamada telefónica, deberá introducir informacion sobre PROXY mode over a standard dial-up connection or LAN connection you might have to enter proxy en <a href="http.wml">página HTTP page</a> para que se puedan recibir páginas.
+  </small>
+<br/><br/>
+
+<i>* Imágen de fondo<br/></i>
+  <small>
+  Se puede seleccionar con esta opción una imágen, que será el fondo donde se muestran las páginas WAP recibidas.  Seleccione una imágen válida marcando con el raton en el botón &#x22;Buscar&#x22; marque luego  &#x22;Mostrar imágen de fondo detras del texto" &#x22; para mostra la imágen. Puede seleccionar el modo Mostrar Imágen con "opciones" en la casilla de selección de &#x22;Imágen de fondo&#x22;.
+  </small>
+<br/><br/>
+
+<i>* Conexión Telefónica<br/></i>
+  <small>
+  La casilla &#x22;No preguntar por una conexión&#x22; deshabilita la ventana que permite conectar utilizando una conexion Telefónica al iniciar WinWAP. Quite la marca si desea tener la posibilidad de seleccionar el método de conexión al inicio de WinWAP.
+  </small>
+<br/><br/>
+
+<i>* Botones grandes en barra de herramientas<br/></i>
+  <small>
+  Si quita la marca el texto de los botones sen la barra de herramientas será ocultado y reducido el tamaño de los botones.
+  </small>
+<br/><br/>
+
+<i>* Imágens Transparentes<br/></i>
+  <small>
+  Cuando la casilla está marcada, el fondo de las imágenes no es visible pero el color/imágen de fondo sí lo será.
+  </small>
+<br/><br/>
+
+<i>* Mostrar imágenes<br/></i>
+  <small>
+  Si marcado, WinWAP carga las imágenes WAP y las muestra en pantalla. Si desea acelerar la carga quite la marca. Observe que no se verán las imágenes.
+  </small>
+<br/><br/>
+<br/>
+
+<i>* Aplicación wml por defecto<br/></i>
+  <small>
+  Cuando activada la casilla WinWAP es registrado como el navegador por defecto para todos los ficheros .wml, Al seleccionar abrir dichos ficheros desde Windows Explorer dichos ficheros serán visualizados utilizando WinWAP.
+  </small>
+<br/><br/>
+
+<i>* Recordar la posición de la ventana<br/></i>
+  <small>
+  Si seleccionada WinWAP recordará el tamaño y la posición de la ventana antes de cerrar el programa. Al iniciar de nuevo WinWAP la ventana de programa utilizará la última posición.
+  </small>
+<br/><br/>
+
+<i>* Mostrar posición al imprimir<br/></i>
+  <small>
+  Cuando activada WinWAP añade la localización de la página al imprimir.
+  </small>
+  <do type="Aceptar" label="Atrás"> <prev/> </do>
+</p>
+</card>
+</wml>

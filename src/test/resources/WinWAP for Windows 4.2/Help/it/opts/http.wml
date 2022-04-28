@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+<card id="http" title="HTTP Options">
+<p align="center">
+   <img src="..\..\images\wwhelp.wbmp" alt="WinWAP"/>
+</p>
+<p>
+  <big>Opzioni HTTP:</big><br/><br/>
+<i>  * Usare un Proxy HTTP<br/></i>
+  <small>
+  Quando abilitato WinWAP utilizza il proxy all'indirizzo nel campo sotto il box. E' necessario impostare anche la porta corretta da utilizzare dal &#x22;Porta&#x22; selettore &#x28;di solito 80&#x29;
+  </small>
+<br/><br/>
+<i>* Autenticazione Proxy<br/></i>
+  <small>
+  Quando abilitato WinWAP autentica l'utilizzatore al server proxy. Da utilizzare solo nel caso non sia possibile aprire le pagine senza di esso. L'operatore di rete avrà il Nome utente e la Password che devono essere usati.
+  </small>
+<br/><br/>
+
+<i>* Abilita Cookies HTTP<br/></i>
+  <small>
+  Quando abilitato WinWAP accetterà ed utilizzerà cookies inviati da server web in modalità HTTP.
+  </small>
+<br/><br/>
+
+<i>* Home Page<br/></i>
+  <small>
+  L'URL inserita in questo campo verrà aperta automaticamente ogni qualvolta viene attivato WinWAP. Se non si desidera che il browser apra una homepage automaticamente è necessario rimuovere qualsiasi testo dal campo.
+  </small>
+<br/><br/>
+<do label="Back"> <prev/> </do>
+</p>
+</card>
+</wml>

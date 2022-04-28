@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+<card id="oth" title="Andre alternativer">
+<p align="center">
+   <img src="..\..\images\wwhelp.wbmp" alt="WinWAP"/>
+</p>
+<p>
+  <big>Andre alternativer:</big><br/><br/>
+<i>* Bruke bakgrunnsbilde på verktøylinje<br/></i>
+  <small>
+  Dette alternativet gir deg muligheten til å endre bakgrunnen på verktøylinjen &#x28;bak knappene&#x29;.
+  Velg et gyldig bilde ved å trykke på knappen &#x22;Bla gjennom&#x22;. For å benytte WinWAP uten et
+  bakgrunnsbilde bak knappene, fjern avkrysningen for dette alternativet.
+  </small>
+<br/><br/>
+
+<i>* Skrifttyper og farger<br/></i>
+  <small>
+  Med disse innstillingene kan du velge hvilken skrifttype som skal benyttes for å vise WAP-sider, samt
+  fargen på tekst og bakgrunn. Du kan også velge størrelse på teksten med valget &#x22;Tekststørrelse&#x22;.
+  Vær oppmerksom på at bakgrunnsfargen ikke vil vises dersom du benytter et bakgrunnsbilde.
+  </small>
+<br/><br/>
+
+<do label="Tilbake"> <prev/> </do>
+</p>
+</card>
+</wml>

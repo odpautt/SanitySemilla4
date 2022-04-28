@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+
+<card id="navi" title="Navegar con WinWAP">
+<p align="center">
+   <img src="..\images\../wwbyst.wbmp" alt="WinWAP"/>
+</p>
+<p>
+  <big>Introducir manualmente la dirección</big>
+  <br/>
+  Cuando se abre el navegador, busca automáticamente la página de inicio configurada en "Propiedades". Despues de instalado la pagina de inicio será "Winwap Technologies’s winwap", donde podrá encontrar información acerca del Navegador.
+  <br/>
+  <br/>
+  Cuando desea leer (bajarse) una página de otra direccion, deberá escribir la dirección URL de lá página en la casilla de direcciones ( Ver abajo ).
+  <br/>
+  <br/>
+  Una vez introducida la dirección URL presione  Enter en su teclado y el navegaodr pondrá la página a su alcance. No es necesario que escriba http:// WinWap lo añadirá automáticamente. Si desea cargar un fichero almacenado en su ordenador: Empiece la dirección URL con file:// xxx.xx.donde xx es el sitio y el nombre del fichero a cargar ( ej : file://D:\WML\index.wml ), tambien puede seleccionar: "Abrir Archibo" desde el menú "Archivo" y escribir localización y nombre del archivo ó "Buscar" en la ventana que se abre.
+  <br/>
+  <do type="Aceptar" label="Atrás"> <prev/> </do>
+</p>
+</card>
+</wml>

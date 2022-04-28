@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+
+<card id="navi" title="Navigate with WinWAP">
+<p align="center">
+   <img src="..\images\wwbyst.wbmp" alt="WinWAP"/>
+</p>
+<p>
+  <br/>
+  <big>使用 WinWAP 移動的資訊:</big>
+  <br/>
+  <br/>
+  <a href="navi/1.wml">手動輸入位址</a>
+  <br/>
+  <a href="navi/2.wml">按下連結</a>
+  <br/>
+  <a href="navi/3.wml">按下按鈕</a>
+  <br/>
+  <a href="navi/4.wml">自動轉送</a>
+  <br/>
+  <a href="navi/5.wml">上一步和下一步</a>
+  <br/>
+  <br/>
+  <br/>
+在程式的左下角，會有文字顯示
+瀏覽器每個時間都在工作。如果提到，
+意為下載頁面和所有內容。
+  <br/>
+  <do label="Back"> <prev/> </do>
+</p>
+</card>
+</wml>

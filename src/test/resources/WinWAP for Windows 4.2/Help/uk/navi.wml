@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+
+<card id="navi" title="Navigate with WinWAP">
+<p align="center">
+   <img src="..\images\wwbyst.wbmp" alt="WinWAP"/>
+</p>
+<p>
+  <br/>
+  <big>Information about navigating with WinWAP:</big>
+  <br/>
+  <br/>
+  <a href="navi/1.wml">Typing the address manually</a>
+  <br/>
+  <a href="navi/2.wml">Clicking on a link</a>
+  <br/>
+  <a href="navi/3.wml">Clicking on a button</a>
+  <br/>
+  <a href="navi/4.wml">Automatic forwarding</a>
+  <br/>
+  <a href="navi/5.wml">Back and Forward</a>
+  <br/>
+  <br/>
+  <br/>
+  In the lower left corner of the application there is text that displays what the browser
+  is working with at all times, and if it says ‘done’ it means that it has downloaded the page
+  and all it’s contents.
+  <br/>
+  <do label="Back"> <prev/> </do>
+</p>
+</card>
+</wml>

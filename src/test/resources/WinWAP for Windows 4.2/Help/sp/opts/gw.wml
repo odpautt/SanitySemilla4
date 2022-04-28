@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+<card id="gw" title="Opciones de Nodo-Gateway">
+<p align="center">
+   <img src="..\..\images\wwhelp.wbmp" alt="WinWAP"/>
+</p>
+<p>
+  <big>Opciones de Nodo-Gateway:</big><br/><br/>
+<i>* Gateway IP<br/></i>
+  <small>
+  Aquí se introduce la dirección IP o el nombre del servidor del Nodo-Gateway WAP que desea utilizar. Solicite la dirección IP a su operador de telefonía. Es la misma dirección IP que debe introducir en su teléfono WAP para conectarse con el operador.
+Durante la instalación WinWAP crea una dirección Gateway que es útil en Internet &#x28;IP address format : 123.123.123.123&#x29;
+  <br/><br/>
+  <b>Recuerde seleccionar &#x22;Modo Nodo-Gateway&#x22; en &#x22;<a href="gen.wml">Opciones Generales</a>&#x22; para conectar mediante el método Nodo-Gateway!</b>
+  </small>
+<br/><br/>
+<i>* Puerto de Connexión / Mode<br/></i>
+  <small>
+  Diferentes Gateways utilizan métodos diferentes. Aquí debe seleccionar el modo correcto para el Nodo-Gateway que va a utilizar. Todos los Gateways no soportan todos los modos/métodos! Lo valores por defecto que aparecen para cada puerto son generalmente los correctos! No cambie los valores si no sabe sabe con seguridad lo que hace! Pregunte a su operador que métodos soporta.
+En caso de problema se recomienda probar diferentes modos de conexión. En caso de que la barra inferior de estatus del navegador muestre durante unos segundos el texto &#x22;Error de Gateway &#x22; luego de guardar la opción esto significa que no soporta el método seleccionado.
+  </small>
+<br/><br/>
+
+<i>* Tiempo de ruptura con el Gateway<br/></i>
+  <small>
+  Seleccione el tiempo en milisegundos que el navegador debe esperar datos del Nodo-Gateway.
+  </small>
+<br/><br/>
+
+<i>* Página de inicio<br/></i>
+  <small>
+  La dirección URL que introduzca en esta casilla será abierta automáticamente cada vez que inicie WinWAP. Si se encuentra en modo Gateway &#x28;Esta página tiene preferencia a la página de Inicio HTTP cuando se usa modo Gateway&#x29;.
+  Si no desea que el Navegador abra una página de inicio Automáticamente deberá remover las direcciones de ésta casilla.
+  </small>
+<br/><br/>
+<do type="Aceptar" label="Atrás"> <prev/> </do>
+</p>
+</card>
+</wml>

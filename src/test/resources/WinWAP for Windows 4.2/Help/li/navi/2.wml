@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+
+<card id="navi" title="Navigacija WinWAP'e">
+<p align="center">
+   <img src="..\images\../wwbyst.wbmp" alt="WINWAP"/>
+</p>
+<p>
+  <big>Spragtelëjimas ant ryðio</big>
+  <br/>
+  Ekrano tekstas, kuris yra pabrauktas, yra ryðys su kaþkokia kita informacija. Jeigu jus spragtelësite ant jo, narðyklë pereis prie URL adreso, nurodyto ðiame ryðyje ( kitame puslapyje arba kitoje vietoje einamajame stale ). Kai narðyklëje yra uþkrauta informacija, ji parodo medþiagà vietoj to, kuriame buvo ryðys.
+  <br/>
+  <br/>
+  Techninë pastaba :poprogramës  <b>anchor</b> ir <b>a</b> atsiranda kaip pabraukti ryðiai
+  <br/>
+  <do label="Atgal"> <prev/> </do>
+</p>
+</card>
+</wml>

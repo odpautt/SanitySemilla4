@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+<card id="navi1" title="Navigointi WinWAP ohjelmalla">
+<p align="center">
+   <img src="..\images\../wwbyst.wbmp" alt="WinWAP"/>
+</p>
+<p>
+  <big>Osoitteen kirjoittaminen osoitekentt‰‰n</big>
+  <br/>
+  Selaimen avautuessa se yritt‰‰ automaattisesti avata asetuksissa olevan kotisivun. Kotisivun
+  voi vaihtaa ohjelman asetuksista.
+  <br/>
+  <br/>
+  Kun haluat lukea (avata) sivua toisesta osoitteesta voit kirjoittaa osoitteen (URL) osoiteriville
+  ohjelman yl‰osassa.
+  <br/>
+  <br/>
+  Kirjoitettuasi osoitetta painat &#x22;Rivinvaihton‰pp‰int‰&#x22; n‰pp‰imistˆst‰ jolloin ohjelma hakee sivun
+  Internetist‰ tai WAP yhdysk‰yt‰v‰lt‰. Sinun ei tarvitse kirjoittaa osoitteen http://
+  osaa, WinWAP lis‰‰ sen automaattisesti. Jos haluat avata sivun omalta hakemistolta
+  aloitat osoitteen tekstill‰ file:// jonka j‰lkeen kirjoitat hakemiston ja
+  tiedostonimen (esim: file://D:\WML\index.wml), tai voit valita "Tiedosto" valikosta
+  kohdan "Avaa osoite" ja k‰ytt‰‰ selaus mahdollisuutta lˆyt‰‰ksesi tiedostoa.
+  <br/>
+  <do label="Takaksin"> <prev/> </do>
+</p>
+</card>
+</wml>

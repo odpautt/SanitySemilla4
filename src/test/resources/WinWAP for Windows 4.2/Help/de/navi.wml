@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+
+<card id="navi" title="Navigate with WinWAP">
+<p align="center">
+   <img src="..\images\wwbyst.wbmp" alt="WinWAP"/>
+</p>
+<p>
+  <br/>
+  <big>Informationen zur Navigation mit WinWAP:</big>
+  <br/>
+  <br/>
+  <a href="navi/1.wml">Manuelle Adresseneingabe</a>
+  <br/>
+  <a href="navi/2.wml">Anklicken eines Links</a>
+  <br/>
+  <a href="navi/3.wml">Anklicken einer Schaltfläche</a>
+  <br/>
+  <a href="navi/4.wml">Automatisches Weiterleiten</a>
+  <br/>
+  <a href="navi/5.wml">Zurück und Vorwärts</a>
+  <br/>
+  <br/>
+  <br/>
+  Die Statuszeile in der unteren linken Ecke des Displays informiert über die laufende Aktion des  Browsers. Nach dem vollständigen Laden einer Seite erscheint die Angabe "Fertig".
+  <br/>
+  <do label="Zurück"> <prev/> </do>
+</p>
+</card>
+</wml>

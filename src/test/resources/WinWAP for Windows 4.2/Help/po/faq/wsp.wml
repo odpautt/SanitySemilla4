@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+
+<card id="faq" title="Error 404">
+<p align="center">
+   <img src="..\images\../wwbyst.wbmp" alt="WinWAP"/>
+</p>
+<p>
+  <br/>
+  <big>£¹czenie z bramk¹ WAP</big>
+  <br/>
+  <br/>
+  <b>Pytanie : </b>Jak po³¹czyæ siê z bramk¹ WAP ?  ( czy tak samo jak w moim telefonie komórkowym )?
+  <br/>
+  <br/>
+  <b>OdpowiedŸ : </b>Z bramk¹ WAP mo¿esz po³¹czyæ siê wpisuj¹c odpowiedni adres bramki i rodzaj po³¹czenia w zak³adce Bramka WAP w opcjach.
+SprawdŸ u swojego operatora sieci komórkowej jakie s¹ ustawienia jego bramki WAP i dodaj je do listy bramek.
+  <do label="Wstecz"> <prev/> </do>
+  <do label="FAQ Online"> <go href="http://wap.winwap.com/help/faq/index.wml"/> </do>
+</p>
+</card>
+</wml>

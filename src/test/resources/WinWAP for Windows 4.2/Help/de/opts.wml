@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+<card id="otps" title="WinWAP-Options">
+<p align="center">
+   <img src="..\images\wwhelp.wbmp" alt="WinWAP"/>
+</p>
+<p>
+  <br/>
+  <big>Die Optionen von WinWAP</big>
+  <br/>
+  <br/>
+  WinWAP bietet Ihnen eine Vielzahl visueller und technischer Optionen, mittels derer Sie Ansicht und Funktionsweise Ihres Browsers für Ihre Bedürfnisse optimieren können.
+  <br/>
+  Die gewünschten Einstellungen können Sie im Dialog &#x22;Optionen&#x22; des Menüs &#x22;Bearbeiten&#x22; vornehmen  <br/>
+</p>
+<p align="center">
+  Optionsgruppen:<br/>
+  &#x5F;&#x5F;&#x5F;&#x5F;&#x5F;&#x5F;&#x5F;&#x5F;&#x5F;&#x5F;&#x5F;&#x5F;&#x5F;&#x5F;&#x5F;<br/><br/>
+  <a href="opts/gen.wml">Allgemein</a><br/>
+  <a href="opts/http.wml">HTTP</a><br/>
+  <a href="opts/gw.wml">WAP-Gateway</a><br/>
+  <a href="opts/oth.wml">Erweitert</a><br/>
+  <a href="opts/snd.wml">Akustische Signale</a><br/>
+  <a href="opts/int.wml">Schnittstelle</a><br/>
+  &#x5F;&#x5F;&#x5F;&#x5F;&#x5F;&#x5F;&#x5F;&#x5F;&#x5F;&#x5F;&#x5F;&#x5F;&#x5F;&#x5F;&#x5F;<br/>
+  <do label="Zurück"> <prev/> </do>
+</p>
+</card>
+</wml>

@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+<card id="intro" title="WinWAP introduction">
+<p align="center">
+   <img src="..\images\wwbyst.wbmp" alt="WinWAP"/>
+</p>
+<p>
+  <br/>
+WinWAP jest przegl¹dark¹ która wyœwietla strony napisane w jêzyku wml (wireless markup language).  Program wygl¹da i funkcjonuje jak przegl¹darka html, jednak zaprojektowany zosta³ wy³¹cznie do przegl¹dania stron wml. Program wyœwietla dane na 3 sposoby.
+  <br/>
+  <br/>
+  <big>1) HTTP</big>
+  <br/>
+Protokó³ HTTP jest wykorzystywany to przegl¹dania tradycyjnych stron internetowych za pomoca po³¹czenia tcp/ip.
+  <br/>
+  <br/>
+  <big>2) Bramka WAP</big><b> </b>
+  <br/>
+Ten sposób pozwala przegl¹darce na bezpoœredni kontakt z bramk¹ WAP.  Tak samo funkcjonuj¹ telefony komórkowe z wbudowan¹ obs³ug¹ WAP.
+  <br/>
+  <br/>
+
+  <big>3) Pliki lokalne</big>
+  <br/>
+WinWAP pozwala na przegl¹danie plików .wml z dysku lokalnego.
+</p>
+<p>
+  <do label="Wstecz"> <prev/> </do>
+</p>
+</card>
+</wml>

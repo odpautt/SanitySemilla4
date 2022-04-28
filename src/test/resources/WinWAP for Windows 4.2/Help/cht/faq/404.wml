@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+
+<card id="faq" title="Error 404">
+<p align="center">
+   <img src="..\images\../wwbyst.wbmp" alt="WinWAP"/>
+</p>
+<p>
+  <br/>
+  <big>Error 404 (檔案沒有找到)</big>
+  <br/>
+  <br/>
+  <b>問 : </b>我不能載入任何頁面。要試著重新載入時，總是取得 error 404 (檔案沒有找到)。
+  <br/>
+  <br/>
+  <b>答 : </b>可能需要在「內容」輸入代理資訊，如果使用公司網路連線到 internet ，可能要詢問
+ IT 職員，關於代理和防火牆位址和埠號。
+  <br/>
+  <br/>
+從「編輯」功能表開啟程式內容，前往 HTTP 選項卡，核取「使用代理伺服器」方塊，
+並輸入你的代理/防火牆位址。
+  <do label="Back"> <prev/> </do>
+  <do label="Online FAQ"> <go href="http://www.winwap.com/help/faq/index.wml"/> </do>
+</p>
+</card>
+</wml>

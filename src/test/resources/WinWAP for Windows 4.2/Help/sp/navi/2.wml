@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+
+<card id="navi" title="Navegar con WinWAP">
+<p align="center">
+   <img src="..\images\../wwbyst.wbmp" alt="WinWAP"/>
+</p>
+<p>
+  <big>Seleccionando un vínculo</big>
+  <br/>
+   Texto, en la pantalla, que aparece subrayado es un vínculo a otro centro de información. Al seleccionarlo con el ratón será conectado a la dirección URL especificada en el vínculo( Puede ser otra página u otra sección de la misma página). Cuando el Navegador ha cargado la información completa se mostrará el nuevo material en reemplazo de la página donde se eencontraba el vínculo.
+  <br/>
+  <br/>
+  Technical : <b>anchor</b> and <b>a</b> Elementos aparecen como vínculos subrayados
+  <br/>
+  <do type="Aceptar" label="Atrás"> <prev/> </do>
+</p>
+</card>
+</wml>

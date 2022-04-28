@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+<card id="http" title="HTTP 选项">
+<p align="center">
+   <img src="..\..\images\wwhelp.wbmp" alt="WinWAP"/>
+</p>
+<p>
+  <big>HTTP 选项：</big><br/><br/>
+<i>  * 使用 HTTP 代理<br/></i>
+  <small>
+  当选中此项时，WinWAP 使用下面栏中地址代理。您还要在 &#x22;端口&#x22; 选择器中设置正确的端口 &#x28;通常为 80&#x29;
+  </small>
+<br/><br/>
+<i>* 代理认定<br/></i>
+  <small>
+  当选中此项时，WinWAP 为代理服务器认定用户身份。只有在没有它不能打开页面时使用此选项。您的网络供应商可为您提供用户名和口令。
+  </small>
+<br/><br/>
+
+<i>* 启用 HTTP Cookie<br/></i>
+  <small>
+  当选中此项时，WinWAP 会接收并利用 Http 模式 web 服务器传送的 cookie。
+  </small>
+<br/><br/>
+
+<i>* 主页<br/></i>
+  <small>
+  在此栏中输入的 URL 会在您每次启动 WinWAP 时自动打开。如果您不想让浏览器自动打开页面，则需要删除在此栏中的所有文本。
+  </small>
+<br/><br/>
+<do label="后退"> <prev/> </do>
+</p>
+</card>
+</wml>

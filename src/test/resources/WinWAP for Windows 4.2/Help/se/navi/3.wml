@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+<card id="navi" title="Navigering med WinWAP">
+<p align="center">
+   <img src="..\images\../wwbyst.wbmp" alt="WinWAP"/>
+</p>
+<p>
+  <big>Klicka p&#xE5; en knapp</big>
+  <br/>
+  Beroende p&#xE5; hurdan typs l&#xE4;nk sidan inneh&#xE5;ller s&#xE5; syns den antingen som en understreckad
+  text eller som en knapp under texten. Knappar fungerar p&#xE5; samma s&#xE4;tt som text-l&#xE4;nkar och
+  &#xF6;ppnar sidan som l&#xE4;nken &#xE4;r l&#xE4;nkad till.
+  <br/>
+  <br/>
+  Teknisk del : <b>do</b> element syns som knappar under teksten
+  <br/>
+  <do label="Tillbaka"> <prev/> </do>
+</p>
+</card>
+</wml>

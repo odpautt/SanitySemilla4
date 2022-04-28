@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+
+<card id="faq" title="Error 404">
+<p align="center">
+   <img src="..\images\../wwbyst.wbmp" alt="WinWAP"/>
+</p>
+<p>
+  <br/>
+  <big>Error 404 (nie znaleziono pliku)</big>
+  <br/>
+  <br/>
+  <b>Pytanie : </b>Nie mogê otworzyæ ¿adnej strony i zawsze otrzymujê komunikat error 404 (file not found).
+  <br/>
+  <br/>
+  <b>OdpowiedŸ : </b>Prawdopodobnie musisz wprowadziæ dane serwera proxy we w³aœciwoœciach programu. Jeœli u¿ywasz po³¹czenia LAN dowiedz siê jaki jest adres Twojego serwera proxy i na jakim porcie pracuje (zwykle 80).
+  <br/>
+  <br/>
+Otwórz w³aœciwoœci aplikacji w menu "Edytuj" i przejdŸ do zak³adki HTTP.  Tam zaznacz "U¿yj Proxy"
+i wpisz odpowiedni adres.
+  <do label="Wstecz"> <prev/> </do>
+  <do label="FAQ Online"> <go href="http://wap.winwap.com/help/faq/index.wml"/> </do>
+</p>
+</card>
+</wml>

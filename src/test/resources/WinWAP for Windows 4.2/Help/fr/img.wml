@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+<card id="img" title="Images (wbmp, gif and jpg)">
+<p align="center">
+   <img src="..\images\wwbyst.wbmp" alt="WinWAP"/>
+</p>
+<p>
+  <br/>
+  La norme wml dispose de son propre format pour les images, appelé wbmp. Ces images peuvent être affichées   avec des appareils WAP sur des pages wml. WinWAP affiche ces images soit sur un fond transparent soit sur un   fond blanc. &#x28;le format ne dispose que de deux couleurs - noir ou blanc, le blanc étant le fond sur   lequel l'image est dessinée en noir&#x29;.
+  <br/>
+  <br/>
+  Puisque vous pouvez configurer une image d'arrière-plan de votre choix pour la zone d'affichage des       propriétés, vous pouvez aussi choisir d'afficher l'image en transparent ou d'afficher le &#x22;papier&#x22;    derrière les images wbmp.
+  <br/>
+  <br/>
+  WinWAP supporte aussi les images couleur. Les formats supportés sont les GIF, les GIF et JPG animées.
+  <br/>
+  <br/>
+  Vous pouvez aussi afficher des images directement avec WinWAP en saisissant l'adresse de l'image au lieu de    l'adresse d'une page.
+  <br/>
+  <do label="Back"> <prev/> </do>
+</p>
+</card>
+</wml>

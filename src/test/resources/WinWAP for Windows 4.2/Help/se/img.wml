@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+<card id="img" title="Bilder (wbmp, gif och jpg)">
+<p align="center">
+   <img src="..\images\wwbyst.wbmp" alt="WinWAP"/>
+</p>
+<p>
+  <br/>
+  Wml standarden innehåller ett eget format för bilder, vid namn wbmp (wireless bitmaps). Dessa bilder
+  kan visas i WAP bläddrare på wml sidor. WinWAP visar dessa bilder, antingen med en genomskinlig bakgrund
+  eller eller en bakgrundsfärg. &#x28;formatet är sådan att det endast innehåller 2 färger av vilken den
+  ena är bakgrunden&#x29;
+  <br/>
+  <br/>
+  Eftersom man kan väljä bakgrundsfärg med WinWAP från inställningarna så kan man även välja ifall bilderna
+  skall visas som genomskinliga så att bakgrundsbilden syns istället för &#x22;pappret&#x22; bakom bilden.
+  <br/>
+  <br/>
+  WinWAP har även stöd för färgbilder av formaten GIF, Animerad GIF och JPG.
+  <br/>
+  <br/>
+  WinWAP kan även ladda bilder direkt utan att vara placerade på en wml sida genom att ge den direkta adressen
+  till bilden i addressfältet.
+  <br/>
+  <do label="Tillbaka"> <prev/> </do>
+</p>
+</card>
+</wml>

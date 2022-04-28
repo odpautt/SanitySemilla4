@@ -1,0 +1,18 @@
+[AUTO]
+Updated=20.11.2009 / 00:00:00
+[BM(0)]
+Name=BBCi Home
+URL=http://www.bbc.co.uk/mobile/
+Rate=0
+[BM(1)]
+Name=Google
+URL=http://wap.google.com/m/
+Rate=0
+[BM(2)]
+Name=Newsvendor Headlines
+URL=http://wap.newsvendor.com/
+Rate=0
+[BM(3)]
+Name=WinWAP Home Page
+URL=http://portal.winwap.com/
+Rate=1

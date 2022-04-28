@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+
+<card id="faq" title="Error 404">
+<p align="center">
+   <img src="..\images\../wwbyst.wbmp" alt="WinWAP"/>
+</p>
+<p>
+  <br/>
+  <big>Fejl 404 (fil ikke fundet)</big>
+  <br/>
+  <br/>
+  <b>Spørgsmål : </b>Jeg får error 404 (not found) men jeg ved adressen er korrekt.
+  <br/>
+  <br/>
+  <b>Svar : </b>Dette sker hvis du ikke har indtastet proxy information i "Indstillinger". Hvis du er forbundet til Internettet
+  med en LAN forbindelse (firma netværk), kan din IT administrator give dig adressen til din proxy server og hvilken port den
+  bruger (normalt 80)
+  <br/>
+  <br/>
+  Åben "Indstillinger" fra "Edit" menuen og vælg fanen "HTTP". Her skal "Anvend Proxy" markeres, og adressen til
+  proxyserveren/firewallen indtastes.
+  <do label="Tilbage"> <prev/> </do>
+  <do label="Online FAQ"> <go href="http://www.winwap.com/help/dk/faq/index.wml"/> </do>
+</p>
+</card>
+</wml>

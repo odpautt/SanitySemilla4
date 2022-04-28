@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+<card id="img" title="Billeder (wbmp, gif og jpg)">
+<p align="center">
+   <img src="..\images\wwbyst.wbmp" alt="WinWAP"/>
+</p>
+<p>
+  <br/>
+  WML standarden har specificeret sit eget billedformat, kaldet "wbmp". Disse billeder kan ses
+  med en WAP enhed på wml sider. WinWAP viser disse billeder, enten med en transparent baggrund
+  eller en hvid baggrund. &#x28; Formatet er sådan, a der er kun 2 farver - sort og hvid, og hvid
+   bruges som papiret på hvilket billedet tegnes med sort &#x29;.
+  <br/>
+  <br/>
+  Da du, under indstillinger, kan vælge et baggrundsbillede, kan det også vælges om billeder skal
+  vises transparent eller om billedets &#x22;papir&#x22; skal være synligt bag wbmp billederne.
+  <br/>
+  <br/>
+  WinWAP supporterer også farve billeder. Det supporterede format er GIF, animeret GIF and JPG.
+  <br/>
+  <br/>
+  Du kan også se billeder direkte med WinWAP ved at indtaste adressen på billedet i stedet for adressen på en side.
+  <br/>
+  <do label="Tilbage"> <prev/> </do>
+</p>
+</card>
+</wml>

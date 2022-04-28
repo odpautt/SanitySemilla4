@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+
+<card id="faq" title="WinWAP FAQ">
+<p align="center">
+  <img src="..\images\../wwhelp.wbmp" alt="WinWAP"/></p>
+<p>
+  <br/>
+  <big>FAQ Liste :</big>
+  <br/>
+  <br/>
+  <a href="404.wml">Jeg får error 404 (not found) men jeg ved adressen er korrekt.</a> <br/>
+  <a href="wsp.wml">Hvordan opretter jeg forbindelse til en WAP Gateway?</a> <br/>
+  <br/>
+  <do label="Tilbage"> <prev/> </do>
+  <do label="Online FAQ"> <go href="http://wap.winwap.com/help/dk/faq/index.wml"/> </do>
+</p>
+</card>
+</wml>

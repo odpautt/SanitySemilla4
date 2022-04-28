@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+
+<card id="navi" title="WinWAP 导航">
+<p align="center">
+   <img src="..\images\../wwbyst.wbmp" alt="WinWAP"/>
+</p>
+<p>
+  <big>单击按纽</big>
+  <br/>
+  取决于内容包含何种类型的链接，也可以以下划线文本或者按纽的形式出现。按纽的功能和下划线链接
+  一样，它们可以转到指定的 URL。
+  <br/>
+  <br/>
+  技术：<b>do</b> 标签在文本下面显示
+  <br/>
+  <do label="后退"> <prev/> </do>
+</p>
+</card>
+</wml>

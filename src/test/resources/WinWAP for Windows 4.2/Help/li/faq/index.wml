@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+
+<card id="faq" title="DUK WinWAP">
+<p align="center">
+  <img src="..\images\../wwhelp.wbmp" alt="WINWAP"/></p>
+<p>
+  <br/>
+  <big>DUK temos :</big>
+  <br/>
+  <br/>
+  <a href="404.wml">Að gaunu klaidà  404 (nerasta) ir þinau, kad URL adresas yra teisingas</a> <br/>
+  <a href="wsp.wml">Kaip galima prisijungti prie   WAP ðliuzo?</a> <br/>
+  <br/>
+  <do label="Atgal"> <prev/> </do>
+  <do label="Interaktyviniai DUK  (FAQ)"> <go href="http://wap.winwap.com/help/faq/index.wml"/> </do>
+</p>
+</card>
+</wml>

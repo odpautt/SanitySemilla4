@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+<card id="int" title="Interfeiso pasirinkimai">
+<p align="center">
+   <img src="..\..\images\wwhelp.wbmp" alt="WINWAP"/>
+</p>
+<p>
+  <big>Interfeiso pasirinkimai:</big><br/><br/>
+<i>* Pasiûlyti ið istorijos<br/></i>
+  <small>
+  Pasirinkus, renkant adresà lokacijos lauke WinWAP siûlo vietas, kurias jus aplankëte anksèiau. Jeigu anksèiau ávestas adresas surastas, jis siûlomas jums parodant pilnà adresà, bet pasirenkant galutinæ dalá taip, kad jus galëtumëte pratæsti naujo adreso rinkimà. Jeigu pasiûlytas adresas yra teisingas, jus galite pereiti prie jo nuspaudus enter klaviðà.<br/>
+  <br/>
+   Kad blokuoti pasiûlymø pateikimà, atðaukite ðá pasirinkimà.
+  </small>
+<br/><br/>
+
+<i>* Maksimalus áëjimø skaièius<br/></i>
+  <small>
+  Ðio pasirinkimo pagalba jus galite apriboti kieká adresø, ásimenamø WinWAP viduje Pirmyn ir Atgal.
+  </small>
+<br/><br/>
+
+<i>* Antraðës parodymas prieð wml ðaltiná<br/></i>
+  <small>
+  Pasirinkus, WinWAP parodys http antraðtæ ðaltinio perþiûros lauke aukðèiau faktinio wml kodo. Iðankstinei wml kodo perþiûrai pasirinkite komandà &#x22;Ðaltinio vaizdas&#x22; meniu  &#x22;Vaizdas&#x22;.
+  </small>
+<br/><br/>
+
+<i>* Leisti scenarijø WMLScripts atidirbimà<br/></i>
+  <small>
+  Pasirinkus, WinWAP uþkraus ir atidirbs scenarijus WMLScripts, átrauktus á wml puslapius. WMLScripting - tai scenarijø kalba, analogiðka Java kalbai, kuri naudojama html puslapiuose, ir ji gali atlikti skaièiavimus ir kitas funkcijas, reikalingas WAP serviso funkcionavimui. Kad uþdrausti WMLScript scenarijø palaikymà, atðaukite ðá pasirinkimà.
+  </small>
+<br/><br/>
+
+<i>* Skaitmeniniø adresø leidimas<br/></i>
+  <small>
+  WinWAP yra suprojektuotas darbui su skaitmeniniais adresais, tokiais, kurie naudojami bango.net skaitmeminëje sistemoje, kuri atsiranda nenurodþius standartinës po WinWAP instaliavimo. Priedas dirba taip, kad ávedus á vietos laukà tik skaièiø ir nuspaudus klaviðà enter, WinWAP  transformuoja skaièiø á adresà skaitmeniniø resursø apdorojimo pagalba ir nukreipia jus á tinklalapá, kuris yra ðio konkretaus numerio savininkas.<br/>
+  <br/>
+  Nenurodþius, winwap nusistato bango.net sistemai, ir jos adresø apdorotojo  &#x22;http://winwap.bango.net/&#x22;
+  </small>
+<br/><br/>
+
+<do label="Atgal"> <prev/> </do>
+</p>
+</card>
+</wml>

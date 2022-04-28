@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+<card id="navi" title="Indietro e Avanti">
+<p align="center">
+   <img src="..\images\../wwbyst.wbmp" alt="WinWAP"/>
+</p>
+<p>
+  <big>Indietro e Avanti</big>
+  <br/>
+  Con WinWAP si può navigare avanti e indietro nelle pagine che sono già state visitate. Per tornare alle pagine già visitate selezionare "Indietro" dal menu "Vai" o cliccare il pulsante "Indietro" nella barra degli strumenti.
+  Per avanzare alle pagine da cui si è tornati indietro, selezionare "Avanti" dal menu "Vai" o cliccare il pulsante "Avanti" nella barra degli strumenti.
+  <br/>
+  <do label="Back"> <prev/> </do>
+</p>
+</card>
+</wml>

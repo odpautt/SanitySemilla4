@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+<card id="gw" title="Gateway-alternativer">
+<p align="center">
+   <img src="..\..\images\wwhelp.wbmp" alt="WinWAP"/>
+</p>
+<p>
+  <big>Gateway-alternativer:</big><br/><br/>
+<i>* Gateway-IP<br/></i>
+  <small>
+  Her skal du oppgi IP-adressen eller vertsnavnet for WAP-gateway'en du ønsker å benytte. IP-
+  adressen oppgis av din mobiloperatør for deres tjenester og er den samme IP-adressen du skal
+  oppgi i din mobiltelefon. &#x28;IP-adresseformat: 123.123.123.123&#x29;
+  <br/><br/>
+  <b>Husk å velge &#x22;Gateway-modus&#x22; i menyen &#x22;<a href="gen.wml">Generelle
+  alternativer</a>&#x22; for å koble deg til gateway'en!</b>
+  </small>
+<br/><br/>
+<i>* Forbindelsesport/-modus<br/></i>
+  <small>
+  Forskjellige gateway'er fungerer i forskjellige modi. Her velger du riktig modus for gateway'en du
+  benytter. Ikke alle gateway'er støtter alle modi! Standard port-verdier for hvert modus er standard-
+  portene hvert modus vanligvis benytter, men WinWAP vil automatisk velge en annen port dersom gateway'en
+  gir beskjed om dette. Kontroller med gateway-operatøren hvilke modi de støtter - eller forsøk de forskjellige
+  alternativene. Dersom nettleserens statuslinje nederst viser &#x22;Gateway-feil&#x22; en stund etter
+  at du har lagret alternativene, støtter den ikke det valgte modus.
+  </small>
+<br/><br/>
+
+<i>* Tidsavbrudd for gateway-forbindelse<br/></i>
+  <small>
+  Velger tidsavbruddet i millisekunder for gateway-forbindelsen.
+  </small>
+<br/><br/>
+
+<i>* Startside<br/></i>
+  <small>
+  Adressen &#x28;URL'en&#x29; du oppgir i dette feltet vil åpnes automatisk hver gang du starter WinWAP dersom
+  du er i gateway-modus &#x28;denne hjemmesiden overstyrer HTTP-startsiden når du benytter en gateway&#x29;.
+  Dersom du ikke ønsker at nettleseren skal åpne en startside automatisk, fjern all tekst i dette feltet.
+  </small>
+<br/><br/>
+<do label="Tilbake"> <prev/> </do>
+</p>
+</card>
+</wml>

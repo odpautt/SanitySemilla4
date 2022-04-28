@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+<card id="intro" title="WinWAP introduksjon">
+<p align="center">
+   <img src="..\images\wwbyst.wbmp" alt="WinWAP"/>
+</p>
+<p>
+  <br/>
+  WinWAP er en nettleser som leser data formatert som WML-filer &#x28;wireless markup language&#x29;.
+  Nettleseren ser ut og fungerer mye likt enhver HTML-nettleser, men i stedet for å lese
+  HTML-filer &#x28;hypertext transfer markup language&#x29; er den designet for WML.
+  Nettleseren støtter 3 måter å hente data på.
+  <br/>
+  <br/>
+  <big>1) HTTP</big>
+  <br/>
+  Hyper text transfer-protokollen er den samme protokollen som benyttes til å lese "vanlige"
+  internettsider med en datamaskin tilkoblet en TCP/IP-forbindelse.
+  <br/>
+  <br/>
+  <big>2) WAP-gateway</big><b> </b>
+  <br/>
+  Å benytte gateway-alternativet gjør det mulig for nettleseren å koble seg direkte opp mot
+  WAP-gatewayer. Dette skjer på samme måte som mobiltelefoner benytter ved tilkobling til WAP.
+  <br/>
+  <br/>
+
+  <big>3) Lokal fil</big>
+  <br/>
+  WinWAP kan åpne .wml-filer lokalt fra en harddisk på datamaskinen (eller via et lokalnett).
+</p>
+<p>
+  <do label="Tilbake"> <prev/> </do>
+</p>
+</card>
+</wml>

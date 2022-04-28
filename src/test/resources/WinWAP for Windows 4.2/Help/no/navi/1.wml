@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+
+<card id="navi" title="Navigere med WinWAP">
+<p align="center">
+   <img src="..\images\../wwbyst.wbmp" alt="WinWAP"/>
+</p>
+<p>
+  <big>Skrive inn adressen manuelt</big>
+  <br/>
+  Når nettleseren åpnes vil den automatisk gå til hjemmesiden som er valgt i
+  menyen 'Alternativer'. Etter installasjonen er hjemmesiden satt til Winwap Technologies
+  Software’s WinWAP-side der du kan finne informasjon om nettleseren.
+  <br/>
+  <br/>
+  Når du vil lese (hente) sider fra andre adresser, må du skrive inn
+  URL'en (nettadressen) til siden i adressefeltet (vist under).
+  <br/>
+  <br/>
+  Etter å ha skrevet inn adressen (URL'en) trykk Enter på tastaturet og nettleseren vil
+  hente siden for deg. Du behøver ikke skrive http:// delen av adressen, WinWAP vil
+  legge til dette automatisk dersom du ikke skriver det inn. Dersom du vil gå inn på en
+  fil fra din lokale harddisk, kan du enten begynne adressen med file:// og deretter
+  skrive banen til filen du ønsker å laste (f.eks.: file://D:\WML\index.wml ), eller
+  alternativt velge "Åpne plassering" fra menyen "Fil" og deretter skrive inn banen
+  (eller bla gjennom til filen) i vinduet som åpnes.
+  <br/>
+  <do label="Tilbake"> <prev/> </do>
+</p>
+</card>
+</wml>

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+
+<card id="navi" title="Navigate with WinWAP">
+<p align="center">
+   <img src="..\images\../wwbyst.wbmp" alt="WinWAP"/>
+</p>
+<p>
+  <big>Clicking on a button</big>
+  <br/>
+  Depending on what kind of link the material containes, it will either appear as underlined
+  text or as a Button. Buttons behave the same way as underlined links. They go to the URL specified.
+  <br/>
+  <br/>
+  Technical : <b>do</b> tags appear as buttons beneath the text
+  <br/>
+  <do label="Back"> <prev/> </do>
+</p>
+</card>
+</wml>

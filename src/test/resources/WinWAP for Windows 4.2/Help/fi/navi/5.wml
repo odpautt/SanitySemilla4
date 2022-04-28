@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+<card id="navi5" title="Navigointi WinWAP ohjelmalla">
+<p align="center">
+   <img src="..\images\../wwbyst.wbmp" alt="WinWAP"/>
+</p>
+<p>
+  <big>Edellinen ja Seuraava</big>
+  <br/>
+  Selaimella voit navigoida edelliseen ja seuraavaan sivuun jos olet käynyt monessa sivussa. Mennäksesi
+  edelliseen sivuun valitset "Edellinen" työkalupalkista, ja vastaavasti valitset "Seuraava" jos haluat
+  mennä takaisin sivuun josta olet palannut edelliseen.
+  <br/>
+  <do label="Takaisin"> <prev/> </do>
+</p>
+</card>
+</wml>

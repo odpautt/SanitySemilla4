@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+
+<card id="faq" title="WinWAP -Preguntas - FAQ">
+<p align="center">
+  <img src="..\images\../wwhelp.wbmp" alt="WinWAP"/></p>
+<p>
+  <br/>
+  <big>Preguntas frecuentes :</big>
+  <br/>
+  <br/>
+  <a href="404.wml">Recibo el mensaje error 404 (no encontrado) Yo sé que la dirección URL es correcta</a> <br/>
+  <a href="wsp.wml">Como me puedo conectar a un Nodo-Gateway WAP?</a> <br/>
+  <br/>
+  <do type="Aceptar" label="Atrás"> <prev/> </do>
+  <do type="Aceptar" label="Online FAQ"> <go href="http://wap.winwap.com/help/faq/index.wml"/> </do>
+</p>
+</card>
+</wml>

@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+
+<card id="navi" title="Navigate with WinWAP">
+<p align="center">
+   <img src="..\images\../wwbyst.wbmp" alt="WinWAP"/>
+</p>
+<p>
+  <big>Typing the address manually</big>
+  <br/>
+  When the browser opens, it will automatically go to the homepage that can be set in the
+  properties. After installation the homepage is Winwap Technologies’s winwap page, where you
+  can find information regarding the browser.
+  <br/>
+  <br/>
+  When you want to read ( retrieve ) the page from another address you should type the
+  URL of the page into the address box ( shown below ).
+  <br/>
+  <br/>
+  After entering the URL you press enter on you keyboard, and the browser will get the
+  page for you. You don’t have to type out the http:// part of the address, winwap will
+  add it automatically if you don’t. If you want to access a file from a drive you can
+  either begin the URL with file:// and then type out the path to the file you want to
+  load ( ex : file://D:\WML\index.wml ), or optionally select "Open Location" from the
+  "File" menu, and type the path ( or browse to the file ) in the window that opens.
+  <br/>
+  <do label="Back"> <prev/> </do>
+</p>
+</card>
+</wml>

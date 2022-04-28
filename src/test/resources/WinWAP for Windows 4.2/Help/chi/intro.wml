@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+<card id="intro" title="WinWAP 介绍">
+<p align="center">
+   <img src="..\images\wwbyst.wbmp" alt="WinWAP"/>
+</p>
+<p>
+  <br/>
+  WinWAP 是一种可阅读无线标识语言(wml)格式数据的浏览器。
+  此浏览器的外观和功能非常类似于任何标准的 html 浏览器，但是它阅读的并不是超文本链接标识语言 (html)，而是专门为 wml 设计的。
+  它支持 3 种获取数据的方式。
+  <br/>
+  <br/>
+  <big>1) HTTP</big>
+  <br/>
+  超文本传输协议同样是一种协议，用于通过计算机使用 tcp/ip 连接来阅读“常规”Internet 页面。
+  <br/>
+  <br/>
+  <big>2) WAP 网关</big><b> </b>
+  <br/>
+  网关选项可以使浏览器直接和 Wap 网关直接相连。移动电话在使用 wap 时同样使用这种方式连接。
+  <br/>
+  <br/>
+
+  <big>3) 本地文件</big>
+  <br/>
+  WinWAP 可以从本地的计算机驱动器（或网络驱动器）中打开 .wml 文件。
+</p>
+<p>
+  <do label="后退"> <prev/> </do>
+</p>
+</card>
+</wml>

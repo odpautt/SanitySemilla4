@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+<card id="gw" title="Gateway Inst&#xE4;llningar">
+<p align="center">
+   <img src="..\..\images\wwhelp.wbmp" alt="WinWAP"/>
+</p>
+<p>
+  <big>Gateway Inst&#xE4;llningar:</big><br/><br/>
+<i>* Gateway IP<br/></i>
+  <small>
+  H&#xE4;r b&#xF6;r anges IP adressen till WAP Gatewayn som skall anv&#xE4;ndas. IP adressen
+  f&#xE5;r ni av er mobiloperat&#xF6;r eller Gateway operat&#xF6;r och &#xE4;r samma IP adress
+  som ni matar in i mobil telefoner f&#xF6;r att koppla upp dem. WinWAP har en
+  Gateway som &#xE4;r anv&#xE4;ndbar via Internet f&#xE4;rdigt inst&#xE4;lld efter installation.
+  <br/>
+  &#x28;IP adress format : 123.123.123.123&#x29;
+  <br/><br/>
+  <b>Kom ig&#xE5;t att v&#xE4;lja &#x22;Gateway Metod&#x22; Fr&#xE5;n &#x22;<a href="gen.wml">Alm&#xE4;nna
+  inst&#xE4;llningar</a>&#x22; f&#xF6;r att koppla p&#xE5; Gateway metoden!</b>
+  </small>
+<br/><br/>
+
+<i>* F&#xF6;rbindelse Port / Metod<br/></i>
+  <small>
+  Olika gateways fungerar i olika metoder. H&#xE4;r skall v&#xE4;ljas den r&#xE4;tta metoden &#x28;mode&#x29;
+  f&#xF6;r den gateway som &#xE4;r vald. De v&#xE4;rden som &#xE4;r f&#xE4;rdigt i port f&#xE4;lten &#xE4;r vanligtvis de r&#xE4;tta
+  v&#xE4;rdena och skall inte &#xE4;ndras ifall ni inte har blivit instruerade att g&#xF6;ra s&#xE5;. Vid problem
+  rekommenderas det att prova de olika f&#xF6;rbindelse metoderna. Ifall bl&#xE4;ddrarens status text
+  i nedre kanten visar &#x22;Gateway Fel&#x22; en stund efter att installningarna &#xE4;r sparade
+  betyder det att bl&#xE4;ddraren inte kunde koppla upp sig till gatewayn.
+  </small>
+<br/><br/>
+
+<i>* Tidsavbrytning<br/></i>
+  <small>
+  St&#xE4;ller in i millisekunder hur l&#xE4;nge browsern v&#xE4;ntar p&#xE5; data fr&#xE5;n gatewayn.
+  </small>
+<br/><br/>
+
+<i>* Hem sida<br/></i>
+  <small>
+  Addressen &#x28;URL&#x29; i detta f&#xE4;lt &#xF6;ppnas automatiskt n&#xE4;r ni k&#xF6;r WinWAP, ifall den har
+  kopplat upp sig till Gatewayn. Denna hem sida anv&#xE4;nds endast med Gateway metoden och HTTP
+  metoden har en egen hemside inst&#xE4;llning. Genom att ta bort texten fr&#xE5;n f&#xE4;ltet &#xF6;ppnas ingen
+  hemsida automatiskt.
+  </small>
+<br/><br/>
+
+<do label="Tillbaka"> <prev/> </do>
+</p>
+</card>
+</wml>

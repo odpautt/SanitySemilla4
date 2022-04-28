@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+<card id="gen" title="General Options">
+<p align="center">
+   <img src="..\..\images\wwhelp.wbmp" alt="WinWAP"/>
+</p>
+<p>
+  <big>Opzioni Generali:</big><br/><br/>
+
+<i>* Modalità connessione<br/></i>
+  <small>
+  Selezionare la modalità di connessione nel box di selezione del <b>&#x22;modalità di connessione&#x22;</b>. Si può usare sia HTTP &#x28;Hypertext Transfer Protocol&#x29; o Gateway &#x28;usato con il gateway WAP &#x29;.
+  Se connessi con un telefono cellulare al servizio WAP del vostro operatore sarà di regola necessario utilizzare la modalità Gateway e inserire le corrette informazioni relative al Gateway sulla pagina <a href="gw.wml">Opzioni gateway</a>.
+  Se si utilizza la modalità HTTP su una connessione telefonica standard o una connessione LAN può essere necessario inserire le informazioni relative al proxy alla <a href="http.wml">pagina HTTP</a> per poter aprire le pagine.
+  </small>
+<br/><br/>
+
+<i>* Immagine sfondo<br/></i>
+  <small>
+  Con questa opzione si può impostare l'immagine che viene visualizzata dietro la pagina WAP dello schermo.
+  Selezionare un'immagine valida cliccando il pulsante &#x22;Browse&#x22; e verificare il box di controllo per mostrarla &#x22;Mostra immagine sfondo dietro il testo&#x22. E' possibile selezionare la modalità di visualizzazione immagine con le opzioni nel box di selezione &#x22;Immagine sfondo&#x22;.
+  </small>
+<br/><br/>
+
+<i>* Connessione Telefonica<br/></i>
+  <small>
+  Il box di comando &#x22;Non richiedere connessione telefonica&#x22; disabilita la finestra che consente la connessione con una connessione telefonica quando si utilizza WinWAP. Rimuovere il controllo se si vuole che compaia la richiesta di connessione quando si utilizza WinWAP.
+  </small>
+<br/><br/>
+
+<i>* Pulsanti grandi barra strumenti<br/></i>
+  <small>
+  Se viene rimosso il controllo il testo dei pulsanti della barra degli strumenti verrà nascosto e la dimensione dei pulsanti ridotta.
+  </small>
+<br/><br/>
+
+<i>* Immagini trasparenti<br/></i>
+  <small>
+  Al controllo lo sfondo delle immagini non sarà visibile, ed il colore/immagine di sfondo sarà visibile dietro l'immagine.
+  </small>
+<br/><br/>
+
+<i>* Mostra immagini<br/></i>
+  <small>
+  Quando viene attivato WinWAP carica immagini WAP e le visualizza sullo schermo. Se si vuole accelerare il caricamento è possibile eliminare questo controllo, ma in questo caso le immagini non verranno mostrate.
+  </small>
+<br/><br/>
+<br/>
+
+<i>* Applicazione di Default wml<br/></i>
+  <small>
+  Quando attivato WinWAP si registra come lettore di default per i file wml, cosicché se si seleziona Apri su un file wml dall'esploratore di finestra esso verrà visualizzato con winwap.
+  </small>
+<br/><br/>
+
+<i>* Ricorda posizione finestra<br/></i>
+  <small>
+  Quando attivato WinWAP ricorderà la dimensione e la posizione della finestra in cui era quando è stato chiuso, e la riaprirà nella stessa posizione la volta successiva in cui lo si utilizzerà.
+  </small>
+<br/><br/>
+
+<i>* Mostra posizione stampa<br/></i>
+  <small>
+  Quando attivato WinWAP aggiunge la posizione della pagina alla stampa.
+  </small>
+  <do label="Back"> <prev/> </do>
+</p>
+</card>
+</wml>

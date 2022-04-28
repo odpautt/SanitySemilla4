@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+<card id="snd" title="Sound Options">
+<p align="center">
+   <img src="..\images\wwhelp.wbmp" alt="WinWAP"/>
+</p>
+<p>
+  <big>Akustische Signale:</big><br/><br/>
+<i>* Akustische Signale verwenden<br/></i>
+  <small>
+  Ist diese Option aktiviert, so können Sie akustische Signale (im .wav-Format gespeicherte Sound-Dateien) zur
+  Untermalung bestimmter Browser-Aktionen und Ereignisse auswählen. Um das Tonsignal für ein bestimmtes Ereignis zu aktivieren
+  oder zu deaktivieren, markieren Sie das Kästchen vor  der entsprechenden Zeile bzw. löschen Sie die Markierung.
+  Über die Schaltfläche mit dem Ordnersymbol können Sie die gewünschte Sounddatei wählen. Klicken Sie auf die
+  Pfeiltaste, um das in der Textzeile angezeigten Tonsignal zu hören.<br/>
+  <br/>
+  Bei der Installation ist WinWAP mit Standardsounds für jedes der signalisierbaren Ereignisse ausgestattet.
+  </small>
+<br/><br/>
+
+<do label="Zurück"> <prev/> </do>
+</p>
+</card>
+</wml>

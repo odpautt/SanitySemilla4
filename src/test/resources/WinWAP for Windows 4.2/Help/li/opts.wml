@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+<card id="otps" title="WinWAP Pasirinkimai">
+<p align="center">
+   <img src="..\images\wwhelp.wbmp" alt="WINWAP"/>
+</p>
+<p>
+  <br/>
+  <big>Pasirinkimai  WinWAP'e</big>
+  <br/>
+  <br/>
+  Èia yra daugybë vizualiniø ir techniniø pasirinkimø, kuriø pagalba jus galite pakeisti WinWAP'o iðvaizdà ir elgsenà.
+  <br/>
+  Kad prieiti prie ðiø pasirinkimø, pasirinkite &#x22;pasirinkimai&#x22;  &#x22;Redaguoti&#x22; meniu.
+  <br/>
+</p>
+<p align="center">
+  Pasirinkimø grupës :<br/>
+  &#x5F;&#x5F;&#x5F;&#x5F;&#x5F;&#x5F;&#x5F;&#x5F;&#x5F;&#x5F;&#x5F;&#x5F;&#x5F;&#x5F;&#x5F;<br/><br/>
+  <a href="opts/gen.wml">Bendros</a><br/>
+  <a href="opts/http.wml">HTTP</a><br/>
+  <a href="opts/gw.wml">WAP Ðliuzas</a><br/>
+  <a href="opts/oth.wml">Kiti</a><br/>
+  <a href="opts/snd.wml">Garsai</a><br/>
+  <a href="opts/int.wml">Interfeisas</a><br/>
+  &#x5F;&#x5F;&#x5F;&#x5F;&#x5F;&#x5F;&#x5F;&#x5F;&#x5F;&#x5F;&#x5F;&#x5F;&#x5F;&#x5F;&#x5F;<br/>
+  <do label="Atgal"> <prev/> </do>
+</p>
+</card>
+</wml>

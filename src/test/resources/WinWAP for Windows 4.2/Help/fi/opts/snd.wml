@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+<card id="snd" title="Ääni asetukset">
+<p align="center">
+   <img src="..\..\images\wwhelp.wbmp" alt="WinWAP"/>
+</p>
+<p>
+  <big>Äänet:</big><br/><br/>
+<i>* Kytke ääniefektit päälle<br/></i>
+  <small>
+  Selain tukee erilaisia ääniä eri tapahtumien yhteydessä. Voit valita äänitiedostoja
+  jota selain soittaa eri tapahtumien kohdalla &#x22;Ääniefektit&#x22;
+  laatikosta. Esikuuntele äänet nuolipainikkeella joka löytyy
+  jokaisen äänen oikealta puolella.
+  <br/>
+  <br/>
+  Ohjelma käyttää esiasetettuja ääniä asennuksen jälkeen.
+  </small>
+<br/><br/>
+
+<do label="Takaisin"> <prev/> </do>
+</p>
+</card>
+</wml>

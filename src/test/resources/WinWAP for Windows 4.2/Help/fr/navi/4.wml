@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+
+<card id="navi" title="Navigate with WinWAP">
+<p align="center">
+   <img src="..\images\../wwbyst.wbmp" alt="WinWAP"/>
+</p>
+<p>
+  <big>Transfert automatique</big>
+  <br/>
+  Le format wml contient des éléments qui envoient le navigateur quelque part automatiquement. Cela signifie     que lorsque vous ouvrez une page wml, elle peut n'être visible qu'un court moment, après quoi une autre page   est ouverte sans que vous ayez à cliquer sur un lien ou un bouton. C'est en général utilisé sur les pages     de démarrage qui ne contiennent qu'une image et un peu de texte de bienvenue, le matériel réel étant situé   ailleurs.
+  <br/>
+  <br/>
+  Le format wml contient aussi des éléments qui envoient le navigateur ailleurs uniquement si vous entrez la     page normalement ou depuis un autre lien. Si vous retournez au lien, vous ne serez pas automatiquement       transféré ailleurs. Cela peut aussi être appliqué au retour sur une page (en retournant en arrière à l'aide    du bouton Précédente ou avec un lien précédent) afin que si vous retournez à une page, elle vous transférera   ailleurs.
+  <br/>
+  <br/>
+  Note technique : les balises <b>ontimer</b> et <b>card onenterforward</b> et <b>card onenterbackward</b> s'appliquent à ce qui précède.
+  <br/>
+  <do label="Back"> <prev/> </do>
+</p>
+</card>
+</wml>

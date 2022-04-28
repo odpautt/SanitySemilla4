@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+
+<card id="navi" title="Navegar con WinWAP">
+<p align="center">
+   <img src="..\images\../wwbyst.wbmp" alt="WinWAP"/>
+</p>
+<p>
+  <big>Envío automático</big>
+  <br/>
+  El formato wml contiene elementos que obligan al navegador a ejecutar tareas automáticamente. Cuando se abre una página wml, esta puede ser visible solo algunos segundos, pasados los cuales se abre otra página sin que Ud. tenga que seleccionar botones ó vínculos. Se usa generalmente en páginas de inicio que solo contienen una imágen y/o texto de saludo, mientras que la verdadera información se encuentra en otra página.
+  <br/> 
+  <br/>
+  El formato wml contiene tambien elementos que obligan al navegador a ir a otra parte, solamente si  navega hacia atrás a una página o solamente cuando se abre una página por primera vez.
+  <br/>
+  <br/>
+  Technical : <b>ontimer</b> / <b>card onenterforward</b> / <b>card onenterbackward</b> Elemetos 
+  aprecen como botones bajo el texto.
+  <br/>
+  <do type="Aceptar" label="Atrás"> <prev/> </do>
+</p>
+</card>
+</wml>

@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+<card id="gen" title="General Options">
+<p align="center">
+   <img src="..\..\images\wwhelp.wbmp" alt="WinWAP"/>
+</p>
+<p>
+  <big>General Options:</big><br/><br/>
+
+<i>* Connection Mode<br/></i>
+  <small>
+  In the <b>&#x22;Connection mode&#x22;</b> selection box you select the connection mode. You can
+  either use HTTP &#x28;Hypertext Transfer Protocol&#x29; or Gateway &#x28;Used with WAP Gateways&#x29;.
+  If connected with a mobile phone to your operators WAP service it will normally require that you use
+  Gateway mode and enter the correct Gateway information on the <a href="gw.wml">Gateway options</a> page.
+  If you use HTTP mode over a standard dial-up connection or LAN connection you might have to enter proxy
+  information at the <a href="http.wml">HTTP page</a> to be able to open pages.
+  </small>
+<br/><br/>
+
+<i>* Background Image<br/></i>
+  <small>
+  You can set the image that is displayed begind the WAP page on screen with this option.
+  Select a valid image by clicking on the &#x22;Browse&#x22; button, and check the &#x22;Show
+  Background image behind text&#x22; checkbox to show the image. You can select the image display
+  mode with the options in the &#x22;Background image&#x22; selection box.
+  </small>
+<br/><br/>
+
+<i>* Dial-up connection<br/></i>
+  <small>
+  The &#x22;Do not ask for dial-up connection&#x22; checkbox disables the window that lets you connect
+  with a dial-up connection when you lauch WinWAP. Remove the check if you want to be asked to connect
+  when you run WinWAP.
+  </small>
+<br/><br/>
+
+<i>* Large toolbar buttons<br/></i>
+  <small>
+  If check is removed the text on the toolbar buttons will be hidden and the size of the buttons reduced.
+  </small>
+<br/><br/>
+
+<i>* Transparent images<br/></i>
+  <small>
+  When checked the images background will not be visible, and the background color/image is visible behind
+  the image.
+  </small>
+<br/><br/>
+
+<i>* Show images<br/></i>
+  <small>
+  When checked WinWAP loads WAP images and displays them on screen. If you want to speed up loading you
+  can remove this check, but then images are not shown.
+  </small>
+<br/><br/>
+<br/>
+
+<i>* Default wml application<br/></i>
+  <small>
+  When checked WinWAP registers as the default reader for .wml files, so that if you select Open on a
+  .wml file from windows explorer it will be shown with winwap.
+  </small>
+<br/><br/>
+
+<i>* Remember window position<br/></i>
+  <small>
+  When checked WinWAP will remember the size and position of the window it was in when shut down, and
+  it will re-open on the same position the next time you run it.
+  </small>
+<br/><br/>
+
+<i>* Show location on printout<br/></i>
+  <small>
+  When checked WinWAP adds the location of the page to the printout.
+  </small>
+  <do label="Back"> <prev/> </do>
+</p>
+</card>
+</wml>

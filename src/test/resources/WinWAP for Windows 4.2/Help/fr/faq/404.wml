@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+
+<card id="faq" title="Error 404">
+<p align="center">
+   <img src="..\images\../wwbyst.wbmp" alt="WinWAP"/>
+</p>
+<p>
+  <br/>
+  <big>Erreur 404 (fichier non trouvé)</big>
+  <br/>
+  <br/>
+  <b>Question : </b>Je ne peux charger aucune page et j'obtiens toujours l'erreur 404 (fichier non trouvé)     lorsque j'essaie de charger.
+  <br/>
+  <br/>
+  <b>Réponse : </b>Il faut probablement que vous entriez les informations sur votre proxy dans les propriétés.   Si vous êtes connecté à internet via un LAN (réseau d'entreprise), vous devez demander l'adresse de votre     serveur proxy et quel port il utilise (80 en général) à votre responsable informatique.
+  <br/>
+  <br/>
+  Ouvrez les propriétés d'application dans le menu "Modifier" et allez à l'onglet HTTP. Vous devez cocher la   case "Utiliser Proxy" et saisir l'adresse de votre proxy/firewall.
+  <do label="Back"> <prev/> </do>
+  <do label="Online FAQ"> <go href="http://www.winwap.com/help/faq/index.wml"/> </do>
+</p>
+</card>
+</wml>

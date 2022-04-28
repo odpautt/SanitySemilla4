@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+<card id="int" title="Interface Options">
+<p align="center">
+   <img src="..\..\images\wwhelp.wbmp" alt="WinWAP"/>
+</p>
+<p>
+  <big>Wygl¹d:</big><br/><br/>
+<i>* Korzystaj z historii przy autouzupe³nianiu adresów<br/></i>
+  <small>
+Zaznaczenie tej opcji powoduje, ¿e przy wpisywaniu adresu WinWAP proponuje strony, które ju¿ odwiedzi³eœ.  Jeœli program natrafi na odpowiedni¹ literê, pokazuje pierwszy komletny adres, jednoczeœnie umo¿liwiaj¹c wpisanie innego adresu.  Jeœli sugerowany przez program adres jest poprawny, wystarczy wcisn¹æ Enter.
+  <br/>
+Aby zdezaktywowaæ tê opcjê nie zaznaczaj pola "Korzystaj z historii przy wpisywaniu adresu"
+  </small>
+<br/><br/>
+
+<i>* Liczba wpisów<br/></i>
+  <small>
+Tutaj mo¿esz ograniczyæ liczbê wpisów w historii, które WinWAP pamiêta i wykorzystuje przy wciœniêciu przycisków Wstecz i Dalej.
+  </small>
+<br/><br/>
+
+<i>* Poka¿ nag³ówek przed kodem wml w podgl¹dzie Ÿród³a<br/></i>
+  <small>
+Zaznaczenie tej opcji powoduje, ¿e WinWAP wyœwietli nag³ówek http w trybie podgl¹du Ÿród³a strony wml.  Aby uzyskac podgl¹d kodu wml, wybierz "Poka¿ Ÿród³o" z menu "Widok".
+
+  </small>
+<br/><br/>
+
+<i>* Obs³uga skryptów WML<br/></i>
+  <small>
+Zaznaczenie tej opcji powoduje, ¿e WinWAP za³aduje i otworzy skrypty WML, które napotka na ogl¹danych stronach wml.  WMLScripting to jêzyk podobny do jêzyka Java wykorzystywanego na stronach html który wykonuje ró¿ne dzia³ania aby serwisy WAP dzia³a³y poprawnie.  Aby zdezaktywowaæ obs³ugê skryptów WML, nie zaznaczaj tej opcji.
+  </small>
+<br/><br/>
+
+<i>* Zamieñ numer IP w adres<br/></i>
+  <small>
+WinWAP obs³uguje adresy numeryczne, takie jak w systemie numerycznym bango.net, który jest domyœlnym systemem po zainstalowaniu WinWAP.  Dzia³a on w taki sposób, ¿e po wpisaniu numeru do pola Adres i wciœniêciu Enter, WinWAP zamieni numer na adres i przekieruje u¿ytkownika do strony znajduj¹cej siê pod danym numerem.
+<br/>
+  <br/>
+Domyœlnie WinWAP ustawiony jest na adres bango.net - &#x22;http://winwap.bango.net/&#x22;
+
+  </small>
+<br/><br/>
+
+<do label="Wstecz"> <prev/> </do>
+</p>
+</card>
+</wml>

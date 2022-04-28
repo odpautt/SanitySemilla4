@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+
+<card id="navi" title="Navigate with WinWAP">
+<p align="center">
+   <img src="..\images\../wwbyst.wbmp" alt="WinWAP"/>
+</p>
+<p>
+  <big>Cliquer sur un bouton</big>
+  <br/>
+  En fonction du type de lien contenu par le matériel, il s'affiche soit sous la forme de texte souligné, soit   sous la forme d'un bouton. Les boutons fonctionnent comme les liens soulignés. Ils dirigent vers l'URL   spécifiée.
+  <br/>
+  <br/>
+  Note technique : Les balises <b>do</b> s'affichent comme des boutons sous le texte
+  <br/>
+  <do label="Back"> <prev/> </do>
+</p>
+</card>
+</wml>

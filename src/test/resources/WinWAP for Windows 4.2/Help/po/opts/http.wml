@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+<card id="http" title="HTTP Options">
+<p align="center">
+   <img src="..\..\images\wwhelp.wbmp" alt="WinWAP"/>
+</p>
+<p>
+  <big>Opcje HTTP:</big><br/><br/>
+<i>  * U¿yj HTTP Proxy<br/></i>
+  <small>
+Zaznaczenie tej opcji powoduje wykorzystanie adresu serwera proxy.  Powinieneœ równie¿ podaæ poprawny port (zwykle 80).
+  </small>
+<br/><br/>
+<i>* Serwer HTTP Proxy wymaga logowania<br/></i>
+  <small>
+Zaznaczenie tej opcji powoduje, ¿e WinWAP zaloguje u¿ytkownika z nazw¹ i has³em na serwer HTTP Proxy. Tej opcji nale¿y u¿ywaæ tylko w przypadku, kiedy bez niej niemo¿liwe jest ogl¹danie stron. Twój operator powinien podaæ Ci nazwe u¿ytkownika oraz has³o.
+  </small>
+<br/><br/>
+
+<i>* Akceptuj Cookies<br/></i>
+  <small>
+Zaznaczenie tej opcji powoduje przyjmowanie Cookies wysy³anych przez serwer w trybie HTTP.
+  </small>
+<br/><br/>
+
+<i>* Strona g³ówna<br/></i>
+  <small>
+
+Wpisany w te pole adres URL bedzie automatycznie otwierany przez WinWAP przy starcie przegl¹darki.  Jeœli nie chcesz korzystaæ  z ¿adnej strony g³ównej, zostaw puste pole.
+  </small>
+<br/><br/>
+<do label="Wstecz"> <prev/> </do>
+</p>
+</card>
+</wml>

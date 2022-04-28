@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+<card id="snd" title="Sound Options">
+<p align="center">
+   <img src="..\..\images\wwhelp.wbmp" alt="WinWAP"/>
+</p>
+<p>
+  <big>Opzioni suono:</big><br/><br/>
+<i>* Abilita suoni per eventi<br/></i>
+  <small>
+  Quando abilitato, è possibile selezionare suoni differenti &#x28;.wav files&#x29; che saranno suonati in tempi diversi usando il browser. Per disabilitare o abilitare uno suono specifico attivare o disattivare il box su quell'evento sonoro. Selezionare i suoni cliccando sul pulsante &#x22;Apri Folder&#x22; al suono giusto per ogni evento sonoro. Si può ascoltare il suono premendo il pulsante &#x22;Frecciaw&#x22; alla destra del pulsante aperto.<br/>
+  <br/>
+  WinWAP giunge precaricato con suoni di default per ogni evento.
+  </small>
+<br/><br/>
+
+<do label="Back"> <prev/> </do>
+</p>
+</card>
+</wml>

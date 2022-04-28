@@ -1,0 +1,25 @@
+<?xml version="1.0"?><P>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+<card id="img" title="Vaizdai (wbmp, gif è jpg)">
+<p align="center">
+   <img src="..\images\wwbyst.wbmp" alt="WINWAP"/>
+</p>
+<p>
+  <br/>
+  wml standartas turi specifikacijoje nuosavà formatà vaizdui, vadinama wbmp formatu. Tokie vaizdai gali bûti rodomi WAP árenginiais wml puslapiuose. WinWAP rodo tokius vaizdus permatomame arba baltamefone &#x28; formatas toks, kad èia yra tik dvi spalvos - juoda ir balta, ir balta spalva naudojama kaip popierius, ant kurio pats vaizdas raðomas juoda spalva &#x29;.
+  <br/>
+  <br/>
+  Kadangi jus galite nustatyti pagal jûsø pasirinkimà vaizdo fonà savybiø lauke perþiûros zonoje, jus taip pat, esant norui, galite pasirinkti paveikslø permatomumà, arba, jei norite, galite padaryti popieriu &#x22;áóìàãó&#x22; patoma po vaizdais wbmp.
+  <br/>
+  <br/>
+  WinWAP taip pat palaiko spalvotus vaizdus. palaikomi formatai yra GIF, animacinis GIF, ir  JPG.
+  <br/>
+  <br/>
+  Jus taip pat galite perþiûrëti vaizdus WinWAP'e, ávedus vaizdo adresà vietoj puslapio adreso.
+  <br/>
+  <do label="Atgal"> <prev/> </do>
+</p>
+</card>
+</wml>

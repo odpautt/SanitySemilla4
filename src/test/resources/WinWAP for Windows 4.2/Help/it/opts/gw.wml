@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+<card id="gw" title="Gateway Options">
+<p align="center">
+   <img src="..\..\images\wwhelp.wbmp" alt="WinWAP"/>
+</p>
+<p>
+  <big>Opzioni Gateway:</big><br/><br/>
+<i>* Gateway IP<br/></i>
+  <small>
+  Qui si dovrebbe inserire l'indirizzo IP o l'Hostname per il Gateway WAP che si desidera utilizzare. L'IP viene fornito dall'operatore del telefono cellulare per la fornitura dei propri servizi, ed è lo stesso IP che deve essere inserito nel telefono cellulare. &#x28;Formato indirizzo IP : 123.123.123.123&#x29;
+  <br/><br/>
+  <b>Ricordare di selezionare &#x22;Modalità Gateway&#x22; da &#x22;<a href="gen.wml">Opzioni generali</a>&#x22; per connettersi al gateway!</b>
+  </small>
+<br/><br/>
+<i>* Porta/Modalità di connessione<br/></i>
+  <small>
+  Gateway diversi lavorano in modalità diverse. Qui si può selezionare la modalità corretta per il Gateway che si intende usare. Non tutte le modalità vanno bene con tutti i Gateway! I valori di default porta per ogni modalità indicano la porta solita in cui la modalità dovrebbe essere usata, ma WinWAP si reindirizzerà automaticamente ad un'altra porta se istruito in questo senso dal gateway. Verificare con l'operatore gateway quali sono le modalità da loro supportate - oppure provare ad utilizzare le modalità. Se la barra di stato del browser collocata nella parte bassa mostra &#x22;Errore gateway&#x22; un istante dopo aver salvato le opzioni, allora significa che la modalità selezionata non viene supportata.
+  </small>
+<br/><br/>
+
+<i>* Timeout connessione gateway<br/></i>
+  <small>
+  Seleziona il timeout in millesimi di secondo per le connessioni da gateway.
+  </small>
+<br/><br/>
+
+<i>* Home Page<br/></i>
+  <small>
+  L'URL inserito in questo campo verrà aperto automaticamente ogni volta che viene attivato WinWap, se si è in  modalità  gateway &#x28;Questa homepage si sovrappone alla homepage HTTP quando si sta utilizzando un gateway &#x29;.
+  Se non si vuole che il browser apra automaticamente una homepage è necessario rimuovere ogni testo da questo campo.
+  </small>
+<br/><br/>
+<do label="Back"> <prev/> </do>
+</p>
+</card>
+</wml>

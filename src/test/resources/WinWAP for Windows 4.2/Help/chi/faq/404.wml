@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+
+<card id="faq" title="错误 404">
+<p align="center">
+   <img src="..\images\../wwbyst.wbmp" alt="WinWAP"/>
+</p>
+<p>
+  <br/>
+  <big>错误 404（未发现文件）</big>
+  <br/>
+  <br/>
+  <b>问题：</b>我无法加载任何页面，并且当我试图加载时，经常显示 404 错误（未发现文件）。
+  <br/>
+  <br/>
+  <b>答案：</b>您可能需要在属性中输入代理信息。如果您是通过 LAN（企业网）连接到 Internet 上的，您就需要询问 IT 人员
+  您代理服务器的地址和使用的端口号（通常使用的是 80）。
+  <br/>
+  <br/>
+  从“编辑”菜单中打开应用属性，进入到 HTTP 标签中。您必须选中“使用代理”复选框并输入代理/防火墙的地址。
+  <do label="后退"> <prev/> </do>
+  <do label="在线 FAQ"> <go href="http://www.winwap.com/help/faq/index.wml"/> </do>
+</p>
+</card>
+</wml>

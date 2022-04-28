@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+
+<card id="navi" title="Navigate with WinWAP">
+<p align="center">
+   <img src="..\images\../wwbyst.wbmp" alt="WinWAP"/>
+</p>
+<p>
+  <big>Przekierowanie automatyczne</big>
+  <br/>
+Jêzyk wml zawiera elementy, które kieruj¹ przegl¹darkê w inne miejsce.  Oznacza to, ¿e je¿eli otworzysz stronê wml, mo¿e ona ukazaæ sie jedynie na kilka sekund a nastêpnie znikn¹æ zast¹piona inna stron¹ bez koniecznoœci klikania na link lub przycisk. Metody tej u¿ywa sie g³ównie w przypadku strony powitalnej (tekst lub grafika), która prowadzi do konkretnych informacji.
+  <br/>
+  <br/>
+Format wml zawiera równie¿ elementy, które powoduj¹, ¿e przegl¹darka ³aduje adres tylko wtedy gdy wpiszesz go rêcznie lub trafisz do niego z innego linku.  Jeœli pod¹¿ysz wstecz do linku, przegl¹darka nie otworzy go. To mo¿e byæ równie¿ zastosowane przy wchodzeniu na stronê od ty³u (za pomoc¹ przycisku Cofnij lub linku Poprzedni), które przekieruje Ciê gdzie indziej.
+
+  <br/>
+  <br/>
+  Informacje techniczne : Tagi <b>ontimer</b>, <b>card onenterforward</b> i <b>card onenterbackward</b> odpowiadaj¹ powy¿szym.
+  <br/>
+  <do label="Wstecz"> <prev/> </do>
+</p>
+</card>
+</wml>

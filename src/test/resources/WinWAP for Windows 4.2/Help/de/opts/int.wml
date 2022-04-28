@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+<card id="int" title="Interface Options">
+<p align="center">
+   <img src="..\images\wwhelp.wbmp" alt="WinWAP"/>
+</p>
+<p>
+  <big>Schnittstellenoptionen:</big><br/><br/>
+<i>* Automatische Vervollständigung<br/></i>
+  <small>
+  Ist dieses Kästchen markiert, so schlägt WinWAP beim Eingeben einer Adresse automatisch bereits besuchte Seiten mit
+  gleichlautendem Adressenanfang vor. Dabei wird deren gesamte Adresse eingeblendet, aber der über die bereits getätigte
+  manuelle Eingabe hinausgehende Text ist markiert und kann, falls es sich nicht um die gewünschte Adresse handelt,
+  durch normales Weitertippen des Adressentextes gelöscht werden. Ist dagegen die vorgeschlagene Adresse korrekt,
+  drücken Sie auf die Eingabetaste, um die Seite zu öffnen.<br/>
+  <br/>
+   Um die automatische Vervollständigung zu deaktivieren, löschen Sie die Markierung.
+  </small>
+<br/><br/>
+
+<i>* Max. Anzahl der in "Verlauf" gespeicherten Adressen<br/></i>
+  <small>
+  Sie können hier die maximale Anzahl der Adressen eingeben, welche im internen Speicher von WinWAP aufbewahrt werden und
+  über die Schaltflächen "Zurück" und "Vorwärts" zugänglich sind.
+  </small>
+<br/><br/>
+
+<i>* Header vor wml-Quellcodes anzeigen<br/></i>
+  <small>
+  Ist dieses Kästchen markiert, so zeigt WinWAP im Quelltext-Fenster den HTTP-Header vor dem eigentlichen wml-Code.
+  Um den wml-Code anzuzeigen, klicken Sie im Menü "Ansicht" auf "Quelldatei anzeigen".
+  </small>
+<br/><br/>
+
+<i>* Ausführen von WMLScripts zulassen<br/></i>
+  <small>
+  Ist dieses Kästchen markiert, so lädt und startet WinWAP in wml-Seiten enthaltene WMLScripts. WMLScripting
+  ist eine Sprache, die dem für html-Seiten verwendeten Java ähnelt und z.B. Berechnungen und ähnliche für
+  die Funktion des WAP-Services relavante Funktionen ausführt. Um WMLScript zu deaktivieren, löschen Sie diese
+  die Markierung.
+  </small>
+<br/><br/>
+
+<i>* Numerische Adressen zuordnen<br/></i>
+  <small>
+  WinWAP ist für den Umgang mit numerischen Adressen konzipiert. Ein solches numerisches System ist das bei der
+  Installation von WinWAP als Standard verwendete bango.net. Beim Eingeben einer Nummer in das Adressfeld
+  und Drücken der Eingabetaste ordnet WinWAP diese Nummer mit Hilfe eines Nummernverwaltungsprogramms
+  (Numerical Resource Handler) der zugehörigen Adresse zu und öffnet die betreffende Seite automatisch.<br/>
+  <br/>
+  WinWAP ist standardmäßig auf bango.net eingestellt; die dazugehörende Handler-URL lautet http://winwap.bango.net
+  </small>
+<br/><br/>
+
+<do label="Zurück"> <prev/> </do>
+</p>
+</card>
+</wml>

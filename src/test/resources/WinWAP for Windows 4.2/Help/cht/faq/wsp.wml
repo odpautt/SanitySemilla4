@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+
+<card id="faq" title="Error 404">
+<p align="center">
+   <img src="..\images\../wwbyst.wbmp" alt="WinWAP"/>
+</p>
+<p>
+  <br/>
+  <big>連線到 WAP 閘道器</big>
+  <br/>
+  <br/>
+  <b>問 : </b>如何連線到 WAP 閘道器 ( 與行動電話相同的方式 )?
+  <br/>
+  <br/>
+  <b>答 : </b>你可以連線到 WAP 閘道器，輸入閘道器的位置。
+並在選項設定「連線模式」為閘道器。
+必須與行動電話商詢問其預設的閘道，並在閘道選擇器
+加入需要的閘道器位址。
+  <do label="Back"> <prev/> </do>
+  <do label="Online FAQ"> <go href="http://www.winwap.com/help/faq/index.wml"/> </do>
+</p>
+</card>
+</wml>

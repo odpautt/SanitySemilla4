@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+
+<card id="faq" title="Error 404">
+<p align="center">
+   <img src="..\images\../wwbyst.wbmp" alt="WinWAP"/>
+</p>
+<p>
+  <br/>
+  <big>Conectar usandoun Nodo-Gateway WAP</big>
+  <br/>
+  <br/>
+  <b>Pregunta : </b>Como me puedo conectar a un Nodo-Gateway WAP ( Igual que mi teléfono móbil )?
+  <br/>
+  <br/>
+  <b>Respuesta : </b>Puede conectarse a un Nodo-Gateway WAP introduciendo la dirección del Nodo,
+  y seleccionando "modo de conexión" "Gateway" en Opciones.
+  Solicite a su operador de telefonia información sobre los valores a introducir para su Nodo-Gateway y agregar dicha dirección a su seleccionador de Agteways-Nodos.
+  <do type="Aceptar" label="Atrás"> <prev/> </do>
+  <do type="Aceptar" label="Online FAQ"> <go href="http://www.winwap.com/help/faq/index.wml"/> </do>
+</p>
+</card>
+</wml>

@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+<card id="intro" title="Ávadas á WinWAP">
+<p align="center">
+   <img src="..\images\wwbyst.wbmp" alt="WINWAP"/>
+</p>
+<p>
+  <br/>
+  WinWAP - tai narðyklë, kuri nuskaito duomenys, suformatuotus bevielio þymëjimo kalbos formate (wireless markup language) (wml). Narðyklës iðvaizda ir funkcijos yra panaðios á bet kurià standartinæ html narðyklæ, taèiau vietoj duomenø nuskaitymo hipertekstinio perdavimo þymëjimo kalba  ( html ), ði narðyklë yra suprojektuota wml kalbai. Jis palaiko 3 duomenø gavimo bûdus.
+  <br/>
+  <br/>
+  <big>1) HTTP</big>
+  <br/>
+  Hiperteksto perdavimo protokolas yra toks pats, kaip ir naudojamas "paprastø"
+  internetiniø puslapiø nuskaitymui kompiuteriuose su tcp/ip sujungimais.
+  <br/>
+  <br/>
+  <big>2) WAP Ðliuzas (WAP Gateway)</big><b> </b>
+  <br/>
+  Ðliuzo pasirinkimas (Gateway) leidþia narðyklei turëti sujungimà betarpiðkai su  tarptinkliniais Wap ðliuzais. Tai yra toks pats bûdas, kaip ir mobiliø tefelonø sujungimas naudojant wap.
+  <br/>
+  <br/>
+
+  <big>3) lokalinë byla</big>
+  <br/>
+  WinWAP gali atidaryti bylas, esanèias lokaliai kompiuteryje disko pavaroje (arba tinklinëje pavaroje).
+</p>
+<p>
+  <do label="Atgal"> <prev/> </do>
+</p>
+</card>
+</wml>

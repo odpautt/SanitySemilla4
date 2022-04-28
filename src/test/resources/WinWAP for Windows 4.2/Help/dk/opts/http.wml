@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+<card id="http" title="HTTP Indstillinger">
+<p align="center">
+   <img src="..\..\images\wwhelp.wbmp" alt="WinWAP"/>
+</p>
+<p>
+  <big>HTTP Indstillinger:</big><br/><br/>
+<i>  * Anvend HTTP Proxy<br/></i>
+  <small>
+  Hvis markeret vil WinWAP anvende Proxy serveren som angivet ved adressen. Angiv endvidere den
+  korrekte port &#x28;Normalt 80&#x29;
+  </small>
+<br/><br/>
+<i>* Proxy godkendelse<br/></i>
+  <small>
+  Hvis markeret lader WinWAP brugeren godkende af proxy serveren. Brug kun denne indstilling, hvis
+  du ikke kan åbne sider uden. Din netværks administrator vil kunne give dig et brugernavn og et
+  password.
+  </small>
+<br/><br/>
+
+<i>* Anvende HTTP Cookies<br/></i>
+  <small>
+  Hvis markeret vil WinWAP tillade anvendelse af cookies sendt af web-serveren i HTTP mode.
+  </small>
+<br/><br/>
+
+<i>* Start Side<br/></i>
+  <small>
+  Når WinWAP åbnes vises siden hvis adresse er angivet som Start Side.
+  Hvis du ikke ønsker WinWAP skal åbne en Start Side efterlades feltet tomt.
+  </small>
+<br/><br/>
+<do label="Tilbage"> <prev/> </do>
+</p>
+</card>
+</wml>

@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+<card id="oth" title="Other Options">
+<p align="center">
+   <img src="..\..\images\wwhelp.wbmp" alt="WinWAP"/>
+</p>
+<p>
+  <big>Altre opzioni:</big><br/><br/>
+<i>* Utilizzo dell'immagine barra degli strumenti<br/></i>
+  <small>
+  Questa opzione consente di cambiare lo sfondo dietro i pulsanti della barra degli strumenti. Selezionare un'immagine valida cliccando sul pulsante &#x22;Scorri&#x22;. Per utilizzare WinWAP senza un'immagine dietro i pulsanti rimuovere l'abilitazione per questa opzione.
+  </small>
+<br/><br/>
+
+<i>* Font e colori<br/></i>
+  <small>
+  Con queste impostazioni è possibile selezionare il font usato per visualizzare le pagine WAP, ed il colore del testo e dello sfondo. Si può anche agire sulle dimensioni del testo con il box di selezione &#x22;dimensione testo&#x22;. Si tenga presente che se si sta usando un'immagine di sfondo il colore dello sfondo non è visibile.
+  </small>
+<br/><br/>
+
+<do label="Back"> <prev/> </do>
+</p>
+</card>
+</wml>

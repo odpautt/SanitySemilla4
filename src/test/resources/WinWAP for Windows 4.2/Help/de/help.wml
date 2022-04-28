@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+<card id="help" title="WinWAP HELP">
+<p align="center">
+   <img src="..\images\wwhelp.wbmp" alt="WinWAP"/>
+</p>
+<p>
+  <big>Hilfethemen:</big>
+  <br/>
+  <br/>
+  <a href="opts.wml">Browseroptionen und Einstellungen</a> <br/>
+  <a href="intro.wml">Einführung</a> <br/>
+  <a href="navi.wml">Navigation</a> <br/>
+  <a href="img.wml">Bilder</a> <br/>
+  <br/>
+  <a href="faq/index.wml">Häufig gestellte Fragen (FAQ)</a> <br/>
+  <br/>
+  <do label="Online-Hilfe"> <go href="http://wap.winwap.com/help/help.wml"/> </do>
+  <do label="Online-Information"> <go href="http://wap.winwap.com/index.wml"/> </do>
+  <do label="Online-Homepage"> <go href="http://wap.winwap.com/home.wml"/> </do>
+</p>
+</card>
+</wml>

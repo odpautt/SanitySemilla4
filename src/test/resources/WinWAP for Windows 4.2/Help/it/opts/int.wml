@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+<card id="int" title="Interface Options">
+<p align="center">
+   <img src="..\..\images\wwhelp.wbmp" alt="WinWAP"/>
+</p>
+<p>
+  <big>Opzioni interfaccia:</big><br/><br/>
+<i>* Suggerire dallo storico<br/></i>
+  <small>
+  Quando abilitato WinWAP suggerisce siti già visitati mentre si sta digitando un indirizzo nel campo riservato ai siti. Nel caso venga trovato un indirizzo inserito precedentemente esso viene suggerito evidenziando l'indirizzo completo, ma con la parte finale selezionata, in modo che si possa proseguire la digitazione del nuovo indirizzo. Se l'indirizzo suggerito è corretto ci si può andare premendo invio quando l'indirizzo viene suggerito.<br/>
+  <br/>
+   Per disattivare i suggerimenti basta disattivare questa opzione.
+  </small>
+<br/><br/>
+
+<i>* Numero massimo di indirizzi<br/></i>
+  <small>
+  E' possibile limitare il numero di indirizzi che WinWAP tiene in memoria usando per questa opzione i pulsanti Avanti e Indietro.
+  </small>
+<br/><br/>
+
+<i>* Mostra testata prima della fonte wml<br/></i>
+  <small>
+  Quando abilitato WinWAP mostrerà la testata http nella finestra di visualizzazione della fonte, sopra il codice wml effettivo.
+  Per visualizzare il codice wml selezionare &#x22;fonte videata&#x22; dal menu &#x22;Visualizza&#x22;.
+  </small>
+<br/><br/>
+
+<i>* Consentire l'effettuazione degli scripts WML<br/></i>
+  <small>
+  Quando abilitato WinWAP caricherà ed effettuerà gli scripts WML inclusi nelle pagine wml, quando presenti. La scrittura WML è un linguaggio simile a Java, che viene utilizzato con le pagine html e che può effettuare calcoli ed altre funzioni necessarie per il corretto funzionamento del servizio WAP. Per disabilitare il supporto degli script WML disattivare questa funzione.
+  </small>
+<br/><br/>
+
+<i>* Assegnare collocazioni numeriche agli indirizzi<br/></i>
+  <small>
+  WinWAP è progettato in modo da lavorare con indirizzi numerici, quali il sistema numerico bango.net che è il sistema di default dopo aver installato WinWAP. Esso lavora in modo tale per cui, inserendo solo un numero nel campo indirizzi e premendo invio, WinWAP assegnerà il numero ad un indirizzo nello strumento di gestione delle risorse numeriche, e indirizzerà l'utente al sito che possiede quel particolare numero.<br/>
+  <br/>
+  In default winwap è impostato per bango.net, e la loro URL di gestione è &#x22;http://winwap.bango.net/&#x22;
+  </small>
+<br/><br/>
+
+<do label="Back"> <prev/> </do>
+</p>
+</card>
+</wml>

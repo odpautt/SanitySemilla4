@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+
+<card id="navi" title="Navigate with WinWAP">
+<p align="center">
+   <img src="..\images\../wwbyst.wbmp" alt="WinWAP"/>
+</p>
+<p>
+  <big>Klikniêcie na link</big>
+  <br/>
+Tekst który jest podkreœlony na ekranie rozpoznawany jest jako link do innej strony.  Jeœli klikniesz na link, WinWAP automatycznie zlokalizuje adres URL przypisany do danego linku (inna strona lub karta w deku) i wyœwietli informacjê tam zawart¹.
+
+  <br/>
+  <br/>
+Informacje tehniczne : Tagi <b>anchor</b> i <b>a</b> wyœwietlaj¹ podkreœlone linki.
+  <br/>
+  <do label="Wstecz"> <prev/> </do>
+</p>
+</card>
+</wml>

@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+
+<card id="faq" title="Error 404">
+<p align="center">
+   <img src="..\images\../wwbyst.wbmp" alt="WinWAP"/>
+</p>
+<p>
+  <br/>
+  <big>Koble til en WAP-gateway</big>
+  <br/>
+  <br/>
+  <b>Spørsmål: </b>Hvordan kan jeg koble til en WAP-gateway (på samme måte som med min mobiltelefon)?
+  <br/>
+  <br/>
+  <b>Svar: </b>Du kan koble til en WAP-gateway ved å oppgi adressen til gateway'en og
+  samtidig forbindelsesmetode fra fanen Gateway i menyen 'Alternativer'.
+  Du bør kontrollere med din mobil-operatør hva innstillingene for deres standard-
+  gateway er og legge til denne gateway'en i listen over gateway'er.
+  <do label="Tilbake"> <prev/> </do>
+  <do label="Online FAQ"> <go href="http://www.winwap.com/help/faq/index.wml"/> </do>
+</p>
+</card>
+</wml>

@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+<card id="gw" title="閘道器選項">
+<p align="center">
+   <img src="..\..\images\wwhelp.wbmp" alt="WinWAP"/>
+</p>
+<p>
+  <big>閘道器選項:</big><br/><br/>
+<i>* 閘道器 IP<br/></i>
+  <small>
+此處你必須輸入 WAP 閘道器的 IP 位址或主機名稱
+IP 由行動電話商提供服務，相同的
+ IP 你必需輸入到行動電話中。 &#x28;IP 位址格式 : 123.123.123.123&#x29;
+  <br/><br/>
+  <b>記得從 &#x22;<a href="gen.wml">一般選項</a>&#x22;選擇 &#x22;閘道器模式&#x22;
+，以便連線到閘道器！</b>
+  </small>
+<br/><br/>
+<i>* 連線埠號/模式<br/></i>
+  <small>
+  不同的閘道器工作在不同的模式。你可以選擇使用閘道器時
+的正確模式。所有閘道器不支援模式！
+
+預設的埠值給每個模式是每個模式通常使用的埠號。
+但是 WinWAP 將自動重新導向到其他埠，如果使用閘道器指引。
+與閘道器管理員查詢支援那一種模式 ─ 或使用模式。
+如果瀏覽器的狀態欄在底下顯示
+ &#x22;閘道器錯誤&#x22; ，稍後儲存選項時，它並不支援選擇的模式。
+  </small>
+<br/><br/>
+
+<i>* 閘道器連線逾時<br/></i>
+  <small>
+  用 ms 為單位，選擇閘道器連線逾時
+  </small>
+<br/><br/>
+
+<i>* 首頁<br/></i>
+  <small>
+  軟此欄位的網址，每次執行 WinWAP 將自動開啟。
+如果你在閘道器模式 &#x28;此首頁設定將抑制當你正在使用閘道器 HTTP 首頁設定 &#x29;。
+如果你不希望瀏覽器自動開啟首頁，你必須在此欄位移除任何文字。
+  </small>
+<br/><br/>
+<do label="Back"> <prev/> </do>
+</p>
+</card>
+</wml>

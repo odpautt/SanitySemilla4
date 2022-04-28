@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+
+<card id="faq" title="Klaida 404">
+<p align="center">
+   <img src="..\images\../wwbyst.wbmp" alt="WINWAP"/>
+</p>
+<p>
+  <br/>
+  <big>Prisijungimas prie  WAP ðliuzo</big>
+  <br/>
+  <br/>
+  <b>Klausimas: </b>Kaip galima prisijunti prie  WAP ðliuzo (tas pats, kaip ir mano mobilus telefonas)?
+  <br/>
+  <br/>
+  <b>Atsakymas: </b>Jus galite prisijungti prie   WAP ðliuzo, ávedus ðliuzo adresà ir prisijungimo reþimà ið Ðliuzo lauko Pasirinkimuose. jus galite suþinoti pas savo mobilaus ryðio operatoriø jo standartinio ðliuzo nustatymus ir átraukti ðá ðliuzà á ðliuzø selektoriø.
+  <do label="Atgal"> <prev/> </do>
+  <do label="Interaktyvûs DUK (FAQ)"> <go href="http://wap.winwap.com/help/faq/index.wml"/> </do>
+</p>
+</card>
+</wml>

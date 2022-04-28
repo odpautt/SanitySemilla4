@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+
+<card id="navi" title="Navigate with WinWAP">
+<p align="center">
+   <img src="..\images\../wwbyst.wbmp" alt="WinWAP"/>
+</p>
+<p>
+  <big>¤â°Ê¿é¤J¦ì§}</big>
+  <br/>
+·íÂsÄý¾¹¶}±Ò®É¡A¥¦±N¦Û°Ê¨ì¤º®e·í¤¤©Ò³]©wªº­º­¶¡C
+¦b¦w¸Ë«á¨ä­º­¶¬O  Winwap Technologies’s winwap ºô­¶¡A
+§A¥i¥H¦b³o¸Ì¨ú±oÂsÄý¾¹ªº¸ê°T¡C
+  <br/>
+  <br/>
+·í§A·Q±q¨ä¥L¦ì§}¡A¾\Åª ( ¨ú¦^ ) ºô­¶¡A
+¥²»Ý­n¦b¦ì§}²°¤¤¿é¤Jºô§}¡C
+  <br/>
+  <br/>
+¦b¿é¤Jºô§}«á¡A¥²¶·¦bÁä½L«ö¤@¤U¡AÂsÄý¾¹
+±N¬°§A°e¦^¦¹­¶¡C¤£»Ý­n¿é¤J¦ì§}ªº http:// ³¡¤À¡C
+WinWAP ±N¬°§A¦Û°Ê¥[¤W¡C¦pªG·Q­n¦s¨úºÏºÐ¤¤ªºÀÉ®×¡A
+¥i¨Ï¥Îºô§}¶}ÀY¦p file:// ¡AµM«á¿é¤J§¹¾ã­n¸ü¤JªºÀÉ®×
+ (¦p : file://D:\WML\index.wml )¡A©Î¦b¡uÀÉ®×¡v/¡u¶}±Òºô§}¡v¿é¤J
+¸ô®| ( ©ÎÂsÄýÀÉ®× )¡C
+  <br/>
+  <do label="Back"> <prev/> </do>
+</p>
+</card>
+</wml>

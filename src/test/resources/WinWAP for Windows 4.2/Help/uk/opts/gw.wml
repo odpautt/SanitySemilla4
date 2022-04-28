@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+<card id="gw" title="Gateway Options">
+<p align="center">
+   <img src="..\..\images\wwhelp.wbmp" alt="WinWAP"/>
+</p>
+<p>
+  <big>Gateway Options:</big><br/><br/>
+<i>* Gateway IP<br/></i>
+  <small>
+  Here you should enter the IP address or Hostname for the WAP Gateway you wish to use. The IP
+  is provided by your mobile phone operator for their services, and it is the same IP that you
+  would enter into your mobile phone. &#x28;IP address format : 123.123.123.123&#x29;
+  <br/><br/>
+  <b>Remember to select &#x22;Gateway Mode&#x22; from the &#x22;<a href="gen.wml">General
+  Options</a>&#x22; to connect to the Gateway!</b>
+  </small>
+<br/><br/>
+<i>* Connection Port / Mode<br/></i>
+  <small>
+  Different gateways work in different modes. Here you select the correct mode for the gateway you
+  are using. All gateways do not support all modes! The default port values for each mode is the usual
+  port that the mode should be used on, but WinWAP will automatically redirect to another port if
+  instructed by the gateway. Check with the gateway operator what modes they support - or try using the
+  modes. If the browser's statusbar at the bottom shows &#x22;Gateway Error&#x22; a while after saving the options
+  then it does not support the selected mode.
+  </small>
+<br/><br/>
+
+<i>* Gateway connection timeout<br/></i>
+  <small>
+  Selects the timeout in milliseconds for gateway connections.
+  </small>
+<br/><br/>
+
+<i>* Home Page<br/></i>
+  <small>
+  The URL entered into this field will be opened automatically each time you launch WinWAP, if you are
+  in Gateway mode &#x28;This homepage overrides the HTTP homepage when you are using a Gateway&#x29;.
+  If you do not wish the browser to open a homepage automatically you should remove any text from
+  the field.
+  </small>
+<br/><br/>
+<do label="Back"> <prev/> </do>
+</p>
+</card>
+</wml>

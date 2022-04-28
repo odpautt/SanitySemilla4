@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+<card id="gen" title="Bendri pasirinkimai">
+<p align="center">
+   <img src="..\..\images\wwhelp.wbmp" alt="WINWAP"/>
+</p>
+<p>
+  <big>Bendri pasirinkimai:</big><br/><br/>
+
+<i>* Prisijungimo reþimas<br/></i>
+  <small>
+  Pasirinkimo lauke  <b>&#x22;Prisijungimo reþimas&#x22;</b> jus pasirenkate prisijungimo reþimà. Jus galite naudoti   HTTP &#x28;Hiperteksto perdavimo protokolas (Hypertext Transfer Protocol)&#x29; arba Gateway, &#x28;Naudojimas su WAP ðliuzais &#x29;.  Jeigu jus prisijungiate mobilaus telefonno pagalba su jûsø WAP serviso operatoriais,  jums paprastai reikia naudoti Ðliuzo (Gateway) reþimà ir ávesti teisingà  informacijà apie Ðliuzà  (Gateway) <a href="gw.wml">Ðliuzo pasirinkimai</a> lauke. Jeigu jus naudojate HTTP reþimà per standartiná prisiskambinimo prisijungimà arba per LAN prisijungimà, jums gali tekti ávesti informacijà á  <a href="http.wml"> HTTP lauke</a> kad bûtø imanoma atidaryti puslapius.
+  </small>
+<br/><br/>
+
+<i>* Foninis vaizdas<br/></i>
+  <small>
+  Ðio pasirinkimo pagalba jus galite nustatyti vaizdà, kuris bus rodomas WAP puslapio fone. Pasirinkite egzistuojanti vaizdà nuspaudus ant mygtuko &#x22;Perþiûra&#x22; ir paþymëkite pasirinkimo laukà &#x22;Foninio paveikslo vaizdavimas po tekstu&#x22; vaizdu parodymui. Jus galite pasirinkti paveikslo parodymo reþimà pasirinkimo lauke &#x22;Foninis vaizdas&#x22;.
+  </small>
+<br/><br/>
+
+<i>* Prisiskambinimo sujungimas<br/></i>
+  <small>
+  Pasirinkimo laukas &#x22;Neuþklausti prisiskambinimo sujungimo&#x22; blokuoja langà, kuris leidþia jums WinWAP paleidimo metu prsijungti per prisiskambinimo sujungimà. Panaikinkite þymæ langelyje, jei norite gauti uþklausimà apie sujungimà, kai paleidþiate WinWAP.
+  </small>
+<br/><br/>
+
+<i>* Instrumentø panelio dideli mygtukai<br/></i>
+  <small>
+  Nepasirinkus ið instrumentø panelio mygtukø panaikinamas tekstas ir mygtukø dydis maþëja.
+  </small>
+<br/><br/>
+
+<i>* Permatomi vaizdai<br/></i>
+  <small>
+  Pasirinkus, foniniai vaizdai bus nematomi, o foninë spalva/vaizdas bus matomi po vaizdu.
+  </small>
+<br/><br/>
+
+<i>* Vaizdø parodymas<br/></i>
+  <small>
+  Pasirinkus, WinWAP uþkrauna vaizdus WAP  ir rodo juos ekrane. jeigu jus norite padidinti uþsikrovimo greitá, jus galite atðaukti ðá pasirinkimà, taèiau vaizdai nebus matomi.
+  </small>
+<br/><br/>
+<br/>
+
+<i>* Standartinis priedas  wml<br/></i>
+  <small>
+  Pasirinkus priedà,  WinWAP bus uþregistruotas kaip standartinis .wml formato bylø nuskaitymo árenginys, taip, kad jus pasirenkate Atidaryti bylà  .wml windows palydove, ði byla bus rodoma winwap'e.
+  </small>
+<br/><br/>
+
+<i>* Ásiminti lango padëtá<br/></i>
+  <small>
+  Pasirinkus, WinWAP programa ásimins lango padëtá ir dydá jums iðëjus ir pakartotinai atidarys langà toje paèioje vietoje kità kartà paleidus programà.
+  </small>
+<br/><br/>
+
+<i>* Vietos parodymas spausdinant<br/></i>
+  <small>
+  Pasirinkus, kaip puslapio vieta spausdinant prisideda WinWAP.
+  </small>
+  <do label="Atgal"> <prev/> </do>
+</p>
+</card>
+</wml>

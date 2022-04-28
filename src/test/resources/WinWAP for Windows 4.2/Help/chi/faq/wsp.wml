@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+
+<card id="faq" title="错误 404">
+<p align="center">
+   <img src="..\images\../wwbyst.wbmp" alt="WinWAP"/>
+</p>
+<p>
+  <br/>
+  <big>连接到 WAP 网关</big>
+  <br/>
+  <br/>
+  <b>问题：</b>我怎样才能连接到 WAP 网关（以及移动电话连接 WAP 网关）？
+  <br/>
+  <br/>
+  <b>答案：</b>您可以在网关标签选项中输入网关地址和连接模式来连接 WAP 网关。
+  您应该询问移动电话服务商的默认网关设置，并将此网关添加到网关选择器中。
+  <do label="后退"> <prev/> </do>
+  <do label="在线 FAQ"> <go href="http://www.winwap.com/help/faq/index.wml"/> </do>
+</p>
+</card>
+</wml>

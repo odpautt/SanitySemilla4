@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+
+<card id="navi" title="Navigate with WinWAP">
+<p align="center">
+   <img src="..\images\../wwbyst.wbmp" alt="WinWAP"/>
+</p>
+<p>
+  <big>Saisie manuelle de l'adresse</big>
+  <br/>
+  Lorsque le navigateur est lancé, il s'ouvre directement à la page de démarrage qui peut être définie dans les     propriétés. Après l'installation, la page de démarrage est la page winwap de Winwap Technologies, où vous       trouverez des informations sur le navigateur.
+  <br/>
+  <br/>
+  Lorsque vous souhaitez lire (récupérer) la page depuis une autre adresse, vous devez taper l'URL de la page    dans la zone d'adresse (indiquée ci-dessous).
+  <br/>
+  <br/>
+  Après avoir saisi l'URL, appuyez sur Entrée sur votre clavier et le navigateur ira chercher la page pour      vous. Vous n'avez pas besoin de saisir la partie http:// de l'adresse, winwap l'ajoutera automatiquement si    vous ne le faites pas. Si vous souhaitez accéder à un fichier depuis un périphérique, vous pouvez commencer    l'URL avec file:// et le chemin d'accès vers le fichier à charger (par ex : file://D:\WML\index.wml), ou       sélectionner "Ouvrir adresse" dans le menu "Fichier", et saisir le chemin d'accès (ou parcourir         l'arborescence jusqu'au fichier) dans la fenêtre qui s'affiche.
+  <br/>
+  <do label="Back"> <prev/> </do>
+</p>
+</card>
+</wml>

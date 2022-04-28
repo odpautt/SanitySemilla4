@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+<card id="img" title="Images (wbmp, gif and jpg)">
+<p align="center">
+   <img src="..\images\wwbyst.wbmp" alt="WinWAP"/>
+</p>
+<p>
+  <br/>
+Standard jêzyka WML posiada swój w³asny format dla grafiki - wbmp.  Urz¹dzenia WAP potrafi¹ wyœwietlaæ ten format na stronach wml.  WinWAP wyœwietla grafikê z przezroczystym lub bia³ym t³em. W formacie wbmp dostepne s¹ jedynie dwa kolory - czarny i bia³y.  Bia³y kolor jest t³em, na którym WinWAP pozwala wybraæ obraz t³a dla ogl¹danych stron oraz ustaliæ, czy obraz ma byæ przezroczysty czy te¿ nie.
+  <br/>
+  <br/>
+WinWAP umo¿liwa równie¿ wykorzystanie kolorowych z obrazów w formatach GIF, animowany GIF i JPG.
+  <br/>
+  <br/>
+Mo¿liwy jest równie¿ podgl¹d obrazów poprzez podanie lokalizacji samego obrazka zamiast lokalizacji ca³ej strony.
+  <br/>
+  <do label="Wstecz"> <prev/> </do>
+</p>
+</card>
+</wml>

@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+<card id="oth" title="Andre Indstillinger">
+<p align="center">
+   <img src="..\..\images\wwhelp.wbmp" alt="WinWAP"/>
+</p>
+<p>
+  <big>Andre indstillinger:</big><br/><br/>
+<i>* Anvend billede på værktøjslinie<br/></i>
+  <small>
+  Denne indstilling tillader at anvende et baggrundsbillede på værktøjslinien. Vælg et billede
+  ved at klikke på &#x22;Gennemse&#x22;.
+  For at anvende WinWAP uden billede på værktøjslinien, fjernes markeringen ved denne indstilling.
+  </small>
+<br/><br/>
+
+<i>* Skrifttyper og farver<br/></i>
+  <small>
+  Med disse indstillinger kan du vælge den skrifttype, -størrelse, farve og baggrund som WinWAP skal
+  anvende til at vise WAP siderne med.
+  Bemærk:  Hvis der anvendes baggrundsbillede, vises baggrundsfarven ikke.
+  </small>
+<br/><br/>
+
+<do label="Tilbage"> <prev/> </do>
+</p>
+</card>
+</wml>

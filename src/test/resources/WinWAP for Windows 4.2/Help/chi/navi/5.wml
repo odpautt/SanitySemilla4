@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+
+<card id="navi" title="后退和前进">
+<p align="center">
+   <img src="..\images\../wwbyst.wbmp" alt="WinWAP"/>
+</p>
+<p>
+  <big>后退和前进</big>
+  <br/>
+  有了 WinWAP，您就可以前进和后退到以前已经访问过的页面。要访问以前的内容，可从“开始”菜单中选择“后退”，或者单击工具条中的
+  “后退”按纽。
+  要前进到您曾经后退过的页面，可以从“开始”菜单中选择“前进”或者在工具条中单击“前进”按纽。
+  <br/>
+  <do label="后退"> <prev/> </do>
+</p>
+</card>
+</wml>

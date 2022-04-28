@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+<card id="help" title="WinWAP 帮助">
+<p align="center">
+   <img src="..\images\wwhelp.wbmp" alt="WinWAP"/>
+</p>
+<p>
+  <big>帮助主题：</big>
+  <br/>
+  <br/>
+  <a href="opts.wml">浏览器选项和设置</a> <br/>
+  <a href="intro.wml">介绍</a> <br/>
+  <a href="navi.wml">导航</a> <br/>
+  <a href="img.wml">图像</a> <br/>
+  <br/>
+  <a href="faq/index.wml">常见问题解答</a> <br/>
+  <br/>
+  <do label="在线帮助"> <go href="http://wap.winwap.com/help/help.wml"/> </do>
+  <do label="在线信息"> <go href="http://wap.winwap.com/index.wml"/> </do>
+  <do label="在线主页"> <go href="http://wap.winwap.com/home.wml"/> </do>
+</p>
+</card>
+</wml>

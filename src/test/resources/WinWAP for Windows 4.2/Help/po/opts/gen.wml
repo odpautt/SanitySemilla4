@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+<card id="gen" title="General Options">
+<p align="center">
+   <img src="..\..\images\wwhelp.wbmp" alt="WinWAP"/>
+</p>
+<p>
+  <big>Opcje ogólne:</big><br/><br/>
+
+<i>* Rodzaj po³¹czenia<br/></i>
+  <small>
+  W tym miejscu nale¿y wybraæ rodzaj po³¹czenia. Mo¿esz wykorzystaæ tryb HTTP &#x28;Hypertext Transfer Protocol&#x29; lub Bramkê WAP.
+Jeœli jesteœ po³¹czony telefonem komórkowym z Twoim operatorem powinieneœ skorzystaæ z trybu Bramka WAP i wprowadziæ poprawne dane dotycz¹ce bramki - <a href="gw.wml">Opcje bramki WAP</a>.
+Jeœli korzystasz z trybu HTTP i standardowego po³¹czenia dial-up lub LAN mo¿esz wpisaæ dane serwera proxy - <a href="http.wml"> strona HTTP </a>.
+  </small>
+<br/><br/>
+
+<i>* Obraz jako t³o<br/></i>
+  <small>
+WinWAP umo¿liwa ustawienie obrazu jako t³a dla ogl¹danych stron WAP. Aby to uczyniæ nale¿y klikn¹æ przycisk "Przegl¹daj" i zaznaczyæ "Poka¿ obraz jako t³o dla tekstu".
+  </small>
+<br/><br/>
+
+<i>* Po³¹czenie Dial-up<br/></i>
+  <small>
+Wybranie opcji "Nie pytaj o po³¹czenia Dial-up" powoduje znikniêcie okna wyboru po³¹czenia dial-up, kiedy otwiera siê WinWAP.  Jeœli chcesz aby program za ka¿dym razem pyta³ siê o wybór po³¹czenia Dial-up, nie wybieraj tej opcji.
+  </small>
+<br/><br/>
+
+<i>* Du¿e przyciski na pasku narzêdzi<br/></i>
+  <small>
+Jeœli opcja nie jest zaznaczona, tekst na przyciskach zostaje ukryty a przyciski zmniejszone.
+  </small>
+<br/><br/>
+
+<i>* Przezroczysta grafika<br/></i>
+  <small>
+Zaznaczenie tej opcji powoduje niewyœwietlanie t³a obrazka i  t³o widoczne jest pod textem.
+  </small>
+<br/><br/>
+
+<i>* Poka¿ grafikê<br/></i>
+  <small>
+Zaznaczenie tej opcji powoduje wyœwietlanie grafiki wbmp umieszczonych na stronach WML.  Aby przyspieszyc ³adowanie stron, nie zaznaczaj tej opcji.
+  </small>
+<br/><br/>
+<br/>
+
+<i>* Domyœlna przegl¹darka wml<br/></i>
+  <small>
+Zaznaczenie tej opcji powoduje, ¿e WinWAP stanie siê domyœln¹ przegl¹darka plików .wml w twoim systemie.
+  </small>
+<br/><br/>
+
+<i>* Zapisz ustawienia okna<br/></i>
+  <small>
+Zaznaczenie tej opcji powoduje, ¿e WinWAP zapamiêta rozmiar i pozycjê okna przegl¹darki i przy ponownym uruchomieniu przegl¹darki otworzy j¹ z zapisanymi ustawieniami.
+
+  </small>
+<br/><br/>
+
+<i>* Drukuj adres<br/></i>
+  <small>
+Zaznaczenie tej opcji powoduje, ¿e WinWAP doda adres drukowanej strony.
+  </small>
+  <do label="Wstecz"> <prev/> </do>
+</p>
+</card>
+</wml>

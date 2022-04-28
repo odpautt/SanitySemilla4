@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+<card id="oth" title="其它选项">
+<p align="center">
+   <img src="..\..\images\wwhelp.wbmp" alt="WinWAP"/>
+</p>
+<p>
+  <big>其它选项：</big><br/><br/>
+<i>* 使用工具条图像<br/></i>
+  <small>
+  此选项允许您改变工具条按纽后面的背景。通过单击 &#x22;浏览&#x22; 按纽选择一个合适的图像。要使 WinWAP 按纽后面无图像，
+  您只需要从此选项中删除所选择的图像。
+  </small>
+<br/><br/>
+
+<i>* 字体和颜色<br/></i>
+  <small>
+  通过此设置，您可以选择 WAP 页面显示的字体、以及选择文本和背景的颜色。 您还可以通过 &#x22;文本大小&#x22; 选项框来选择
+  文本的大小。注意，如果您使用了背景图像，则背景的颜色是看不见的。
+  </small>
+<br/><br/>
+
+<do label="后退"> <prev/> </do>
+</p>
+</card>
+</wml>

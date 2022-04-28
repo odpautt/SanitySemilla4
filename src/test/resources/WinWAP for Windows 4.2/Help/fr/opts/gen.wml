@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+<card id="gen" title="General Options">
+<p align="center">
+   <img src="..\..\images\wwhelp.wbmp" alt="WinWAP"/>
+</p>
+<p>
+  <big>Options générales :</big><br/><br/>
+
+<i>* Mode de connexion<br/></i>
+  <small>
+  Vous pouvez sélectionner le mode de connexion dans la zone de sélection <b>&#x22;Mode de connexion&#x22;</b>.   Vous pouvez choisir le mode HTTP &#x28;Hypertext Transfer Protocol&#x29; ou le mode passerelle &#x28;Utilisé   avec passerelles WAP&#x29;.
+  Si vous êtes connecté avec un téléphone mobile au service WAP de votre opérateur, vous devez normalement     utiliser le mode Passerelle et saisir les informations appropriées sur la passerelle sur la page <a   href="gw.wml">Options passerelle</a>.
+  Si vous utilisez le mode HTTP via une connexion par commutation standard ou une connexion LAN, vous aurez   probablement à entrer les informations sur le proxy à la <a href="http.wml">page HTTP</a> pour pouvoir   ouvrir les pages.
+  </small>
+<br/><br/>
+
+<i>* Image d'arrière-plan<br/></i>
+  <small>
+  A l'aide de cette option, vous pouvez paramétrer l'image affichée derrière la page WAP à l'écran.
+  Sélectionnez une image valide en cliquant sur le bouton &#x22;Parcourir&#x22; et cochez la case     &#x22;Afficher image d'arrière-plan derrière texte&#x22; pour afficher l'image. Vous pouvez sélectionner le    mode d'affichage de l'image à l'aide des options dans la zone de sélection &#x22;Images d'arrière-plan&#x22;.
+  </small>
+<br/><br/>
+
+<i>* Connexion à distance<br/></i>
+  <small>
+  La case &#x22;Ne pas demander de connexions à distance&#x22; désactive la fenêtre qui vous permet de     vous connecter à distance lorsque vous lancez WinWAP. Désélectionnez cette case si vous souhaitez que    le programme vous demande de vous connecter lorsque vous lancez WinWAP.
+  </small>
+<br/><br/>
+
+<i>* Grands boutons de barre d'outils<br/></i>
+  <small>
+  Si vous désélectionnez cette case, le texte des boutons de la barre d'outils sera caché et la taille des     boutons réduite.
+  </small>
+<br/><br/>
+
+<i>* Images transparentes<br/></i>
+  <small>
+  Lorsque cette case est cochée, les images d'arrière-plan sont invisibles et la couleur/l'image de fond est     visible derrière l'image.
+  </small>
+<br/><br/>
+
+<i>* Afficher images<br/></i>
+  <small>
+  Lorsque vous cochez cette case, WinWAP charge les images WAP et les affiche à l'écran. Si vous souhaitez   accélérer le chargement, vous pouvez désélectionner cette case, mais les images ne seront pas affichées.
+  </small>
+<br/><br/>
+<br/>
+
+<i>* Application wml par défaut<br/></i>
+  <small>
+  Lorsque cette case est cochée, WinWAP devient le lecteur par défaut pour les fichiers .wml. Si vous   sélectionnez Ouvrir en cliquant sur un fichier .wml depuis windows explorer, il sera ouvert dans winwap.
+  </small>
+<br/><br/>
+
+<i>* Retenir position fenêtre<br/></i>
+  <small>
+  Lorsque cette case est cochée, WinWAP retiendra la taille et la position de la fenêtre lorsqu'elle a été   terminée et il la rouvrira au même emplacement la prochaine fois que vous le lancerez.
+  </small>
+<br/><br/>
+
+<i>* Afficher adresse sur impression<br/></i>
+  <small>
+  Lorsque cette case est cochée, WinWAP ajoute l'adresse de la page sur l'impression.
+  </small>
+  <do label="Back"> <prev/> </do>
+</p>
+</card>
+</wml>

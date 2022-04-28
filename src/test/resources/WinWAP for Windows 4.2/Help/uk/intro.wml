@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+<card id="intro" title="WinWAP introduction">
+<p align="center">
+   <img src="..\images\wwbyst.wbmp" alt="WinWAP"/>
+</p>
+<p>
+  <br/>
+  WinWAP is a browser that reads wireless markup language (wml) formatted data.
+  The browser looks, and functions much like any standard html browser, but instead
+  of reading hypertext transfer markup language data ( html ) it is designed for wml.
+  It supports 3 ways of getting the data.
+  <br/>
+  <br/>
+  <big>1) HTTP</big>
+  <br/>
+  Hyper text transfer protocol is the same protocol that is used to read "normal"
+  internet pages with a computer over a tcp/ip connection.
+  <br/>
+  <br/>
+  <big>2) WAP Gateway</big><b> </b>
+  <br/>
+  The Gateway option enables the browser to connect directly to Wap gateways. This is the
+  same way that cellular phones connect when using wap.
+  <br/>
+  <br/>
+
+  <big>3) Local File</big>
+  <br/>
+  WinWAP can open .wml files locally from a drive on the computer ( or network drive ).
+</p>
+<p>
+  <do label="Back"> <prev/> </do>
+</p>
+</card>
+</wml>

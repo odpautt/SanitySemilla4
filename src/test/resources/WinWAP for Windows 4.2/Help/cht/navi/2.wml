@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+
+<card id="navi" title="Navigate with WinWAP">
+<p align="center">
+   <img src="..\images\../wwbyst.wbmp" alt="WinWAP"/>
+</p>
+<p>
+  <big>在連線上按一下</big>
+  <br/>
+螢幕上的文字有底線連結時，代表連結到其他訊息
+如果按一下，瀏覽器將到指定的網址上
+ ( 即使其他頁面，或在目前頁面的其他卡片 )。
+當瀏覽器載入訊息時，它將顯示新內容。
+  <br/>
+  <br/>
+  技術 : <b>anchor</b> 和 <b>a</b> 標籤，將顯示為有底線的連結。
+  <br/>
+  <do label="Back"> <prev/> </do>
+</p>
+</card>
+</wml>
