@@ -21,6 +21,7 @@ public class ControlActivationActions extends ControlActivationPage {
         getDropdownActivation().click();
         getDropdownPay().click();
         getActivator().click();
+        waitABit(1300);
         WebElement iframe = getDriver().findElement(By.id("iframe"));
         getDriver().switchTo().frame(iframe);
         getDropdownActivator().waitUntilVisible();
@@ -34,25 +35,30 @@ public class ControlActivationActions extends ControlActivationPage {
         getButtonId().click();
         getDocumentType().click();
         //enter("667299000").into(getDocumentCC());
+        waitABit(2000);
         enter(cliente).into(getDocumentCC());
         enter("2000").into(getDocumentExpedicion());
+
         getBtnContinue().click();
     }
 
     public void activationInformation(String msisdn,String imsi) throws InterruptedException {
-        //enter("732111198172290").into(getImsi());
-        //enter("3016875893").into(getMsisdn());
+        JavascriptExecutor js = (JavascriptExecutor) getDriver();
         getAcceptRenew().click();
         getAcceptRenew1().click();
         enter(imsi).into(getImsi());
         enter(msisdn).into(getMsisdn());
         getTypeSale().click();
         getJustSim().click();
-        getPlan().waitUntilClickable();
+
+        js.executeScript("window.scrollBy(0,420)");
+        js.executeScript("window.scrollBy(-420,0)");
+
+        getPlan().waitUntilPresent();
         getPlan().click();
         getPlan740().click();
         getDriver().switchTo().defaultContent();
-        JavascriptExecutor js = (JavascriptExecutor) getDriver();
+
         js.executeScript("window.scrollBy(0,420)"); //Scroll vertically down by 1000 pixels
         WebElement iframe = getDriver().findElement(By.id("iframe"));
         getDriver().switchTo().frame(iframe);

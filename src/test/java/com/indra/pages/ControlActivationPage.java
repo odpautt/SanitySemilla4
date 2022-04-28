@@ -7,7 +7,7 @@ import net.thucydides.core.annotations.DefaultUrl;
 import org.openqa.selenium.WebDriver;
 
 
-@DefaultUrl("http://10.69.60.85:8280/portal/CRMPortal/Venta")
+//@DefaultUrl("http://10.69.60.85:8280/portal/CRMPortal/Venta")
 public class ControlActivationPage extends PageObject{
 
     public ControlActivationPage(WebDriver driver) {
