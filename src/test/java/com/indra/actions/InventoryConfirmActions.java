@@ -30,11 +30,6 @@ public class InventoryConfirmActions extends DataExcelModels {
     public void confirmInventory(String user, String password, String url) throws AWTException, InterruptedException {
         Robot robot = new Robot();
 
-        Thread.sleep(2000);
-
-        robot.keyPress(KeyEvent.VK_ENTER);
-        robot.keyRelease(KeyEvent.VK_ENTER);
-
         Thread.sleep(5000);
 
         write(url);
