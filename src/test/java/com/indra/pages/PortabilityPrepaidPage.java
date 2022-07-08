@@ -104,13 +104,13 @@ public class PortabilityPrepaidPage extends PageObject {
     @FindBy(xpath = "//a[@class='TabIcon DefaultPageIcon'][contains(.,'Preventa')]")
     WebElementFacade  preventa;
 
-    @FindBy(xpath = "//img[contains(@id,'pbGac4fa497_2d8304_2d4e12_2d8e75_2d0ee02636d5e8:_viewRoot:j_id4:j_id10:j_id11:106::j_id12:handle:img:collapsed')]")
+    @FindBy(xpath = "//*[@id='pbGac4fa497_2d8304_2d4e12_2d8e75_2d0ee02636d5e8:_viewRoot:j_id4:j_id10:j_id11:113::j_id12:handle:img:collapsed']")
     WebElementFacade  portabilidadNumerica;
 
-    @FindBy(xpath = "//img[contains(@id,'pbGac4fa497_2d8304_2d4e12_2d8e75_2d0ee02636d5e8:_viewRoot:j_id4:j_id10:j_id11:106:107::j_id14:handle:img:collapsed')]")
+    @FindBy(xpath = "//*[@id='pbGac4fa497_2d8304_2d4e12_2d8e75_2d0ee02636d5e8:_viewRoot:j_id4:j_id10:j_id11:113:114::j_id14:handle:img:collapsed']")
     WebElementFacade  solicitudes;
 
-    @FindBy(xpath = "//a[@id='pbGac4fa497_2d8304_2d4e12_2d8e75_2d0ee02636d5e8:_viewRoot:j_id4:j_id10:j_id11:106:107:108::j_id17']")
+    @FindBy(xpath = "//*[@id='pbGac4fa497_2d8304_2d4e12_2d8e75_2d0ee02636d5e8:_viewRoot:j_id4:j_id10:j_id11:113:114:115::j_id17']")
     WebElementFacade  solicitudDeNIP;
 
     @FindBy(xpath = "//input[contains(@id,'id26')][@name='frmSlctdPin:j_id20:0:j_id26']")

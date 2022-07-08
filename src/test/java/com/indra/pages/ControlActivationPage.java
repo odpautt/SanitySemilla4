@@ -162,6 +162,9 @@ public class ControlActivationPage extends PageObject{
     @FindBy (className = "rf-cp-lbl-exp")
     WebElementFacade ActivationDetails;
 
+    @FindBy(xpath = "//*[@id='ActivacionesForm:idExpedicionIdentificacion']")
+    WebElementFacade expedicion;
+
     public WebElementFacade getSale() {
         return sale;
     }
@@ -356,5 +359,9 @@ public class ControlActivationPage extends PageObject{
 
     public WebElementFacade getPlan1208() {
         return plan1208;
+    }
+
+    public WebElementFacade getExpedicion(){
+        return expedicion;
     }
 }
